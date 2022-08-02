@@ -1,7 +1,8 @@
 <template>
+    <!-- change color active to amber -->
     <Link
-        class="text-blue-500 hover:underline"
-        :class="{'font-bold underline': active}"
+        class="hover:text-amber-500"
+        :class="{'font-bold text-amber-500': active, 'text-white': !active}" 
     >
         <slot />
     </Link>

@@ -3,7 +3,7 @@
         <title>Home</title>
     </Head>
 
-    <div>
+    <div class="">
         <h1>Home</h1>
     </div>
 
@@ -11,3 +11,9 @@
         <h2>lol</h2>
     </div>
 </template>
+
+<script>
+    export default {
+
+    }
+</script>
