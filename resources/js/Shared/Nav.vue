@@ -1,26 +1,26 @@
 <template>
-    <nav class="navbar">
+    <nav class="navbar z-50">
         <div class="w-24">
             <img id="logo" class="w-full nav-logo" src="/images/logo.png" alt="">
         </div>
 
-        <ul class="nav-menu">
-            <li class="nav-item">
+        <ul class="nav-menu z-50">
+            <li class="nav-item white-text-shadow">
                 <NavLink :href="route('homepage')" :active="$page.component === 'Home'"  >Home</NavLink>
             </li>
-            <li class="nav-item">
+            <li class="nav-item white-text-shadow">
                 <NavLink :href="route('technologies')" :active="$page.component === 'Technologies'"  >Technologies</NavLink>
             </li>
-            <li class="nav-item">
+            <li class="nav-item white-text-shadow">
                 <NavLink :href="route('house-plans')" :active="$page.component === 'HousePlans'"  >House Plans</NavLink>
             </li>
-            <li class="nav-item">
+            <li class="nav-item white-text-shadow">
                 <NavLink :href="route('gallery')" :active="$page.component === 'Gallery'"  >Gallery</NavLink>
             </li>
-            <li class="nav-item">
+            <li class="nav-item white-text-shadow">
                 <NavLink :href="route('prices')" :active="$page.component === 'Prices'"  >Prices</NavLink>
             </li>
-            <li class="nav-item">
+            <li class="nav-item white-text-shadow">
                 <NavLink :href="route('contact')" :active="$page.component === 'Contact'"  >Contact</NavLink>
             </li>
         </ul>
@@ -78,7 +78,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 1rem 1.5rem;
     }
 
     .hamburger {
@@ -92,7 +91,7 @@
         margin: 5px auto;
         -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
-        background-color: #101010;
+        background-color: white;
     }
 
     .nav-menu {
@@ -103,6 +102,7 @@
 
     .nav-item {
         margin-left: 5rem;
+        text-transform: uppercase;
     }
 
     .nav-link{
@@ -145,7 +145,7 @@
                 0 10px 27px rgba(0, 0, 0, 0.05);
         }
         .is-sticky .nav-menu {
-            top: 6rem;
+            top: 4rem;
         }
 
         .nav-menu.active {

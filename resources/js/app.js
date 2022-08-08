@@ -30,5 +30,13 @@ createInertiaApp({
 });
 
 InertiaProgress.init({
-    color: 'green'
+    color: 'orange'
+});
+
+import AOS from 'aos';
+AOS.init({
+    offset: 200,
+    delay: 100,
+    duration: 1000,  
+    once: true,
 });

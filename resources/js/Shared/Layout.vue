@@ -1,20 +1,16 @@
 <template>
     <Header />
 
-    <!-- nuzna li section tut?                             -->
-    <section class="p-6">
-        <div class="max-w-3xl mx-auto">
-            <slot />
-        </div>
-    </section>
+    <slot />
 
-    
+    <Footer />
 </template>
 
 <script>
     import Header from './Header.vue';
+    import Footer from './Footer.vue';
 
     export default {
-        components: { Header },
+        components: { Header, Footer },
     }
 </script>

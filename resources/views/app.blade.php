@@ -12,7 +12,11 @@
     <script src="{{ asset(mix('js/app.js')) }}" defer></script>
     @inertiaHead
     
+    <!-- icons -->
     <script src="https://kit.fontawesome.com/c6473ff5f2.js" crossorigin="anonymous"></script>
+
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>

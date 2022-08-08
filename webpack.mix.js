@@ -18,4 +18,5 @@ mix.js("resources/js/app.js", "public/js")
     })
     .extract()
     .postCss("resources/css/app.css", "public/css", [require("tailwindcss")])
+    .sass("resources/scss/app.scss", "public/css")
     .version();
