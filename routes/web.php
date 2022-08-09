@@ -15,20 +15,15 @@ Route::get('/technologies', function () {
 }
 )->name( 'technologies' );
 
-Route::get('/house-plans', function () {
-        return Inertia::render('HousePlans');
-    }
-)->name( 'house-plans' );
-
-Route::get('/gallery', function () {
-        return Inertia::render('Gallery');
-    }
-)->name( 'gallery' );
-
-Route::get('/prices', function () {
-    return Inertia::render('Prices');
+Route::get('/projects', function () {
+    return Inertia::render('Projects');
 }
-)->name( 'prices' );
+)->name( 'projects' );
+
+Route::get('/materials', function () {
+        return Inertia::render('Materials');
+    }
+)->name( 'materials' );
 
 Route::get('/contact', function () {
     return Inertia::render('Contact');

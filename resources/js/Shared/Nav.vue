@@ -5,22 +5,19 @@
         </div>
 
         <ul class="nav-menu z-50">
-            <li class="nav-item white-text-shadow">
+            <li class="nav-item white-text-shadow hover-underline-animation">
                 <NavLink :href="route('homepage')" :active="$page.component === 'Home'"  >Home</NavLink>
             </li>
-            <li class="nav-item white-text-shadow">
-                <NavLink :href="route('technologies')" :active="$page.component === 'Technologies'"  >Technologies</NavLink>
+            <li class="nav-item white-text-shadow hover-underline-animation">
+                <NavLink :href="route('technologies')" :active="$page.component === 'Technologies'"  >Explore SIP</NavLink>
             </li>
-            <li class="nav-item white-text-shadow">
-                <NavLink :href="route('house-plans')" :active="$page.component === 'HousePlans'"  >House Plans</NavLink>
+            <li class="nav-item white-text-shadow hover-underline-animation">
+                <NavLink :href="route('projects')" :active="$page.component === 'Projects'"  >Projects</NavLink>
             </li>
-            <li class="nav-item white-text-shadow">
-                <NavLink :href="route('gallery')" :active="$page.component === 'Gallery'"  >Gallery</NavLink>
+            <li class="nav-item white-text-shadow hover-underline-animation">
+                <NavLink :href="route('materials')" :active="$page.component === 'Materials'"  >Materials</NavLink>
             </li>
-            <li class="nav-item white-text-shadow">
-                <NavLink :href="route('prices')" :active="$page.component === 'Prices'"  >Prices</NavLink>
-            </li>
-            <li class="nav-item white-text-shadow">
+            <li class="nav-item white-text-shadow hover-underline-animation">
                 <NavLink :href="route('contact')" :active="$page.component === 'Contact'"  >Contact</NavLink>
             </li>
         </ul>
@@ -73,7 +70,7 @@
     }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
     .navbar {
         display: flex;
         justify-content: space-between;

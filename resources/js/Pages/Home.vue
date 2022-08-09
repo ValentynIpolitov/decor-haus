@@ -24,16 +24,35 @@
 
                  <template #addons="{ slidesCount }" class="z-50">
                     <navigation v-if="slidesCount > 1" />
-                    <pagination />
+                    <pagination v-if="slidesCount > 1" />
                 </template>
             </carousel>
         <!-- </div> -->
     </section>
 
+    <section>
+        <div class="w-full bg-[url('/images/bg-1.jpg')] bg-center bg-no-repeat bg-fixed bg-cover">
+            <div data-aos="fade-up" class="container m-auto px-6 py-12 h-full flex justify-center content-center items-center md:justify-end md:py-28">
+                <div class="flex flex-col justify-center content-start items-start md:w-1/2">
+                    <p class="text-slate-700 text-xl mb-4">
+                        We focus on the construction of eco-friendly, energy-efficient, reliable and durable buildings using Canadian technology, 
+                        which uses SIP constructions. 
+                    </p>
+                    <p class="text-slate-700 text-xl mb-4">
+                        We offer prefabricated houses based on standard designs, as well as the implementation of any individual customer solutions. 
+                        Construction of a house these days can be a fairly simple process if you choose the right technology solutions. 
+                    </p>
+                    <p class="text-slate-700 text-xl">
+                        You will be able to build a new and cosy house at a reasonable price and in the shortest time
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div style="margin-top: 2000px">
-        <h2>lol</h2>
-    </div>
+    <section>
+        <Map />
+    </section>
 </template>
 
 <script>
@@ -41,11 +60,14 @@
 
     import "vue3-carousel/dist/carousel.css";
 
+    import Map from '../Shared/Map.vue';
+
     export default {
          components: {
             Carousel,
             Slide,
             Navigation,
+            Map,
         },
     }
 </script>
