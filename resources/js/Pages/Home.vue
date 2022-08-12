@@ -7,7 +7,7 @@
         <!-- <div class="container mx-auto"> -->
             <carousel :items-to-show="1" :autoplay="16000" :wrap-around="true" :breakpoints="breakpoints">
                 <slide :key="1">
-                    <div class="carousel__item w-full h-screen bg-[url('/images/house-bg-3.jpg')] bg-center bg-no-repeat bg-cover" :key="1">
+                    <div class="carousel__item w-full h-screen bg-[url('/images/slide-bg-1.jpg')] bg-center bg-no-repeat bg-cover" :key="1">
                         <div class="container m-auto px-6 flex flex-col justify-center content-start items-start h-full">
                             <h1 class="text-white text-5xl mb-6 z-50 white-text-shadow" data-aos="fade-right">CUSTOM-MADE PREFABRICATED WOODEN HOUSES</h1>
                             <p class="text-white text-xl z-50 white-text-shadow" data-aos="flip-down" data-aos-delay="900" data-aos-offset="0">
@@ -17,7 +17,7 @@
                     </div>
                 </slide>
                 <slide  :key="2">
-                    <div class="carousel__item w-full h-screen bg-[url('/images/house-bg-2.jpg')] bg-center bg-no-repeat bg-cover" :key="2">
+                    <div class="carousel__item w-full h-screen bg-[url('/images/slide-bg-2.jpg')] bg-center bg-no-repeat bg-cover" :key="2">
 
                     </div>
                 </slide>
@@ -49,10 +49,6 @@
             </div>
         </div>
     </section>
-
-    <section>
-        <Map />
-    </section>
 </template>
 
 <script>
@@ -60,14 +56,11 @@
 
     import "vue3-carousel/dist/carousel.css";
 
-    import Map from '../Shared/Map.vue';
-
     export default {
          components: {
             Carousel,
             Slide,
             Navigation,
-            Map,
         },
     }
 </script>
