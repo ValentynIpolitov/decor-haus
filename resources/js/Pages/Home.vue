@@ -13,7 +13,7 @@
                         <h1 class="text-white text-5xl mb-6 z-50 white-text-shadow" data-aos="fade-right">CUSTOM-MADE
                             PREFABRICATED WOODEN HOUSES</h1>
 
-                        <div class="bg-opacity-70 rounded-xl bg-black py-10 box-shadow z-50 px-8">
+                        <div class="bg-opacity-70 rounded-xl bg-black py-10 box-shadow z-50 px-8" data-aos="fade-right">
                             <p class="text-white text-xl z-50 white-text-shadow" data-aos="flip-down"
                                 data-aos-delay="900" data-aos-offset="0">
                                 Production and assembly of low-energy passive prefabricated SIP houses
@@ -29,7 +29,7 @@
                         <h1 class="text-white text-5xl mb-6 z-50 white-text-shadow" data-aos="fade-right">CUSTOM-MADE
                             PREFABRICATED WOODEN HOUSES</h1>
 
-                        <div class="bg-opacity-70 rounded-xl bg-black py-10 box-shadow z-50 px-8">
+                        <div class="bg-opacity-70 rounded-xl bg-black py-10 box-shadow z-50 px-8" data-aos="fade-right">
                             <p class="text-white text-xl z-50 white-text-shadow" data-aos="flip-down"
                                 data-aos-delay="900" data-aos-offset="0">
                                 Production and assembly of low-energy passive prefabricated SIP houses
@@ -48,8 +48,8 @@
 
     <section>
         <div data-aos="fade-up"
-            class="container m-auto px-6 py-12 h-full flex justify-center content-center items-center md:justify-between md:py-28">
-            <div class="flex flex-col justify-center content-start items-start md:w-1/2">
+            class="container m-auto px-6 py-12 h-full flex flex-col justify-start content-center items-center md:flex-row md:justify-between md:content-start md:items-start md:py-28">
+            <div class="flex flex-col justify-center content-start items-start mb-4 md:w-1/2 md:mb-0">
                 <p class="text-slate-700 text-xl mb-4">
                     We focus on the construction of eco-friendly, energy-efficient, reliable and durable buildings using
                     Canadian technology,
@@ -66,14 +66,14 @@
                 </p>
             </div>
 
-            <div>
+            <div class="md:w-1/2">
                 <Tabs :tabs="tabs" :initialTab="initialTab">
                     <template v-slot:tab-head-speed>
                         Speed
                     </template>
                     <template v-slot:tab-panel-speed>
-                        <p class="description">
-                           An unbeatable advantage of our houses is the customized production in the factory and the completion 
+                            <p class="text-slate-700 text-xl">
+                                An unbeatable advantage of our houses is the customized production in the factory and the completion 
                            exactly according to the production project on the land. Dry processes allow you to occupy your 
                            home as soon as construction is complete, regardless of the time of year.
                         </p>
@@ -83,10 +83,13 @@
                         Tradition
                     </template>
                     <template v-slot:tab-panel-tradition>
-                        <p class="description">
-                           The Structural Insulated Panels (SIPs) technology that forms the basis of the house's rough construction 
+                        <p class="text-slate-700 text-xl mb-4">
+                                The Structural Insulated Panels (SIPs) technology that forms the basis of the house's rough construction 
                            has been tested by sixty years of use abroad. It accounts for up to 80% of new construction in Canada 
-                           and nearly 60% in Europe. This progressive method of building houses is becoming increasingly popular 
+                           and nearly 60% in Europe.
+                        </p>
+                        <p class="text-slate-700 text-xl">
+                            This progressive method of building houses is becoming increasingly popular 
                            because of its undeniable advantages determining fast and precise construction, high comfort, healthy 
                            ecological and economical living.
                         </p>
