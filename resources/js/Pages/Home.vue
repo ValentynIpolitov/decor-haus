@@ -4,6 +4,7 @@
         <title>Home</title>
     </Head>
 
+    <!-- Slider -->
     <section>
         <carousel :items-to-show="1" :autoplay="16000" :wrap-around="true">
             <slide :key="1">
@@ -15,7 +16,7 @@
 
                         <div class="bg-opacity-70 rounded-xl bg-black py-10 box-shadow z-50 px-8" data-aos="fade-right">
                             <p class="text-white text-xl z-50 white-text-shadow" data-aos="flip-down"
-                                data-aos-delay="900" data-aos-offset="0">
+                                data-aos-delay="600" data-aos-offset="0">
                                 Production and assembly of low-energy passive prefabricated SIP houses
                             </p>
                         </div>
@@ -46,65 +47,118 @@
         </carousel>
     </section>
 
+    <!-- Info + Tabs -->
     <section>
         <div data-aos="fade-up"
-            class="container m-auto px-6 py-12 h-full flex flex-col justify-start content-center items-center md:flex-row md:justify-between md:content-start md:items-start md:py-28">
-            <div class="flex flex-col justify-center content-start items-start mb-4 md:w-1/2 md:mb-0">
-                <p class="text-slate-700 text-xl mb-4">
-                    We focus on the construction of eco-friendly, energy-efficient, reliable and durable buildings using
-                    Canadian technology,
-                    which uses SIP constructions.
-                </p>
-                <p class="text-slate-700 text-xl mb-4">
-                    We offer prefabricated houses based on standard designs, as well as the implementation of any
-                    individual customer solutions.
-                    Construction of a house these days can be a fairly simple process if you choose the right technology
-                    solutions.
-                </p>
-                <p class="text-slate-700 text-xl">
-                    You will be able to build a new and cosy house at a reasonable price and in the shortest time
-                </p>
+            class="container m-auto px-6 py-12 md:py-28 h-full flex flex-col justify-start content-center items-center">
+            <div class="h-full flex flex-col justify-start content-center items-center md:flex-row md:justify-between md:content-start md:items-start mb-12">
+                <div class="flex flex-col justify-center content-start items-start mb-4 md:w-1/2 md:mb-0">
+                    <p class="text-slate-700 text-xl mb-4">
+                        We focus on the construction of eco-friendly, energy-efficient, reliable and durable buildings using
+                        Canadian technology,
+                        which uses SIP constructions.
+                    </p>
+                    <p class="text-slate-700 text-xl mb-4">
+                        We offer prefabricated houses based on standard designs, as well as the implementation of any
+                        individual customer solutions.
+                        Construction of a house these days can be a fairly simple process if you choose the right technology
+                        solutions.
+                    </p>
+                    <p class="text-slate-700 text-xl">
+                        You will be able to build a new and cosy house at a reasonable price and in the shortest time
+                    </p>
+                </div>
+    
+                <div class="md:w-1/2">
+                    <Tabs />
+                </div>
             </div>
 
-            <div class="md:w-1/2">
-                <Tabs :tabs="tabs" :initialTab="initialTab">
-                    <template v-slot:tab-head-speed>
-                        Speed
-                    </template>
-                    <template v-slot:tab-panel-speed>
-                            <p class="text-slate-700 text-xl">
-                                An unbeatable advantage of our houses is the customized production in the factory and the completion 
-                           exactly according to the production project on the land. Dry processes allow you to occupy your 
-                           home as soon as construction is complete, regardless of the time of year.
-                        </p>
-                    </template>
-    
-                    <template v-slot:tab-head-tradition>
-                        Tradition
-                    </template>
-                    <template v-slot:tab-panel-tradition>
-                        <p class="text-slate-700 text-xl mb-4">
-                                The Structural Insulated Panels (SIPs) technology that forms the basis of the house's rough construction 
-                           has been tested by sixty years of use abroad. It accounts for up to 80% of new construction in Canada 
-                           and nearly 60% in Europe.
-                        </p>
-                        <p class="text-slate-700 text-xl">
-                            This progressive method of building houses is becoming increasingly popular 
-                           because of its undeniable advantages determining fast and precise construction, high comfort, healthy 
-                           ecological and economical living.
-                        </p>
-                    </template>
-                </Tabs>
+            <a href="#" class="btn btn-secondary" 
+                data-aos="flip-down" data-aos-delay="600" data-aos-offset="0">
+                Show more
+            </a>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section data-aos="fade-up">
+        <div>
+            <div class="flex flex-wrap">
+                <div class="w-full md:w-1/2 lg:w-1/3 project-link">
+                    <a href="">
+                        <img src="/images/odnoetazh.jpg" alt="">
+
+                        <div class="text-xl">
+                            One flor
+                        </div>
+                    </a>
+                </div>
+
+                <div class="w-full md:w-1/2 lg:w-1/3 project-link">
+                    <a href="">
+                        <img src="/images/dvuhetazh.jpg" alt="">
+
+                        <div class="text-xl">
+                            2 flors
+                        </div>
+                    </a>
+                </div>
+
+                <div class="w-full md:w-1/2 lg:w-1/3 project-link">
+                    <a href="">
+                        <img src="/images/dacha.jpg" alt="">
+
+                        <div class="text-xl">
+                            Dacha
+                        </div>
+                    </a>
+                </div>
+
+                <div class="w-full md:w-1/2 lg:w-1/3 project-link">
+                    <a href="">
+                        <img src="/images/haitech.jpg" alt="">
+
+                        <div class="text-xl">
+                            Haitech
+                        </div>
+                    </a>
+                </div>
+
+                <div class="w-full md:w-1/2 lg:w-1/3 project-link">
+                    <a href="">
+                        <img src="/images/commerc.jpg" alt="">
+
+                        <div class="text-xl">
+                            Commercial
+                        </div>
+                    </a>
+                </div>
+
+                <div class="w-full md:w-1/2 lg:w-1/3 project-link">
+                    <a href="">
+                        <img src="/images/sauna.jpg" alt="">
+
+                        <div class="text-xl">
+                            Sauna
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
+    </section>
+
+    <!-- Dynamyc sections -->
+    <section data-aos="fade-up">
+
     </section>
 </template>
 
 <script>
 import { Carousel, Navigation, Slide } from "vue3-carousel";
-import Tabs from '../Shared/Tabs.vue';
 
 import "vue3-carousel/dist/carousel.css";
+import Tabs from "../Shared/Tabs.vue";
 
 export default {
     components: {
@@ -113,32 +167,40 @@ export default {
         Navigation,
         Tabs,
     },
-
-    data() {
-        return {
-            initialTab: 'speed',
-            tabs: ['speed', 'tradition',]
-        };
-    }
 }
 </script>
 
 <style lang="scss">
-.title {
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
+.project-link {
+    position: relative;
+    overflow: hidden;
 
-.description {
-    margin-top: 5px;
-    max-width: 85%;
-    line-height: 22px;
-    margin-bottom: 10px;
-}
+    >a {
+        img {
+            transition: transform 0.3s ease;
+            transform: translateX(-30px);
+            width: calc(100% + 30px);
+            max-width: none;
+        }
+        
+        div {
+            background-color:rgb(251,191,35);
+            color: white;
+            padding: 13px 67px 12px 40px;
+            clip-path: polygon(0 0, calc(100% - 47px) 0, 100% 100%, 0% 100%);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+    }
 
-.image {
-    height: 160px;
-    width: auto;
+    &:hover {
+        >a {
+            img {
+                transform: translateX(0px);
+            }
+        }
+    }
 }
 
 

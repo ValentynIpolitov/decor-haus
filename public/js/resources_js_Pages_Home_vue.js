@@ -12,8 +12,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var vue3_carousel__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue3-carousel */ "./node_modules/vue3-carousel/dist/carousel.es.js");
-/* harmony import */ var _Shared_Tabs_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Shared/Tabs.vue */ "./resources/js/Shared/Tabs.vue");
-/* harmony import */ var vue3_carousel_dist_carousel_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue3-carousel/dist/carousel.css */ "./node_modules/vue3-carousel/dist/carousel.css");
+/* harmony import */ var vue3_carousel_dist_carousel_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue3-carousel/dist/carousel.css */ "./node_modules/vue3-carousel/dist/carousel.css");
+/* harmony import */ var _Shared_Tabs_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Shared/Tabs.vue */ "./resources/js/Shared/Tabs.vue");
 
 
 
@@ -22,13 +22,7 @@ __webpack_require__.r(__webpack_exports__);
     Carousel: vue3_carousel__WEBPACK_IMPORTED_MODULE_0__.Carousel,
     Slide: vue3_carousel__WEBPACK_IMPORTED_MODULE_0__.Slide,
     Navigation: vue3_carousel__WEBPACK_IMPORTED_MODULE_0__.Navigation,
-    Tabs: _Shared_Tabs_vue__WEBPACK_IMPORTED_MODULE_1__["default"]
-  },
-  data: function data() {
-    return {
-      initialTab: 'speed',
-      tabs: ['speed', 'tradition']
-    };
+    Tabs: _Shared_Tabs_vue__WEBPACK_IMPORTED_MODULE_2__["default"]
   }
 });
 
@@ -45,27 +39,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  props: {
-    initialTab: String,
-    tabs: Array
-  },
   data: function data() {
     return {
-      activeTab: this.initialTab
+      activeTab: 'speed'
     };
   },
-  computed: {
-    tabPanelSlotName: function tabPanelSlotName() {
-      return "tab-panel-".concat(this.activeTab);
-    }
-  },
   methods: {
-    tabHeadSlotName: function tabHeadSlotName(tabName) {
-      return "tab-head-".concat(tabName);
-    },
-    tabHeadSlotIcon: function tabHeadSlotIcon(tabName) {
-      return "tab-head-icon-".concat(tabName);
-    },
     switchTab: function switchTab(tabName) {
       this.activeTab = tabName;
     }
@@ -107,7 +86,7 @@ var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "text-white text-xl z-50 white-text-shadow",
   "data-aos": "flip-down",
-  "data-aos-delay": "900",
+  "data-aos-delay": "600",
   "data-aos-offset": "0"
 }, " Production and assembly of low-energy passive prefabricated SIP houses ")])], -1
 /* HOISTED */
@@ -139,10 +118,13 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 var _hoisted_7 = [_hoisted_6];
 var _hoisted_8 = {
   "data-aos": "fade-up",
-  "class": "container m-auto px-6 py-12 h-full flex flex-col justify-start content-center items-center md:flex-row md:justify-between md:content-start md:items-start md:py-28"
+  "class": "container m-auto px-6 py-12 md:py-28 h-full flex flex-col justify-start content-center items-center"
+};
+var _hoisted_9 = {
+  "class": "h-full flex flex-col justify-start content-center items-center md:flex-row md:justify-between md:content-start md:items-start mb-12"
 };
 
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex flex-col justify-center content-start items-start mb-4 md:w-1/2 md:mb-0"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "text-slate-700 text-xl mb-4"
@@ -154,29 +136,25 @@ var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 /* HOISTED */
 );
 
-var _hoisted_10 = {
+var _hoisted_11 = {
   "class": "md:w-1/2"
 };
 
-var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Speed ");
-
-var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "text-slate-700 text-xl"
-}, " An unbeatable advantage of our houses is the customized production in the factory and the completion exactly according to the production project on the land. Dry processes allow you to occupy your home as soon as construction is complete, regardless of the time of year. ", -1
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "#",
+  "class": "btn btn-secondary",
+  "data-aos": "flip-down",
+  "data-aos-delay": "600",
+  "data-aos-offset": "0"
+}, " Show more ", -1
 /* HOISTED */
 );
 
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Tradition ");
+var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section data-aos=\"fade-up\"><div><div class=\"flex flex-wrap\"><div class=\"w-full md:w-1/2 lg:w-1/3 project-link\"><a href=\"\"><img src=\"/images/odnoetazh.jpg\" alt=\"\"><div class=\"text-xl\"> One flor </div></a></div><div class=\"w-full md:w-1/2 lg:w-1/3 project-link\"><a href=\"\"><img src=\"/images/dvuhetazh.jpg\" alt=\"\"><div class=\"text-xl\"> 2 flors </div></a></div><div class=\"w-full md:w-1/2 lg:w-1/3 project-link\"><a href=\"\"><img src=\"/images/dacha.jpg\" alt=\"\"><div class=\"text-xl\"> Dacha </div></a></div><div class=\"w-full md:w-1/2 lg:w-1/3 project-link\"><a href=\"\"><img src=\"/images/haitech.jpg\" alt=\"\"><div class=\"text-xl\"> Haitech </div></a></div><div class=\"w-full md:w-1/2 lg:w-1/3 project-link\"><a href=\"\"><img src=\"/images/commerc.jpg\" alt=\"\"><div class=\"text-xl\"> Commercial </div></a></div><div class=\"w-full md:w-1/2 lg:w-1/3 project-link\"><a href=\"\"><img src=\"/images/sauna.jpg\" alt=\"\"><div class=\"text-xl\"> Sauna </div></a></div></div></div></section>", 1);
 
-var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "text-slate-700 text-xl mb-4"
-}, " The Structural Insulated Panels (SIPs) technology that forms the basis of the house's rough construction has been tested by sixty years of use abroad. It accounts for up to 80% of new construction in Canada and nearly 60% in Europe. ", -1
-/* HOISTED */
-);
-
-var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "text-slate-700 text-xl"
-}, " This progressive method of building houses is becoming increasingly popular because of its undeniable advantages determining fast and precise construction, high comfort, healthy ecological and economical living. ", -1
+var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", {
+  "data-aos": "fade-up"
+}, null, -1
 /* HOISTED */
 );
 
@@ -200,7 +178,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
     /* STABLE */
 
-  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_carousel, {
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Slider "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_carousel, {
     "items-to-show": 1,
     autoplay: 16000,
     "wrap-around": true
@@ -237,28 +215,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
     /* STABLE */
 
-  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [_hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Tabs, {
-    tabs: $data.tabs,
-    initialTab: $data.initialTab
-  }, {
-    "tab-head-speed": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_11];
-    }),
-    "tab-panel-speed": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_12];
-    }),
-    "tab-head-tradition": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_13];
-    }),
-    "tab-panel-tradition": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_14, _hoisted_15];
-    }),
-    _: 1
-    /* STABLE */
-
-  }, 8
-  /* PROPS */
-  , ["tabs", "initialTab"])])])])], 64
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Info + Tabs "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [_hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Tabs)])]), _hoisted_12])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Projects "), _hoisted_13, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Dynamyc sections "), _hoisted_14], 64
   /* STABLE_FRAGMENT */
   );
 }
@@ -283,24 +240,74 @@ var _hoisted_1 = {
 var _hoisted_2 = {
   "class": "w-full flex flex-col justify-start items-center content-center lg:flex-row items-stretch"
 };
-var _hoisted_3 = ["onClick"];
+
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+  "class": "fa-solid fa-gauge-high text-4xl mr-2"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Speed ");
+
+var _hoisted_5 = [_hoisted_3, _hoisted_4];
+
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+  "class": "fa-solid fa-hand-back-fist text-4xl mr-2"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Tradition ");
+
+var _hoisted_8 = [_hoisted_6, _hoisted_7];
+
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-slate-700 text-xl"
+}, " An unbeatable advantage of our houses is the customized production in the factory and the completion exactly according to the production project on the land. Dry processes allow you to occupy your home as soon as construction is complete, regardless of the time of year. ", -1
+/* HOISTED */
+);
+
+var _hoisted_10 = [_hoisted_9];
+
+var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-slate-700 text-xl mb-4"
+}, " The Structural Insulated Panels (SIPs) technology that forms the basis of the house's rough construction has been tested by sixty years of use abroad. It accounts for up to 80% of new construction in Canada and nearly 60% in Europe. ", -1
+/* HOISTED */
+);
+
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-slate-700 text-xl"
+}, " This progressive method of building houses is becoming increasingly popular because of its undeniable advantages determining fast and precise construction, high comfort, healthy ecological and economical living. ", -1
+/* HOISTED */
+);
+
+var _hoisted_13 = [_hoisted_11, _hoisted_12];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.tabs, function (tab) {
-    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
-      "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["w-full border-amber-400 px-20 py-12 rounded-xl box-shadow cursor-pointer mb-4 lg:mr-4 transition hover:bg-amber-400 text-2xl uppercase text-center hover:text-white", {
-        'bg-amber-400 text-white font-semibold': $data.activeTab === tab,
-        'text-slate-700': $data.activeTab != tab
-      }]),
-      key: tab,
-      onClick: function onClick($event) {
-        return $options.switchTab(tab);
-      }
-    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, $options.tabHeadSlotName(tab))], 10
-    /* CLASS, PROPS */
-    , _hoisted_3);
-  }), 128
-  /* KEYED_FRAGMENT */
-  ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.renderSlot)(_ctx.$slots, $options.tabPanelSlotName)])]);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Tabs labels "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["w-full px-20 py-12 rounded-xl cursor-pointer mb-4 lg:mr-4 transition-all hover:text-amber-400 hover:border-amber-400 hover:border-2 text-2xl uppercase text-center hover:text-white flex items-center content-center justify-center", {
+      'border-amber-400 border-2 text-amber-400': $data.activeTab === 'speed',
+      'border-2 border-slate-700 text-slate-700': $data.activeTab != 'speed'
+    }]),
+    onClick: _cache[0] || (_cache[0] = function ($event) {
+      return $options.switchTab('speed');
+    })
+  }, _hoisted_5, 2
+  /* CLASS */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["w-full px-20 py-12 rounded-xl cursor-pointer mb-4 lg:mr-4 transition-all hover:text-amber-400 hover:border-amber-400 hover:border-2 text-2xl uppercase text-center hover:text-white flex items-center content-center justify-center", {
+      'border-amber-400 border-2 text-amber-400': $data.activeTab === 'tradition',
+      'border-2 border-slate-700 text-slate-700': $data.activeTab != 'tradition'
+    }]),
+    onClick: _cache[1] || (_cache[1] = function ($event) {
+      return $options.switchTab('tradition');
+    })
+  }, _hoisted_8, 2
+  /* CLASS */
+  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Tabs content "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, _hoisted_10, 512
+  /* NEED_PATCH */
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $data.activeTab == 'speed']]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, _hoisted_13, 512
+  /* NEED_PATCH */
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $data.activeTab == 'tradition']])])]);
 }
 
 /***/ }),
@@ -321,7 +328,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".title {\n  margin-top: 10px;\n  margin-bottom: 20px;\n}\n.description {\n  margin-top: 5px;\n  max-width: 85%;\n  line-height: 22px;\n  margin-bottom: 10px;\n}\n.image {\n  height: 160px;\n  width: auto;\n}\n.carousel__prev,\n.carousel__next {\n  background: none;\n  transition: all 0.15 cubic-bezier(0.4, 0, 0.2, 1);\n}\n.carousel__prev svg,\n.carousel__next svg {\n  height: 30px;\n}\n.carousel__prev svg:hover,\n.carousel__next svg:hover {\n  color: rgb(245, 158, 11);\n}\n.carousel__prev {\n  left: 5rem;\n}\n.carousel__next {\n  right: 5rem;\n}\n.carousel__item {\n  position: relative;\n}\n.carousel__item::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  width: 100%;\n  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));\n  z-index: 1;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".project-link {\n  position: relative;\n  overflow: hidden;\n}\n.project-link > a img {\n  transition: transform 0.3s ease;\n  transform: translateX(-30px);\n  width: calc(100% + 30px);\n  max-width: none;\n}\n.project-link > a div {\n  background-color: rgb(251, 191, 35);\n  color: white;\n  padding: 13px 67px 12px 40px;\n  -webkit-clip-path: polygon(0 0, calc(100% - 47px) 0, 100% 100%, 0% 100%);\n          clip-path: polygon(0 0, calc(100% - 47px) 0, 100% 100%, 0% 100%);\n  position: absolute;\n  bottom: 0;\n  left: 0;\n}\n.project-link:hover > a img {\n  transform: translateX(0px);\n}\n.carousel__prev,\n.carousel__next {\n  background: none;\n  transition: all 0.15 cubic-bezier(0.4, 0, 0.2, 1);\n}\n.carousel__prev svg,\n.carousel__next svg {\n  height: 30px;\n}\n.carousel__prev svg:hover,\n.carousel__next svg:hover {\n  color: rgb(245, 158, 11);\n}\n.carousel__prev {\n  left: 5rem;\n}\n.carousel__next {\n  right: 5rem;\n}\n.carousel__item {\n  position: relative;\n}\n.carousel__item::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  width: 100%;\n  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));\n  z-index: 1;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
