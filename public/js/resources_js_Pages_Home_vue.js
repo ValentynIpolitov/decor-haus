@@ -153,7 +153,7 @@ var _hoisted_9 = {
 };
 
 var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "flex flex-col justify-center content-start items-start mb-4 md:w-1/2 md:mb-0"
+  "class": "flex flex-col justify-center content-start items-start mb-4 md:w-1/2 md:mb-0 md:mr-8"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "text-slate-700 text-xl mb-4"
 }, " We focus on the construction of eco-friendly, energy-efficient, reliable and durable buildings using Canadian technology, which uses SIP constructions. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
@@ -270,10 +270,10 @@ var _withScopeId = function _withScopeId(n) {
 };
 
 var _hoisted_1 = {
-  "class": "flex flex-col md:flex-row"
+  "class": "flex flex-col lg:flex-row"
 };
 var _hoisted_2 = {
-  "class": "w-full md:w-1/2"
+  "class": "w-full mb-8 lg:w-1/2 md:mr-8"
 };
 
 var _hoisted_3 = /*#__PURE__*/_withScopeId(function () {
@@ -374,10 +374,10 @@ var _hoisted_17 = /*#__PURE__*/_withScopeId(function () {
 
 var _hoisted_18 = [_hoisted_16, _hoisted_17];
 var _hoisted_19 = {
-  "class": "w-full flex justify-center items-center content-center md:w-1/2"
+  "class": "w-full flex justify-center items-center content-center lg:w-1/2"
 };
 var _hoisted_20 = {
-  "class": "relative w-full h-80"
+  "class": "relative w-full h-22rem lg:h-25rem"
 };
 
 var _hoisted_21 = /*#__PURE__*/_withScopeId(function () {
@@ -395,7 +395,9 @@ var _hoisted_22 = [_hoisted_21];
 var _hoisted_23 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "inner-triangle"
-  }, null, -1
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "fa-solid fa-scroll"
+  }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Certification")])], -1
   /* HOISTED */
   );
 });
@@ -405,7 +407,9 @@ var _hoisted_24 = [_hoisted_23];
 var _hoisted_25 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "inner-triangle"
-  }, null, -1
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "fa-solid fa-hand-back-fist"
+  }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Tradition")])], -1
   /* HOISTED */
   );
 });
@@ -415,7 +419,9 @@ var _hoisted_26 = [_hoisted_25];
 var _hoisted_27 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "inner-triangle"
-  }, null, -1
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "fa-solid fa-file-signature"
+  }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Garantie")])], -1
   /* HOISTED */
   );
 });
@@ -425,7 +431,9 @@ var _hoisted_28 = [_hoisted_27];
 var _hoisted_29 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "inner-triangle"
-  }, null, -1
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "fa-solid fa-bell-concierge"
+  }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Service")])], -1
   /* HOISTED */
   );
 });
@@ -443,31 +451,56 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $data.activeTab == 'garantie']]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, _hoisted_18, 512
   /* NEED_PATCH */
   ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vShow, $data.activeTab == 'service']])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_19, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_20, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "triangle-1",
+    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["triangle-1", {
+      'active': $data.activeTab === 'quality',
+      '': $data.activeTab != ''
+    }]),
     onClick: _cache[0] || (_cache[0] = function ($event) {
       return $options.switchTab('quality');
     })
-  }, _hoisted_22), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "triangle-2",
+  }, _hoisted_22, 2
+  /* CLASS */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["triangle-2", {
+      'active': $data.activeTab === 'certification',
+      '': $data.activeTab != ''
+    }]),
     onClick: _cache[1] || (_cache[1] = function ($event) {
       return $options.switchTab('certification');
     })
-  }, _hoisted_24), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "triangle-3",
+  }, _hoisted_24, 2
+  /* CLASS */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["triangle-3", {
+      'active': $data.activeTab === 'tradition',
+      '': $data.activeTab != ''
+    }]),
     onClick: _cache[2] || (_cache[2] = function ($event) {
       return $options.switchTab('tradition');
     })
-  }, _hoisted_26), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "triangle-4",
+  }, _hoisted_26, 2
+  /* CLASS */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["triangle-4", {
+      'active': $data.activeTab === 'garantie',
+      '': $data.activeTab != ''
+    }]),
     onClick: _cache[3] || (_cache[3] = function ($event) {
       return $options.switchTab('garantie');
     })
-  }, _hoisted_28), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "triangle-5",
+  }, _hoisted_28, 2
+  /* CLASS */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["triangle-5", {
+      'active': $data.activeTab === 'service',
+      '': $data.activeTab != ''
+    }]),
     onClick: _cache[4] || (_cache[4] = function ($event) {
       return $options.switchTab('service');
     })
-  }, _hoisted_30)])])]);
+  }, _hoisted_30, 2
+  /* CLASS */
+  )])])]);
 }
 
 /***/ }),
@@ -601,7 +634,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".inner-triangle[data-v-74f8f108] {\n  position: relative;\n  top: -100px;\n  left: 2px;\n  width: 0;\n  height: 0;\n  border-top: 100px solid transparent;\n  border-bottom: 100px solid transparent;\n  border-right: 135px solid rgb(16, 185, 129);\n  transition: all 0.3 ease;\n}\n.triangle-1[data-v-74f8f108] {\n  width: 0;\n  height: 0;\n  border-top: 100px solid transparent;\n  border-bottom: 100px solid transparent;\n  border-right: 137px solid rgb(251, 191, 35);\n  position: absolute;\n  top: 0;\n  left: 0;\n  transition: all 0.3 ease;\n  transition: transform 0.3s ease;\n  cursor: pointer;\n  transform: rotate(126deg) translateY(0%) translateX(50%);\n}\n.triangle-1[data-v-74f8f108]:hover {\n  transform: rotate(126deg) translateY(0%) translateX(60%);\n}\n.triangle-2[data-v-74f8f108] {\n  width: 0;\n  height: 0;\n  border-top: 100px solid transparent;\n  border-bottom: 100px solid transparent;\n  border-right: 137px solid rgb(251, 191, 35);\n  position: absolute;\n  top: 0;\n  left: 0;\n  transition: all 0.3 ease;\n  transition: transform 0.3s ease;\n  cursor: pointer;\n  transform: rotate(198deg) translateY(0%) translateX(50%);\n}\n.triangle-2[data-v-74f8f108]:hover {\n  transform: rotate(198deg) translateY(0%) translateX(60%);\n}\n.triangle-3[data-v-74f8f108] {\n  width: 0;\n  height: 0;\n  border-top: 100px solid transparent;\n  border-bottom: 100px solid transparent;\n  border-right: 137px solid rgb(251, 191, 35);\n  position: absolute;\n  top: 0;\n  left: 0;\n  transition: all 0.3 ease;\n  transition: transform 0.3s ease;\n  cursor: pointer;\n  transform: rotate(270deg) translateY(0%) translateX(50%);\n}\n.triangle-3[data-v-74f8f108]:hover {\n  transform: rotate(270deg) translateY(0%) translateX(60%);\n}\n.triangle-4[data-v-74f8f108] {\n  width: 0;\n  height: 0;\n  border-top: 100px solid transparent;\n  border-bottom: 100px solid transparent;\n  border-right: 137px solid rgb(251, 191, 35);\n  position: absolute;\n  top: 0;\n  left: 0;\n  transition: all 0.3 ease;\n  transition: transform 0.3s ease;\n  cursor: pointer;\n  transform: rotate(342deg) translateY(0%) translateX(50%);\n}\n.triangle-4[data-v-74f8f108]:hover {\n  transform: rotate(342deg) translateY(0%) translateX(60%);\n}\n.triangle-5[data-v-74f8f108] {\n  width: 0;\n  height: 0;\n  border-top: 100px solid transparent;\n  border-bottom: 100px solid transparent;\n  border-right: 137px solid rgb(251, 191, 35);\n  position: absolute;\n  top: 0;\n  left: 0;\n  transition: all 0.3 ease;\n  transition: transform 0.3s ease;\n  cursor: pointer;\n  transform: rotate(54deg) translateY(0%) translateX(50%);\n}\n.triangle-5[data-v-74f8f108]:hover {\n  transform: rotate(54deg) translateY(0%) translateX(60%);\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".inner-triangle[data-v-74f8f108] {\n  position: relative;\n  width: 100%;\n  height: 100%;\n  background: rgb(16, 185, 129) linear-gradient(rgb(16, 185, 129), rgb(16, 185, 129));\n  background: white linear-gradient(white, white);\n  transition: all 0.3 ease;\n  width: 183px;\n  height: 183px;\n  -webkit-clip-path: polygon(83% 0, 98% 98%, 0 83%);\n          clip-path: polygon(83% 0, 98% 98%, 0 83%);\n}\n.inner-triangle > div[data-v-74f8f108] {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  justify-content: start;\n  align-content: center;\n  align-items: center;\n  font-size: 1.25rem;\n  line-height: 1.75rem;\n  text-transform: uppercase;\n  font-weight: 500;\n  color: rgb(16, 185, 129);\n  transform: rotate(-45deg);\n  padding-top: 90px;\n}\n.inner-triangle > div i[data-v-74f8f108] {\n  font-size: 1.75rem;\n  margin-bottom: 5px;\n}\n@media only screen and (min-width: 1024px) {\n.inner-triangle[data-v-74f8f108] {\n    width: 207px;\n    height: 207px;\n}\n}\n.triangle-1[data-v-74f8f108] {\n  position: absolute;\n  top: 20%;\n  left: 25%;\n  transition: all 0.3 ease;\n  transition: transform 0.3s ease;\n  cursor: pointer;\n  width: 185px;\n  height: 185px;\n  background: rgb(16, 185, 129);\n  -webkit-clip-path: polygon(83% 0, 98% 98%, 0 83%);\n          clip-path: polygon(83% 0, 98% 98%, 0 83%);\n  transform: rotate(117deg) translateY(-50%) translateX(-50%);\n}\n.triangle-1.active[data-v-74f8f108] {\n  background: rgb(251, 191, 35);\n}\n.triangle-1.active .inner-triangle > div[data-v-74f8f108] {\n  color: rgb(251, 191, 35);\n}\n@media only screen and (min-width: 1024px) {\n.triangle-1[data-v-74f8f108] {\n    width: 210px;\n    height: 210px;\n}\n}\n.triangle-1[data-v-74f8f108]:hover {\n  transform: rotate(117deg) translateY(-55%) translateX(-55%);\n}\n.triangle-1.active[data-v-74f8f108] {\n  transform: rotate(117deg) translateY(-55%) translateX(-55%);\n}\n.triangle-2[data-v-74f8f108] {\n  position: absolute;\n  top: 20%;\n  left: 25%;\n  transition: all 0.3 ease;\n  transition: transform 0.3s ease;\n  cursor: pointer;\n  width: 185px;\n  height: 185px;\n  background: rgb(16, 185, 129);\n  -webkit-clip-path: polygon(83% 0, 98% 98%, 0 83%);\n          clip-path: polygon(83% 0, 98% 98%, 0 83%);\n  transform: rotate(189deg) translateY(-50%) translateX(-50%);\n}\n.triangle-2.active[data-v-74f8f108] {\n  background: rgb(251, 191, 35);\n}\n.triangle-2.active .inner-triangle > div[data-v-74f8f108] {\n  color: rgb(251, 191, 35);\n}\n@media only screen and (min-width: 1024px) {\n.triangle-2[data-v-74f8f108] {\n    width: 210px;\n    height: 210px;\n}\n}\n.triangle-2[data-v-74f8f108]:hover {\n  transform: rotate(189deg) translateY(-55%) translateX(-55%);\n}\n.triangle-2.active[data-v-74f8f108] {\n  transform: rotate(189deg) translateY(-55%) translateX(-55%);\n}\n.triangle-3[data-v-74f8f108] {\n  position: absolute;\n  top: 20%;\n  left: 25%;\n  transition: all 0.3 ease;\n  transition: transform 0.3s ease;\n  cursor: pointer;\n  width: 185px;\n  height: 185px;\n  background: rgb(16, 185, 129);\n  -webkit-clip-path: polygon(83% 0, 98% 98%, 0 83%);\n          clip-path: polygon(83% 0, 98% 98%, 0 83%);\n  transform: rotate(261deg) translateY(-50%) translateX(-50%);\n}\n.triangle-3.active[data-v-74f8f108] {\n  background: rgb(251, 191, 35);\n}\n.triangle-3.active .inner-triangle > div[data-v-74f8f108] {\n  color: rgb(251, 191, 35);\n}\n@media only screen and (min-width: 1024px) {\n.triangle-3[data-v-74f8f108] {\n    width: 210px;\n    height: 210px;\n}\n}\n.triangle-3[data-v-74f8f108]:hover {\n  transform: rotate(261deg) translateY(-55%) translateX(-55%);\n}\n.triangle-3.active[data-v-74f8f108] {\n  transform: rotate(261deg) translateY(-55%) translateX(-55%);\n}\n.triangle-4[data-v-74f8f108] {\n  position: absolute;\n  top: 20%;\n  left: 25%;\n  transition: all 0.3 ease;\n  transition: transform 0.3s ease;\n  cursor: pointer;\n  width: 185px;\n  height: 185px;\n  background: rgb(16, 185, 129);\n  -webkit-clip-path: polygon(83% 0, 98% 98%, 0 83%);\n          clip-path: polygon(83% 0, 98% 98%, 0 83%);\n  transform: rotate(333deg) translateY(-50%) translateX(-50%);\n}\n.triangle-4.active[data-v-74f8f108] {\n  background: rgb(251, 191, 35);\n}\n.triangle-4.active .inner-triangle > div[data-v-74f8f108] {\n  color: rgb(251, 191, 35);\n}\n@media only screen and (min-width: 1024px) {\n.triangle-4[data-v-74f8f108] {\n    width: 210px;\n    height: 210px;\n}\n}\n.triangle-4[data-v-74f8f108]:hover {\n  transform: rotate(333deg) translateY(-55%) translateX(-55%);\n}\n.triangle-4.active[data-v-74f8f108] {\n  transform: rotate(333deg) translateY(-55%) translateX(-55%);\n}\n.triangle-5[data-v-74f8f108] {\n  position: absolute;\n  top: 20%;\n  left: 25%;\n  transition: all 0.3 ease;\n  transition: transform 0.3s ease;\n  cursor: pointer;\n  width: 185px;\n  height: 185px;\n  background: rgb(16, 185, 129);\n  -webkit-clip-path: polygon(83% 0, 98% 98%, 0 83%);\n          clip-path: polygon(83% 0, 98% 98%, 0 83%);\n  transform: rotate(45deg) translateY(-50%) translateX(-50%);\n}\n.triangle-5.active[data-v-74f8f108] {\n  background: rgb(251, 191, 35);\n}\n.triangle-5.active .inner-triangle > div[data-v-74f8f108] {\n  color: rgb(251, 191, 35);\n}\n@media only screen and (min-width: 1024px) {\n.triangle-5[data-v-74f8f108] {\n    width: 210px;\n    height: 210px;\n}\n}\n.triangle-5[data-v-74f8f108]:hover {\n  transform: rotate(45deg) translateY(-55%) translateX(-55%);\n}\n.triangle-5.active[data-v-74f8f108] {\n  transform: rotate(45deg) translateY(-55%) translateX(-55%);\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

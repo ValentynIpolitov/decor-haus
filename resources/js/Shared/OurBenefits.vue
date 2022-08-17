@@ -1,6 +1,6 @@
 <template>
-    <div class="flex flex-col  md:flex-row">
-        <div class="w-full md:w-1/2">
+    <div class="flex flex-col  lg:flex-row">
+        <div class="w-full mb-8 lg:w-1/2 md:mr-8">
             <h2 class="text-slate-700 text-4xl mb-4">
                 Why me?
             </h2>
@@ -60,9 +60,10 @@
             </div>
         </div>
 
-        <div class="w-full flex justify-center items-center content-center md:w-1/2">
-            <div class="relative w-full h-80">
+        <div class="w-full flex justify-center items-center content-center lg:w-1/2">
+            <div class="relative w-full h-22rem lg:h-25rem">
                 <div class="triangle-1"
+                     v-bind:class="{'active': activeTab === 'quality', '': activeTab != ''}" 
                      v-on:click="switchTab('quality')"
                 >
                     <div class="inner-triangle">
@@ -73,31 +74,47 @@
                     </div>
                 </div>
                 <div class="triangle-2"
+                     v-bind:class="{'active': activeTab === 'certification', '': activeTab != ''}" 
                      v-on:click="switchTab('certification')"
                 >
                     <div class="inner-triangle">
-
+                         <div>
+                            <i class="fa-solid fa-scroll"></i>
+                            <p>Certification</p>
+                        </div>
                     </div>
                 </div>
                 <div class="triangle-3"
+                     v-bind:class="{'active': activeTab === 'tradition', '': activeTab != ''}" 
                      v-on:click="switchTab('tradition')"
                 >
                     <div class="inner-triangle">
-
+                         <div>
+                            <i class="fa-solid fa-hand-back-fist"></i>
+                            <p>Tradition</p>
+                        </div>
                     </div>
                 </div>
                 <div class="triangle-4"
+                     v-bind:class="{'active': activeTab === 'garantie', '': activeTab != ''}" 
                      v-on:click="switchTab('garantie')"
                 >
                     <div class="inner-triangle">
-
+                         <div>
+                            <i class="fa-solid fa-file-signature"></i>
+                            <p>Garantie</p>
+                        </div>
                     </div>
                 </div>
                 <div class="triangle-5"
+                     v-bind:class="{'active': activeTab === 'service', '': activeTab != ''}" 
                      v-on:click="switchTab('service')"
                 >
                     <div class="inner-triangle">
-
+                         <div>
+                            <i class="fa-solid fa-bell-concierge"></i>
+                            <p>Service</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -123,89 +140,147 @@
 
 <style lang="scss" scoped>
     @mixin triangle {
-        width: 0;
-        height: 0;
-        border-top: 100px solid transparent;
-        border-bottom: 100px solid transparent;
-        border-right: 137px solid rgb(251,191,35);
-
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 20%;
+        left: 25%;
 
         transition: all .3 ease;
         transition: transform 0.3s ease;
 
         cursor: pointer;
 
+        width: 185px;
+        height: 185px;
+        background: rgb(16 185 129);
+        clip-path: polygon(83% 0, 98% 98%, 0 83%);
+
+
+        &.active {
+            background: rgb(251,191,35);
+
+            .inner-triangle {
+                > div {
+                    color: rgb(251,191,35);
+                }
+            }
+        }
         // &:hover {
         //     border-top: 115px solid transparent;
         //     border-bottom: 115px solid transparent;
         //     border-right: 140px solid red;
         // }
+
+        @media only screen and (min-width: 1024px) {
+            width: 210px;
+            height: 210px;            
+        }
     }
 
     .inner-triangle {
         position: relative;
-        top: -100px;
-        left: 2px;
-        width: 0;
-        height: 0;
-        border-top: 100px solid transparent;
-        border-bottom: 100px solid transparent;
-        border-right: 135px solid rgb(16 185 129);
-
+        width: 100%;
+        height: 100%;
+        background: rgb(16 185 129) linear-gradient(rgb(16 185 129), rgb(16 185 129));
+        background: white linear-gradient(white, white);
         transition: all .3 ease;
+        width: 183px;
+        height: 183px;
+        clip-path: polygon(83% 0, 98% 98%, 0 83%);
 
-        // &:hover {
-        //     border-top: 110px solid transparent;
-        //     border-bottom: 110px solid transparent;
-        //     border-right: 138px solid blue;
-        // }
+
+        >div {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-content: center;
+            align-items: center;
+            font-size: 1.25rem;
+            line-height: 1.75rem;
+            text-transform: uppercase;
+            font-weight: 500;
+
+            color: rgb(16 185 129);
+
+            transform: rotate(-45deg);
+
+            padding-top: 90px;
+
+            i {
+                font-size: 1.75rem;
+                margin-bottom: 5px;
+            }
+        }
+
+        @media only screen and (min-width: 1024px) {
+            width: 207px;
+            height: 207px;            
+        }
     }
 
     .triangle-1 {
         @include triangle;
-        transform: rotate(126deg) translateY(0%) translateX(50%);
+        transform: rotate(117deg) translateY(-50%) translateX(-50%);
 
         &:hover {
-            transform: rotate(126deg) translateY(0%) translateX(60%);
+            transform: rotate(117deg) translateY(-55%) translateX(-55%);
+        }
+
+        &.active {
+            transform: rotate(117deg) translateY(-55%) translateX(-55%);
         }
     }
 
     .triangle-2 {
         @include triangle;
-        transform: rotate(198deg) translateY(0%) translateX(50%);
+        transform: rotate(189deg) translateY(-50%) translateX(-50%);
 
         &:hover {
-            transform: rotate(198deg) translateY(0%) translateX(60%);
+            transform: rotate(189deg) translateY(-55%) translateX(-55%);
+        }
+
+        &.active {
+            transform: rotate(189deg) translateY(-55%) translateX(-55%);
         }
     }
 
     .triangle-3 {
         @include triangle;
-        transform: rotate(270deg) translateY(0%) translateX(50%);
+        transform: rotate(261deg) translateY(-50%) translateX(-50%);
 
         &:hover {
-            transform: rotate(270deg) translateY(0%) translateX(60%);
+            transform: rotate(261deg) translateY(-55%) translateX(-55%);
+        }
+
+        &.active {
+            transform: rotate(261deg) translateY(-55%) translateX(-55%);
         }
     }
 
     .triangle-4 {
         @include triangle;
-        transform: rotate(342deg) translateY(0%) translateX(50%);
+        transform: rotate(333deg) translateY(-50%) translateX(-50%);
 
         &:hover {
-            transform: rotate(342deg) translateY(0%) translateX(60%);
+            transform: rotate(333deg) translateY(-55%) translateX(-55%);
+        }
+
+        &.active {
+            transform: rotate(333deg) translateY(-55%) translateX(-55%);
         }
     }
 
     .triangle-5 {
         @include triangle;
-        transform: rotate(54deg) translateY(0%) translateX(50%);
+        transform: rotate(45deg) translateY(-50%) translateX(-50%);
 
         &:hover {
-            transform: rotate(54deg) translateY(0%) translateX(60%);
+            transform: rotate(45deg) translateY(-55%) translateX(-55%);
+        }
+
+        &.active {
+            transform: rotate(45deg) translateY(-55%) translateX(-55%);
         }
     }
 </style>

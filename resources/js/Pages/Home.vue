@@ -52,7 +52,7 @@
         <div data-aos="fade-up"
             class="container m-auto px-6 py-12 md:py-28 h-full flex flex-col justify-start content-center items-center">
             <div class="h-full flex flex-col justify-start content-center items-center md:flex-row md:justify-between md:content-start md:items-start mb-12">
-                <div class="flex flex-col justify-center content-start items-start mb-4 md:w-1/2 md:mb-0">
+                <div class="flex flex-col justify-center content-start items-start mb-4 md:w-1/2 md:mb-0 md:mr-8">
                     <p class="text-slate-700 text-xl mb-4">
                         We focus on the construction of eco-friendly, energy-efficient, reliable and durable buildings using
                         Canadian technology,
