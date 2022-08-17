@@ -2,7 +2,7 @@
     <div class="flex flex-col w-full">
         <!-- Tabs labels -->
         <div class="w-full flex flex-col justify-start items-center content-center lg:flex-row items-stretch">
-            <div class="w-full px-20 py-12 rounded-xl cursor-pointer mb-4 lg:mr-4 transition-all hover:text-amber-400 hover:border-amber-400 hover:border-2 text-2xl uppercase text-center hover:text-white flex items-center content-center justify-center" 
+            <div class="w-full px-12 py-8 rounded-xl cursor-pointer mb-4 lg:mr-4 transition-all hover:text-amber-400 hover:border-amber-400 hover:border-2 text-2xl uppercase text-center flex items-center content-center justify-center" 
                 v-bind:class="{'border-amber-400 border-2 text-amber-400': activeTab === 'speed', 'border-2 border-slate-700 text-slate-700': activeTab != 'speed'}" 
                 v-on:click="switchTab('speed')"
             >
@@ -10,7 +10,7 @@
                 Speed
             </div>
 
-            <div class="w-full px-20 py-12 rounded-xl cursor-pointer mb-4 lg:mr-4 transition-all hover:text-amber-400 hover:border-amber-400 hover:border-2 text-2xl uppercase text-center hover:text-white flex items-center content-center justify-center" 
+            <div class="w-full px-12 py-8 rounded-xl cursor-pointer mb-4 lg:mr-4 transition-all hover:text-amber-400 hover:border-amber-400 hover:border-2 text-2xl uppercase text-center flex items-center content-center justify-center" 
                 v-bind:class="{'border-amber-400 border-2 text-amber-400': activeTab === 'tradition', 'border-2 border-slate-700 text-slate-700': activeTab != 'tradition'}" 
                 v-on:click="switchTab('tradition')"
             >

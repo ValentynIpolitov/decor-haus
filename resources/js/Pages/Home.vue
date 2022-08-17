@@ -14,7 +14,7 @@
                         <h1 class="text-white text-5xl mb-6 z-50 white-text-shadow" data-aos="fade-right">CUSTOM-MADE
                             PREFABRICATED WOODEN HOUSES</h1>
 
-                        <div class="bg-opacity-70 rounded-xl bg-black py-10 box-shadow z-50 px-8" data-aos="fade-right">
+                        <div class="bg-opacity-30 rounded-xl bg-black py-10 box-shadow z-50 px-8" data-aos="fade-right">
                             <p class="text-white text-xl z-50 white-text-shadow" data-aos="flip-down"
                                 data-aos-delay="600" data-aos-offset="0">
                                 Production and assembly of low-energy passive prefabricated SIP houses
@@ -30,7 +30,7 @@
                         <h1 class="text-white text-5xl mb-6 z-50 white-text-shadow" data-aos="fade-right">CUSTOM-MADE
                             PREFABRICATED WOODEN HOUSES</h1>
 
-                        <div class="bg-opacity-70 rounded-xl bg-black py-10 box-shadow z-50 px-8" data-aos="fade-right">
+                        <div class="bg-opacity-30 rounded-xl bg-black py-10 box-shadow z-50 px-8" data-aos="fade-right">
                             <p class="text-white text-xl z-50 white-text-shadow" data-aos="flip-down"
                                 data-aos-delay="900" data-aos-offset="0">
                                 Production and assembly of low-energy passive prefabricated SIP houses
@@ -74,7 +74,7 @@
                 </div>
             </div>
 
-            <a href="#" class="btn btn-secondary" 
+            <a href="#" class="btn btn-secondary transition-all" 
                 data-aos="flip-down" data-aos-delay="600" data-aos-offset="0">
                 Show more
             </a>
@@ -150,7 +150,9 @@
 
     <!-- Dynamyc sections -->
     <section data-aos="fade-up">
-
+        <div class="container m-auto px-6 py-12 md:py-28">
+            <OurBenefits />
+        </div>
     </section>
 </template>
 
@@ -159,6 +161,7 @@ import { Carousel, Navigation, Slide } from "vue3-carousel";
 
 import "vue3-carousel/dist/carousel.css";
 import Tabs from "../Shared/Tabs.vue";
+import OurBenefits from "../Shared/OurBenefits.vue";
 
 export default {
     components: {
@@ -166,6 +169,7 @@ export default {
         Slide,
         Navigation,
         Tabs,
+        OurBenefits
     },
 }
 </script>

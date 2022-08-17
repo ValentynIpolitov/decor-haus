@@ -375,7 +375,7 @@ var _hoisted_2 = /*#__PURE__*/_withScopeId(function () {
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     id: "logo",
     "class": "w-full nav-logo",
-    src: "/images/logo.png",
+    src: "/images/logo.svg",
     alt: ""
   })], -1
   /* HOISTED */
