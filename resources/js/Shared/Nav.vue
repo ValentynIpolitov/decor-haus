@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar z-50">
-        <div class="w-24">
-            <img id="logo" class="w-full nav-logo" src="/images/logo.svg" alt="">
+        <div class="w-40">
+            <img id="logo" class="w-full nav-logo" src="/images/logo_1_white_active.svg" alt="">
         </div>
 
         <ul class="nav-menu z-50">

@@ -53,6 +53,7 @@
             class="container m-auto px-6 py-12 md:py-28 h-full flex flex-col justify-start content-center items-center">
             <div class="h-full flex flex-col justify-start content-center items-center md:flex-row md:justify-between md:content-start md:items-start mb-12">
                 <div class="flex flex-col justify-center content-start items-start mb-4 md:w-1/2 md:mb-0 md:mr-8">
+                    <h2 class="text-slate-700 text-4xl mb-4">Header ?</h2>
                     <p class="text-slate-700 text-xl mb-4">
                         We focus on the construction of eco-friendly, energy-efficient, reliable and durable buildings using
                         Canadian technology,
@@ -74,13 +75,19 @@
                 </div>
             </div>
 
-            <a href="#" class="btn btn-secondary transition-all" 
-                data-aos="flip-down" data-aos-delay="600" data-aos-offset="0">
+            <a @click="scrollMeTo('our_benefits')" class="btn btn-secondary transition-all">
                 Show more
             </a>
         </div>
     </section>
 
+    <!-- Dynamyc sections -->
+    <section data-aos="fade-up" ref="our_benefits" id="our_benefits">
+        <div class="container m-auto px-6 py-12 md:py-28">
+            <OurBenefits />
+        </div>
+    </section>
+    
     <!-- Projects -->
     <section data-aos="fade-up">
         <div>
@@ -147,13 +154,6 @@
             </div>
         </div>
     </section>
-
-    <!-- Dynamyc sections -->
-    <section data-aos="fade-up">
-        <div class="container m-auto px-6 py-12 md:py-28">
-            <OurBenefits />
-        </div>
-    </section>
 </template>
 
 <script>
@@ -170,6 +170,18 @@ export default {
         Navigation,
         Tabs,
         OurBenefits
+    },
+
+    methods: {
+        scrollMeTo(refName) {
+            const el = document.getElementById(refName);
+
+            var top = el.offsetTop;
+            top -= 66;
+
+            window.scrollTo({ top: top, behavior: 'smooth' })
+        },
+
     },
 }
 </script>

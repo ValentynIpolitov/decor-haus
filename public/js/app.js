@@ -371,11 +371,11 @@ var _hoisted_1 = {
 
 var _hoisted_2 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "w-24"
+    "class": "w-40"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     id: "logo",
     "class": "w-full nav-logo",
-    src: "/images/logo.svg",
+    src: "/images/logo_1_white_active.svg",
     alt: ""
   })], -1
   /* HOISTED */
