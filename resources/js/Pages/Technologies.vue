@@ -179,7 +179,7 @@
 
                     <div class="flex flex-col lg:flex-row-reverse align-center items-center pt-12">
                         <div class="w-full h-full lg:w-1/2 flex justify-center">
-                            <img class="mb-4 lg:mb-0 w-full lg:w-4/5" src="/images/sip-production.jpg" alt="">
+                            <img class="mb-4 lg:mb-0 w-full lg:w-4/5" src="/images/sip-production.png" alt="">
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
@@ -301,7 +301,7 @@
                 <div class="flex flex-col">
                     <div class="flex flex-col lg:flex-row align-center items-center pt-12">
                         <div class="w-full h-full lg:w-1/2 flex justify-center">
-                            <img class="mb-4 lg:mb-0 w-full lg:w-4/5" src="/images/sip-benefit-1.jpg" alt="">
+                            <i class="mb-4 lg:mb-0 text-9xl text-emerald-500 fa-solid fa-circle-dollar-to-slot"></i>
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
@@ -315,7 +315,7 @@
 
                     <div class="flex flex-col lg:flex-row-reverse align-center items-center pt-12">
                         <div class="w-full h-full lg:w-1/2 flex justify-center">
-                            <img class="mb-4 lg:mb-0 w-full lg:w-4/5" src="/images/sip-benefit-2.jpg" alt="">
+                            <i class="mb-4 lg:mb-0 text-9xl text-emerald-500 fa-solid fa-gauge-high"></i>
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
@@ -329,7 +329,7 @@
 
                     <div class="flex flex-col lg:flex-row align-center items-center pt-12">
                         <div class="w-full h-full lg:w-1/2 flex justify-center">
-                            <img class="mb-4 lg:mb-0 w-full lg:w-4/5" src="/images/sip-benefit-3.jpg" alt="">
+                            <i class="mb-4 lg:mb-0 text-9xl text-emerald-500 fa-solid fa-house-medical"></i>
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
@@ -343,7 +343,7 @@
 
                     <div class="flex flex-col lg:flex-row-reverse align-center items-center pt-12">
                         <div class="w-full h-full lg:w-1/2 flex justify-center">
-                            <img class="mb-4 lg:mb-0 w-full lg:w-4/5" src="/images/sip-benefit-4.jpg" alt="">
+                            <i class="mb-4 lg:mb-0 text-9xl text-emerald-500 fa-solid fa-wind"></i>
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
@@ -357,7 +357,7 @@
 
                     <div class="flex flex-col lg:flex-row align-center items-center pt-12">
                         <div class="w-full h-full lg:w-1/2 flex justify-center">
-                            <img class="mb-4 lg:mb-0 w-full lg:w-4/5" src="/images/sip-benefit-5.jpg" alt="">
+                            <i class="mb-4 lg:mb-0 text-9xl text-emerald-500 fa-solid fa-layer-group"></i>
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
@@ -371,7 +371,7 @@
 
                     <div class="flex flex-col lg:flex-row-reverse align-center items-center pt-12">
                         <div class="w-full h-full lg:w-1/2 flex justify-center">
-                            <img class="mb-4 lg:mb-0 w-full lg:w-4/5" src="/images/sip-benefit-6.jpg" alt="">
+                            <i class="mb-4 lg:mb-0 text-9xl text-emerald-500 fa-solid fa-building-shield"></i>
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
@@ -385,7 +385,7 @@
 
                     <div class="flex flex-col lg:flex-row align-center items-center pt-12">
                         <div class="w-full h-full lg:w-1/2 flex justify-center">
-                            <img class="mb-4 lg:mb-0 w-full lg:w-4/5" src="/images/sip-benefit-7.jpg" alt="">
+                            <i class="mb-4 lg:mb-0 text-9xl text-emerald-500 fa-solid fa-seedling"></i>
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
@@ -399,7 +399,7 @@
 
                     <div class="flex flex-col lg:flex-row-reverse align-center items-center pt-12">
                         <div class="w-full h-full lg:w-1/2 flex justify-center">
-                            <img class="mb-4 lg:mb-0 w-full lg:w-4/5" src="/images/sip-benefit-8.jpg" alt="">
+                            <i class="mb-4 lg:mb-0 text-9xl text-emerald-500 fa-solid fa-diagram-project"></i>
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
@@ -413,7 +413,7 @@
 
                     <div class="flex flex-col lg:flex-row align-center items-center pt-12">
                         <div class="w-full h-full lg:w-1/2 flex justify-center">
-                            <img class="mb-4 lg:mb-0 w-full lg:w-4/5" src="/images/sip-benefit-9.jpg" alt="">
+                            <i class="mb-4 lg:mb-0 text-9xl text-emerald-500 fa-solid fa-stamp"></i>
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
@@ -427,7 +427,7 @@
 
                     <div class="flex flex-col lg:flex-row-reverse align-center items-center pt-12">
                         <div class="w-full h-full lg:w-1/2 flex justify-center">
-                            <img class="mb-4 lg:mb-0 w-full lg:w-4/5" src="/images/sip-benefit-10.jpg" alt="">
+                            <i class="mb-4 lg:mb-0 text-9xl text-emerald-500 fa-solid fa-medal"></i>
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">

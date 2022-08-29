@@ -1,7 +1,7 @@
 <template>
-    <div class="flex flex-col  lg:flex-row">
+    <div class="flex flex-col  lg:flex-row items-center">
         <div class="w-full mb-8 lg:w-1/2 md:mr-8">
-            <h2 class="text-slate-700 text-4xl mb-4">
+            <h2 class="text-emerald-500 text-4xl mb-4">
                 Why me?
             </h2>
 

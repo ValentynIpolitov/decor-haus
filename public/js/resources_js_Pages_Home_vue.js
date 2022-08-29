@@ -156,28 +156,31 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 
 var _hoisted_7 = [_hoisted_6];
 var _hoisted_8 = {
+  id: "our_goal"
+};
+var _hoisted_9 = {
   "data-aos": "fade-up",
   "class": "container m-auto px-6 py-12 md:py-28 h-full flex flex-col justify-start content-center items-center"
 };
-var _hoisted_9 = {
+var _hoisted_10 = {
   "class": "h-full flex flex-col justify-start content-center items-center md:flex-row md:justify-between md:content-start md:items-start mb-12"
 };
 
-var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex flex-col justify-center content-start items-start mb-4 md:w-1/2 md:mb-0 md:mr-8\"><h2 class=\"text-slate-700 text-4xl mb-4\">Header ?</h2><p class=\"text-slate-700 text-xl mb-4\"> We focus on the construction of eco-friendly, energy-efficient, reliable and durable buildings using Canadian technology, which uses SIP constructions. </p><p class=\"text-slate-700 text-xl mb-4\"> We offer prefabricated houses based on standard designs, as well as the implementation of any individual customer solutions. Construction of a house these days can be a fairly simple process if you choose the right technology solutions. </p><p class=\"text-slate-700 text-xl\"> You will be able to build a new and cosy house at a reasonable price and in the shortest time </p></div>", 1);
+var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex flex-col justify-center content-start items-start mb-4 md:w-1/2 md:mb-0 md:mr-8\"><h2 class=\"text-amber-400 text-4xl mb-4\">Header ?</h2><p class=\"text-slate-700 text-xl mb-4\"> We focus on the construction of eco-friendly, energy-efficient, reliable and durable buildings using Canadian technology, which uses SIP constructions. </p><p class=\"text-slate-700 text-xl mb-4\"> We offer prefabricated houses based on standard designs, as well as the implementation of any individual customer solutions. Construction of a house these days can be a fairly simple process if you choose the right technology solutions. </p><p class=\"text-slate-700 text-xl\"> You will be able to build a new and cosy house at a reasonable price and in the shortest time </p></div>", 1);
 
-var _hoisted_11 = {
+var _hoisted_12 = {
   "class": "md:w-1/2"
 };
-var _hoisted_12 = {
+var _hoisted_13 = {
   "data-aos": "fade-up",
   ref: "our_benefits",
   id: "our_benefits"
 };
-var _hoisted_13 = {
+var _hoisted_14 = {
   "class": "container m-auto px-6 py-12 md:py-28"
 };
 
-var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section data-aos=\"fade-up\"><div><div class=\"flex flex-wrap\"><div class=\"w-full md:w-1/2 lg:w-1/3 project-link\"><a href=\"\"><img src=\"/images/odnoetazh.jpg\" alt=\"\"><div class=\"text-xl\"> One flor </div></a></div><div class=\"w-full md:w-1/2 lg:w-1/3 project-link\"><a href=\"\"><img src=\"/images/dvuhetazh.jpg\" alt=\"\"><div class=\"text-xl\"> 2 flors </div></a></div><div class=\"w-full md:w-1/2 lg:w-1/3 project-link\"><a href=\"\"><img src=\"/images/dacha.jpg\" alt=\"\"><div class=\"text-xl\"> Dacha </div></a></div><div class=\"w-full md:w-1/2 lg:w-1/3 project-link\"><a href=\"\"><img src=\"/images/haitech.jpg\" alt=\"\"><div class=\"text-xl\"> Haitech </div></a></div><div class=\"w-full md:w-1/2 lg:w-1/3 project-link\"><a href=\"\"><img src=\"/images/commerc.jpg\" alt=\"\"><div class=\"text-xl\"> Commercial </div></a></div><div class=\"w-full md:w-1/2 lg:w-1/3 project-link\"><a href=\"\"><img src=\"/images/sauna.jpg\" alt=\"\"><div class=\"text-xl\"> Sauna </div></a></div></div></div></section>", 1);
+var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section data-aos=\"fade-up\"><div><div class=\"flex flex-wrap\"><div class=\"w-full md:w-1/2 lg:w-1/3 project-link\"><a href=\"\"><img src=\"/images/odnoetazh.jpg\" alt=\"\"><div class=\"text-xl\"> One flor </div></a></div><div class=\"w-full md:w-1/2 lg:w-1/3 project-link\"><a href=\"\"><img src=\"/images/dvuhetazh.jpg\" alt=\"\"><div class=\"text-xl\"> 2 flors </div></a></div><div class=\"w-full md:w-1/2 lg:w-1/3 project-link\"><a href=\"\"><img src=\"/images/dacha.jpg\" alt=\"\"><div class=\"text-xl\"> Dacha </div></a></div><div class=\"w-full md:w-1/2 lg:w-1/3 project-link\"><a href=\"\"><img src=\"/images/haitech.jpg\" alt=\"\"><div class=\"text-xl\"> Haitech </div></a></div><div class=\"w-full md:w-1/2 lg:w-1/3 project-link\"><a href=\"\"><img src=\"/images/commerc.jpg\" alt=\"\"><div class=\"text-xl\"> Commercial </div></a></div><div class=\"w-full md:w-1/2 lg:w-1/3 project-link\"><a href=\"\"><img src=\"/images/sauna.jpg\" alt=\"\"><div class=\"text-xl\"> Sauna </div></a></div></div></div></section>", 1);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
@@ -238,14 +241,14 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
     /* STABLE */
 
-  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Info + Tabs "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [_hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Tabs)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Info + Tabs "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [_hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Tabs)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
     onClick: _cache[0] || (_cache[0] = function ($event) {
       return $options.scrollMeTo('our_benefits');
     }),
     "class": "btn btn-secondary transition-all"
-  }, " Show more ")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Dynamyc sections "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_OurBenefits)])], 512
+  }, " Show more ")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Dynamyc sections "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_OurBenefits)])], 512
   /* NEED_PATCH */
-  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Projects "), _hoisted_14], 64
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Projects "), _hoisted_15], 64
   /* STABLE_FRAGMENT */
   );
 }
@@ -270,7 +273,7 @@ var _withScopeId = function _withScopeId(n) {
 };
 
 var _hoisted_1 = {
-  "class": "flex flex-col lg:flex-row"
+  "class": "flex flex-col lg:flex-row items-center"
 };
 var _hoisted_2 = {
   "class": "w-full mb-8 lg:w-1/2 md:mr-8"
@@ -278,7 +281,7 @@ var _hoisted_2 = {
 
 var _hoisted_3 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
-    "class": "text-slate-700 text-4xl mb-4"
+    "class": "text-emerald-500 text-4xl mb-4"
   }, " Why me? ", -1
   /* HOISTED */
   );
@@ -657,7 +660,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".project-link {\n  position: relative;\n  overflow: hidden;\n}\n.project-link > a img {\n  transition: transform 0.3s ease;\n  transform: translateX(-30px);\n  width: calc(100% + 30px);\n  max-width: none;\n}\n.project-link > a div {\n  background-color: rgb(251, 191, 35);\n  color: white;\n  padding: 13px 67px 12px 40px;\n  -webkit-clip-path: polygon(0 0, calc(100% - 47px) 0, 100% 100%, 0% 100%);\n          clip-path: polygon(0 0, calc(100% - 47px) 0, 100% 100%, 0% 100%);\n  position: absolute;\n  bottom: 0;\n  left: 0;\n}\n.project-link:hover > a img {\n  transform: translateX(0px);\n}\n.carousel__prev,\n.carousel__next {\n  background: none;\n  transition: all 0.15 cubic-bezier(0.4, 0, 0.2, 1);\n}\n.carousel__prev svg,\n.carousel__next svg {\n  height: 30px;\n}\n.carousel__prev svg:hover,\n.carousel__next svg:hover {\n  color: rgb(245, 158, 11);\n}\n.carousel__prev {\n  left: 5rem;\n}\n.carousel__next {\n  right: 5rem;\n}\n.carousel__item {\n  position: relative;\n}\n.carousel__item::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  width: 100%;\n  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));\n  z-index: 1;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".project-link {\n  position: relative;\n  overflow: hidden;\n}\n.project-link > a img {\n  transition: transform 0.3s ease;\n  transform: translateX(-30px);\n  width: calc(100% + 30px);\n  max-width: none;\n}\n.project-link > a div {\n  background-color: rgb(251, 191, 35);\n  color: white;\n  padding: 13px 67px 12px 40px;\n  -webkit-clip-path: polygon(0 0, calc(100% - 47px) 0, 100% 100%, 0% 100%);\n          clip-path: polygon(0 0, calc(100% - 47px) 0, 100% 100%, 0% 100%);\n  position: absolute;\n  bottom: 0;\n  left: 0;\n}\n.project-link:hover > a img {\n  transform: translateX(0px);\n}\n.carousel__prev,\n.carousel__next {\n  background: none;\n  transition: all 0.15 cubic-bezier(0.4, 0, 0.2, 1);\n}\n.carousel__prev svg,\n.carousel__next svg {\n  height: 30px;\n}\n.carousel__prev svg:hover,\n.carousel__next svg:hover {\n  color: rgb(245, 158, 11);\n}\n.carousel__prev {\n  left: 5rem;\n}\n.carousel__next {\n  right: 5rem;\n}\n.carousel__item {\n  position: relative;\n}\n.carousel__item::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  width: 100%;\n  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));\n  z-index: 1;\n}\n#our_goal {\n  position: relative;\n  overflow: hidden;\n  padding-bottom: 230px;\n}\n#our_goal::before {\n  content: \"\";\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-image: url(/images/listia.png);\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: top center;\n  transform: rotate(180deg);\n  opacity: 0.3;\n}\n#our_benefits {\n  position: relative;\n  overflow: hidden;\n}\n#our_benefits::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-image: url(/images/listia.png);\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: top center;\n  opacity: 0.3;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -810,7 +813,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Home_vue_vue_type_template_id_6a63e488__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Home.vue?vue&type=template&id=6a63e488 */ "./resources/js/Pages/Home.vue?vue&type=template&id=6a63e488");
 /* harmony import */ var _Home_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Home.vue?vue&type=script&lang=js */ "./resources/js/Pages/Home.vue?vue&type=script&lang=js");
 /* harmony import */ var _Home_vue_vue_type_style_index_0_id_6a63e488_lang_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Home.vue?vue&type=style&index=0&id=6a63e488&lang=scss */ "./resources/js/Pages/Home.vue?vue&type=style&index=0&id=6a63e488&lang=scss");
-/* harmony import */ var _var_www_bc_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _var_www_decor_haus_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
@@ -818,7 +821,7 @@ __webpack_require__.r(__webpack_exports__);
 ;
 
 
-const __exports__ = /*#__PURE__*/(0,_var_www_bc_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Home_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Home_vue_vue_type_template_id_6a63e488__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/Home.vue"]])
+const __exports__ = /*#__PURE__*/(0,_var_www_decor_haus_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Home_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Home_vue_vue_type_template_id_6a63e488__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/Home.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -840,7 +843,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _OurBenefits_vue_vue_type_template_id_74f8f108_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./OurBenefits.vue?vue&type=template&id=74f8f108&scoped=true */ "./resources/js/Shared/OurBenefits.vue?vue&type=template&id=74f8f108&scoped=true");
 /* harmony import */ var _OurBenefits_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./OurBenefits.vue?vue&type=script&lang=js */ "./resources/js/Shared/OurBenefits.vue?vue&type=script&lang=js");
 /* harmony import */ var _OurBenefits_vue_vue_type_style_index_0_id_74f8f108_lang_scss_scoped_true__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./OurBenefits.vue?vue&type=style&index=0&id=74f8f108&lang=scss&scoped=true */ "./resources/js/Shared/OurBenefits.vue?vue&type=style&index=0&id=74f8f108&lang=scss&scoped=true");
-/* harmony import */ var _var_www_bc_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _var_www_decor_haus_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
@@ -848,7 +851,7 @@ __webpack_require__.r(__webpack_exports__);
 ;
 
 
-const __exports__ = /*#__PURE__*/(0,_var_www_bc_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_OurBenefits_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_OurBenefits_vue_vue_type_template_id_74f8f108_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-74f8f108"],['__file',"resources/js/Shared/OurBenefits.vue"]])
+const __exports__ = /*#__PURE__*/(0,_var_www_decor_haus_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_OurBenefits_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_OurBenefits_vue_vue_type_template_id_74f8f108_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-74f8f108"],['__file',"resources/js/Shared/OurBenefits.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -870,7 +873,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Tabs_vue_vue_type_template_id_6cb50fda_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Tabs.vue?vue&type=template&id=6cb50fda&scoped=true */ "./resources/js/Shared/Tabs.vue?vue&type=template&id=6cb50fda&scoped=true");
 /* harmony import */ var _Tabs_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Tabs.vue?vue&type=script&lang=js */ "./resources/js/Shared/Tabs.vue?vue&type=script&lang=js");
 /* harmony import */ var _Tabs_vue_vue_type_style_index_0_id_6cb50fda_lang_scss_scoped_true__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Tabs.vue?vue&type=style&index=0&id=6cb50fda&lang=scss&scoped=true */ "./resources/js/Shared/Tabs.vue?vue&type=style&index=0&id=6cb50fda&lang=scss&scoped=true");
-/* harmony import */ var _var_www_bc_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _var_www_decor_haus_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
@@ -878,7 +881,7 @@ __webpack_require__.r(__webpack_exports__);
 ;
 
 
-const __exports__ = /*#__PURE__*/(0,_var_www_bc_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Tabs_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Tabs_vue_vue_type_template_id_6cb50fda_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-6cb50fda"],['__file',"resources/js/Shared/Tabs.vue"]])
+const __exports__ = /*#__PURE__*/(0,_var_www_decor_haus_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Tabs_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Tabs_vue_vue_type_template_id_6cb50fda_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-6cb50fda"],['__file',"resources/js/Shared/Tabs.vue"]])
 /* hot reload */
 if (false) {}
 
