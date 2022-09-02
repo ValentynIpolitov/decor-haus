@@ -19,17 +19,11 @@ class MailSender
      * @param $recipient
      * @param null $when
      */
-    public function __construct(Mailable $mailable, $recipient, $object = null, $when = null, $mailer = null)
+    public function __construct(Mailable $mailable, $recipient, $when = null)
     {
         $this->mailable = $mailable;
-        $this->object = $object;
         $this->recipient = $recipient;
         $this->when = $when;
-
-        if ($this->object) {
-            $this->mailable->with('object', $this->object);
-        }
-        $this->mailer = $mailer;
     }
 
     /**
@@ -53,7 +47,7 @@ class MailSender
             $job->delay($this->when);
         }
         $job->onQueue('low');
-        dispatchJob($job);
+        dispatch($job);
 
         return 0;
     }
@@ -72,7 +66,7 @@ class MailSender
             throw new \Exception("Empty recipient in Mailsender::deleted()");
         }
        
-        if (config('app.sendEmail', 'Y') != 'Y') {
+        if (config('mail.sendEmails') != 'Y') {
             Log::debug('Sending real emails are dissaloved: ' . $this->recepient);
             return false;
         }

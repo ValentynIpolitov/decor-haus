@@ -2,11 +2,11 @@
 
 namespace App\Jobs;
 
+use App\Log;
 use Illuminate\Bus\Queueable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
-use App\Log;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Mail\Mailable;
 
@@ -37,14 +37,17 @@ class SendEmail implements ShouldQueue
     public function handle()
     {
         try {
-            if (config('app.sendEmail', 'Y') == 'Y') {
-                Log::debug('Real email to: ' . $this->recepient);
+            if (config('mail.sendEmails') == 'Y') {
+                // Log::debug('Real email to: ' . $this->recepient);
+                info('1');
+                info($this->recepient);
                 Mail::to($this->recepient)->send($this->mailable);
+                info('2');
             } else {
-                Log::debug('Fake email to: ' . $this->recepient);
+                // Log::debug('Fake email to: ' . $this->recepient);
             }
         } catch (\Exception $e) {
-            Log::debug('Exception in email job: ' . $e->getMessage());
+            // Log::debug('Exception in email job: ' . $e->getMessage());
             throw $e;
         }
     }

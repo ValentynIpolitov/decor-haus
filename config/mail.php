@@ -115,4 +115,5 @@ return [
         ],
     ],
 
+    'sendEmails' => env('SEND_EMAILS', 'N'),
 ];
