@@ -1459,17 +1459,23 @@ video {
 .hidden {
   display: none;
 }
-.h-96 {
-  height: 24rem;
+.h-screen {
+  height: 100vh;
 }
 .h-full {
   height: 100%;
 }
-.h-screen {
-  height: 100vh;
+.h-96 {
+  height: 24rem;
+}
+.h-8 {
+  height: 2rem;
 }
 .w-full {
   width: 100%;
+}
+.w-1\/2 {
+  width: 50%;
 }
 .w-40 {
   width: 10rem;
@@ -1507,6 +1513,9 @@ video {
 .justify-start {
   justify-content: flex-start;
 }
+.justify-end {
+  justify-content: flex-end;
+}
 .justify-center {
   justify-content: center;
 }
@@ -1531,14 +1540,17 @@ video {
 .bg-opacity-30 {
   --tw-bg-opacity: 0.3;
 }
-.bg-\[url\(\'\/images\/bg_tecgnology\.jpg\'\)\] {
-  background-image: url('/images/bg_tecgnology.jpg');
+.bg-\[url\(\'\/images\/contact-bg\.jpg\'\)\] {
+  background-image: url('/images/contact-bg.jpg');
 }
 .bg-\[url\(\'\/images\/slide-bg-1\.jpg\'\)\] {
   background-image: url('/images/slide-bg-1.jpg');
 }
 .bg-\[url\(\'\/images\/slide-bg-2\.jpg\'\)\] {
   background-image: url('/images/slide-bg-2.jpg');
+}
+.bg-\[url\(\'\/images\/bg_tecgnology\.jpg\'\)\] {
+  background-image: url('/images/bg_tecgnology.jpg');
 }
 .bg-cover {
   background-size: cover;

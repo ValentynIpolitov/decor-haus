@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
-
+use App\Http\Controllers\ContactPageController;
 
 // Website pages
 Route::get('/', function () {
@@ -25,7 +25,5 @@ Route::get('/materials', function () {
     }
 )->name( 'materials' );
 
-Route::get('/contact', function () {
-    return Inertia::render('Contact');
-}
-)->name( 'contact' );
+Route::get('/contact', [ContactPageController::class, 'index'])->name( 'contact' );
+Route::post('/contact', [ContactPageController::class, 'store']);
