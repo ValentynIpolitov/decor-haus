@@ -1,5 +1,5 @@
 <template>
-    <section class="header z-50 absolute w-full top-0 left-0">
+    <section class="header z-500 absolute w-full top-0 left-0">
         <header id="header" class="py-6 z-50" :class="{'is-sticky': isSticky}">
         <!-- header -->
             <div class="container m-auto px-6">

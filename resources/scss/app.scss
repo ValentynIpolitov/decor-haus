@@ -70,11 +70,11 @@
 }
 
 .btn-primary {
-    background-color: rgb(251,191,35);
+    background-color: rgb(251,191,35) !important;
 
     &:hover {
         color: rgb(251,191,35);
-        background-color: white;
+        background-color: white !important;
         border: 2px solid rgb(251,191,35);
     }
 }
@@ -93,4 +93,8 @@
 
 .max-h-600 {
     max-height: 600px;
+}
+
+.z-500 {
+    z-index: 500 !important;
 }

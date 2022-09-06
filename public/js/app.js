@@ -302,7 +302,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "header z-50 absolute w-full top-0 left-0"
+  "class": "header z-500 absolute w-full top-0 left-0"
 };
 var _hoisted_2 = {
   "class": "container m-auto px-6"
