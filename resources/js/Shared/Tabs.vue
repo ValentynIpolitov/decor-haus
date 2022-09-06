@@ -22,25 +22,27 @@
         <!-- Tabs content -->
         <div class="relative">
             <transition  name="fade" mode="out-in">
-                <div key="1" v-if="activeTab == 'speed'">
-                    <p class="text-slate-700 text-xl">
-                        An unbeatable advantage of our houses is the customized production in the factory and the completion 
-                        exactly according to the production project on the land. Dry processes allow you to occupy your 
-                        home as soon as construction is complete, regardless of the time of year.
-                    </p>
-                </div>
-                <div key="2" v-if="activeTab == 'tradition'">
-                    <p class="text-slate-700 text-xl mb-4">
-                        The Structural Insulated Panels (SIPs) technology that forms the basis of the house's rough construction 
-                        has been tested by sixty years of use abroad. It accounts for up to 80% of new construction in Canada 
-                        and nearly 60% in Europe.
-                    </p>
-                    <p class="text-slate-700 text-xl">
-                        This progressive method of building houses is becoming increasingly popular 
-                        because of its undeniable advantages determining fast and precise construction, high comfort, healthy 
-                        ecological and economical living.
-                    </p>
-                </div>
+                <template>
+                    <div key="1" v-if="activeTab == 'speed'">
+                        <p class="text-slate-700 text-xl">
+                            An unbeatable advantage of our houses is the customized production in the factory and the completion 
+                            exactly according to the production project on the land. Dry processes allow you to occupy your 
+                            home as soon as construction is complete, regardless of the time of year.
+                        </p>
+                    </div>
+                    <div key="2" v-if="activeTab == 'tradition'">
+                        <p class="text-slate-700 text-xl mb-4">
+                            The Structural Insulated Panels (SIPs) technology that forms the basis of the house's rough construction 
+                            has been tested by sixty years of use abroad. It accounts for up to 80% of new construction in Canada 
+                            and nearly 60% in Europe.
+                        </p>
+                        <p class="text-slate-700 text-xl">
+                            This progressive method of building houses is becoming increasingly popular 
+                            because of its undeniable advantages determining fast and precise construction, high comfort, healthy 
+                            ecological and economical living.
+                        </p>
+                    </div>
+                </template>
             </transition>
         </div>
     </div>

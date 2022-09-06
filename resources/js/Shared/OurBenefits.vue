@@ -7,59 +7,61 @@
 
             <transition name="fade" mode="out-in">
 
-                <div key="benefit_1" v-if="activeTab == 'quality'">
-                    <h3 class="text-slate-700 text-2xl mb-4">
-                        Quality
-                    </h3>
-                    <p class="text-slate-700 text-xl">
-                        We build based on a proven and certified SIP building system, using only wood with a good reputation. 
-                        Construction is carried out under continuous multi-stage supervision. We do not part ways with the 
-                        client once the building is handed over, our concern for your satisfaction continues, we respond immediately 
-                        to any minor defects, etc. All critical work is carried out by our own professionally trained maintenance staff.
-                    </p>
-                </div>
-    
-                <div key="benefit_2" v-if="activeTab == 'certification'">
-                    <h3 class="text-slate-700 text-2xl mb-4">
-                        Certification
-                    </h3>
-                    <p class="text-slate-700 text-xl">
-                       We use only certified materials and construction elements, at the end of the construction you receive from us 
-                       Certificates and Inspection Reports for the approval procedure.
-                    </p>
-                </div>
-    
-                <div key="benefit_3" v-if="activeTab == 'tradition'">
-                    <h3 class="text-slate-700 text-2xl mb-4">
-                        Tradition
-                    </h3>
-                    <p class="text-slate-700 text-xl">
-                        The Structural Insulated Panels (SIPs) technology that forms the basis of the house's rough construction has been 
-                        tested by sixty years of use abroad. It accounts for up to 80% of new construction in Canada and nearly 60% 
-                        in Europe. This progressive method of building houses is becoming increasingly popular because of its undeniable 
-                        advantages determining fast and precise construction, high comfort, healthy ecological and economical living.
-                    </p>
-                </div>
-    
-                <div key="benefit_4" v-if="activeTab == 'garantie'">
-                    <h3 class="text-slate-700 text-2xl mb-4">
-                        Garantie
-                    </h3>
-                    <p class="text-slate-700 text-xl">
-                        The quality of the construction of the house will guarantee you at least 50 years of durability. 
-                        We provide standard warranties for structural elements, works, technologies and subcontractors' deliveries.
-                    </p>
-                </div>
-    
-                <div key="benefit_5" v-if="activeTab == 'service'">
-                    <h3 class="text-slate-700 text-2xl mb-4">
-                        Service
-                    </h3>
-                    <p class="text-slate-700 text-xl">
-                        We take care of our customers not only during the warranty period, but we also provide you with 
-                        after-warranty service and care for the flawless and comfortable use of your home.
-                    </p>
-                </div>
+                <template>
+                    <div key="benefit_1" v-if="activeTab == 'quality'">
+                        <h3 class="text-slate-700 text-2xl mb-4">
+                            Quality
+                        </h3>
+                        <p class="text-slate-700 text-xl">
+                            We build based on a proven and certified SIP building system, using only wood with a good reputation. 
+                            Construction is carried out under continuous multi-stage supervision. We do not part ways with the 
+                            client once the building is handed over, our concern for your satisfaction continues, we respond immediately 
+                            to any minor defects, etc. All critical work is carried out by our own professionally trained maintenance staff.
+                        </p>
+                    </div>
+        
+                    <div key="benefit_2" v-if="activeTab == 'certification'">
+                        <h3 class="text-slate-700 text-2xl mb-4">
+                            Certification
+                        </h3>
+                        <p class="text-slate-700 text-xl">
+                           We use only certified materials and construction elements, at the end of the construction you receive from us 
+                           Certificates and Inspection Reports for the approval procedure.
+                        </p>
+                    </div>
+        
+                    <div key="benefit_3" v-if="activeTab == 'tradition'">
+                        <h3 class="text-slate-700 text-2xl mb-4">
+                            Tradition
+                        </h3>
+                        <p class="text-slate-700 text-xl">
+                            The Structural Insulated Panels (SIPs) technology that forms the basis of the house's rough construction has been 
+                            tested by sixty years of use abroad. It accounts for up to 80% of new construction in Canada and nearly 60% 
+                            in Europe. This progressive method of building houses is becoming increasingly popular because of its undeniable 
+                            advantages determining fast and precise construction, high comfort, healthy ecological and economical living.
+                        </p>
+                    </div>
+        
+                    <div key="benefit_4" v-if="activeTab == 'garantie'">
+                        <h3 class="text-slate-700 text-2xl mb-4">
+                            Garantie
+                        </h3>
+                        <p class="text-slate-700 text-xl">
+                            The quality of the construction of the house will guarantee you at least 50 years of durability. 
+                            We provide standard warranties for structural elements, works, technologies and subcontractors' deliveries.
+                        </p>
+                    </div>
+        
+                    <div key="benefit_5" v-if="activeTab == 'service'">
+                        <h3 class="text-slate-700 text-2xl mb-4">
+                            Service
+                        </h3>
+                        <p class="text-slate-700 text-xl">
+                            We take care of our customers not only during the warranty period, but we also provide you with 
+                            after-warranty service and care for the flawless and comfortable use of your home.
+                        </p>
+                    </div>
+                </template>
             </transition>
         </div>
 
