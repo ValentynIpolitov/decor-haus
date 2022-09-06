@@ -1,11 +1,14 @@
 @component('mail::message')
-# Introduction
+# Contact Form Data Recieved
 
-The body of your message.
-
-@component('mail::button', ['url' => ''])
-Button Text
-@endcomponent
+Contact info:
+<ul>
+    <li>Name - {{ $contact->name }}</li>
+    <li>Surname - {{ $contact->surname }}</li>
+    <li>Email - {{ $contact->email }}</li>
+    <li>Phone - {{ $contact->phone }}</li>
+    <li>Message - {{ $contact->message }}</li>
+</ul>
 
 Thanks,<br>
 {{ config('app.name') }}
