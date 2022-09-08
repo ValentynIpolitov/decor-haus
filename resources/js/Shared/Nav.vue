@@ -8,19 +8,19 @@
 
         <ul class="nav-menu z-50">
             <li class="nav-item white-text-shadow hover-underline-animation">
-                <NavLink :href="route('homepage')" :active="$page.component === 'Home'"  >Home</NavLink>
+                <NavLink :href="route('homepage')" @click="closeMenu()" :active="$page.component === 'Home'"  >Home</NavLink>
             </li>
             <li class="nav-item white-text-shadow hover-underline-animation">
-                <NavLink :href="route('technologies')" :active="$page.component === 'Technologies'"  >Explore SIP</NavLink>
+                <NavLink :href="route('technologies')" @click="closeMenu()" :active="$page.component === 'Technologies'"  >Explore SIP</NavLink>
             </li>
             <li class="nav-item white-text-shadow hover-underline-animation">
-                <NavLink :href="route('projects')" :active="$page.component === 'Projects'"  >Projects</NavLink>
+                <NavLink :href="route('projects')" @click="closeMenu()" :active="$page.component === 'Projects'"  >Projects</NavLink>
             </li>
             <li class="nav-item white-text-shadow hover-underline-animation">
-                <NavLink :href="route('materials')" :active="$page.component === 'Materials'"  >Materials</NavLink>
+                <NavLink :href="route('materials')" @click="closeMenu()" :active="$page.component === 'Materials'"  >Materials</NavLink>
             </li>
             <li class="nav-item white-text-shadow hover-underline-animation">
-                <NavLink :href="route('contact')" :active="$page.component === 'Contact'"  >Contact</NavLink>
+                <NavLink :href="route('contact')" @click="closeMenu()" :active="$page.component === 'Contact'"  >Contact</NavLink>
             </li>
         </ul>
 
