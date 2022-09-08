@@ -9,6 +9,7 @@ A inertiajs laravel+vue3 web application
 - Laravel 8
 - Inertia.js
 - Vue3
+- Tailwind
 
 ## Installation
 
@@ -61,6 +62,12 @@ Run artisan virtual server
 ```
 php artisan serve
 ```
+
+## Notices
+
+### Project permissions
+
+To set up project permissins - follow link: https://stackoverflow.com/questions/30639174/how-to-set-up-file-permissions-for-laravel 
 
 ## License
 
