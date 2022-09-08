@@ -458,7 +458,7 @@
                 const el = document.getElementById(refName);
 
                 var top = el.offsetTop;
-                top -= 66;
+                top -= 72;
 
                 window.scrollTo({ top: top, behavior: 'smooth' })
             },
