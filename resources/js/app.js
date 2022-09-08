@@ -26,7 +26,7 @@ createInertiaApp({
             .mount(el);
     },
 
-    title: title => `${title} - My App`
+    title: title => `${title} - Decor Haus`
 });
 
 InertiaProgress.init({

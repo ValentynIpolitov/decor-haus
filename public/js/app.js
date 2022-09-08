@@ -626,7 +626,7 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
     }).mount(el);
   },
   title: function title(_title) {
-    return "".concat(_title, " - My App");
+    return "".concat(_title, " - Decor Haus");
   }
 });
 _inertiajs_progress__WEBPACK_IMPORTED_MODULE_2__.InertiaProgress.init({
