@@ -6,8 +6,6 @@
             </h2>
 
             <transition name="fade" mode="out-in">
-
-                <template>
                     <div key="benefit_1" v-if="activeTab == 'quality'">
                         <h3 class="text-slate-700 text-2xl mb-4">
                             Quality
@@ -61,7 +59,6 @@
                             after-warranty service and care for the flawless and comfortable use of your home.
                         </p>
                     </div>
-                </template>
             </transition>
         </div>
 

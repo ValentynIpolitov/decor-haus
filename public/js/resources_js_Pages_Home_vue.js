@@ -159,11 +159,10 @@ var _hoisted_8 = {
   id: "our_goal"
 };
 var _hoisted_9 = {
-  "data-aos": "fade-up",
-  "class": "container m-auto px-6 py-12 md:py-28 h-full flex flex-col justify-start content-center items-center"
+  "class": "container m-auto px-6 py-12 md:py-28 h-full flex flex-col justify-start content-center items-center z-50"
 };
 var _hoisted_10 = {
-  "class": "h-full flex flex-col justify-start content-center items-center md:flex-row md:justify-between md:content-start md:items-start mb-12"
+  "class": "h-full z-50 flex flex-col justify-start content-center items-center md:flex-row md:justify-between md:content-start md:items-start mb-12"
 };
 
 var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex flex-col justify-center content-start items-start mb-4 md:w-1/2 md:mb-0 md:mr-8\"><h2 class=\"text-amber-400 text-4xl mb-4\">Header ?</h2><p class=\"text-slate-700 text-xl mb-4\"> We focus on the construction of eco-friendly, energy-efficient, reliable and durable buildings using Canadian technology, which uses SIP constructions. </p><p class=\"text-slate-700 text-xl mb-4\"> We offer prefabricated houses based on standard designs, as well as the implementation of any individual customer solutions. Construction of a house these days can be a fairly simple process if you choose the right technology solutions. </p><p class=\"text-slate-700 text-xl\"> You will be able to build a new and cosy house at a reasonable price and in the shortest time </p></div>", 1);
@@ -172,7 +171,6 @@ var _hoisted_12 = {
   "class": "md:w-1/2"
 };
 var _hoisted_13 = {
-  "data-aos": "fade-up",
   ref: "our_benefits",
   id: "our_benefits"
 };
@@ -245,7 +243,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     onClick: _cache[0] || (_cache[0] = function ($event) {
       return $options.scrollMeTo('our_benefits');
     }),
-    "class": "btn btn-secondary transition-all"
+    "class": "btn btn-secondary transition-all z-50"
   }, " Show more ")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Dynamyc sections "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_OurBenefits)])], 512
   /* NEED_PATCH */
   ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Projects "), _hoisted_15], 64
@@ -464,7 +462,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     mode: "out-in"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("template", null, [$data.activeTab == 'quality' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_4, _hoisted_7)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.activeTab == 'certification' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_8, _hoisted_11)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.activeTab == 'tradition' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_12, _hoisted_15)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.activeTab == 'garantie' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_16, _hoisted_19)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.activeTab == 'service' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_20, _hoisted_23)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)])];
+      return [$data.activeTab == 'quality' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_4, _hoisted_7)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.activeTab == 'certification' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_8, _hoisted_11)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.activeTab == 'tradition' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_12, _hoisted_15)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.activeTab == 'garantie' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_16, _hoisted_19)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.activeTab == 'service' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_20, _hoisted_23)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)];
     }),
     _: 1
     /* STABLE */
@@ -634,7 +632,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     mode: "out-in"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("template", null, [$data.activeTab == 'speed' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_10, _hoisted_12)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.activeTab == 'tradition' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_13, _hoisted_16)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)])];
+      return [$data.activeTab == 'speed' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_10, _hoisted_12)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.activeTab == 'tradition' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_13, _hoisted_16)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)];
     }),
     _: 1
     /* STABLE */
@@ -660,7 +658,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".project-link {\n  position: relative;\n  overflow: hidden;\n}\n.project-link > a img {\n  transition: transform 0.3s ease;\n  transform: translateX(-30px);\n  width: calc(100% + 30px);\n  max-width: none;\n}\n.project-link > a div {\n  background-color: #fbbf23;\n  color: white;\n  padding: 13px 67px 12px 40px;\n  -webkit-clip-path: polygon(0 0, calc(100% - 47px) 0, 100% 100%, 0% 100%);\n          clip-path: polygon(0 0, calc(100% - 47px) 0, 100% 100%, 0% 100%);\n  position: absolute;\n  bottom: 0;\n  left: 0;\n}\n.project-link:hover > a img {\n  transform: translateX(0px);\n}\n.carousel__prev,\n.carousel__next {\n  background: none;\n  transition: all 0.15 cubic-bezier(0.4, 0, 0.2, 1);\n}\n.carousel__prev svg,\n.carousel__next svg {\n  height: 30px;\n}\n.carousel__prev svg:hover,\n.carousel__next svg:hover {\n  color: #f59e0b;\n}\n.carousel__prev {\n  left: 5rem;\n}\n.carousel__next {\n  right: 5rem;\n}\n.carousel__item {\n  position: relative;\n}\n.carousel__item::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  width: 100%;\n  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));\n  z-index: 1;\n}\n#our_goal {\n  position: relative;\n  overflow: hidden;\n  padding-bottom: 230px;\n}\n#our_goal::before {\n  content: \"\";\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-image: url(/images/listia.png);\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: top center;\n  transform: rotate(180deg);\n  opacity: 0.3;\n}\n#our_benefits {\n  position: relative;\n  overflow: hidden;\n}\n#our_benefits::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-image: url(/images/listia.png);\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: top center;\n  opacity: 0.3;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".project-link {\n  position: relative;\n  overflow: hidden;\n}\n.project-link > a img {\n  transition: transform 0.3s ease;\n  transform: translateX(-30px);\n  width: calc(100% + 30px);\n  max-width: none;\n}\n.project-link > a div {\n  background-color: #fbbf23;\n  color: white;\n  padding: 13px 67px 12px 40px;\n  -webkit-clip-path: polygon(0 0, calc(100% - 47px) 0, 100% 100%, 0% 100%);\n          clip-path: polygon(0 0, calc(100% - 47px) 0, 100% 100%, 0% 100%);\n  position: absolute;\n  bottom: 0;\n  left: 0;\n}\n.project-link:hover > a img {\n  transform: translateX(0px);\n}\n.carousel__prev,\n.carousel__next {\n  background: none;\n  transition: all 0.15 cubic-bezier(0.4, 0, 0.2, 1);\n}\n.carousel__prev svg,\n.carousel__next svg {\n  height: 30px;\n}\n.carousel__prev svg:hover,\n.carousel__next svg:hover {\n  color: #f59e0b;\n}\n.carousel__prev {\n  left: 5rem;\n}\n.carousel__next {\n  right: 5rem;\n}\n.carousel__item {\n  position: relative;\n}\n.carousel__item::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  width: 100%;\n  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));\n  z-index: 1;\n}\n#our_goal {\n  position: relative;\n  overflow: hidden;\n  padding-bottom: 230px;\n}\n#our_goal::after {\n  content: \"\";\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-image: url(/images/listia.png);\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: top center;\n  transform: rotate(180deg);\n  opacity: 0.3;\n}\n#our_benefits {\n  position: relative;\n  overflow: hidden;\n}\n#our_benefits::before {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-image: url(/images/listia.png);\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-position: top center;\n  opacity: 0.3;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

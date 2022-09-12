@@ -22,7 +22,6 @@
         <!-- Tabs content -->
         <div class="relative">
             <transition  name="fade" mode="out-in">
-                <template>
                     <div key="1" v-if="activeTab == 'speed'">
                         <p class="text-slate-700 text-xl">
                             An unbeatable advantage of our houses is the customized production in the factory and the completion 
@@ -42,7 +41,6 @@
                             ecological and economical living.
                         </p>
                     </div>
-                </template>
             </transition>
         </div>
     </div>
