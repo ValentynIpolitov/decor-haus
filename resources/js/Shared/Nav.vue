@@ -133,7 +133,7 @@
             position: fixed;
             background: black !important;
             left: -100%;
-            top: 13rem;
+            top: 6rem;
             flex-direction: column;
             background-color: #fff;
             width: 100%;
