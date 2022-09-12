@@ -174,7 +174,7 @@ var _hoisted_2 = {
   "class": "w-full flex flex-col justyfy-center items-center content-center"
 };
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"mb-8\"><a href=\"https://t.me/servus_ukraine\" title=\"telegram\" class=\"white-text-shadow mr-8 text-white transition-all hover:text-amber-500\"><span class=\"fa fa-telegram text-2xl\"></span></a><a href=\"https://www.instagram.com/servus.ukraine/\" title=\"Instagram\" class=\"white-text-shadow mr-8 text-white transition-all hover:text-amber-500\"><span class=\"fa fa-instagram text-2xl\"></span></a><a href=\"https://www.facebook.com/pages/%D0%A1%D0%B5%D1%80%D0%B2%D1%83%D1%81/174897179233857?ref=hl\" title=\"Facebook\" class=\"white-text-shadow mr-8 text-white transition-all hover:text-amber-500\"><span class=\"fa fa-facebook text-2xl\"></span></a><a href=\"https://www.youtube.com/channel/UC945vgyx3C2pMhBYTE6SIPg\" title=\"Youtube\" class=\"white-text-shadow transition-all text-white hover:text-amber-500\"><span class=\"fa fa-youtube text-2xl\"></span></a></div>", 1);
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"mb-8\"><a href=\"https://www.instagram.com/servus.ukraine/\" title=\"Instagram\" class=\"white-text-shadow mr-8 text-white transition-all hover:text-amber-500\"><span class=\"fa fa-instagram text-2xl\"></span></a><a href=\"https://www.facebook.com/pages/%D0%A1%D0%B5%D1%80%D0%B2%D1%83%D1%81/174897179233857?ref=hl\" title=\"Facebook\" class=\"white-text-shadow text-white transition-all hover:text-amber-500\"><span class=\"fa fa-facebook text-2xl\"></span></a></div>", 1);
 
 var _hoisted_4 = {
   "class": "hidden mb-8 md:flex"
@@ -211,7 +211,7 @@ var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNo
 
 var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "text-white"
-}, "© 2022 company name")], -1
+}, "© 2022 Decor haus")], -1
 /* HOISTED */
 );
 

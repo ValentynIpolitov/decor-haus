@@ -30,6 +30,7 @@
         "@inertiajs/progress": "^0.2.7",
         "aos": "^2.3.4",
         "vue": "^3.2.36",
+        "vue-phone-number-input": "^1.1.12",
         "vue3-carousel": "^0.1.40"
     }
 }

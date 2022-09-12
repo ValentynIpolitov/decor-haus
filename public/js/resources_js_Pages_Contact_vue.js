@@ -66,7 +66,7 @@ var _hoisted_4 = /*#__PURE__*/_withScopeId(function () {
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
     "class": "text-white text-5xl mb-12 mt-16 z-50 white-text-shadow",
     "data-aos": "fade-right"
-  }, "Contact")], -1
+  }, "Contact ")], -1
   /* HOISTED */
   );
 });
@@ -168,7 +168,7 @@ var _hoisted_22 = {
 };
 var _hoisted_23 = ["disabled"];
 
-var _hoisted_24 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"w-full md:w-1/2 h-full flex justify-center content-center items-center z-50 pt-12 md:pt-0\" data-v-2c2b26f2><div class=\"flex flex-col\" data-v-2c2b26f2><a href=\"tel:+421 919322088\" class=\"mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left\" data-v-2c2b26f2>+421 919322088</a><a href=\"mailto:decorhaus.sk@gmail.com\" class=\"mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left\" data-v-2c2b26f2>decorhaus.sk@gmail.com</a><p class=\"mb-4 text-white text-3xl text-center md:text-left\" data-v-2c2b26f2>Service abroad:</p><a href=\"tel:+421944725652\" class=\"mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left\" data-v-2c2b26f2>+421944725652</a><a href=\"tel:+380966230115\" class=\"mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left\" data-v-2c2b26f2>+380966230115</a><div class=\"flex justify-center md:justify-start\" data-v-2c2b26f2><a href=\"https://www.instagram.com/servus.ukraine/\" title=\"Instagram\" class=\"white-text-shadow mr-8 text-white transition-all hover:text-amber-500\" data-v-2c2b26f2><span class=\"fa fa-instagram text-2xl\" data-v-2c2b26f2></span></a><a href=\"https://www.facebook.com/pages/%D0%A1%D0%B5%D1%80%D0%B2%D1%83%D1%81/174897179233857?ref=hl\" title=\"Facebook\" class=\"white-text-shadow text-white transition-all hover:text-amber-500\" data-v-2c2b26f2><span class=\"fa fa-facebook text-2xl\" data-v-2c2b26f2></span></a></div></div></div>", 1);
+var _hoisted_24 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"w-full md:w-1/2 h-full flex justify-center content-center items-center z-50 pt-12 md:pt-0\" data-v-2c2b26f2><div class=\"flex flex-col\" data-v-2c2b26f2><a href=\"tel:+421 919322088\" class=\"mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left\" data-v-2c2b26f2><i class=\"fa-solid fa-phone mr-4\" data-v-2c2b26f2></i> +421 919322088</a><a href=\"mailto:decorhaus.sk@gmail.com\" class=\"mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left\" data-v-2c2b26f2><i class=\"fa-solid fa-envelope mr-4\" data-v-2c2b26f2></i>decorhaus.sk@gmail.com</a><p class=\"mb-4 text-white text-3xl text-center md:text-left\" data-v-2c2b26f2>Service abroad:</p><a href=\"tel:+421944725652\" class=\"mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left\" data-v-2c2b26f2><i class=\"fa-solid fa-phone mr-4\" data-v-2c2b26f2></i>+421 944725652</a><a href=\"tel:+380966230115\" class=\"mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left\" data-v-2c2b26f2><i class=\"fa-solid fa-phone mr-4\" data-v-2c2b26f2></i>+380 966230115</a><div class=\"flex justify-center md:justify-start\" data-v-2c2b26f2><a href=\"https://www.instagram.com/servus.ukraine/\" title=\"Instagram\" class=\"white-text-shadow mr-8 text-white transition-all hover:text-amber-500\" data-v-2c2b26f2><span class=\"fa fa-instagram text-2xl\" data-v-2c2b26f2></span></a><a href=\"https://www.facebook.com/pages/%D0%A1%D0%B5%D1%80%D0%B2%D1%83%D1%81/174897179233857?ref=hl\" title=\"Facebook\" class=\"white-text-shadow text-white transition-all hover:text-amber-500\" data-v-2c2b26f2><span class=\"fa fa-facebook text-2xl\" data-v-2c2b26f2></span></a></div></div></div>", 1);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
@@ -252,7 +252,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   /* CLASS */
   ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.form.phone]]), $setup.form.errors.phone ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("p", _hoisted_20, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($setup.form.errors.phone), 1
   /* TEXT */
-  )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" message "), _hoisted_21, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+  )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" message "), _hoisted_21, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("textarea", {
     "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)([{
       'bg-red-50 border border-red-500 text-red-900 placeholder-red-700 text-sm focus:ring-red-500': $setup.form.errors.message
     }, "block p-4 w-full text-gray-900 bg-gray-50 rounded-lg border border-gray-300 sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"]),
