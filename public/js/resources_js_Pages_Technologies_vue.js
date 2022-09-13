@@ -45,7 +45,7 @@ var _withScopeId = function _withScopeId(n) {
 };
 
 var _hoisted_1 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("title", null, "Technologies", -1
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("title", null, "Explore SIP", -1
   /* HOISTED */
   );
 });
@@ -183,7 +183,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".black-shadow[data-v-56ca33d3] {\n  position: relative;\n}\n.black-shadow[data-v-56ca33d3]::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  width: 100%;\n  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));\n  z-index: 1;\n}\n.sip-ref[data-v-56ca33d3] {\n  transition: all 0.15 ease-out;\n}\n.sip-ref[data-v-56ca33d3]:hover {\n  color: #10b981;\n  transform: scale(1.2);\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".black-shadow[data-v-56ca33d3] {\n  position: relative;\n}\n.black-shadow[data-v-56ca33d3]::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  width: 100%;\n  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));\n  z-index: 1;\n}\n.sip-ref[data-v-56ca33d3] {\n  transition: all 0.15 ease-out;\n}\n.sip-ref[data-v-56ca33d3]:hover {\n  color: rgb(16, 185, 129);\n  transform: scale(1.2);\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

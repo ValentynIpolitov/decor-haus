@@ -10,7 +10,7 @@ Route::get('/', function () {
     }
 )->name( 'homepage' );
 
-Route::get('/technologies', function () {
+Route::get('/explore-sip', function () {
     return Inertia::render('Technologies');
 }
 )->name( 'technologies' );

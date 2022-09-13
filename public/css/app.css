@@ -779,7 +779,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
 .hover-underline-animation {
   display: inline-block;
   position: relative;
-  color: #f59e0b;
+  color: rgb(245, 158, 11);
 }
 
 .hover-underline-animation:after {
@@ -790,7 +790,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #f59e0b;
+  background-color: rgb(245, 158, 11);
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -815,7 +815,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #f59e0b;
+  background-color: rgb(245, 158, 11);
 }
 
 .btn {
@@ -831,22 +831,22 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
 }
 
 .btn-primary {
-  background-color: #fbbf23 !important;
+  background-color: rgb(251, 191, 35) !important;
 }
 .btn-primary:hover {
-  color: #fbbf23;
+  color: rgb(251, 191, 35);
   background-color: white !important;
-  border: 2px solid #fbbf23;
+  border: 2px solid rgb(251, 191, 35);
 }
 
 .btn-secondary {
   background-color: white;
-  border: 2px solid #fbbf23;
-  color: #fbbf23;
+  border: 2px solid rgb(251, 191, 35);
+  color: rgb(251, 191, 35);
 }
 .btn-secondary:hover {
   color: white;
-  background-color: #fbbf23;
+  background-color: rgb(251, 191, 35);
 }
 
 .max-h-600 {
@@ -1451,14 +1451,14 @@ video {
 .mr-4 {
   margin-right: 1rem;
 }
+.mr-8 {
+  margin-right: 2rem;
+}
 .ml-8 {
   margin-left: 2rem;
 }
 .mb-8 {
   margin-bottom: 2rem;
-}
-.mr-8 {
-  margin-right: 2rem;
 }
 .mr-2 {
   margin-right: 0.5rem;
@@ -1532,9 +1532,6 @@ video {
 .justify-start {
   justify-content: flex-start;
 }
-.justify-end {
-  justify-content: flex-end;
-}
 .justify-center {
   justify-content: center;
 }
@@ -1583,9 +1580,6 @@ video {
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-.bg-white\/30 {
-  background-color: rgb(255 255 255 / 0.3);
 }
 .bg-opacity-30 {
   --tw-bg-opacity: 0.3;
@@ -1672,21 +1666,21 @@ video {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
 }
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
 .text-9xl {
   font-size: 8rem;
   line-height: 1;
-}
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 .font-medium {
   font-weight: 500;
@@ -1744,11 +1738,6 @@ video {
 }
 .backdrop-blur {
   --tw-backdrop-blur: blur(8px);
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-}
-.backdrop-blur-sm {
-  --tw-backdrop-blur: blur(4px);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
           backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
@@ -1889,12 +1878,12 @@ video {
     padding-bottom: 3.5rem;
   }
 
-  .md\:pt-28 {
-    padding-top: 7rem;
-  }
-
   .md\:pt-0 {
     padding-top: 0px;
+  }
+
+  .md\:pt-28 {
+    padding-top: 7rem;
   }
 
   .md\:text-left {

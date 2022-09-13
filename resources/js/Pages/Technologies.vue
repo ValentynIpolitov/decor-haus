@@ -1,7 +1,7 @@
 <template>
 
     <Head>
-        <title>Technologies</title>
+        <title>Explore SIP</title>
     </Head>
 
     <section>
