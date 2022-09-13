@@ -169,8 +169,9 @@
 
         cursor: pointer;
 
-        width: 130px;
-        height: 130px;
+        width: 45%;
+        padding-bottom: 45%;
+        height: 0;
         background: rgb(16 185 129);
         clip-path: polygon(83% 0, 98% 98%, 0 83%);
 
@@ -201,8 +202,9 @@
         background: rgb(16 185 129) linear-gradient(rgb(16 185 129), rgb(16 185 129));
         background: white linear-gradient(white, white);
         transition: all .3 ease;
-        width: 97px;
-        height: 97px;
+        width: 98%;
+        padding-bottom: 98%;
+        height: 98%;
         clip-path: polygon(83% 0, 98% 98%, 0 83%);
 
 
@@ -210,7 +212,7 @@
             width: 100%;
             height: 100%;
             display: flex;
-            flex-direction: column;
+            flex-direction: column-reverse;
             justify-content: flex-start;
             align-content: center;
             align-items: center;
@@ -223,7 +225,8 @@
 
             transform: rotate(-45deg);
 
-            padding-top: 90px;
+            padding-top: 95%;
+            padding-bottom: 3%;
 
             i {
                 font-size: 1.75rem;
@@ -231,7 +234,8 @@
             }
 
             p {
-                display: none;
+                margin-bottom: 10px;
+                // display: none;
             }
         }
 
@@ -249,6 +253,9 @@
             height: 183px;
 
             >div {
+                flex-direction: column;
+                padding-top: 45%;
+                padding-bottom: 57%;
                 p {
                     display: block;
                 }
