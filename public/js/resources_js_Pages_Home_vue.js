@@ -271,13 +271,10 @@ var _withScopeId = function _withScopeId(n) {
 };
 
 var _hoisted_1 = {
-  "class": "flex flex-col lg:flex-row items-center"
-};
-var _hoisted_2 = {
-  "class": "w-full mb-8 lg:w-1/2 md:mr-8"
+  "class": "flex flex-col"
 };
 
-var _hoisted_3 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_2 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
     "class": "text-emerald-500 text-4xl mb-4"
   }, " Why me? ", -1
@@ -285,11 +282,17 @@ var _hoisted_3 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
+var _hoisted_3 = {
+  "class": "w-full flex flex-col-reverse lg:flex-row lg:items-center"
+};
 var _hoisted_4 = {
+  "class": "w-full lg:w-1/2"
+};
+var _hoisted_5 = {
   key: "benefit_1"
 };
 
-var _hoisted_5 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_6 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", {
     "class": "text-slate-700 text-2xl mb-4"
   }, " Quality ", -1
@@ -297,7 +300,7 @@ var _hoisted_5 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_6 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_7 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
     "class": "text-slate-700 text-xl"
   }, " We build based on a proven and certified SIP building system, using only wood with a good reputation. Construction is carried out under continuous multi-stage supervision. We do not part ways with the client once the building is handed over, our concern for your satisfaction continues, we respond immediately to any minor defects, etc. All critical work is carried out by our own professionally trained maintenance staff. ", -1
@@ -305,12 +308,12 @@ var _hoisted_6 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_7 = [_hoisted_5, _hoisted_6];
-var _hoisted_8 = {
+var _hoisted_8 = [_hoisted_6, _hoisted_7];
+var _hoisted_9 = {
   key: "benefit_2"
 };
 
-var _hoisted_9 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_10 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", {
     "class": "text-slate-700 text-2xl mb-4"
   }, " Certification ", -1
@@ -318,7 +321,7 @@ var _hoisted_9 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_10 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_11 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
     "class": "text-slate-700 text-xl"
   }, " We use only certified materials and construction elements, at the end of the construction you receive from us Certificates and Inspection Reports for the approval procedure. ", -1
@@ -326,12 +329,12 @@ var _hoisted_10 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_11 = [_hoisted_9, _hoisted_10];
-var _hoisted_12 = {
+var _hoisted_12 = [_hoisted_10, _hoisted_11];
+var _hoisted_13 = {
   key: "benefit_3"
 };
 
-var _hoisted_13 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_14 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", {
     "class": "text-slate-700 text-2xl mb-4"
   }, " Tradition ", -1
@@ -339,7 +342,7 @@ var _hoisted_13 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_14 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_15 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
     "class": "text-slate-700 text-xl"
   }, " The Structural Insulated Panels (SIPs) technology that forms the basis of the house's rough construction has been tested by sixty years of use abroad. It accounts for up to 80% of new construction in Canada and nearly 60% in Europe. This progressive method of building houses is becoming increasingly popular because of its undeniable advantages determining fast and precise construction, high comfort, healthy ecological and economical living. ", -1
@@ -347,12 +350,12 @@ var _hoisted_14 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_15 = [_hoisted_13, _hoisted_14];
-var _hoisted_16 = {
+var _hoisted_16 = [_hoisted_14, _hoisted_15];
+var _hoisted_17 = {
   key: "benefit_4"
 };
 
-var _hoisted_17 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_18 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", {
     "class": "text-slate-700 text-2xl mb-4"
   }, " Garantie ", -1
@@ -360,7 +363,7 @@ var _hoisted_17 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_18 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_19 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
     "class": "text-slate-700 text-xl"
   }, " The quality of the construction of the house will guarantee you at least 50 years of durability. We provide standard warranties for structural elements, works, technologies and subcontractors' deliveries. ", -1
@@ -368,12 +371,12 @@ var _hoisted_18 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_19 = [_hoisted_17, _hoisted_18];
-var _hoisted_20 = {
+var _hoisted_20 = [_hoisted_18, _hoisted_19];
+var _hoisted_21 = {
   key: "benefit_5"
 };
 
-var _hoisted_21 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_22 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", {
     "class": "text-slate-700 text-2xl mb-4"
   }, " Service ", -1
@@ -381,7 +384,7 @@ var _hoisted_21 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_22 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_23 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
     "class": "text-slate-700 text-xl"
   }, " We take care of our customers not only during the warranty period, but we also provide you with after-warranty service and care for the flawless and comfortable use of your home. ", -1
@@ -389,15 +392,15 @@ var _hoisted_22 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_23 = [_hoisted_21, _hoisted_22];
-var _hoisted_24 = {
+var _hoisted_24 = [_hoisted_22, _hoisted_23];
+var _hoisted_25 = {
   "class": "w-full flex justify-center items-center content-center lg:w-1/2"
 };
-var _hoisted_25 = {
+var _hoisted_26 = {
   "class": "relative polygon-wrapper"
 };
 
-var _hoisted_26 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_27 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "inner-triangle"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
@@ -407,9 +410,9 @@ var _hoisted_26 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_27 = [_hoisted_26];
+var _hoisted_28 = [_hoisted_27];
 
-var _hoisted_28 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_29 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "inner-triangle"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
@@ -419,9 +422,9 @@ var _hoisted_28 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_29 = [_hoisted_28];
+var _hoisted_30 = [_hoisted_29];
 
-var _hoisted_30 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_31 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "inner-triangle"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
@@ -431,9 +434,9 @@ var _hoisted_30 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_31 = [_hoisted_30];
+var _hoisted_32 = [_hoisted_31];
 
-var _hoisted_32 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_33 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "inner-triangle"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
@@ -443,9 +446,9 @@ var _hoisted_32 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_33 = [_hoisted_32];
+var _hoisted_34 = [_hoisted_33];
 
-var _hoisted_34 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_35 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "inner-triangle"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
@@ -455,19 +458,19 @@ var _hoisted_34 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_35 = [_hoisted_34];
+var _hoisted_36 = [_hoisted_35];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(vue__WEBPACK_IMPORTED_MODULE_0__.Transition, {
     name: "fade",
     mode: "out-in"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [$data.activeTab == 'quality' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_4, _hoisted_7)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.activeTab == 'certification' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_8, _hoisted_11)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.activeTab == 'tradition' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_12, _hoisted_15)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.activeTab == 'garantie' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_16, _hoisted_19)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.activeTab == 'service' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_20, _hoisted_23)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)];
+      return [$data.activeTab == 'quality' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_5, _hoisted_8)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.activeTab == 'certification' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_9, _hoisted_12)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.activeTab == 'tradition' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_13, _hoisted_16)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.activeTab == 'garantie' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_17, _hoisted_20)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.activeTab == 'service' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_21, _hoisted_24)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)];
     }),
     _: 1
     /* STABLE */
 
-  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_24, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_25, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_25, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_26, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["triangle-1", {
       'active quality': $data.activeTab === 'quality',
       '': $data.activeTab != ''
@@ -475,7 +478,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     onClick: _cache[0] || (_cache[0] = function ($event) {
       return $options.switchTab('quality');
     })
-  }, _hoisted_27, 2
+  }, _hoisted_28, 2
   /* CLASS */
   ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["triangle-2", {
@@ -485,7 +488,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     onClick: _cache[1] || (_cache[1] = function ($event) {
       return $options.switchTab('certification');
     })
-  }, _hoisted_29, 2
+  }, _hoisted_30, 2
   /* CLASS */
   ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["triangle-3", {
@@ -495,7 +498,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     onClick: _cache[2] || (_cache[2] = function ($event) {
       return $options.switchTab('tradition');
     })
-  }, _hoisted_31, 2
+  }, _hoisted_32, 2
   /* CLASS */
   ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["triangle-4", {
@@ -505,7 +508,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     onClick: _cache[3] || (_cache[3] = function ($event) {
       return $options.switchTab('garantie');
     })
-  }, _hoisted_33, 2
+  }, _hoisted_34, 2
   /* CLASS */
   ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["triangle-5", {
@@ -515,9 +518,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     onClick: _cache[4] || (_cache[4] = function ($event) {
       return $options.switchTab('service');
     })
-  }, _hoisted_35, 2
+  }, _hoisted_36, 2
   /* CLASS */
-  )])])]);
+  )])])])]);
 }
 
 /***/ }),
@@ -681,7 +684,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".polygon-wrapper[data-v-74f8f108] {\n  height: 22rem;\n  width: 100%;\n}\n.polygon-wrapper > div[data-v-74f8f108]:has(.quality) {\n  transform: rotate(100deg);\n}\n@media only screen and (min-width: 576px) {\n.polygon-wrapper[data-v-74f8f108] {\n    width: 23rem;\n}\n}\n@media only screen and (min-width: 1024px) {\n.polygon-wrapper[data-v-74f8f108] {\n    height: 25rem;\n    width: 23rem;\n}\n}\n.inner-triangle[data-v-74f8f108] {\n  position: relative;\n  background: rgb(16, 185, 129) linear-gradient(rgb(16, 185, 129), rgb(16, 185, 129));\n  background: white linear-gradient(white, white);\n  transition: all 0.3 ease;\n  width: 98%;\n  padding-bottom: 98%;\n  height: 98%;\n  -webkit-clip-path: polygon(83% 0, 98% 98%, 0 83%);\n          clip-path: polygon(83% 0, 98% 98%, 0 83%);\n}\n.inner-triangle > div[data-v-74f8f108] {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  flex-direction: column-reverse;\n  justify-content: flex-start;\n  align-content: center;\n  align-items: center;\n  font-size: 1.25rem;\n  line-height: 1.75rem;\n  text-transform: uppercase;\n  font-weight: 500;\n  color: rgb(16, 185, 129);\n  transform: rotate(-45deg);\n  padding-top: 95%;\n  padding-bottom: 3%;\n}\n.inner-triangle > div i[data-v-74f8f108] {\n  font-size: 1.75rem;\n  margin-bottom: 5px;\n}\n.inner-triangle > div p[data-v-74f8f108] {\n  margin-bottom: 10px;\n}\n@media only screen and (min-width: 400px) {\n.inner-triangle > div p[data-v-74f8f108] {\n    display: block;\n}\n}\n@media only screen and (min-width: 576px) {\n.inner-triangle[data-v-74f8f108] {\n    width: 183px;\n    height: 183px;\n}\n.inner-triangle > div[data-v-74f8f108] {\n    flex-direction: column;\n    padding-top: 45%;\n    padding-bottom: 57%;\n}\n.inner-triangle > div p[data-v-74f8f108] {\n    display: block;\n}\n}\n@media only screen and (min-width: 1024px) {\n.inner-triangle[data-v-74f8f108] {\n    width: 207px;\n    height: 207px;\n}\n}\n.triangle-1[data-v-74f8f108] {\n  position: absolute;\n  top: 20%;\n  left: 25%;\n  transition: all 0.3 ease;\n  transition: transform 0.3s ease;\n  cursor: pointer;\n  width: 45%;\n  padding-bottom: 45%;\n  height: 0;\n  background: rgb(16, 185, 129);\n  -webkit-clip-path: polygon(83% 0, 98% 98%, 0 83%);\n          clip-path: polygon(83% 0, 98% 98%, 0 83%);\n  transform: rotate(117deg) translateY(-50%) translateX(-50%);\n}\n.triangle-1.active[data-v-74f8f108] {\n  background: rgb(251, 191, 35);\n}\n.triangle-1.active .inner-triangle > div[data-v-74f8f108] {\n  color: rgb(251, 191, 35);\n}\n@media only screen and (min-width: 576px) {\n.triangle-1[data-v-74f8f108] {\n    width: 185px;\n    height: 185px;\n}\n}\n@media only screen and (min-width: 1024px) {\n.triangle-1[data-v-74f8f108] {\n    width: 210px;\n    height: 210px;\n}\n}\n.triangle-1[data-v-74f8f108]:hover {\n  transform: rotate(117deg) translateY(-55%) translateX(-55%);\n}\n.triangle-1.active[data-v-74f8f108] {\n  transform: rotate(117deg) translateY(-55%) translateX(-55%);\n}\n.triangle-2[data-v-74f8f108] {\n  position: absolute;\n  top: 20%;\n  left: 25%;\n  transition: all 0.3 ease;\n  transition: transform 0.3s ease;\n  cursor: pointer;\n  width: 45%;\n  padding-bottom: 45%;\n  height: 0;\n  background: rgb(16, 185, 129);\n  -webkit-clip-path: polygon(83% 0, 98% 98%, 0 83%);\n          clip-path: polygon(83% 0, 98% 98%, 0 83%);\n  transform: rotate(189deg) translateY(-50%) translateX(-50%);\n}\n.triangle-2.active[data-v-74f8f108] {\n  background: rgb(251, 191, 35);\n}\n.triangle-2.active .inner-triangle > div[data-v-74f8f108] {\n  color: rgb(251, 191, 35);\n}\n@media only screen and (min-width: 576px) {\n.triangle-2[data-v-74f8f108] {\n    width: 185px;\n    height: 185px;\n}\n}\n@media only screen and (min-width: 1024px) {\n.triangle-2[data-v-74f8f108] {\n    width: 210px;\n    height: 210px;\n}\n}\n.triangle-2[data-v-74f8f108]:hover {\n  transform: rotate(189deg) translateY(-55%) translateX(-55%);\n}\n.triangle-2.active[data-v-74f8f108] {\n  transform: rotate(189deg) translateY(-55%) translateX(-55%);\n}\n.triangle-3[data-v-74f8f108] {\n  position: absolute;\n  top: 20%;\n  left: 25%;\n  transition: all 0.3 ease;\n  transition: transform 0.3s ease;\n  cursor: pointer;\n  width: 45%;\n  padding-bottom: 45%;\n  height: 0;\n  background: rgb(16, 185, 129);\n  -webkit-clip-path: polygon(83% 0, 98% 98%, 0 83%);\n          clip-path: polygon(83% 0, 98% 98%, 0 83%);\n  transform: rotate(261deg) translateY(-50%) translateX(-50%);\n}\n.triangle-3.active[data-v-74f8f108] {\n  background: rgb(251, 191, 35);\n}\n.triangle-3.active .inner-triangle > div[data-v-74f8f108] {\n  color: rgb(251, 191, 35);\n}\n@media only screen and (min-width: 576px) {\n.triangle-3[data-v-74f8f108] {\n    width: 185px;\n    height: 185px;\n}\n}\n@media only screen and (min-width: 1024px) {\n.triangle-3[data-v-74f8f108] {\n    width: 210px;\n    height: 210px;\n}\n}\n.triangle-3[data-v-74f8f108]:hover {\n  transform: rotate(261deg) translateY(-55%) translateX(-55%);\n}\n.triangle-3.active[data-v-74f8f108] {\n  transform: rotate(261deg) translateY(-55%) translateX(-55%);\n}\n.triangle-4[data-v-74f8f108] {\n  position: absolute;\n  top: 20%;\n  left: 25%;\n  transition: all 0.3 ease;\n  transition: transform 0.3s ease;\n  cursor: pointer;\n  width: 45%;\n  padding-bottom: 45%;\n  height: 0;\n  background: rgb(16, 185, 129);\n  -webkit-clip-path: polygon(83% 0, 98% 98%, 0 83%);\n          clip-path: polygon(83% 0, 98% 98%, 0 83%);\n  transform: rotate(333deg) translateY(-50%) translateX(-50%);\n}\n.triangle-4.active[data-v-74f8f108] {\n  background: rgb(251, 191, 35);\n}\n.triangle-4.active .inner-triangle > div[data-v-74f8f108] {\n  color: rgb(251, 191, 35);\n}\n@media only screen and (min-width: 576px) {\n.triangle-4[data-v-74f8f108] {\n    width: 185px;\n    height: 185px;\n}\n}\n@media only screen and (min-width: 1024px) {\n.triangle-4[data-v-74f8f108] {\n    width: 210px;\n    height: 210px;\n}\n}\n.triangle-4[data-v-74f8f108]:hover {\n  transform: rotate(333deg) translateY(-55%) translateX(-55%);\n}\n.triangle-4.active[data-v-74f8f108] {\n  transform: rotate(333deg) translateY(-55%) translateX(-55%);\n}\n.triangle-5[data-v-74f8f108] {\n  position: absolute;\n  top: 20%;\n  left: 25%;\n  transition: all 0.3 ease;\n  transition: transform 0.3s ease;\n  cursor: pointer;\n  width: 45%;\n  padding-bottom: 45%;\n  height: 0;\n  background: rgb(16, 185, 129);\n  -webkit-clip-path: polygon(83% 0, 98% 98%, 0 83%);\n          clip-path: polygon(83% 0, 98% 98%, 0 83%);\n  transform: rotate(45deg) translateY(-50%) translateX(-50%);\n}\n.triangle-5.active[data-v-74f8f108] {\n  background: rgb(251, 191, 35);\n}\n.triangle-5.active .inner-triangle > div[data-v-74f8f108] {\n  color: rgb(251, 191, 35);\n}\n@media only screen and (min-width: 576px) {\n.triangle-5[data-v-74f8f108] {\n    width: 185px;\n    height: 185px;\n}\n}\n@media only screen and (min-width: 1024px) {\n.triangle-5[data-v-74f8f108] {\n    width: 210px;\n    height: 210px;\n}\n}\n.triangle-5[data-v-74f8f108]:hover {\n  transform: rotate(45deg) translateY(-55%) translateX(-55%);\n}\n.triangle-5.active[data-v-74f8f108] {\n  transform: rotate(45deg) translateY(-55%) translateX(-55%);\n}\n.fade-enter-active[data-v-74f8f108],\n.fade-leave-active[data-v-74f8f108] {\n  transition: opacity 0.3s ease;\n}\n.fade-enter-from[data-v-74f8f108],\n.fade-leave-to[data-v-74f8f108] {\n  opacity: 0;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".polygon-wrapper[data-v-74f8f108] {\n  height: 22rem;\n  width: 100%;\n  padding-bottom: 100%;\n}\n.polygon-wrapper > div[data-v-74f8f108]:has(.quality) {\n  transform: rotate(100deg);\n}\n@media only screen and (min-width: 576px) {\n.polygon-wrapper[data-v-74f8f108] {\n    width: 23rem;\n    padding-bottom: 0;\n}\n}\n@media only screen and (min-width: 1024px) {\n.polygon-wrapper[data-v-74f8f108] {\n    height: 25rem;\n    width: 23rem;\n}\n}\n.inner-triangle[data-v-74f8f108] {\n  position: relative;\n  background: rgb(16, 185, 129) linear-gradient(rgb(16, 185, 129), rgb(16, 185, 129));\n  background: white linear-gradient(white, white);\n  transition: all 0.3 ease;\n  width: 98%;\n  padding-bottom: 98%;\n  height: 98%;\n  -webkit-clip-path: polygon(83% 0, 98% 98%, 0 83%);\n          clip-path: polygon(83% 0, 98% 98%, 0 83%);\n}\n.inner-triangle > div[data-v-74f8f108] {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  flex-direction: column-reverse;\n  justify-content: flex-start;\n  align-content: center;\n  align-items: center;\n  font-size: 1.25rem;\n  line-height: 1.75rem;\n  text-transform: uppercase;\n  font-weight: 500;\n  color: rgb(16, 185, 129);\n  transform: rotate(-45deg);\n  padding-top: 95%;\n  padding-bottom: 3%;\n}\n.inner-triangle > div i[data-v-74f8f108] {\n  font-size: 1.75rem;\n  margin-bottom: 5px;\n}\n.inner-triangle > div p[data-v-74f8f108] {\n  margin-bottom: 10px;\n}\n@media only screen and (min-width: 400px) {\n.inner-triangle > div p[data-v-74f8f108] {\n    display: block;\n}\n}\n@media only screen and (min-width: 576px) {\n.inner-triangle[data-v-74f8f108] {\n    width: 183px;\n    height: 183px;\n}\n.inner-triangle > div[data-v-74f8f108] {\n    flex-direction: column;\n    padding-top: 45%;\n    padding-bottom: 57%;\n}\n.inner-triangle > div p[data-v-74f8f108] {\n    display: block;\n}\n}\n@media only screen and (min-width: 1024px) {\n.inner-triangle[data-v-74f8f108] {\n    width: 207px;\n    height: 207px;\n}\n}\n.triangle-1[data-v-74f8f108] {\n  position: absolute;\n  top: 20%;\n  left: 25%;\n  transition: all 0.3 ease;\n  transition: transform 0.3s ease;\n  cursor: pointer;\n  width: 45%;\n  padding-bottom: 45%;\n  height: 0;\n  background: rgb(16, 185, 129);\n  -webkit-clip-path: polygon(83% 0, 98% 98%, 0 83%);\n          clip-path: polygon(83% 0, 98% 98%, 0 83%);\n  transform: rotate(117deg) translateY(-50%) translateX(-50%);\n}\n.triangle-1.active[data-v-74f8f108] {\n  background: rgb(251, 191, 35);\n}\n.triangle-1.active .inner-triangle > div[data-v-74f8f108] {\n  color: rgb(251, 191, 35);\n}\n@media only screen and (min-width: 576px) {\n.triangle-1[data-v-74f8f108] {\n    width: 185px;\n    height: 185px;\n}\n}\n@media only screen and (min-width: 1024px) {\n.triangle-1[data-v-74f8f108] {\n    width: 210px;\n    height: 210px;\n}\n}\n.triangle-1[data-v-74f8f108]:hover {\n  transform: rotate(117deg) translateY(-55%) translateX(-55%);\n}\n.triangle-1.active[data-v-74f8f108] {\n  transform: rotate(117deg) translateY(-55%) translateX(-55%);\n}\n.triangle-2[data-v-74f8f108] {\n  position: absolute;\n  top: 20%;\n  left: 25%;\n  transition: all 0.3 ease;\n  transition: transform 0.3s ease;\n  cursor: pointer;\n  width: 45%;\n  padding-bottom: 45%;\n  height: 0;\n  background: rgb(16, 185, 129);\n  -webkit-clip-path: polygon(83% 0, 98% 98%, 0 83%);\n          clip-path: polygon(83% 0, 98% 98%, 0 83%);\n  transform: rotate(189deg) translateY(-50%) translateX(-50%);\n}\n.triangle-2.active[data-v-74f8f108] {\n  background: rgb(251, 191, 35);\n}\n.triangle-2.active .inner-triangle > div[data-v-74f8f108] {\n  color: rgb(251, 191, 35);\n}\n@media only screen and (min-width: 576px) {\n.triangle-2[data-v-74f8f108] {\n    width: 185px;\n    height: 185px;\n}\n}\n@media only screen and (min-width: 1024px) {\n.triangle-2[data-v-74f8f108] {\n    width: 210px;\n    height: 210px;\n}\n}\n.triangle-2[data-v-74f8f108]:hover {\n  transform: rotate(189deg) translateY(-55%) translateX(-55%);\n}\n.triangle-2.active[data-v-74f8f108] {\n  transform: rotate(189deg) translateY(-55%) translateX(-55%);\n}\n.triangle-3[data-v-74f8f108] {\n  position: absolute;\n  top: 20%;\n  left: 25%;\n  transition: all 0.3 ease;\n  transition: transform 0.3s ease;\n  cursor: pointer;\n  width: 45%;\n  padding-bottom: 45%;\n  height: 0;\n  background: rgb(16, 185, 129);\n  -webkit-clip-path: polygon(83% 0, 98% 98%, 0 83%);\n          clip-path: polygon(83% 0, 98% 98%, 0 83%);\n  transform: rotate(261deg) translateY(-50%) translateX(-50%);\n}\n.triangle-3.active[data-v-74f8f108] {\n  background: rgb(251, 191, 35);\n}\n.triangle-3.active .inner-triangle > div[data-v-74f8f108] {\n  color: rgb(251, 191, 35);\n}\n@media only screen and (min-width: 576px) {\n.triangle-3[data-v-74f8f108] {\n    width: 185px;\n    height: 185px;\n}\n}\n@media only screen and (min-width: 1024px) {\n.triangle-3[data-v-74f8f108] {\n    width: 210px;\n    height: 210px;\n}\n}\n.triangle-3[data-v-74f8f108]:hover {\n  transform: rotate(261deg) translateY(-55%) translateX(-55%);\n}\n.triangle-3.active[data-v-74f8f108] {\n  transform: rotate(261deg) translateY(-55%) translateX(-55%);\n}\n.triangle-4[data-v-74f8f108] {\n  position: absolute;\n  top: 20%;\n  left: 25%;\n  transition: all 0.3 ease;\n  transition: transform 0.3s ease;\n  cursor: pointer;\n  width: 45%;\n  padding-bottom: 45%;\n  height: 0;\n  background: rgb(16, 185, 129);\n  -webkit-clip-path: polygon(83% 0, 98% 98%, 0 83%);\n          clip-path: polygon(83% 0, 98% 98%, 0 83%);\n  transform: rotate(333deg) translateY(-50%) translateX(-50%);\n}\n.triangle-4.active[data-v-74f8f108] {\n  background: rgb(251, 191, 35);\n}\n.triangle-4.active .inner-triangle > div[data-v-74f8f108] {\n  color: rgb(251, 191, 35);\n}\n@media only screen and (min-width: 576px) {\n.triangle-4[data-v-74f8f108] {\n    width: 185px;\n    height: 185px;\n}\n}\n@media only screen and (min-width: 1024px) {\n.triangle-4[data-v-74f8f108] {\n    width: 210px;\n    height: 210px;\n}\n}\n.triangle-4[data-v-74f8f108]:hover {\n  transform: rotate(333deg) translateY(-55%) translateX(-55%);\n}\n.triangle-4.active[data-v-74f8f108] {\n  transform: rotate(333deg) translateY(-55%) translateX(-55%);\n}\n.triangle-5[data-v-74f8f108] {\n  position: absolute;\n  top: 20%;\n  left: 25%;\n  transition: all 0.3 ease;\n  transition: transform 0.3s ease;\n  cursor: pointer;\n  width: 45%;\n  padding-bottom: 45%;\n  height: 0;\n  background: rgb(16, 185, 129);\n  -webkit-clip-path: polygon(83% 0, 98% 98%, 0 83%);\n          clip-path: polygon(83% 0, 98% 98%, 0 83%);\n  transform: rotate(45deg) translateY(-50%) translateX(-50%);\n}\n.triangle-5.active[data-v-74f8f108] {\n  background: rgb(251, 191, 35);\n}\n.triangle-5.active .inner-triangle > div[data-v-74f8f108] {\n  color: rgb(251, 191, 35);\n}\n@media only screen and (min-width: 576px) {\n.triangle-5[data-v-74f8f108] {\n    width: 185px;\n    height: 185px;\n}\n}\n@media only screen and (min-width: 1024px) {\n.triangle-5[data-v-74f8f108] {\n    width: 210px;\n    height: 210px;\n}\n}\n.triangle-5[data-v-74f8f108]:hover {\n  transform: rotate(45deg) translateY(-55%) translateX(-55%);\n}\n.triangle-5.active[data-v-74f8f108] {\n  transform: rotate(45deg) translateY(-55%) translateX(-55%);\n}\n.fade-enter-active[data-v-74f8f108],\n.fade-leave-active[data-v-74f8f108] {\n  transition: opacity 0.3s ease;\n}\n.fade-enter-from[data-v-74f8f108],\n.fade-leave-to[data-v-74f8f108] {\n  opacity: 0;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
