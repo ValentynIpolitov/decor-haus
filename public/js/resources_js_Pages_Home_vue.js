@@ -11,21 +11,33 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var vue3_carousel__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue3-carousel */ "./node_modules/vue3-carousel/dist/carousel.es.js");
-/* harmony import */ var vue3_carousel_dist_carousel_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue3-carousel/dist/carousel.css */ "./node_modules/vue3-carousel/dist/carousel.css");
-/* harmony import */ var _Shared_Tabs_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Shared/Tabs.vue */ "./resources/js/Shared/Tabs.vue");
-/* harmony import */ var _Shared_OurBenefits_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Shared/OurBenefits.vue */ "./resources/js/Shared/OurBenefits.vue");
+/* harmony import */ var _Shared_Tabs_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Shared/Tabs.vue */ "./resources/js/Shared/Tabs.vue");
+/* harmony import */ var _Shared_OurBenefits_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Shared/OurBenefits.vue */ "./resources/js/Shared/OurBenefits.vue");
+/* harmony import */ var swiper_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! swiper/vue */ "./node_modules/swiper/vue/swiper-vue.js");
+/* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! swiper */ "./node_modules/swiper/swiper.esm.js");
+/* harmony import */ var swiper_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! swiper/css */ "./node_modules/swiper/swiper.min.css");
+/* harmony import */ var swiper_css_navigation__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! swiper/css/navigation */ "./node_modules/swiper/modules/navigation/navigation.min.css");
+/* harmony import */ var swiper_css_pagination__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! swiper/css/pagination */ "./node_modules/swiper/modules/pagination/pagination.min.css");
+
+ // Import Swiper Vue.js components
+
+
+ // Import Swiper styles
 
 
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
-    Carousel: vue3_carousel__WEBPACK_IMPORTED_MODULE_0__.Carousel,
-    Slide: vue3_carousel__WEBPACK_IMPORTED_MODULE_0__.Slide,
-    Navigation: vue3_carousel__WEBPACK_IMPORTED_MODULE_0__.Navigation,
-    Tabs: _Shared_Tabs_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
-    OurBenefits: _Shared_OurBenefits_vue__WEBPACK_IMPORTED_MODULE_3__["default"]
+    Tabs: _Shared_Tabs_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
+    OurBenefits: _Shared_OurBenefits_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
+    Swiper: swiper_vue__WEBPACK_IMPORTED_MODULE_2__.Swiper,
+    SwiperSlide: swiper_vue__WEBPACK_IMPORTED_MODULE_2__.SwiperSlide
+  },
+  setup: function setup() {
+    return {
+      modules: [swiper__WEBPACK_IMPORTED_MODULE_3__.Navigation, swiper__WEBPACK_IMPORTED_MODULE_3__.Pagination, swiper__WEBPACK_IMPORTED_MODULE_3__.Autoplay]
+    };
   },
   methods: {
     scrollMeTo: function scrollMeTo(refName) {
@@ -183,13 +195,9 @@ var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticV
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
 
-  var _component_slide = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("slide");
+  var _component_swiper_slide = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("swiper-slide");
 
-  var _component_navigation = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("navigation");
-
-  var _component_pagination = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("pagination");
-
-  var _component_carousel = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("carousel");
+  var _component_swiper = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("swiper");
 
   var _component_Tabs = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Tabs");
 
@@ -202,44 +210,43 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
     /* STABLE */
 
-  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Slider "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_carousel, {
-    "items-to-show": 1,
-    autoplay: 16000,
-    "wrap-around": true
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Slider "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_swiper, {
+    "slides-per-view": 1,
+    "space-between": 0,
+    pagination: {
+      clickable: true
+    },
+    navigation: true,
+    loop: true,
+    modules: $setup.modules,
+    autoplay: {
+      delay: 8500,
+      disableOnInteraction: false
+    }
   }, {
-    addons: (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function (_ref) {
-      var slidesCount = _ref.slidesCount;
-      return [slidesCount > 1 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_navigation, {
-        key: 0
-      })) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), slidesCount > 1 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_pagination, {
-        key: 1
-      })) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)];
-    }),
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_slide, {
-        key: 1
-      }, {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_swiper_slide, null, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_2, _hoisted_4))];
         }),
         _: 1
         /* STABLE */
 
-      })), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_slide, {
-        key: 2
-      }, {
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_swiper_slide, null, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_5, _hoisted_7))];
         }),
         _: 1
         /* STABLE */
 
-      }))];
+      })];
     }),
     _: 1
     /* STABLE */
 
-  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Info + Tabs "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [_hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Tabs)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  }, 8
+  /* PROPS */
+  , ["modules"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <carousel :items-to-show=\"1\" :autoplay=\"16000\" :wrap-around=\"true\">\n            <slide :key=\"1\">\n                <div class=\"carousel__item w-full h-screen bg-[url('/images/slide-bg-1.jpg')] bg-center bg-no-repeat bg-cover\"\n                    :key=\"1\">\n                    <div class=\"container m-auto px-6 flex flex-col justify-center content-center items-center h-full\">\n                        <h1 class=\"text-white text-5xl mb-6 z-50 white-text-shadow\" data-aos=\"fade-right\">CUSTOM-MADE\n                            PREFABRICATED WOODEN HOUSES</h1>\n\n                        <div class=\"bg-opacity-30 rounded-xl bg-black py-10 box-shadow z-50 px-8\" data-aos=\"fade-right\">\n                            <p class=\"text-white text-xl z-50 white-text-shadow\" data-aos=\"flip-down\"\n                                data-aos-delay=\"600\" data-aos-offset=\"0\">\n                                Production and assembly of low-energy passive prefabricated SIP houses\n                            </p>\n                        </div>\n                    </div>\n                </div>\n            </slide>\n            <slide :key=\"2\">\n                <div class=\"carousel__item w-full h-screen bg-[url('/images/slide-bg-2.jpg')] bg-center bg-no-repeat bg-cover\"\n                    :key=\"2\">\n                    <div class=\"container m-auto px-6 flex flex-col justify-center content-center items-center h-full\">\n                        <h1 class=\"text-white text-5xl mb-6 z-50 white-text-shadow\" data-aos=\"fade-right\">CUSTOM-MADE\n                            PREFABRICATED WOODEN HOUSES</h1>\n\n                        <div class=\"bg-opacity-30 rounded-xl bg-black py-10 box-shadow z-50 px-8\" data-aos=\"fade-right\">\n                            <p class=\"text-white text-xl z-50 white-text-shadow\" data-aos=\"flip-down\"\n                                data-aos-delay=\"900\" data-aos-offset=\"0\">\n                                Production and assembly of low-energy passive prefabricated SIP houses\n                            </p>\n                        </div>\n                    </div>\n                </div>\n            </slide>\n\n            <template #addons=\"{ slidesCount }\" class=\"z-50\">\n                <navigation v-if=\"slidesCount > 1\" />\n                <pagination v-if=\"slidesCount > 1\" />\n            </template>\n        </carousel> ")]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Info + Tabs "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [_hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Tabs)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
     onClick: _cache[0] || (_cache[0] = function ($event) {
       return $options.scrollMeTo('our_benefits');
     }),

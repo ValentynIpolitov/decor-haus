@@ -6,7 +6,55 @@
 
     <!-- Slider -->
     <section>
-        <carousel :items-to-show="1" :autoplay="16000" :wrap-around="true">
+        <swiper
+            :slides-per-view="1"
+            :space-between="0"
+            :pagination="{
+                clickable: true,
+            }"
+            :navigation="true" 
+            :loop="true"
+            :modules="modules"
+            :autoplay="{
+                delay: 8500,
+                disableOnInteraction: false,
+            }"
+        >
+            <swiper-slide>
+                <div class="carousel__item w-full h-screen bg-[url('/images/slide-bg-1.jpg')] bg-center bg-no-repeat bg-cover"
+                    :key="1">
+                    <div class="container m-auto px-6 flex flex-col justify-center content-center items-center h-full">
+                        <h1 class="text-white text-5xl mb-6 z-50 white-text-shadow" data-aos="fade-right">CUSTOM-MADE
+                            PREFABRICATED WOODEN HOUSES</h1>
+
+                        <div class="bg-opacity-30 rounded-xl bg-black py-10 box-shadow z-50 px-8" data-aos="fade-right">
+                            <p class="text-white text-xl z-50 white-text-shadow" data-aos="flip-down"
+                                data-aos-delay="600" data-aos-offset="0">
+                                Production and assembly of low-energy passive prefabricated SIP houses
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="carousel__item w-full h-screen bg-[url('/images/slide-bg-2.jpg')] bg-center bg-no-repeat bg-cover"
+                    :key="2">
+                    <div class="container m-auto px-6 flex flex-col justify-center content-center items-center h-full">
+                        <h1 class="text-white text-5xl mb-6 z-50 white-text-shadow" data-aos="fade-right">CUSTOM-MADE
+                            PREFABRICATED WOODEN HOUSES</h1>
+
+                        <div class="bg-opacity-30 rounded-xl bg-black py-10 box-shadow z-50 px-8" data-aos="fade-right">
+                            <p class="text-white text-xl z-50 white-text-shadow" data-aos="flip-down"
+                                data-aos-delay="900" data-aos-offset="0">
+                                Production and assembly of low-energy passive prefabricated SIP houses
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </swiper-slide>
+        </swiper>
+
+        <!-- <carousel :items-to-show="1" :autoplay="16000" :wrap-around="true">
             <slide :key="1">
                 <div class="carousel__item w-full h-screen bg-[url('/images/slide-bg-1.jpg')] bg-center bg-no-repeat bg-cover"
                     :key="1">
@@ -44,7 +92,7 @@
                 <navigation v-if="slidesCount > 1" />
                 <pagination v-if="slidesCount > 1" />
             </template>
-        </carousel>
+        </carousel> -->
     </section>
 
     <!-- Info + Tabs -->
@@ -157,19 +205,30 @@
 </template>
 
 <script>
-import { Carousel, Navigation, Slide } from "vue3-carousel";
-
-import "vue3-carousel/dist/carousel.css";
 import Tabs from "../Shared/Tabs.vue";
 import OurBenefits from "../Shared/OurBenefits.vue";
 
+// Import Swiper Vue.js components
+import { Swiper, SwiperSlide } from 'swiper/vue';
+import { Navigation, Pagination, Autoplay } from "swiper";
+// Import Swiper styles
+import 'swiper/css';
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
+
 export default {
     components: {
-        Carousel,
-        Slide,
-        Navigation,
         Tabs,
-        OurBenefits
+        OurBenefits,
+        Swiper,
+        SwiperSlide,
+    },
+
+    setup() {
+        return {
+            modules: [Navigation, Pagination, Autoplay],
+        };
     },
 
     methods: {
