@@ -17,7 +17,7 @@
                 <NavLink :href="route('projects')" @click="closeMenu()" :active="$page.component === 'Projects'"  >Projects</NavLink>
             </li>
             <li class="nav-item white-text-shadow hover-underline-animation">
-                <NavLink :href="route('materials')" @click="closeMenu()" :active="$page.component === 'Materials'"  >Materials</NavLink>
+                <NavLink :href="route('materials')" @click="closeMenu()" :active="$page.component === 'Services'"  >Services</NavLink>
             </li>
             <li class="nav-item white-text-shadow hover-underline-animation">
                 <NavLink :href="route('contact')" @click="closeMenu()" :active="$page.component === 'Contact'"  >Contact</NavLink>

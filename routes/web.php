@@ -20,8 +20,8 @@ Route::get('/projects', function () {
 }
 )->name( 'projects' );
 
-Route::get('/materials', function () {
-        return Inertia::render('Materials');
+Route::get('/services', function () {
+        return Inertia::render('Services');
     }
 )->name( 'materials' );
 

@@ -6,6 +6,9 @@ import { InertiaProgress } from "@inertiajs/progress";
 import { ZiggyVue } from "ziggy";
 import { Ziggy } from "./ziggy";
 
+import 'viewerjs/dist/viewer.css'
+import VueViewer from 'v-viewer'
+
 import Layout from './Shared/Layout';
 
 createInertiaApp({
@@ -20,6 +23,7 @@ createInertiaApp({
         createApp({ render: () => h(App, props) })
             .use(plugin)
             .use(ZiggyVue, Ziggy)
+            .use(VueViewer)
             .component("Link", Link)
             .component("Head", Head)
             .mixin({ methods: { route } })
