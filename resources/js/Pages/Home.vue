@@ -281,7 +281,6 @@ export default {
 #our_goal {
     position: relative;
     overflow: hidden;
-    padding-bottom: 230px;
 
     &::after {
         content: '';
@@ -291,12 +290,19 @@ export default {
         width: 100%;
         height: 100%;
         background-image: url(/images/listia.png);
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
         background-position: top center;
         transform: rotate(180deg);
         opacity: .3;
+    }
 
+    @media only screen and (min-width: 1280px) {
+        padding-bottom: 45px;    
+    }
+
+    @media only screen and (min-width: 1536px) {
+        padding-bottom: 145px;    
     }
 }
 // section our benifits ends
@@ -315,7 +321,7 @@ export default {
         width: 100%;
         height: 100%;
         background-image: url(/images/listia.png);
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
         background-position: top center;
         opacity: .3;
