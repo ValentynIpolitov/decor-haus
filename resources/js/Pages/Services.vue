@@ -182,7 +182,7 @@ export default {
                 "navbar": true, 
                 "title": true, 
                 "toolbar": true, 
-                "tooltip": true, 
+                "tooltip": false, 
                 "movable": true, 
                 "zoomable": true, 
                 "rotatable": false, 

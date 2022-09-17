@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
         "navbar": true,
         "title": true,
         "toolbar": true,
-        "tooltip": true,
+        "tooltip": false,
         "movable": true,
         "zoomable": true,
         "rotatable": false,
