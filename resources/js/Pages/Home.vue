@@ -19,6 +19,7 @@
                 delay: 8500,
                 disableOnInteraction: false,
             }"
+            class="swiper-button-white"
         >
             <swiper-slide>
                 <div class="carousel__item w-full h-screen bg-[url('/images/slide-bg-1.jpg')] bg-center bg-no-repeat bg-cover"
@@ -280,28 +281,6 @@ export default {
 
 
 // slider starts
-.carousel__prev,
-.carousel__next {
-    background: none;
-    transition: all .15 cubic-bezier(0.4, 0, 0.2, 1);
-
-    svg {
-        height: 30px;
-
-        &:hover {
-            color: rgb(245 158 11);
-        }
-    }
-}
-
-.carousel__prev {
-    left: 5rem;
-}
-
-.carousel__next {
-    right: 5rem;
-}
-
 .carousel__item {
     position: relative;
 
@@ -314,6 +293,26 @@ export default {
         width: 100%;
         background: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0));
         z-index: 1;
+    }
+}
+
+:root {
+    --swiper-theme-color: #fff;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    right:10px;
+    padding: 10px;
+    padding-top: 131px;
+
+    @media only screen and (min-width: 768px) {
+        padding: 30px;
+        padding-top: 80px;
+    }
+
+    @media only screen and (min-width: 768px) {
+        padding-top: 30px;
     }
 }
 // slider ends
