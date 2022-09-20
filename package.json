@@ -32,6 +32,7 @@
         "swiper": "^8.4.2",
         "v-viewer": "^3.0.10",
         "vue": "^3.2.36",
+        "vue-cookie-accept-decline": "^6.1.0",
         "vue-phone-number-input": "^1.1.12",
         "vue3-carousel": "^0.1.40"
     }

@@ -83,13 +83,13 @@ var _hoisted_3 = {
   "class": "container m-auto px-6 py-12 md:py-28 h-full flex flex-col justify-start content-center items-center"
 };
 var _hoisted_4 = {
-  "class": "flex flex-col w-full md:flex-row"
+  "class": "flex flex-col w-full lg:flex-row"
 };
 var _hoisted_5 = {
-  "class": "w-full md:w-auto flex flex-col justify-start items-start content-start"
+  "class": "w-full flex flex-col justify-start items-start content-start lg:w-1/3"
 };
 var _hoisted_6 = {
-  "class": "w-full md:w-auto mb-4 lg:mr-4 transition-all hover:text-amber-400 text-2xl text-center flex-col items-start content-start justify-center"
+  "class": "w-full mb-8 lg:mr-4 transition-all hover:text-amber-400 text-2xl text-center flex-col items-start content-start justify-center"
 };
 
 var _hoisted_7 = /*#__PURE__*/_withScopeId(function () {
@@ -119,7 +119,7 @@ var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNo
 
 var _hoisted_13 = [_hoisted_11, _hoisted_12];
 var _hoisted_14 = {
-  "class": "relative"
+  "class": "relative w-full lg:w-2/3"
 };
 var _hoisted_15 = {
   key: "1"
@@ -135,14 +135,14 @@ var _hoisted_16 = /*#__PURE__*/_withScopeId(function () {
 
 var _hoisted_17 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-    "class": "text-slate-700 text-xl"
+    "class": "text-slate-700 text-xl mb-4"
   }, " Our company offers a wide range of possibilities for external and internal finishing works ", -1
   /* HOISTED */
   );
 });
 
 var _hoisted_18 = {
-  "class": "images"
+  "class": "images flex flex-col md:flex-row gap-2 md:flex-wrap"
 };
 var _hoisted_19 = ["src"];
 var _hoisted_20 = {
@@ -159,15 +159,15 @@ var _hoisted_21 = /*#__PURE__*/_withScopeId(function () {
 
 var _hoisted_22 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-    "class": "text-slate-700 text-xl"
-  }, " Our company offers a wide range of possibilities for external and internal finishing works ", -1
+    "class": "text-slate-700 text-xl mb-4"
+  }, " Our company offers a wide range of possibilities for external and internal finishing works. ", -1
   /* HOISTED */
   );
 });
 
 var _hoisted_23 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-    "class": "text-slate-700 text-xl"
+    "class": "text-slate-700 text-xl mb-4"
   }, " Gabion fences with great use in modern architecture, providing a high level of privacy. It can be used as a design exterior fence for family houses and companies, as well as for internal partitioning of gardens/buildings to create relaxation zones, etc. Gabions guarantee high strength and long life. A very high quality double anti-corrosion treatment is ensured by galvanizing and baked polyester paint. Gabions are available in galvanised or anthracite versions. ", -1
   /* HOISTED */
   );
@@ -175,14 +175,14 @@ var _hoisted_23 = /*#__PURE__*/_withScopeId(function () {
 
 var _hoisted_24 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-    "class": "text-slate-700 text-xl"
+    "class": "text-slate-700 text-xl mb-4"
   }, " There are no fences like fences. Choose a quality wooden garden fence from us. We offer a wide selection of wooden fence parts that will perfectly enclose your home, garden or plot. The variability of these parts allows you a variety of combinations. Assemble your garden fence according to your wishes and your garden will be unique. Wooden fence parts can be used not only as wooden fencing, but also as a decorative fence with which your garden architecture will stand out. Wood is a natural material. Wood will not drive the warmth of home out of your garden. That is why it is the ideal element that must not be missing in the garden. ", -1
   /* HOISTED */
   );
 });
 
 var _hoisted_25 = {
-  "class": "images"
+  "class": "images flex flex-col md:flex-row gap-2 md:flex-wrap"
 };
 var _hoisted_26 = ["src"];
 var _hoisted_27 = {
@@ -199,7 +199,7 @@ var _hoisted_28 = /*#__PURE__*/_withScopeId(function () {
 
 var _hoisted_29 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-    "class": "text-slate-700 text-xl"
+    "class": "text-slate-700 text-xl mb-4"
   }, " Our company offers a complete building system including all the necessary materials to complete the rough construction. ", -1
   /* HOISTED */
   );
@@ -207,21 +207,237 @@ var _hoisted_29 = /*#__PURE__*/_withScopeId(function () {
 
 var _hoisted_30 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-    "class": "text-slate-700 text-xl"
+    "class": "text-slate-700 text-xl mb-4"
   }, " We build professionally and use quality certified materials. ", -1
   /* HOISTED */
   );
 });
 
-var _hoisted_31 = {
-  "class": "images"
+var _hoisted_31 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", {
+    "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+  }, " Walls and roof ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_32 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " Installation of load-bearing and perimeter walls made of prefabricated SIP panels (170x2800x1250 mm) with EPS polystyrene core (or Mineral wool), including dividing non-load-bearing partitions made of prisms (140 mm) filled with thermoacoustic insulation ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_33 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " Installation of the roof truss structure + sheet metal roofing (roof trusses, battens + counter battens, diffusion foil, etc.) ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_34 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " Flat roof ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_35 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", {
+    "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+  }, " Exterior ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_36 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " Installation of entrance doors and windows mounted on strips + external and internal windowsills ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_37 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " Installation of external wall cladding - complete facade insulation system (polystyrene 100mm), fiberglass mesh, squeegee, silicone facade plaster of any choice. ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_38 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", {
+    "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+  }, " Interior: Water and Electricity ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_39 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " Installation of complete electricity, water and sewage systems inside the building ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_40 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " Installation of faucets in the toilet (if the toilet room is separate) and in the bathroom ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_41 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " Installation of LED light fittings ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_42 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " Installation of sockets and switches ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_43 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " Installation of a domestic hot water (DHW) tank (if the project does not have a tech. room only electric hot water heater) ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_44 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", {
+    "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+  }, " Interior: walls and tiles ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_45 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " Installation of ceiling insulation, internal suspended ceilings and internal wall cladding - complete plasterboard system RIGIPS (white, green in wet rooms) ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_46 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " Construction of the floor bearing layer of concrete (cement-sand) screed, preparation for laying floor coverings ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_47 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " Installation of the flooring layer in the rooms, usually made of 8 mm thick laminate ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_48 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " Installation of tiles in the utility room, installation of either tiles or laminate in the corridor ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_49 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " White interior painting (2x PRIMALEX hygienic paint) ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_50 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " Installation of tiles and wall cladding in the toilet (if the toilet room is separate) and in the bathroom ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_51 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", {
+    "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+  }, " Interior: heating ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_52 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " Installation of solar DHW system with HP collectors ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_53 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " Installation of heaters, electric wall convectors, 1 pc in each room ( in STANDARD), possibility of designing alternative heating (heat pump, underfloor heating, Canadian wood stove, inserts with hot air distribution to the whole house ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_54 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " Installation of recuperation ventilation system ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_55 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", {
+    "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+  }, " Interior: additional equipment ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_56 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " Installation of smooth interior doors + trim ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_57 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " Installation of sanitary equipment in the toilet and bathroom ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_58 = {
+  "class": "images flex flex-col md:flex-row gap-2 md:flex-wrap"
 };
-var _hoisted_32 = ["src"];
-var _hoisted_33 = {
+var _hoisted_59 = ["src"];
+var _hoisted_60 = {
   key: "4"
 };
 
-var _hoisted_34 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_61 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
     "class": "text-amber-400 text-4xl mb-4"
   }, "Glass Verandas & Retractable Pergolas, glass rooms - outdoor living products / * Engineered for Life, Outdoor and windows system. ", -1
@@ -229,18 +445,242 @@ var _hoisted_34 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_35 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_62 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-    "class": "text-slate-700 text-xl"
+    "class": "text-slate-700 text-xl mb-4"
   }, " We guarantee the highest build quality, maximum reliability and quick post installment services. ", -1
   /* HOISTED */
   );
 });
 
-var _hoisted_36 = {
-  "class": "images"
+var _hoisted_63 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", {
+    "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+  }, " GUILLOTINE GLASS SYSTEM ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_64 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " A guillotine window is a window that moves vertically. The basic guillotine windows are made of two vertically sliding frames and remotely powered by electric motor. ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_65 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " Meanwhile guillotine windows are with bottom or top fixed frames, opening from bottom to top or from top to bottom with several sliding frames. The vertical movement of the sashes allows you to save interior space and provide ventilation. There is a choice of using a single tempered glass or energy saving double-glazed window for it. ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_66 = {
+  "class": "mb-4"
 };
-var _hoisted_37 = ["src"];
+var _hoisted_67 = {
+  "class": "images flex flex-col md:flex-row gap-2 md:flex-wrap"
+};
+var _hoisted_68 = ["src"];
+
+var _hoisted_69 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", {
+    "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+  }, " SLIDING GLASS ROOF – The Smart Roof ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_70 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " All sliding glass roofs are tailor made for your house, apartment or commercial premises. The automatic sliding roof is designed for rooms that are converted from open summer to heated winter roofs. The main element is energy-efficient glazing. This system gives your room plenty of natural light but retains the heat inside. ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_71 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " Heated glazing helps to get rid of snow. ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_72 = {
+  "class": "mb-4"
+};
+var _hoisted_73 = {
+  "class": "images flex flex-col md:flex-row gap-2 md:flex-wrap"
+};
+var _hoisted_74 = ["src"];
+
+var _hoisted_75 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", {
+    "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+  }, " PASIFIC – Motorized ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_76 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " Motorized Outdoor waterproof Aluminum pergola Retractable roof Awnings ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_77 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " The aluminum frame construction is very strong and can withstand strong winds at the seaside or on the roof of a high-rise building. Using different design options, it is possible to make a pavilion separate from the building as well as adjacent to it. The drainage system is hidden inside the structure. The electric actuator allows the system to be easily operated by remote control. Rain and wind sensors can also be connected and integrated into a smart home system. ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_78 = {
+  "class": "mb-4"
+};
+var _hoisted_79 = {
+  "class": "images flex flex-col md:flex-row gap-2 md:flex-wrap"
+};
+var _hoisted_80 = ["src"];
+
+var _hoisted_81 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", {
+    "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+  }, " AEROLUX - Louvered roof system ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_82 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " Louvered roof system – the bioclimatic pergola is designed to protect the seating area from precipitation and provide shade in sunny weather. ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_83 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " The roof surface is assembled with aluminum pivoting slats. This allows you to regulate the sun's flow. The configuration of the lamellae allows the inner cavity to be filled with polyurethane foam. This gets rid of unpleasant sound when it rains. ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_84 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " The main feature of the system is the ability to control the solar flow by rotating and sliding the lamellas. In the parked position, the slats occupy 23% of the roof space. ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_85 = {
+  "class": "mb-4"
+};
+var _hoisted_86 = {
+  "class": "images flex flex-col md:flex-row gap-2 md:flex-wrap"
+};
+var _hoisted_87 = ["src"];
+
+var _hoisted_88 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", {
+    "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+  }, " Automatic WIND STOP railing system ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_89 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " Louvered roof system – the bioclimatic pergola is designed to protect the seating area from precipitation and provide shade in sunny weather. ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_90 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " The roof surface is assembled with aluminum pivoting slats. This allows you to regulate the sun's flow. The configuration of the lamellae allows the inner cavity to be filled with polyurethane foam. This gets rid of unpleasant sound when it rains. ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_91 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " The main feature of the system is the ability to control the solar flow by rotating and sliding the lamellas. In the parked position, the slats occupy ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_92 = {
+  "class": "mb-4"
+};
+var _hoisted_93 = {
+  "class": "images flex flex-col md:flex-row gap-2 md:flex-wrap"
+};
+var _hoisted_94 = ["src"];
+
+var _hoisted_95 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", {
+    "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+  }, " SLIDING window system ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_96 = {
+  "class": "mb-4"
+};
+var _hoisted_97 = {
+  "class": "images flex flex-col md:flex-row gap-2 md:flex-wrap"
+};
+var _hoisted_98 = ["src"];
+
+var _hoisted_99 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", {
+    "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+  }, " SHADOW LINE - The automatic sun visor curtains system ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_100 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " The automatic sunshade system effectively protects against direct sunlight. ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_101 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " The fabric canvas is resistant to UV rays and atmospheric effects. The perforated structure does not hinder air movement. ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_102 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-slate-700 text-xl mb-4"
+  }, " The electric actuator allows you to control the ZIP system with the remote control and connect the sun shades to the Smart House system. ", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_103 = {
+  "class": "images flex flex-col md:flex-row gap-2 md:flex-wrap"
+};
+var _hoisted_104 = ["src"];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
 
@@ -342,13 +782,13 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         options: $data.viewer_options
       }, null, 8
       /* PROPS */
-      , ["images", "options"])])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.activeTab == 'service-interior-materials' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_27, [_hoisted_28, _hoisted_29, _hoisted_30, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)(((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_31, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.images, function (src) {
+      , ["images", "options"])])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.activeTab == 'service-interior-materials' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_27, [_hoisted_28, _hoisted_29, _hoisted_30, _hoisted_31, _hoisted_32, _hoisted_33, _hoisted_34, _hoisted_35, _hoisted_36, _hoisted_37, _hoisted_38, _hoisted_39, _hoisted_40, _hoisted_41, _hoisted_42, _hoisted_43, _hoisted_44, _hoisted_45, _hoisted_46, _hoisted_47, _hoisted_48, _hoisted_49, _hoisted_50, _hoisted_51, _hoisted_52, _hoisted_53, _hoisted_54, _hoisted_55, _hoisted_56, _hoisted_57, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)(((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_58, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.images, function (src) {
         return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("img", {
           key: src,
           src: src
         }, null, 8
         /* PROPS */
-        , _hoisted_32);
+        , _hoisted_59);
       }), 128
       /* KEYED_FRAGMENT */
       ))])), [[_directive_viewer]]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_viewer, {
@@ -356,13 +796,97 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         options: $data.viewer_options
       }, null, 8
       /* PROPS */
-      , ["images", "options"])])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.activeTab == 'service-outdoor' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_33, [_hoisted_34, _hoisted_35, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)(((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_36, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.images, function (src) {
+      , ["images", "options"])])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.activeTab == 'service-outdoor' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_60, [_hoisted_61, _hoisted_62, _hoisted_63, _hoisted_64, _hoisted_65, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_66, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)(((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_67, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.images, function (src) {
         return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("img", {
           key: src,
           src: src
         }, null, 8
         /* PROPS */
-        , _hoisted_37);
+        , _hoisted_68);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])), [[_directive_viewer]]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_viewer, {
+        images: $data.images,
+        options: $data.viewer_options
+      }, null, 8
+      /* PROPS */
+      , ["images", "options"])]), _hoisted_69, _hoisted_70, _hoisted_71, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_72, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)(((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_73, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.images, function (src) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("img", {
+          key: src,
+          src: src
+        }, null, 8
+        /* PROPS */
+        , _hoisted_74);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])), [[_directive_viewer]]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_viewer, {
+        images: $data.images,
+        options: $data.viewer_options
+      }, null, 8
+      /* PROPS */
+      , ["images", "options"])]), _hoisted_75, _hoisted_76, _hoisted_77, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_78, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)(((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_79, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.images, function (src) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("img", {
+          key: src,
+          src: src
+        }, null, 8
+        /* PROPS */
+        , _hoisted_80);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])), [[_directive_viewer]]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_viewer, {
+        images: $data.images,
+        options: $data.viewer_options
+      }, null, 8
+      /* PROPS */
+      , ["images", "options"])]), _hoisted_81, _hoisted_82, _hoisted_83, _hoisted_84, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_85, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)(((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_86, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.images, function (src) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("img", {
+          key: src,
+          src: src
+        }, null, 8
+        /* PROPS */
+        , _hoisted_87);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])), [[_directive_viewer]]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_viewer, {
+        images: $data.images,
+        options: $data.viewer_options
+      }, null, 8
+      /* PROPS */
+      , ["images", "options"])]), _hoisted_88, _hoisted_89, _hoisted_90, _hoisted_91, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_92, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)(((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_93, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.images, function (src) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("img", {
+          key: src,
+          src: src
+        }, null, 8
+        /* PROPS */
+        , _hoisted_94);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])), [[_directive_viewer]]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_viewer, {
+        images: $data.images,
+        options: $data.viewer_options
+      }, null, 8
+      /* PROPS */
+      , ["images", "options"])]), _hoisted_95, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_96, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)(((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_97, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.images, function (src) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("img", {
+          key: src,
+          src: src
+        }, null, 8
+        /* PROPS */
+        , _hoisted_98);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])), [[_directive_viewer]]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_viewer, {
+        images: $data.images,
+        options: $data.viewer_options
+      }, null, 8
+      /* PROPS */
+      , ["images", "options"])]), _hoisted_99, _hoisted_100, _hoisted_101, _hoisted_102, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)(((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_103, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.images, function (src) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("img", {
+          key: src,
+          src: src
+        }, null, 8
+        /* PROPS */
+        , _hoisted_104);
       }), 128
       /* KEYED_FRAGMENT */
       ))])), [[_directive_viewer]]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_viewer, {

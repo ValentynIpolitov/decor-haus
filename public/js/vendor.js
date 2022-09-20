@@ -43916,6 +43916,232 @@ module.exports = function getSideChannel() {
 
 /***/ }),
 
+/***/ "./node_modules/tiny-cookie/es/index.js":
+/*!**********************************************!*\
+  !*** ./node_modules/tiny-cookie/es/index.js ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "get": () => (/* binding */ get),
+/* harmony export */   "getAll": () => (/* binding */ getAll),
+/* harmony export */   "getAllCookies": () => (/* binding */ getAll),
+/* harmony export */   "getCookie": () => (/* binding */ get),
+/* harmony export */   "getRaw": () => (/* binding */ getRaw),
+/* harmony export */   "getRawCookie": () => (/* binding */ getRaw),
+/* harmony export */   "isCookieEnabled": () => (/* binding */ isEnabled),
+/* harmony export */   "isEnabled": () => (/* binding */ isEnabled),
+/* harmony export */   "remove": () => (/* binding */ remove),
+/* harmony export */   "removeCookie": () => (/* binding */ remove),
+/* harmony export */   "set": () => (/* binding */ set),
+/* harmony export */   "setCookie": () => (/* binding */ set),
+/* harmony export */   "setRaw": () => (/* binding */ setRaw),
+/* harmony export */   "setRawCookie": () => (/* binding */ setRaw)
+/* harmony export */ });
+/* harmony import */ var _util__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./util */ "./node_modules/tiny-cookie/es/util.js");
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+ // Check if the browser cookie is enabled.
+
+function isEnabled() {
+  var key = '@key@';
+  var value = '1';
+  var re = new RegExp("(?:^|; )" + key + "=" + value + "(?:;|$)");
+  document.cookie = key + "=" + value + ";path=/";
+  var enabled = re.test(document.cookie);
+
+  if (enabled) {
+    // eslint-disable-next-line
+    remove(key);
+  }
+
+  return enabled;
+} // Get the cookie value by key.
+
+
+function get(key, decoder) {
+  if (decoder === void 0) {
+    decoder = decodeURIComponent;
+  }
+
+  if (typeof key !== 'string' || !key) {
+    return null;
+  }
+
+  var reKey = new RegExp("(?:^|; )" + (0,_util__WEBPACK_IMPORTED_MODULE_0__.escapeRe)(key) + "(?:=([^;]*))?(?:;|$)");
+  var match = reKey.exec(document.cookie);
+
+  if (match === null) {
+    return null;
+  }
+
+  return typeof decoder === 'function' ? decoder(match[1]) : match[1];
+} // The all cookies
+
+
+function getAll(decoder) {
+  if (decoder === void 0) {
+    decoder = decodeURIComponent;
+  }
+
+  var reKey = /(?:^|; )([^=]+?)(?:=([^;]*))?(?:;|$)/g;
+  var cookies = {};
+  var match;
+  /* eslint-disable no-cond-assign */
+
+  while (match = reKey.exec(document.cookie)) {
+    reKey.lastIndex = match.index + match.length - 1;
+    cookies[match[1]] = typeof decoder === 'function' ? decoder(match[2]) : match[2];
+  }
+
+  return cookies;
+} // Set a cookie.
+
+
+function set(key, value, encoder, options) {
+  if (encoder === void 0) {
+    encoder = encodeURIComponent;
+  }
+
+  if (typeof encoder === 'object' && encoder !== null) {
+    /* eslint-disable no-param-reassign */
+    options = encoder;
+    encoder = encodeURIComponent;
+    /* eslint-enable no-param-reassign */
+  }
+
+  var attrsStr = (0,_util__WEBPACK_IMPORTED_MODULE_0__.convert)(options || {});
+  var valueStr = typeof encoder === 'function' ? encoder(value) : value;
+  var newCookie = key + "=" + valueStr + attrsStr;
+  document.cookie = newCookie;
+} // Remove a cookie by the specified key.
+
+
+function remove(key, options) {
+  var opts = {
+    expires: -1
+  };
+
+  if (options) {
+    opts = _extends({}, options, opts);
+  }
+
+  return set(key, 'a', opts);
+} // Get the cookie's value without decoding.
+
+
+function getRaw(key) {
+  return get(key, null);
+} // Set a cookie without encoding the value.
+
+
+function setRaw(key, value, options) {
+  return set(key, value, null, options);
+}
+
+
+
+/***/ }),
+
+/***/ "./node_modules/tiny-cookie/es/util.js":
+/*!*********************************************!*\
+  !*** ./node_modules/tiny-cookie/es/util.js ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "computeExpires": () => (/* binding */ computeExpires),
+/* harmony export */   "convert": () => (/* binding */ convert),
+/* harmony export */   "escapeRe": () => (/* binding */ escapeRe),
+/* harmony export */   "hasOwn": () => (/* binding */ hasOwn)
+/* harmony export */ });
+function hasOwn(obj, key) {
+  return Object.prototype.hasOwnProperty.call(obj, key);
+} // Escape special characters.
+
+
+function escapeRe(str) {
+  return str.replace(/[.*+?^$|[\](){}\\-]/g, '\\$&');
+} // Return a future date by the given string.
+
+
+function computeExpires(str) {
+  var lastCh = str.charAt(str.length - 1);
+  var value = parseInt(str, 10);
+  var expires = new Date();
+
+  switch (lastCh) {
+    case 'Y':
+      expires.setFullYear(expires.getFullYear() + value);
+      break;
+
+    case 'M':
+      expires.setMonth(expires.getMonth() + value);
+      break;
+
+    case 'D':
+      expires.setDate(expires.getDate() + value);
+      break;
+
+    case 'h':
+      expires.setHours(expires.getHours() + value);
+      break;
+
+    case 'm':
+      expires.setMinutes(expires.getMinutes() + value);
+      break;
+
+    case 's':
+      expires.setSeconds(expires.getSeconds() + value);
+      break;
+
+    default:
+      expires = new Date(str);
+  }
+
+  return expires;
+} // Convert an object to a cookie option string.
+
+
+function convert(opts) {
+  var res = ''; // eslint-disable-next-line
+
+  for (var key in opts) {
+    if (hasOwn(opts, key)) {
+      if (/^expires$/i.test(key)) {
+        var expires = opts[key];
+
+        if (typeof expires !== 'object') {
+          expires += typeof expires === 'number' ? 'D' : '';
+          expires = computeExpires(expires);
+        }
+
+        res += ";" + key + "=" + expires.toUTCString();
+      } else if (/^secure$/.test(key)) {
+        if (opts[key]) {
+          res += ";" + key;
+        }
+      } else {
+        res += ";" + key + "=" + opts[key];
+      }
+    }
+  }
+
+  if (!hasOwn(opts, 'path')) {
+    res += ';path=/';
+  }
+
+  return res;
+}
+
+
+
+/***/ }),
+
 /***/ "./node_modules/v-viewer/dist/index.es.js":
 /*!************************************************!*\
   !*** ./node_modules/v-viewer/dist/index.es.js ***!
@@ -47550,6 +47776,318 @@ var p="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof window?windo
   return Viewer;
 
 }));
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-cookie-accept-decline/dist/vue-cookie-accept-decline.esm.js":
+/*!**************************************************************************************!*\
+  !*** ./node_modules/vue-cookie-accept-decline/dist/vue-cookie-accept-decline.esm.js ***!
+  \**************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   "install": () => (/* binding */ install)
+/* harmony export */ });
+/* harmony import */ var tiny_cookie__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tiny-cookie */ "./node_modules/tiny-cookie/es/index.js");
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+
+
+var script = {
+  name: 'vue-cookie-accept-decline',
+  props: {
+    elementId: {
+      type: String,
+      required: true,
+    },
+
+    debug: {
+      type: Boolean,
+      default: false,
+    },
+
+    disableDecline: {
+      type: Boolean,
+      default: false,
+    },
+
+    // floating: bottom-left, bottom-right, top-left, top-rigt
+    // bar:  bottom, top
+    position: {
+      type: String,
+      default: 'bottom-left',
+    },
+
+    // floating, bar
+    type: {
+      type: String,
+      default: 'floating',
+    },
+
+    // slideFromBottom, slideFromTop, fade
+    transitionName: {
+      type: String,
+      default: 'slideFromBottom',
+    },
+
+    showPostponeButton: {
+      type: Boolean,
+      default: false,
+    },
+
+    forceCookies: {
+      type: Boolean,
+      default: false,
+    },
+  },
+  data: function data () {
+    return {
+      status: null,
+      supportsLocalStorage: true,
+      isOpen: false,
+    };
+  },
+  computed: {
+    containerPosition: function containerPosition () {
+      return ("cookie--" + (this.position));
+    },
+    containerType: function containerType () {
+      return ("cookie--" + (this.type));
+    },
+  },
+  mounted: function mounted () {
+    this.checkLocalStorageFunctionality();
+    this.init();
+  },
+  methods: {
+    init: function init () {
+      var visitedType = this.getCookieStatus();
+
+      if (
+        visitedType &&
+        (visitedType === 'accept' || visitedType === 'decline' || visitedType === 'postpone')
+      ) {
+        this.isOpen = false;
+      }
+
+      if (!visitedType) {
+        this.isOpen = true;
+      }
+
+      this.status = visitedType;
+      this.$emit('status', visitedType);
+    },
+    checkLocalStorageFunctionality: function checkLocalStorageFunctionality () {
+      if (this.forceCookies) {
+        this.supportsLocalStorage = false;
+        return;
+      }
+
+      // Check for availability of localStorage
+      try {
+        var test = '__vue-cookie-accept-decline-check-localStorage';
+        window.localStorage.setItem(test, test);
+        window.localStorage.removeItem(test);
+      } catch (e) {
+        console.error('Local storage is not supported, falling back to cookie use');
+        this.supportsLocalStorage = false;
+      }
+    },
+    setCookieStatus: function setCookieStatus (type) {
+      if (this.supportsLocalStorage) {
+        if (type === 'accept') {
+          localStorage.setItem(("vue-cookie-accept-decline-" + (this.elementId)), 'accept');
+        }
+        if (type === 'decline') {
+          localStorage.setItem(("vue-cookie-accept-decline-" + (this.elementId)), 'decline');
+        }
+        if (type === 'postpone') {
+          localStorage.setItem(("vue-cookie-accept-decline-" + (this.elementId)), 'postpone');
+        }
+      } else {
+        if (type === 'accept') {
+          (0,tiny_cookie__WEBPACK_IMPORTED_MODULE_0__.set)(("vue-cookie-accept-decline-" + (this.elementId)), 'accept');
+        }
+        if (type === 'decline') {
+          (0,tiny_cookie__WEBPACK_IMPORTED_MODULE_0__.set)(("vue-cookie-accept-decline-" + (this.elementId)), 'decline');
+        }
+        if (type === 'postpone') {
+          (0,tiny_cookie__WEBPACK_IMPORTED_MODULE_0__.set)(("vue-cookie-accept-decline-" + (this.elementId)), 'postpone');
+        }
+      }
+    },
+    getCookieStatus: function getCookieStatus () {
+      if (this.supportsLocalStorage) {
+        return localStorage.getItem(("vue-cookie-accept-decline-" + (this.elementId)));
+      } else {
+        return (0,tiny_cookie__WEBPACK_IMPORTED_MODULE_0__.get)(("vue-cookie-accept-decline-" + (this.elementId)));
+      }
+    },
+    accept: function accept () {
+      if (!this.debug) {
+        this.setCookieStatus('accept');
+      }
+
+      this.status = 'accept';
+      this.isOpen = false;
+      this.$emit('clicked-accept');
+    },
+    decline: function decline () {
+      if (!this.debug) {
+        this.setCookieStatus('decline');
+      }
+
+      this.status = 'decline';
+      this.isOpen = false;
+      this.$emit('clicked-decline');
+    },
+    postpone: function postpone () {
+      if (!this.debug) {
+        this.setCookieStatus('postpone');
+      }
+
+      this.status = 'postpone';
+      this.isOpen = false;
+      this.$emit('clicked-postpone');
+    },
+    removeCookie: function removeCookie () {
+      localStorage.removeItem(("vue-cookie-accept-decline-" + (this.elementId)));
+      this.status = null;
+      this.$emit('removed-cookie');
+    },
+  },
+};
+
+var _hoisted_1 = ["id"];
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_1__.createTextVNode)("×");
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_1__.createTextVNode)(" We use cookies to ensure you get the best experience on our website. ");
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_1__.createElementVNode)("a", {
+  href: "https://cookiesandyou.com/",
+  target: "_blank"
+}, "Learn More...", -1 /* HOISTED */);
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_1__.createTextVNode)("Opt Out");
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_1__.createTextVNode)("Got It!");
+
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  return ((0,vue__WEBPACK_IMPORTED_MODULE_1__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_1__.createBlock)(vue__WEBPACK_IMPORTED_MODULE_1__.Transition, {
+    appear: "",
+    name: $props.transitionName
+  }, {
+    default: (0,vue__WEBPACK_IMPORTED_MODULE_1__.withCtx)(function () { return [
+      ($data.isOpen)
+        ? ((0,vue__WEBPACK_IMPORTED_MODULE_1__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_1__.createElementBlock)("div", {
+            key: 0,
+            class: (0,vue__WEBPACK_IMPORTED_MODULE_1__.normalizeClass)(["cookie", ['cookie__' + $props.type, 'cookie__' + $props.type + '--' + $props.position]]),
+            id: $props.elementId
+          }, [
+            (0,vue__WEBPACK_IMPORTED_MODULE_1__.createElementVNode)("div", {
+              class: (0,vue__WEBPACK_IMPORTED_MODULE_1__.normalizeClass)('cookie__' + $props.type + '__wrap')
+            }, [
+              ($props.showPostponeButton === true)
+                ? ((0,vue__WEBPACK_IMPORTED_MODULE_1__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_1__.createElementBlock)("div", {
+                    key: 0,
+                    onClick: _cache[0] || (_cache[0] = function () {
+                      var args = [], len = arguments.length;
+                      while ( len-- ) args[ len ] = arguments[ len ];
+
+                      return ($options.postpone && $options.postpone.apply($options, args));
+      }),
+                    class: (0,vue__WEBPACK_IMPORTED_MODULE_1__.normalizeClass)('cookie__' + $props.type + '__postpone-button'),
+                    title: "Close"
+                  }, [
+                    (0,vue__WEBPACK_IMPORTED_MODULE_1__.renderSlot)(_ctx.$slots, "postponeContent", {}, function () { return [
+                      _hoisted_2
+                    ]; })
+                  ], 2 /* CLASS */))
+                : (0,vue__WEBPACK_IMPORTED_MODULE_1__.createCommentVNode)("v-if", true),
+              (0,vue__WEBPACK_IMPORTED_MODULE_1__.createElementVNode)("div", {
+                class: (0,vue__WEBPACK_IMPORTED_MODULE_1__.normalizeClass)('cookie__' + $props.type + '__content')
+              }, [
+                (0,vue__WEBPACK_IMPORTED_MODULE_1__.renderSlot)(_ctx.$slots, "message", {}, function () { return [
+                  _hoisted_3,
+                  _hoisted_4
+                ]; })
+              ], 2 /* CLASS */),
+              (0,vue__WEBPACK_IMPORTED_MODULE_1__.createElementVNode)("div", {
+                class: (0,vue__WEBPACK_IMPORTED_MODULE_1__.normalizeClass)('cookie__' + $props.type + '__buttons')
+              }, [
+                ($props.disableDecline === false)
+                  ? ((0,vue__WEBPACK_IMPORTED_MODULE_1__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_1__.createElementBlock)("button", {
+                      key: 0,
+                      onClick: _cache[1] || (_cache[1] = function () {
+                        var args = [], len = arguments.length;
+                        while ( len-- ) args[ len ] = arguments[ len ];
+
+                        return ($options.decline && $options.decline.apply($options, args));
+      }),
+                      class: (0,vue__WEBPACK_IMPORTED_MODULE_1__.normalizeClass)([
+              'cookie__' + $props.type + '__buttons__button',
+              'cookie__' + $props.type + '__buttons__button--decline' ])
+                    }, [
+                      (0,vue__WEBPACK_IMPORTED_MODULE_1__.renderSlot)(_ctx.$slots, "declineContent", {}, function () { return [
+                        _hoisted_5
+                      ]; })
+                    ], 2 /* CLASS */))
+                  : (0,vue__WEBPACK_IMPORTED_MODULE_1__.createCommentVNode)("v-if", true),
+                (0,vue__WEBPACK_IMPORTED_MODULE_1__.createElementVNode)("button", {
+                  onClick: _cache[2] || (_cache[2] = function () {
+                    var args = [], len = arguments.length;
+                    while ( len-- ) args[ len ] = arguments[ len ];
+
+                    return ($options.accept && $options.accept.apply($options, args));
+      }),
+                  class: (0,vue__WEBPACK_IMPORTED_MODULE_1__.normalizeClass)([
+              'cookie__' + $props.type + '__buttons__button',
+              'cookie__' + $props.type + '__buttons__button--accept' ])
+                }, [
+                  (0,vue__WEBPACK_IMPORTED_MODULE_1__.renderSlot)(_ctx.$slots, "acceptContent", {}, function () { return [
+                    _hoisted_6
+                  ]; })
+                ], 2 /* CLASS */)
+              ], 2 /* CLASS */)
+            ], 2 /* CLASS */)
+          ], 10 /* CLASS, PROPS */, _hoisted_1))
+        : (0,vue__WEBPACK_IMPORTED_MODULE_1__.createCommentVNode)("v-if", true)
+    ]; }),
+    _: 3 /* FORWARDED */
+  }, 8 /* PROPS */, ["name"]))
+}
+
+script.render = render;
+script.__file = "src/vue-cookie-accept-decline.vue";
+
+// Import vue component
+
+function install(app) {
+  if (install.installed) { return; }
+
+  install.installed = true;
+  app.component('VueCookieAcceptDecline', script);
+}
+
+var plugin = { install: install };
+
+// To auto-install when Vue is found
+var GlobalVue = null;
+if (typeof window !== 'undefined') {
+  GlobalVue = window.Vue;
+} else if (typeof __webpack_require__.g !== 'undefined') {
+  GlobalVue = __webpack_require__.g.Vue;
+}
+if (GlobalVue && 'use' in GlobalVue) {
+  GlobalVue.use(plugin);
+}
+
+// It's possible to expose named exports when writing components that can
+// also be used as directives, etc. - eg. import { RollupDemoDirective } from 'rollup-demo';
+// export const RollupDemoDirective = component;
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (script);
+
 
 
 /***/ }),

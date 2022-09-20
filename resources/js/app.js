@@ -9,6 +9,9 @@ import { Ziggy } from "./ziggy";
 import 'viewerjs/dist/viewer.css'
 import VueViewer from 'v-viewer'
 
+import VueCookieAcceptDecline from 'vue-cookie-accept-decline';
+import 'vue-cookie-accept-decline/dist/vue-cookie-accept-decline.css';
+
 import Layout from './Shared/Layout';
 
 createInertiaApp({
@@ -26,6 +29,7 @@ createInertiaApp({
             .use(VueViewer)
             .component("Link", Link)
             .component("Head", Head)
+            .component('vue-cookie-accept-decline', VueCookieAcceptDecline)
             .mixin({ methods: { route } })
             .mount(el);
     },

@@ -13,10 +13,10 @@
 
     <section>
         <div class="container m-auto px-6 py-12 md:py-28 h-full flex flex-col justify-start content-center items-center">
-            <div class="flex flex-col w-full md:flex-row">
+            <div class="flex flex-col w-full lg:flex-row">
                 <!-- Tabs labels -->
-                <div class="w-full md:w-auto flex flex-col justify-start items-start content-start">
-                    <div class="w-full md:w-auto mb-4 lg:mr-4 transition-all hover:text-amber-400 text-2xl  text-center flex-col items-start content-start justify-center" >
+                <div class="w-full flex flex-col justify-start items-start content-start lg:w-1/3">
+                    <div class="w-full mb-8 lg:mr-4 transition-all hover:text-amber-400 text-2xl  text-center flex-col items-start content-start justify-center" >
                         <div class="flex items-center uppercase"
                             v-bind:class="{'text-amber-400': activeTab.startsWith('materials-'), 'text-slate-700': !activeTab.startsWith('materials-')}"  
                         >
@@ -62,15 +62,15 @@
                 </div>
 
                 <!-- Tabs content -->
-                <div class="relative">
+                <div class="relative w-full lg:w-2/3">
                     <transition  name="fade" mode="out-in">
                             <div key="1" v-if="activeTab == 'materials-japanise-burnt-wood'">
                                 <h2 class="text-amber-400 text-4xl mb-4">Japanise burnt wood</h2>
-                                <p class="text-slate-700 text-xl">
+                                <p class="text-slate-700 text-xl mb-4">
                                     Our company offers a wide range of possibilities for external and internal finishing works
                                 </p>
                                 <div>
-                                    <div class="images" v-viewer>
+                                    <div class="images flex flex-col md:flex-row gap-2 md:flex-wrap"  v-viewer>
                                         <img v-for="src in images" :key="src" :src="src">
                                     </div>
 
@@ -83,10 +83,10 @@
 
                             <div key="2" v-if="activeTab == 'service-fences'">
                                 <h2 class="text-amber-400 text-4xl mb-4">Fences</h2>
-                                <p class="text-slate-700 text-xl">
-                                    Our company offers a wide range of possibilities for external and internal finishing works
+                                <p class="text-slate-700 text-xl mb-4">
+                                    Our company offers a wide range of possibilities for external and internal finishing works.
                                 </p>
-                                <p class="text-slate-700 text-xl">
+                                <p class="text-slate-700 text-xl mb-4">
                                     Gabion fences with great use in modern architecture, providing a high level of
                                     privacy. It can be used as a design exterior fence for family houses and
                                     companies, as well as for internal partitioning of gardens/buildings to create
@@ -94,7 +94,7 @@
                                     quality double anti-corrosion treatment is ensured by galvanizing and baked
                                     polyester paint. Gabions are available in galvanised or anthracite versions.
                                 </p>
-                                <p class="text-slate-700 text-xl">
+                                <p class="text-slate-700 text-xl mb-4">
                                     There are no fences like fences. Choose a quality wooden garden fence from us.
                                     We offer a wide selection of wooden fence parts that will perfectly enclose your
                                     home, garden or plot. The variability of these parts allows you a variety of
@@ -106,7 +106,7 @@
                                     in the garden.
                                 </p>
                                 <div>
-                                    <div class="images" v-viewer>
+                                    <div class="images flex flex-col md:flex-row gap-2 md:flex-wrap"  v-viewer>
                                         <img v-for="src in images" :key="src" :src="src">
                                     </div>
 
@@ -119,16 +119,112 @@
 
                             <div key="3" v-if="activeTab == 'service-interior-materials'">
                                 <h2 class="text-amber-400 text-4xl mb-4">Interior materials</h2>
-                                <p class="text-slate-700 text-xl">
+                                <p class="text-slate-700 text-xl mb-4">
                                     Our company offers a complete building system including all the necessary
                                     materials to complete the rough construction.
                                 </p>
-                                <p class="text-slate-700 text-xl">
+                                <p class="text-slate-700 text-xl mb-4">
                                     We build professionally and use quality certified materials.
                                 </p>
 
+                                <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
+                                    Walls and roof
+                                </h3>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    Installation of load-bearing and perimeter walls made of prefabricated SIP panels (170x2800x1250 mm)
+                                    with EPS polystyrene core (or Mineral wool), including dividing non-load-bearing partitions made of prisms
+                                    (140 mm) filled with thermoacoustic insulation
+                                </p>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    Installation of the roof truss structure + sheet metal roofing (roof trusses, battens + counter battens,
+                                    diffusion foil, etc.)
+                                </p>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    Flat roof
+                                </p>
+
+                                <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
+                                    Exterior
+                                </h3>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    Installation of entrance doors and windows mounted on strips + external and internal windowsills
+                                </p>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    Installation of external wall cladding - complete facade insulation system (polystyrene 100mm), fiberglass
+                                    mesh, squeegee, silicone facade plaster of any choice.
+                                </p>
+
+                                <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
+                                    Interior: Water and Electricity
+                                </h3>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    Installation of complete electricity, water and sewage systems inside the building
+                                </p>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    Installation of faucets in the toilet (if the toilet room is separate) and in the bathroom 
+                                </p>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    Installation of LED light fittings
+                                </p>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    Installation of sockets and switches 
+                                </p>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    Installation of a domestic hot water (DHW) tank (if the project does not have a tech. room only electric hot
+                                    water heater)
+                                </p>
+
+                                <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
+                                    Interior: walls and tiles
+                                </h3>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    Installation of ceiling insulation, internal suspended ceilings and internal wall cladding - complete
+                                    plasterboard system RIGIPS (white, green in wet rooms)
+                                </p>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    Construction of the floor bearing layer of concrete (cement-sand) screed, preparation for laying floor
+                                    coverings
+                                </p>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    Installation of the flooring layer in the rooms, usually made of 8 mm thick laminate
+                                </p>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    Installation of tiles in the utility room, installation of either tiles or laminate in the corridor
+                                </p>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    White interior painting (2x PRIMALEX hygienic paint)
+                                </p>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    Installation of tiles and wall cladding in the toilet (if the toilet room is separate) and in the bathroom
+                                </p>
+
+                                <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
+                                    Interior: heating
+                                </h3>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    Installation of solar DHW system with HP collectors
+                                </p>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    Installation of heaters, electric wall convectors, 1 pc in each room ( in STANDARD), possibility of designing
+                                    alternative heating (heat pump, underfloor heating, Canadian wood stove, inserts with hot air distribution
+                                    to the whole house
+                                </p>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    Installation of recuperation ventilation system 
+                                </p>
+
+                                <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
+                                    Interior: additional equipment
+                                </h3>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    Installation of smooth interior doors + trim 
+                                </p>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    Installation of sanitary equipment in the toilet and bathroom
+                                </p>
+
                                 <div>
-                                    <div class="images" v-viewer>
+                                    <div class="images flex flex-col md:flex-row gap-2 md:flex-wrap"  v-viewer>
                                         <img v-for="src in images" :key="src" :src="src">
                                     </div>
 
@@ -143,12 +239,178 @@
                                 <h2 class="text-amber-400 text-4xl mb-4">Glass Verandas & Retractable Pergolas, glass rooms - outdoor living products /
                                     * Engineered for Life, Outdoor and windows system.
                                 </h2>
-                                <p class="text-slate-700 text-xl">
+                                <p class="text-slate-700 text-xl  mb-4">
                                     We guarantee the highest build quality, maximum reliability and quick post
                                     installment services.
                                 </p>
+
+
+                                <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
+                                    GUILLOTINE GLASS SYSTEM
+                                </h3>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    A guillotine window is a window that moves vertically. The basic guillotine windows are
+                                    made of two vertically sliding frames and remotely powered by electric motor. 
+                                </p>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    Meanwhile guillotine windows are with bottom or top fixed frames, opening from
+                                    bottom to top or from top to bottom with several sliding frames. The vertical movement
+                                    of the sashes allows you to save interior space and provide ventilation. There is a choice
+                                    of using a single tempered glass or energy saving double-glazed window for it. 
+                                </p>
+
+                                <div class="mb-4">
+                                    <div class="images flex flex-col md:flex-row gap-2 md:flex-wrap"  v-viewer>
+                                        <img v-for="src in images" :key="src" :src="src">
+                                    </div>
+
+                                    <viewer :images="images"
+                                        :options="viewer_options"
+                                    >
+                                    </viewer>
+                                </div>
+
+
+                                <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
+                                    SLIDING GLASS ROOF – The Smart Roof
+                                </h3>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    All sliding glass roofs are tailor made for your house, apartment or commercial
+                                    premises. The automatic sliding roof is designed for rooms that are converted from
+                                    open summer to heated winter roofs. The main element is energy-efficient glazing.
+                                    This system gives your room plenty of natural light but retains the heat inside.
+                                </p>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    Heated glazing helps to get rid of snow.
+                                </p>
+                                <div class="mb-4">
+                                    <div class="images flex flex-col md:flex-row gap-2 md:flex-wrap"  v-viewer>
+                                        <img v-for="src in images" :key="src" :src="src">
+                                    </div>
+
+                                    <viewer :images="images"
+                                        :options="viewer_options"
+                                    >
+                                    </viewer>
+                                </div>
+
+
+                                <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
+                                    PASIFIC – Motorized
+                                </h3>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    Motorized Outdoor waterproof Aluminum pergola Retractable roof Awnings 
+                                </p>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    The aluminum frame construction is very strong and can withstand strong winds at
+                                    the seaside or on the roof of a high-rise building. Using different design options, it
+                                    is possible to make a pavilion separate from the building as well as adjacent to it.
+                                    The drainage system is hidden inside the structure. The electric actuator allows
+                                    the system to be easily operated by remote control. Rain and wind sensors can
+                                    also be connected and integrated into a smart home system.
+                                </p>
+                                <div class="mb-4">
+                                    <div class="images flex flex-col md:flex-row gap-2 md:flex-wrap"  v-viewer>
+                                        <img v-for="src in images" :key="src" :src="src">
+                                    </div>
+
+                                    <viewer :images="images"
+                                        :options="viewer_options"
+                                    >
+                                    </viewer>
+                                </div>
+
+                                
+                                <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
+                                    AEROLUX - Louvered roof system
+                                </h3>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    Louvered roof system – the bioclimatic pergola is designed to protect the
+                                    seating area from precipitation and provide shade in sunny weather.
+                                </p>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    The roof surface is assembled with aluminum pivoting slats. This allows you to
+                                    regulate the sun's flow. The configuration of the lamellae allows the inner
+                                    cavity to be filled with polyurethane foam. This gets rid of unpleasant sound
+                                    when it rains.
+                                </p>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    The main feature of the system is the ability to control the solar flow by
+                                    rotating and sliding the lamellas. In the parked position, the slats occupy 23%
+                                    of the roof space.
+                                </p>
+                                <div class="mb-4">
+                                    <div class="images flex flex-col md:flex-row gap-2 md:flex-wrap"  v-viewer>
+                                        <img v-for="src in images" :key="src" :src="src">
+                                    </div>
+
+                                    <viewer :images="images"
+                                        :options="viewer_options"
+                                    >
+                                    </viewer>
+                                </div>
+
+
+                                <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
+                                    Automatic WIND STOP railing system
+                                </h3>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    Louvered roof system – the bioclimatic pergola is designed to protect the
+                                    seating area from precipitation and provide shade in sunny weather.
+                                </p>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    The roof surface is assembled with aluminum pivoting slats. This allows you
+                                    to regulate the sun's flow. The configuration of the lamellae allows the inner
+                                    cavity to be filled with polyurethane foam. This gets rid of unpleasant sound
+                                    when it rains.
+                                </p>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    The main feature of the system is the ability to control the solar flow by
+                                    rotating and sliding the lamellas. In the parked position, the slats occupy
+                                </p>
+                                <div class="mb-4">
+                                    <div class="images flex flex-col md:flex-row gap-2 md:flex-wrap"  v-viewer>
+                                        <img v-for="src in images" :key="src" :src="src">
+                                    </div>
+
+                                    <viewer :images="images"
+                                        :options="viewer_options"
+                                    >
+                                    </viewer>
+                                </div>
+
+
+                                <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
+                                    SLIDING window system
+                                </h3>
+                                <div class="mb-4">
+                                    <div class="images flex flex-col md:flex-row gap-2 md:flex-wrap"  v-viewer>
+                                        <img v-for="src in images" :key="src" :src="src">
+                                    </div>
+
+                                    <viewer :images="images"
+                                        :options="viewer_options"
+                                    >
+                                    </viewer>
+                                </div>
+
+
+                                <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
+                                    SHADOW LINE - The automatic sun visor curtains system
+                                </h3>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    The automatic sunshade system effectively protects against direct sunlight.
+                                </p>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    The fabric canvas is resistant to UV rays and atmospheric effects. The perforated
+                                    structure does not hinder air movement.
+                                </p>
+                                <p class="text-slate-700 text-xl mb-4">
+                                    The electric actuator allows you to control the ZIP system with the remote control and
+                                    connect the sun shades to the Smart House system.
+                                </p>
                                 <div>
-                                    <div class="images" v-viewer>
+                                    <div class="images flex flex-col md:flex-row gap-2 md:flex-wrap"  v-viewer>
                                         <img v-for="src in images" :key="src" :src="src">
                                     </div>
 
