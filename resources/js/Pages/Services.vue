@@ -71,10 +71,10 @@
                                 </p>
                                 <div>
                                     <div class="images flex flex-col md:flex-row gap-2 md:flex-wrap"  v-viewer>
-                                        <img v-for="src in images" :key="src" :src="src">
+                                        <img v-for="src in images_set_1" :key="src" :src="src">
                                     </div>
 
-                                    <viewer :images="images"
+                                    <viewer :images="images_set_1"
                                         :options="viewer_options"
                                     >
                                     </viewer>
@@ -107,10 +107,10 @@
                                 </p>
                                 <div>
                                     <div class="images flex flex-col md:flex-row gap-2 md:flex-wrap"  v-viewer>
-                                        <img v-for="src in images" :key="src" :src="src">
+                                        <img v-for="src in images_set_2" :key="src" :src="src">
                                     </div>
 
-                                    <viewer :images="images"
+                                    <viewer :images="images_set_2"
                                         :options="viewer_options"
                                     >
                                     </viewer>
@@ -225,10 +225,10 @@
 
                                 <div>
                                     <div class="images flex flex-col md:flex-row gap-2 md:flex-wrap"  v-viewer>
-                                        <img v-for="src in images" :key="src" :src="src">
+                                        <img v-for="src in images_set_3" :key="src" :src="src">
                                     </div>
 
-                                    <viewer :images="images"
+                                    <viewer :images="images_set_3"
                                         :options="viewer_options"
                                     >
                                     </viewer>
@@ -261,10 +261,10 @@
 
                                 <div class="mb-4">
                                     <div class="images flex flex-col md:flex-row gap-2 md:flex-wrap"  v-viewer>
-                                        <img v-for="src in images" :key="src" :src="src">
+                                        <img v-for="src in images_set_4" :key="src" :src="src">
                                     </div>
 
-                                    <viewer :images="images"
+                                    <viewer :images="images_set_4"
                                         :options="viewer_options"
                                     >
                                     </viewer>
@@ -285,10 +285,10 @@
                                 </p>
                                 <div class="mb-4">
                                     <div class="images flex flex-col md:flex-row gap-2 md:flex-wrap"  v-viewer>
-                                        <img v-for="src in images" :key="src" :src="src">
+                                        <img v-for="src in images_set_5" :key="src" :src="src">
                                     </div>
 
-                                    <viewer :images="images"
+                                    <viewer :images="images_set_5"
                                         :options="viewer_options"
                                     >
                                     </viewer>
@@ -311,10 +311,10 @@
                                 </p>
                                 <div class="mb-4">
                                     <div class="images flex flex-col md:flex-row gap-2 md:flex-wrap"  v-viewer>
-                                        <img v-for="src in images" :key="src" :src="src">
+                                        <img v-for="src in images_set_6" :key="src" :src="src">
                                     </div>
 
-                                    <viewer :images="images"
+                                    <viewer :images="images_set_6"
                                         :options="viewer_options"
                                     >
                                     </viewer>
@@ -341,10 +341,10 @@
                                 </p>
                                 <div class="mb-4">
                                     <div class="images flex flex-col md:flex-row gap-2 md:flex-wrap"  v-viewer>
-                                        <img v-for="src in images" :key="src" :src="src">
+                                        <img v-for="src in images_set_7" :key="src" :src="src">
                                     </div>
 
-                                    <viewer :images="images"
+                                    <viewer :images="images_set_7"
                                         :options="viewer_options"
                                     >
                                     </viewer>
@@ -370,10 +370,10 @@
                                 </p>
                                 <div class="mb-4">
                                     <div class="images flex flex-col md:flex-row gap-2 md:flex-wrap"  v-viewer>
-                                        <img v-for="src in images" :key="src" :src="src">
+                                        <img v-for="src in images_set_7" :key="src" :src="src">
                                     </div>
 
-                                    <viewer :images="images"
+                                    <viewer :images="images_set_7"
                                         :options="viewer_options"
                                     >
                                     </viewer>
@@ -385,10 +385,10 @@
                                 </h3>
                                 <div class="mb-4">
                                     <div class="images flex flex-col md:flex-row gap-2 md:flex-wrap"  v-viewer>
-                                        <img v-for="src in images" :key="src" :src="src">
+                                        <img v-for="src in images_set_8" :key="src" :src="src">
                                     </div>
 
-                                    <viewer :images="images"
+                                    <viewer :images="images_set_8"
                                         :options="viewer_options"
                                     >
                                     </viewer>
@@ -411,10 +411,10 @@
                                 </p>
                                 <div>
                                     <div class="images flex flex-col md:flex-row gap-2 md:flex-wrap"  v-viewer>
-                                        <img v-for="src in images" :key="src" :src="src">
+                                        <img v-for="src in images_set_9" :key="src" :src="src">
                                     </div>
 
-                                    <viewer :images="images"
+                                    <viewer :images="images_set_9"
                                         :options="viewer_options"
                                     >
                                     </viewer>
@@ -433,11 +433,59 @@ export default {
     data() {
         return {
             activeTab: 'materials-japanise-burnt-wood',
-            images: [
-              "https://picsum.photos/200/200",
-              "https://picsum.photos/300/200",
-              "https://picsum.photos/250/200"
+            images_set_1: [
+              "/images/Pages/services/wood-1.jpg",
+              "/images/Pages/services/wood-2.jpeg",
+              "/images/Pages/services/wood-3.jpg",
+              "/images/Pages/services/wood-4.png",
             ],
+            images_set_2: [
+              "/images/Pages/services/fence-1.jpeg",
+              "/images/Pages/services/fence-2.jpeg",
+              "/images/Pages/services/fence-3.jpeg",
+              "/images/Pages/services/fence-4.jpeg",
+              "/images/Pages/services/fence-5.jpg",
+              "/images/Pages/services/fence-6.jpg",
+              "/images/Pages/services/fence-7.jpg",
+              "/images/Pages/services/fence-8.jpg",
+              "/images/Pages/services/fence-10.jpg",
+            ],
+            images_set_3: [
+              "/images/Pages/services/interior-1.jpg",
+              "/images/Pages/services/interior-2.jpg",
+              "/images/Pages/services/interior-3.jpg",
+              "/images/Pages/services/interior-4.jpg",
+              "/images/Pages/services/interior-5.jpg",
+              "/images/Pages/services/interior-6.jpg",
+              "/images/Pages/services/interior-7.jpg",
+              "/images/Pages/services/interior-8.jpg",
+              "/images/Pages/services/interior-9.jpg",
+              "/images/Pages/services/interior-10.jpg",
+              "/images/Pages/services/interior-11.jpg",
+              "/images/Pages/services/interior-12.jpg",
+              "/images/Pages/services/interior-13.jpg",
+              "/images/Pages/services/interior-14.jpg",
+            ],
+
+            images_set_4: [
+              "/images/Pages/services/wood-1.jpg",
+            ],
+            images_set_5: [
+              "/images/Pages/services/wood-1.jpg",
+            ],
+            images_set_6: [
+              "/images/Pages/services/wood-1.jpg",
+            ],
+            images_set_7: [
+              "/images/Pages/services/wood-1.jpg",
+            ],
+            images_set_8: [
+              "/images/Pages/services/wood-1.jpg",
+            ],
+            images_set_9: [
+              "/images/Pages/services/wood-1.jpg",
+            ],
+
             viewer_options: { 
                 "inline": true, 
                 "button": true, 
@@ -488,5 +536,18 @@ export default {
     .fade-enter-from,
     .fade-leave-to {
         opacity: 0;
+    }
+
+    .images {
+        img {
+            width: 100%;
+            height: auto;
+            cursor: pointer;
+
+            @media only screen and (min-width: 768px) {
+                height: 200px;
+                width: auto;
+            }
+        }
     }
 </style>
