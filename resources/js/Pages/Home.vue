@@ -285,7 +285,7 @@ export default {
     &::after {
         content: '';
         position: absolute;
-        bottom: 0;
+        bottom: -2px;
         left: 0;
         width: 100%;
         height: 100%;
@@ -316,7 +316,7 @@ export default {
     &::before {
         content: '';
         position: absolute;
-        top: 0;
+        top: -2px;
         left: 0;
         width: 100%;
         height: 100%;
