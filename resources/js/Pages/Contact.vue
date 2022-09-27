@@ -132,10 +132,6 @@
 
 <script>
 import { useForm } from '@inertiajs/inertia-vue3'
-// import MazPhoneNumberInput from 'maz-ui/components/MazPhoneNumberInput'
-// import { ref } from 'vue'
-// const phoneNumber = ref()
-// const results = ref()
 
 export default {
     setup() {
