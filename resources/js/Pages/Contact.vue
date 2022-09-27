@@ -45,10 +45,12 @@
                                     </button> -->
                                 </div>
                             </div>
-                            <form class="flex flex-col" @submit.prevent="form.post('/contact', {
-                            preserveScroll: true,
-                            onSuccess: () => form.reset(),
-                            })">
+                            <form class="flex flex-col" 
+                                @submit.prevent="form.post('/contact', {
+                                    preserveScroll: true,
+                                    onSuccess: () => form.reset(),
+                                })"
+                            >
                                 <!-- progress -->
                                 <progress v-if="form.progress" :value="form.progress.percentage" max="100">
                                     {{ form.progress.percentage }}%
