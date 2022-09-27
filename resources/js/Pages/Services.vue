@@ -449,6 +449,8 @@ export default {
               "/images/Pages/services/fence-7.jpg",
               "/images/Pages/services/fence-8.jpg",
               "/images/Pages/services/fence-10.jpg",
+              "/images/Pages/services/fence-11.jpg",
+              "/images/Pages/services/fence-12.jpg",
             ],
             images_set_3: [
               "/images/Pages/services/interior-1.jpg",
