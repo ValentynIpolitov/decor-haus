@@ -158,3 +158,12 @@ $base: 0.6rem;
 .z-500 {
     z-index: 500 !important;
 }
+
+
+// phone number input style overwrite
+.m-phone-number-input__select {
+    .m-input-wrapper {
+        border-top-right-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+    }
+}

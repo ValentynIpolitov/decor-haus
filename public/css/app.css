@@ -935,6 +935,11 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
 .z-500 {
   z-index: 500 !important;
 }
+
+.m-phone-number-input__select .m-input-wrapper {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
 /*
 ! tailwindcss v3.1.6 | MIT License | https://tailwindcss.com
 *//*
