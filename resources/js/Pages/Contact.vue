@@ -56,68 +56,39 @@
                                     {{ form.progress.percentage }}%
                                 </progress>
 
-                                <div class="grid gap-6 mb-6 md:grid-cols-2">
+                                <div class="grid gap-6 mb-6 xl:grid-cols-2">
                                     <!-- name -->
                                     <div>
-                                        <label for=""
-                                            class="block mb-2 text-sm font-medium text-amber-400">Name:</label>
-                                        <input
-                                            :class="{'bg-red-50 border border-red-500 text-red-900 placeholder-red-700 text-sm focus:ring-red-500': form.errors.name}"
-                                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                            placeholder="John" type="text" autocomplete="given-name"
-                                            v-model="form.name">
-                                        <p class="mt-2 text-sm text-red-600 dark:text-red-500" v-if="form.errors.name">
-                                            {{ form.errors.name }}</p>
+                                        <MazInput v-model="form.name" label="Name" color="warning" :hint="form.errors.name ? form.errors.name : ''" :error="form.errors.name ? true : false" />
                                     </div>
 
                                     <!-- surname -->
                                     <div>
-                                        <label for=""
-                                            class="block mb-2 text-sm font-medium text-amber-400">Surname:</label>
-                                        <input
-                                            :class="{'bg-red-50 border border-red-500 text-red-900 placeholder-red-700 text-sm focus:ring-red-500': form.errors.surname}"
-                                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                            placeholder="Doe" type="text" autocomplete="family-name"
-                                            v-model="form.surname">
-                                        <p class="mt-2 text-sm text-red-600 dark:text-red-500"
-                                            v-if="form.errors.surname">{{ form.errors.surname }}</p>
+                                        <MazInput v-model="form.surname" label="Surname" color="warning" :hint="form.errors.surname ? form.errors.surname : ''" :error="form.errors.surname ? true : false"/>
                                     </div>
 
                                     <!-- email -->
                                     <div>
-                                        <label for=""
-                                            class="block mb-2 text-sm font-medium text-amber-400">Email:</label>
-                                        <input
-                                            :class="{'bg-red-50 border border-red-500 text-red-900 placeholder-red-700 text-sm focus:ring-red-500': form.errors.email}"
-                                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                            placeholder="john.doe@joh.nd" type="email" autocomplete="email"
-                                            v-model="form.email">
-                                        <p class="mt-2 text-sm text-red-600 dark:text-red-500" v-if="form.errors.email">
-                                            {{ form.errors.email }}</p>
+                                        <MazInput v-model="form.email" label="Email" type="email" color="warning" :hint="form.errors.email ? form.errors.email : ''" :error="form.errors.email ? true : false"/>
                                     </div>
 
                                     <!-- phone -->
                                     <div>
-                                        <label for=""
-                                            class="block mb-2 text-sm font-medium text-amber-400">Phone:</label>
-                                        <input
-                                            :class="{'bg-red-50 border border-red-500 text-red-900 placeholder-red-700 text-sm focus:ring-red-500': form.errors.phone}"
-                                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                            placeholder="0950 432 345" type="tel" autocomplete="tel"
-                                            v-model="form.phone">
-                                        <p class="mt-2 text-sm text-red-600 dark:text-red-500" v-if="form.errors.phone">
-                                            {{ form.errors.phone }}</p>
+                                        <MazPhoneNumberInput
+                                            v-model="form.phone"
+                                            show-code-on-list
+                                            color="warning"
+                                            :preferred-countries="['UA', 'SK', 'CZ', 'DE']"
+                                            :ignored-countries="[]"
+                                            @update="results = $event"
+                                            :success="results?.isValid"
+                                            :hint="form.errors.phone ? form.errors.phone : ''" :error="form.errors.phone ? true : false"
+                                        />
                                     </div>
                                 </div>
 
                                 <!-- message -->
-                                <label for="" class="block mb-2 text-sm font-medium text-amber-400">Message:</label>
-                                <textarea
-                                    :class="{'bg-red-50 border border-red-500 text-red-900 placeholder-red-700 text-sm focus:ring-red-500': form.errors.message}"
-                                    class="block p-4 w-full text-gray-900 bg-gray-50 rounded-lg border border-gray-300 sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                    placeholder="Youe message" type="text" v-model="form.message" />
-                                <p class="mt-2 text-sm text-red-600 dark:text-red-500" v-if="form.errors.message">{{
-                                form.errors.message }}</p>
+                                <MazInput v-model="form.message" label="Message" color="warning" :hint="form.errors.message ? form.errors.message : ''" :error="form.errors.message ? true : false"/>
 
                                 <!-- submit -->
                                 <button class="mt-6 btn btn-primary" type="submit"
@@ -161,15 +132,19 @@
 
 <script>
 import { useForm } from '@inertiajs/inertia-vue3'
+// import MazPhoneNumberInput from 'maz-ui/components/MazPhoneNumberInput'
+// import { ref } from 'vue'
+// const phoneNumber = ref()
+// const results = ref()
 
 export default {
     setup() {
         const form = useForm({
-            name: null,
-            surname: null,
-            email: null,
-            phone: null,
-            message: null,
+            name: '',
+            surname: '',
+            email: '',
+            phone: '',
+            message: '',
         })
 
         return { form }

@@ -6,6 +6,10 @@ import { InertiaProgress } from "@inertiajs/progress";
 import { ZiggyVue } from "ziggy";
 import { Ziggy } from "./ziggy";
 
+import 'maz-ui/css/main.css'
+import MazPhoneNumberInput from 'maz-ui/components/MazPhoneNumberInput'
+import MazInput from 'maz-ui/components/MazInput'
+
 import 'viewerjs/dist/viewer.css'
 import VueViewer from 'v-viewer'
 
@@ -30,6 +34,8 @@ createInertiaApp({
             .component("Link", Link)
             .component("Head", Head)
             .component('vue-cookie-accept-decline', VueCookieAcceptDecline)
+            .component('MazPhoneNumberInput', MazPhoneNumberInput)
+            .component('MazInput', MazInput)
             .mixin({ methods: { route } })
             .mount(el);
     },

@@ -29,11 +29,12 @@
         "@inertiajs/inertia-vue3": "^0.6.0",
         "@inertiajs/progress": "^0.2.7",
         "aos": "^2.3.4",
+        "maz-ui": "^3.0.5",
         "swiper": "^8.4.2",
         "v-viewer": "^3.0.10",
         "vue": "^3.2.36",
         "vue-cookie-accept-decline": "^6.1.0",
-        "vue-phone-number-input": "^1.1.12",
+        "vue-phone-number-input": "^1.12.13",
         "vue3-carousel": "^0.1.40"
     }
 }
