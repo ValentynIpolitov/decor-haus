@@ -830,7 +830,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
   }
 
   function e() {
-    return e = Object.assign || function (t) {
+    return e = Object.assign ? Object.assign.bind() : function (t) {
       for (var r = 1; r < arguments.length; r++) {
         var n = arguments[r];
 
@@ -844,13 +844,13 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
   }
 
   function o(t) {
-    return o = Object.setPrototypeOf ? Object.getPrototypeOf : function (t) {
+    return o = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function (t) {
       return t.__proto__ || Object.getPrototypeOf(t);
     }, o(t);
   }
 
   function i(t, r) {
-    return i = Object.setPrototypeOf || function (t, r) {
+    return i = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function (t, r) {
       return t.__proto__ = r, t;
     }, i(t, r);
   }
@@ -868,7 +868,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
   }
 
   function f(t, r, n) {
-    return f = u() ? Reflect.construct : function (t, r, n) {
+    return f = u() ? Reflect.construct.bind() : function (t, r, n) {
       var e = [null];
       e.push.apply(e, r);
       var o = new (Function.bind.apply(t, e))();
@@ -1449,7 +1449,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
       return Object.keys(this.t.routes).includes(t);
     }, f.l = function (t, r) {
       var n = this;
-      void 0 === t && (t = {}), void 0 === r && (r = this.i), t = ["string", "number"].includes(_typeof(t)) ? [t] : t;
+      void 0 === t && (t = {}), void 0 === r && (r = this.i), null != t || (t = {}), t = ["string", "number"].includes(_typeof(t)) ? [t] : t;
       var o = r.parameterSegments.filter(function (t) {
         return !n.t.defaults[t.name];
       });
