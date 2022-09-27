@@ -174,7 +174,7 @@ __webpack_require__.r(__webpack_exports__);
 var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("×");
 
 var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "text-slate-700 text-xl mb-4"
+  "class": "text-slate-700 text-xl mb-4 text-center xl:text-left xl:mb-0 xl:mr-12"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" We use cookies 🍪 to ensure you get the best experience on our website. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   "class": "text-amber-400",
   href: "https://cookiesandyou.com/",
@@ -183,9 +183,9 @@ var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 /* HOISTED */
 );
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Opt Out");
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Accept");
 
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Got It!");
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Decline");
 
 function render(_ctx, _cache) {
   var _component_vue_cookie_accept_decline = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("vue-cookie-accept-decline");
@@ -211,10 +211,10 @@ function render(_ctx, _cache) {
     message: (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [_hoisted_2];
     }),
-    declineContent: (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+    acceptContent: (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [_hoisted_3];
     }),
-    acceptContent: (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+    declineContent: (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [_hoisted_4];
     }),
     _: 1
@@ -1533,7 +1533,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".cookie {\n  z-index: 100;\n  position: fixed;\n  height: 100px;\n  width: 100%;\n  bottom: 0;\n  left: 0;\n  background-color: white;\n  display: flex;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".cookie {\n  z-index: 100;\n  position: fixed;\n  height: auto;\n  width: 100%;\n  bottom: 0;\n  left: 0;\n  background-color: white;\n  display: flex;\n  justify-content: center;\n  align-content: center;\n  align-items: center;\n  padding: 20px 10px;\n}\n.cookie__floating__buttons__button {\n  padding: 1rem 3rem;\n  border-radius: 10px;\n  color: white;\n  text-transform: uppercase;\n  font-weight: 600;\n  cursor: pointer;\n  transition-property: all;\n  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n  transition-duration: 150ms;\n  width: 100%;\n}\n.cookie__floating__buttons__button--accept {\n  background-color: rgb(251, 191, 35) !important;\n  border: 2px solid rgb(251, 191, 35);\n}\n.cookie__floating__buttons__button--accept:hover {\n  color: rgb(251, 191, 35);\n  background-color: white !important;\n  border: 2px solid rgb(251, 191, 35);\n}\n.cookie__floating__buttons__button--decline {\n  background-color: white;\n  border: 2px solid rgb(251, 191, 35);\n  color: rgb(251, 191, 35);\n  margin-bottom: 10px;\n}\n.cookie__floating__buttons__button--decline:hover {\n  color: white;\n  background-color: rgb(251, 191, 35);\n}\n@media only screen and (min-width: 640px) {\n.cookie .cookie__floating__buttons {\n    display: flex;\n    justify-content: space-between;\n    align-content: center;\n    align-items: center;\n    gap: 10px;\n}\n.cookie .cookie__floating__buttons button {\n    margin-bottom: 0;\n}\n}\n@media only screen and (min-width: 1280px) {\n.cookie .cookie__floating__wrap {\n    display: flex;\n    justify-content: center;\n    align-content: center;\n    align-items: center;\n}\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

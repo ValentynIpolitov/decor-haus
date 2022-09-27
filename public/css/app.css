@@ -2039,6 +2039,12 @@ video {
     --tw-ring-color: rgb(59 130 246 / var(--tw-ring-opacity));
   }
 }
+@media (min-width: 640px) {
+
+  .sm\:text-left {
+    text-align: left;
+  }
+}
 @media (min-width: 768px) {
 
   .md\:mb-0 {
@@ -2159,5 +2165,27 @@ video {
 
   .lg\:items-center {
     align-items: center;
+  }
+
+  .lg\:text-left {
+    text-align: left;
+  }
+}
+@media (min-width: 1280px) {
+
+  .xl\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .xl\:mr-8 {
+    margin-right: 2rem;
+  }
+
+  .xl\:mr-12 {
+    margin-right: 3rem;
+  }
+
+  .xl\:text-left {
+    text-align: left;
   }
 }
