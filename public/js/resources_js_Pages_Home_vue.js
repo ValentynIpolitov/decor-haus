@@ -199,11 +199,11 @@ var _hoisted_16 = {
   "class": "flex flex-wrap"
 };
 var _hoisted_17 = {
-  "class": "w-full md:w-1/2 lg:w-1/3 project-link"
+  "class": "w-full md:w-1/2 lg:w-1/3 project-link items-start-important"
 };
 
 var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "/images/odnoetazh.jpg",
+  src: "/images/home/link_1.jpg",
   alt: ""
 }, null, -1
 /* HOISTED */
@@ -216,11 +216,11 @@ var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 );
 
 var _hoisted_20 = {
-  "class": "w-full md:w-1/2 lg:w-1/3 project-link"
+  "class": "w-full md:w-1/2 lg:w-1/3 project-link items-start-important"
 };
 
 var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "/images/dvuhetazh.jpg",
+  src: "/images/home/link_2.jpg",
   alt: ""
 }, null, -1
 /* HOISTED */
@@ -237,7 +237,7 @@ var _hoisted_23 = {
 };
 
 var _hoisted_24 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "/images/dacha.jpg",
+  src: "/images/home/link_3.jpg",
   alt: ""
 }, null, -1
 /* HOISTED */
@@ -254,7 +254,7 @@ var _hoisted_26 = {
 };
 
 var _hoisted_27 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "/images/haitech.jpg",
+  src: "/images/home/link_4.jpg",
   alt: ""
 }, null, -1
 /* HOISTED */
@@ -271,7 +271,7 @@ var _hoisted_29 = {
 };
 
 var _hoisted_30 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "/images/commerc.jpg",
+  src: "/images/home/link_5.jpg",
   alt: ""
 }, null, -1
 /* HOISTED */
@@ -288,7 +288,7 @@ var _hoisted_32 = {
 };
 
 var _hoisted_33 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "/images/sauna.jpg",
+  src: "/images/home/link_6.jpg",
   alt: ""
 }, null, -1
 /* HOISTED */
@@ -607,7 +607,9 @@ var _hoisted_29 = /*#__PURE__*/_withScopeId(function () {
     "class": "inner-triangle"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
     "class": "fa-solid fa-scroll"
-  }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Certification")])], -1
+  }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "rotate-180"
+  }, "Certification")])], -1
   /* HOISTED */
   );
 });
@@ -619,7 +621,9 @@ var _hoisted_31 = /*#__PURE__*/_withScopeId(function () {
     "class": "inner-triangle"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
     "class": "fa-solid fa-hand-back-fist"
-  }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Tradition")])], -1
+  }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "rotate-180"
+  }, "Tradition")])], -1
   /* HOISTED */
   );
 });
@@ -851,7 +855,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".project-link {\n  position: relative;\n  overflow: hidden;\n}\n.project-link .project-navlink img {\n  transition: transform 0.3s ease;\n  transform: translateX(-30px);\n  width: calc(100% + 30px);\n  max-width: none;\n}\n.project-link .project-navlink div {\n  background-color: rgb(251, 191, 35);\n  color: white;\n  padding: 13px 67px 12px 40px;\n  -webkit-clip-path: polygon(0 0, calc(100% - 47px) 0, 100% 100%, 0% 100%);\n          clip-path: polygon(0 0, calc(100% - 47px) 0, 100% 100%, 0% 100%);\n  position: absolute;\n  bottom: 0;\n  left: 0;\n}\n.project-link:hover .project-navlink img {\n  transform: translateX(0px);\n}\n.carousel__item {\n  position: relative;\n}\n.carousel__item::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  width: 100%;\n  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));\n  z-index: 1;\n}\n:root {\n  --swiper-theme-color: #fff;\n}\n.swiper-button-next,\n.swiper-button-prev {\n  right: 10px;\n  padding: 10px;\n  padding-top: 131px;\n}\n@media only screen and (min-width: 768px) {\n.swiper-button-next,\n.swiper-button-prev {\n    padding: 30px;\n    padding-top: 80px;\n}\n}\n@media only screen and (min-width: 768px) {\n.swiper-button-next,\n.swiper-button-prev {\n    padding-top: 30px;\n}\n}\n#our_goal {\n  position: relative;\n  overflow: hidden;\n}\n#our_goal::after {\n  content: \"\";\n  position: absolute;\n  bottom: -2px;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-image: url(/images/listia.png);\n  background-size: contain;\n  background-repeat: no-repeat;\n  background-position: top center;\n  transform: rotate(180deg);\n  opacity: 0.3;\n}\n@media only screen and (min-width: 1280px) {\n#our_goal {\n    padding-bottom: 45px;\n}\n}\n@media only screen and (min-width: 1536px) {\n#our_goal {\n    padding-bottom: 145px;\n}\n}\n#our_benefits {\n  position: relative;\n  overflow: hidden;\n}\n#our_benefits::before {\n  content: \"\";\n  position: absolute;\n  top: -2px;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-image: url(/images/listia.png);\n  background-size: contain;\n  background-repeat: no-repeat;\n  background-position: top center;\n  opacity: 0.3;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".project-link {\n  position: relative;\n  overflow: hidden;\n  height: 250px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.project-link .project-navlink img {\n  transition: transform 0.3s ease;\n  transform: translateX(-30px);\n  width: calc(100% + 30px);\n  max-width: none;\n}\n.project-link .project-navlink div {\n  background-color: rgb(251, 191, 35);\n  color: white;\n  padding: 13px 67px 12px 40px;\n  -webkit-clip-path: polygon(0 0, calc(100% - 47px) 0, 100% 100%, 0% 100%);\n          clip-path: polygon(0 0, calc(100% - 47px) 0, 100% 100%, 0% 100%);\n  position: absolute;\n  bottom: 0;\n  left: 0;\n}\n.project-link:hover .project-navlink img {\n  transform: translateX(0px);\n}\n.carousel__item {\n  position: relative;\n}\n.carousel__item::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  width: 100%;\n  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));\n  z-index: 1;\n}\n:root {\n  --swiper-theme-color: #fff;\n}\n.swiper-button-next,\n.swiper-button-prev {\n  right: 10px;\n  padding: 10px;\n  padding-top: 131px;\n}\n@media only screen and (min-width: 768px) {\n.swiper-button-next,\n.swiper-button-prev {\n    padding: 30px;\n    padding-top: 80px;\n}\n}\n@media only screen and (min-width: 768px) {\n.swiper-button-next,\n.swiper-button-prev {\n    padding-top: 30px;\n}\n}\n#our_goal {\n  position: relative;\n  overflow: hidden;\n}\n#our_goal::after {\n  content: \"\";\n  position: absolute;\n  bottom: -2px;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-image: url(/images/listia.png);\n  background-size: contain;\n  background-repeat: no-repeat;\n  background-position: top center;\n  transform: rotate(180deg);\n  opacity: 0.3;\n}\n@media only screen and (min-width: 1280px) {\n#our_goal {\n    padding-bottom: 45px;\n}\n}\n@media only screen and (min-width: 1536px) {\n#our_goal {\n    padding-bottom: 145px;\n}\n}\n#our_benefits {\n  position: relative;\n  overflow: hidden;\n}\n#our_benefits::before {\n  content: \"\";\n  position: absolute;\n  top: -2px;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-image: url(/images/listia.png);\n  background-size: contain;\n  background-repeat: no-repeat;\n  background-position: top center;\n  opacity: 0.3;\n}\n.items-start-important {\n  align-items: flex-start !important;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

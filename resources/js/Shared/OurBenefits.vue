@@ -82,8 +82,8 @@
                     >
                         <div class="inner-triangle">
                              <div>
-                                <i class="fa-solid fa-scroll"></i>
-                                <p>Certification</p>
+                                <i class="rotate-180 fa-solid fa-scroll"></i>
+                                <p class="rotate-180">Certification</p>
                             </div>
                         </div>
                     </div>
@@ -93,8 +93,8 @@
                     >
                         <div class="inner-triangle">
                              <div>
-                                <i class="fa-solid fa-hand-back-fist"></i>
-                                <p>Tradition</p>
+                                <i class="rotate-180 fa-solid fa-hand-back-fist"></i>
+                                <p class="rotate-180">Tradition</p>
                             </div>
                         </div>
                     </div>
