@@ -8,9 +8,9 @@
         <div
             class="w-full h-auto min-h-screen bg-[url('/images/contact-bg.jpg')] backdrop-blur black-shadow bg-bottom bg-no-repeat bg-cover bg-fixed">
             <div class="container m-auto h-full px-6 py-12 md:py-28">
-                <div
-                    class="w-full h-full z-50 flex flex-col justify-start items-start md:items:center content-start md:content-center">
-                    <h1 class="text-white text-5xl mb-12 mt-16 z-50 white-text-shadow" data-aos="fade-right">Contact
+                <div class="w-full h-full z-50 flex justify-center md:justify-start">
+                    <h1 class="text-white text-5xl mb-12 mt-16 z-50 white-text-shadow" data-aos="fade-right">
+                        Contact
                     </h1>
                 </div>
 
@@ -115,7 +115,7 @@
                                     class="fa-solid fa-phone mr-4"></i>+380 966230115</a>
                             <div class="flex justify-center md:justify-start">
                                 <a href="https://www.instagram.com/decorhaus.sk/" title="Instagram"
-                                    class="white-text-shadow mr-8 text-white transition-all hover:text-amber-500"><span
+                                    class="white-text-shadow text-white transition-all hover:text-amber-500"><span
                                         class="fa fa-instagram text-2xl"></span></a>
                             </div>
                         </div>

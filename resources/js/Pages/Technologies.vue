@@ -49,7 +49,7 @@
                 
                 <div class="flex flex-col lg:flex-row-reverse align-center items-center pt-12">
                     <div class="w-full h-full lg:w-1/2 flex justify-center">
-                        <img class="mb-4 lg:mb-0 w-full lg:w-4/5" src="/images/sip-sandwich-1.jpg" alt="">
+                        <img class="mb-8 lg:mb-0 w-full lg:w-4/5" src="/images/sip-sandwich-1.jpg" alt="">
                     </div>
                     <div class="w-full lg:w-1/2">
                         <p class="mb-4 text-slate-700 text-xl">
@@ -66,7 +66,7 @@
 
                 <div class="flex flex-col lg:flex-row align-center items-center pt-12">
                     <div class="w-full h-full lg:w-1/2 flex justify-center">
-                        <img class="mb-4 lg:mb-0 w-full lg:w-3/5" src="/images/sip-sandwich-2.jpg" alt="">
+                        <img class="mb-8 lg:mb-0 w-full lg:w-3/5" src="/images/sip-sandwich-2.jpg" alt="">
                     </div>
                     <div class="w-full lg:w-1/2">
                         <p class="mb-4 text-slate-700 text-xl">The SIP panel building system is classified as a timber frame building system, but its physical and thermal insulation properties make it significantly superior to conventional timber frame buildings.</p>
@@ -114,7 +114,7 @@
 
                      <div class="flex flex-col lg:flex-row align-center items-center pt-12">
                         <div class="w-full h-full lg:w-1/2 flex justify-center">
-                            <img class="mb-4 lg:mb-0 w-full lg:w-4/5" src="/images/sip-advantages-1.jpg" alt="">
+                            <img class="mb-8 lg:mb-0 w-full lg:w-4/5" src="/images/sip-advantages-1.jpg" alt="">
                         </div>
                         <div class="w-full lg:w-1/2">
                             <p class="mb-4 text-slate-700 text-xl">
@@ -128,7 +128,7 @@
 
                     <div class="flex flex-col lg:flex-row-reverse align-center items-center pt-12">
                         <div class="w-full h-full lg:w-1/2 flex justify-center">
-                            <img class="mb-4 lg:mb-0 w-full lg:w-4/5" src="/images/sip-advantages-2.jpg" alt="">
+                            <img class="mb-8 lg:mb-0 w-full lg:w-4/5" src="/images/sip-advantages-2.jpg" alt="">
                         </div>
                         <div class="w-full lg:w-1/2">
                             <p class="mb-4 text-slate-700 text-xl">
@@ -162,7 +162,7 @@
                 <div class="flex flex-col">
                     <div class="flex flex-col lg:flex-row align-center items-center pt-12">
                         <div class="w-full h-full lg:w-1/2 flex justify-center">
-                            <img class="mb-4 lg:mb-0 w-full lg:w-4/5" src="/images/sip-design.jpg" alt="">
+                            <img class="mb-8 lg:mb-0 w-full lg:w-4/5" src="/images/sip-design.jpg" alt="">
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
@@ -179,7 +179,7 @@
 
                     <div class="flex flex-col lg:flex-row-reverse align-center items-center pt-12">
                         <div class="w-full h-full lg:w-1/2 flex justify-center">
-                            <img class="mb-4 lg:mb-0 w-full lg:w-4/5" src="/images/sip-production.png" alt="">
+                            <img class="mb-8 lg:mb-0 w-full lg:w-4/5" src="/images/sip-production.png" alt="">
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
@@ -199,7 +199,7 @@
 
                     <div class="flex flex-col lg:flex-row align-center items-center pt-12">
                         <div class="w-full h-full lg:w-1/2 flex justify-center">
-                            <img class="mb-4 lg:mb-0 w-full lg:w-4/5" src="/images/sip-asembly.jpg" alt="">
+                            <img class="mb-8 lg:mb-0 w-full lg:w-4/5" src="/images/sip-asembly.jpg" alt="">
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
@@ -216,7 +216,7 @@
 
                     <div class="flex flex-col lg:flex-row-reverse align-center items-center pt-12">
                         <div class="w-full h-full lg:w-1/2 flex justify-center">
-                            <img class="mb-4 lg:mb-0 w-full lg:w-4/5" src="/images/sip-construction.jpg" alt="">
+                            <img class="mb-8 lg:mb-0 w-full lg:w-4/5" src="/images/sip-construction.jpg" alt="">
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
@@ -233,7 +233,7 @@
 
                     <div class="flex flex-col lg:flex-row align-center items-center pt-12">
                         <div class="w-full h-full lg:w-1/2 flex justify-center">
-                            <img class="mb-4 lg:mb-0 w-full lg:w-4/5" src="/images/sip-floor.jpg" alt="">
+                            <img class="mb-8 lg:mb-0 w-full lg:w-4/5" src="/images/sip-floor.jpg" alt="">
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
@@ -247,7 +247,7 @@
 
                     <div class="flex flex-col lg:flex-row-reverse align-center items-center pt-12">
                         <div class="w-full h-full lg:w-1/2 flex justify-center">
-                            <img class="mb-4 lg:mb-0 w-full lg:w-4/5" src="/images/sip-roof.jpg" alt="">
+                            <img class="mb-8 lg:mb-0 w-full lg:w-4/5" src="/images/sip-roof.jpg" alt="">
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
@@ -267,7 +267,7 @@
                     <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
                         WIDE VARIABILITY OF FINAL FINISHES
                     </h3>
-                    <p class="mb-4 text-slate-700 text-xl">
+                    <p class="mb-8 text-slate-700 text-xl">
                         The SIP construction system can be easily completed with a wide range of finishes from classic plaster to vented facades.
                     </p>
                     <div class="w-full flex flex-wrap">
@@ -300,8 +300,8 @@
 
                 <div class="flex flex-col">
                     <div class="flex flex-col lg:flex-row align-center items-center pt-12">
-                        <div class="w-full h-full lg:w-1/2 flex justify-center">
-                            <i class="mb-4 lg:mb-0 text-9xl text-emerald-500 fa-solid fa-circle-dollar-to-slot"></i>
+                        <div class="w-full h-full lg:w-1/2 flex justify-center mb-12 lg:mb-0">
+                            <i class="text-9xl text-emerald-500 fa-solid fa-circle-dollar-to-slot"></i>
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
@@ -314,8 +314,8 @@
                     </div>
 
                     <div class="flex flex-col lg:flex-row-reverse align-center items-center pt-12">
-                        <div class="w-full h-full lg:w-1/2 flex justify-center">
-                            <i class="mb-4 lg:mb-0 text-9xl text-emerald-500 fa-solid fa-gauge-high"></i>
+                        <div class="w-full h-full lg:w-1/2 flex justify-center mb-12 lg:mb-0">
+                            <i class="text-9xl text-emerald-500 fa-solid fa-gauge-high"></i>
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
@@ -328,8 +328,8 @@
                     </div>
 
                     <div class="flex flex-col lg:flex-row align-center items-center pt-12">
-                        <div class="w-full h-full lg:w-1/2 flex justify-center">
-                            <i class="mb-4 lg:mb-0 text-9xl text-emerald-500 fa-solid fa-house-medical"></i>
+                        <div class="w-full h-full lg:w-1/2 flex justify-center mb-12 lg:mb-0">
+                            <i class="text-9xl text-emerald-500 fa-solid fa-house-medical"></i>
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
@@ -342,8 +342,8 @@
                     </div>
 
                     <div class="flex flex-col lg:flex-row-reverse align-center items-center pt-12">
-                        <div class="w-full h-full lg:w-1/2 flex justify-center">
-                            <i class="mb-4 lg:mb-0 text-9xl text-emerald-500 fa-solid fa-wind"></i>
+                        <div class="w-full h-full lg:w-1/2 flex justify-center mb-12 lg:mb-0">
+                            <i class="text-9xl text-emerald-500 fa-solid fa-wind"></i>
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
@@ -356,8 +356,8 @@
                     </div>
 
                     <div class="flex flex-col lg:flex-row align-center items-center pt-12">
-                        <div class="w-full h-full lg:w-1/2 flex justify-center">
-                            <i class="mb-4 lg:mb-0 text-9xl text-emerald-500 fa-solid fa-layer-group"></i>
+                        <div class="w-full h-full lg:w-1/2 flex justify-center mb-12 lg:mb-0">
+                            <i class="text-9xl text-emerald-500 fa-solid fa-layer-group"></i>
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
@@ -370,8 +370,8 @@
                     </div>
 
                     <div class="flex flex-col lg:flex-row-reverse align-center items-center pt-12">
-                        <div class="w-full h-full lg:w-1/2 flex justify-center">
-                            <i class="mb-4 lg:mb-0 text-9xl text-emerald-500 fa-solid fa-building-shield"></i>
+                        <div class="w-full h-full lg:w-1/2 flex justify-center mb-12 lg:mb-0">
+                            <i class="text-9xl text-emerald-500 fa-solid fa-building-shield"></i>
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
@@ -384,8 +384,8 @@
                     </div>
 
                     <div class="flex flex-col lg:flex-row align-center items-center pt-12">
-                        <div class="w-full h-full lg:w-1/2 flex justify-center">
-                            <i class="mb-4 lg:mb-0 text-9xl text-emerald-500 fa-solid fa-seedling"></i>
+                        <div class="w-full h-full lg:w-1/2 flex justify-center mb-12 lg:mb-0">
+                            <i class="text-9xl text-emerald-500 fa-solid fa-seedling"></i>
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
@@ -398,8 +398,8 @@
                     </div>
 
                     <div class="flex flex-col lg:flex-row-reverse align-center items-center pt-12">
-                        <div class="w-full h-full lg:w-1/2 flex justify-center">
-                            <i class="mb-4 lg:mb-0 text-9xl text-emerald-500 fa-solid fa-diagram-project"></i>
+                        <div class="w-full h-full lg:w-1/2 flex justify-center mb-12 lg:mb-0">
+                            <i class="text-9xl text-emerald-500 fa-solid fa-diagram-project"></i>
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
@@ -412,8 +412,8 @@
                     </div>
 
                     <div class="flex flex-col lg:flex-row align-center items-center pt-12">
-                        <div class="w-full h-full lg:w-1/2 flex justify-center">
-                            <i class="mb-4 lg:mb-0 text-9xl text-emerald-500 fa-solid fa-stamp"></i>
+                        <div class="w-full h-full lg:w-1/2 flex justify-center mb-12 lg:mb-0">
+                            <i class="text-9xl text-emerald-500 fa-solid fa-stamp"></i>
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
@@ -426,8 +426,8 @@
                     </div>
 
                     <div class="flex flex-col lg:flex-row-reverse align-center items-center pt-12">
-                        <div class="w-full h-full lg:w-1/2 flex justify-center">
-                            <i class="mb-4 lg:mb-0 text-9xl text-emerald-500 fa-solid fa-medal"></i>
+                        <div class="w-full h-full lg:w-1/2 flex justify-center mb-12 lg:mb-0">
+                            <i class="text-9xl text-emerald-500 fa-solid fa-medal"></i>
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">

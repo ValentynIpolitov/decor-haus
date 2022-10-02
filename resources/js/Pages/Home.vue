@@ -25,11 +25,11 @@
                 <div class="carousel__item w-full h-screen bg-[url('/images/slide-bg-1.jpg')] bg-center bg-no-repeat bg-cover"
                     :key="1">
                     <div class="container m-auto px-6 flex flex-col justify-center content-center items-center h-full">
-                        <h1 class="text-white text-5xl mb-6 z-50 white-text-shadow" data-aos="fade-right">CUSTOM-MADE
+                        <h1 class="text-white text-3xl sm:text-5xl mb-6 z-50 white-text-shadow text-center sm:text-left" data-aos="fade-right">CUSTOM-MADE
                             PREFABRICATED WOODEN HOUSES</h1>
 
                         <div class="bg-opacity-30 rounded-xl bg-black py-10 box-shadow z-50 px-8" data-aos="fade-right">
-                            <p class="text-white text-xl z-50 white-text-shadow" data-aos="flip-down"
+                            <p class="text-white text-base sm:text-xl z-50 white-text-shadow text-center sm:text-left" data-aos="flip-down"
                                 data-aos-delay="600" data-aos-offset="0">
                                 Production and assembly of low-energy passive prefabricated SIP houses
                             </p>
@@ -41,11 +41,11 @@
                 <div class="carousel__item w-full h-screen bg-[url('/images/slide-bg-2.jpg')] bg-center bg-no-repeat bg-cover"
                     :key="2">
                     <div class="container m-auto px-6 flex flex-col justify-center content-center items-center h-full">
-                        <h1 class="text-white text-5xl mb-6 z-50 white-text-shadow" data-aos="fade-right">CUSTOM-MADE
+                        <h1 class="text-white text-3xl sm:text-5xl mb-6 z-50 white-text-shadow text-center sm:text-left" data-aos="fade-right">CUSTOM-MADE
                             PREFABRICATED WOODEN HOUSES</h1>
 
                         <div class="bg-opacity-30 rounded-xl bg-black py-10 box-shadow z-50 px-8" data-aos="fade-right">
-                            <p class="text-white text-xl z-50 white-text-shadow" data-aos="flip-down"
+                            <p class="text-white text-base sm:text-xl z-50 white-text-shadow text-center sm:text-left" data-aos="flip-down"
                                 data-aos-delay="900" data-aos-offset="0">
                                 Production and assembly of low-energy passive prefabricated SIP houses
                             </p>

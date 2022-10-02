@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col">
-        <h2 class="text-emerald-500 text-4xl mb-4">
+        <h2 class="text-emerald-500 text-4xl mb-4 text-center lg:text-left">
             Why me?
         </h2>
         

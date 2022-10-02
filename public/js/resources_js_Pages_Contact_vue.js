@@ -62,11 +62,11 @@ var _hoisted_3 = {
 
 var _hoisted_4 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "w-full h-full z-50 flex flex-col justify-start items-start md:items:center content-start md:content-center"
+    "class": "w-full h-full z-50 flex justify-center md:justify-start"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
     "class": "text-white text-5xl mb-12 mt-16 z-50 white-text-shadow",
     "data-aos": "fade-right"
-  }, "Contact ")], -1
+  }, " Contact ")], -1
   /* HOISTED */
   );
 });
@@ -116,7 +116,7 @@ var _hoisted_12 = {
 };
 var _hoisted_13 = ["disabled"];
 
-var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"w-full md:w-1/2 h-full flex justify-center content-center items-center z-50 pt-12 md:pt-0\" data-v-2c2b26f2><div class=\"flex flex-col\" data-v-2c2b26f2><a href=\"tel:+421 919322088\" class=\"mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left\" data-v-2c2b26f2><i class=\"fa-solid fa-phone mr-4\" data-v-2c2b26f2></i> +421 919322088</a><a href=\"mailto:decorhaus.sk@gmail.com\" class=\"mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left\" data-v-2c2b26f2><i class=\"fa-solid fa-envelope mr-4\" data-v-2c2b26f2></i>decorhaus.sk@gmail.com</a><p class=\"mb-4 text-white text-3xl text-center md:text-left\" data-v-2c2b26f2>Service abroad:</p><a href=\"tel:+421944725652\" class=\"mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left\" data-v-2c2b26f2><i class=\"fa-solid fa-phone mr-4\" data-v-2c2b26f2></i>+421 944725652</a><a href=\"tel:+380966230115\" class=\"mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left\" data-v-2c2b26f2><i class=\"fa-solid fa-phone mr-4\" data-v-2c2b26f2></i>+380 966230115</a><div class=\"flex justify-center md:justify-start\" data-v-2c2b26f2><a href=\"https://www.instagram.com/decorhaus.sk/\" title=\"Instagram\" class=\"white-text-shadow mr-8 text-white transition-all hover:text-amber-500\" data-v-2c2b26f2><span class=\"fa fa-instagram text-2xl\" data-v-2c2b26f2></span></a></div></div></div>", 1);
+var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"w-full md:w-1/2 h-full flex justify-center content-center items-center z-50 pt-12 md:pt-0\" data-v-2c2b26f2><div class=\"flex flex-col\" data-v-2c2b26f2><a href=\"tel:+421 919322088\" class=\"mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left\" data-v-2c2b26f2><i class=\"fa-solid fa-phone mr-4\" data-v-2c2b26f2></i> +421 919322088</a><a href=\"mailto:decorhaus.sk@gmail.com\" class=\"mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left\" data-v-2c2b26f2><i class=\"fa-solid fa-envelope mr-4\" data-v-2c2b26f2></i>decorhaus.sk@gmail.com</a><p class=\"mb-4 text-white text-3xl text-center md:text-left\" data-v-2c2b26f2>Service abroad:</p><a href=\"tel:+421944725652\" class=\"mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left\" data-v-2c2b26f2><i class=\"fa-solid fa-phone mr-4\" data-v-2c2b26f2></i>+421 944725652</a><a href=\"tel:+380966230115\" class=\"mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left\" data-v-2c2b26f2><i class=\"fa-solid fa-phone mr-4\" data-v-2c2b26f2></i>+380 966230115</a><div class=\"flex justify-center md:justify-start\" data-v-2c2b26f2><a href=\"https://www.instagram.com/decorhaus.sk/\" title=\"Instagram\" class=\"white-text-shadow text-white transition-all hover:text-amber-500\" data-v-2c2b26f2><span class=\"fa fa-instagram text-2xl\" data-v-2c2b26f2></span></a></div></div></div>", 1);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _ctx$results;
@@ -292,7 +292,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Contact_vue_vue_type_template_id_2c2b26f2_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Contact.vue?vue&type=template&id=2c2b26f2&scoped=true */ "./resources/js/Pages/Contact.vue?vue&type=template&id=2c2b26f2&scoped=true");
 /* harmony import */ var _Contact_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Contact.vue?vue&type=script&lang=js */ "./resources/js/Pages/Contact.vue?vue&type=script&lang=js");
 /* harmony import */ var _Contact_vue_vue_type_style_index_0_id_2c2b26f2_lang_scss_scoped_true__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Contact.vue?vue&type=style&index=0&id=2c2b26f2&lang=scss&scoped=true */ "./resources/js/Pages/Contact.vue?vue&type=style&index=0&id=2c2b26f2&lang=scss&scoped=true");
-/* harmony import */ var _home_vad_Desktop_repos_decor_haus_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _var_www_decor_haus_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
@@ -300,7 +300,7 @@ __webpack_require__.r(__webpack_exports__);
 ;
 
 
-const __exports__ = /*#__PURE__*/(0,_home_vad_Desktop_repos_decor_haus_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Contact_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Contact_vue_vue_type_template_id_2c2b26f2_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-2c2b26f2"],['__file',"resources/js/Pages/Contact.vue"]])
+const __exports__ = /*#__PURE__*/(0,_var_www_decor_haus_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Contact_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Contact_vue_vue_type_template_id_2c2b26f2_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-2c2b26f2"],['__file',"resources/js/Pages/Contact.vue"]])
 /* hot reload */
 if (false) {}
 
