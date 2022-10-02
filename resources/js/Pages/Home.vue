@@ -101,9 +101,9 @@
     <section data-aos="fade-up">
         <div>
             <div class="flex flex-wrap">
-                <div class="w-full md:w-1/2 lg:w-1/3 project-link">
+                <div class="w-full md:w-1/2 lg:w-1/3 project-link items-start-important">
                     <NavLink class="project-navlink" :href="route('projects')+'#modular_hauses'" >                
-                        <img src="/images/odnoetazh.jpg" alt="">
+                        <img src="/images/home/link_1.jpg" alt="">
         
                         <div class="text-xl">
                             Modular Houses
@@ -111,9 +111,9 @@
                     </NavLink>
                 </div>
                 
-                <div class="w-full md:w-1/2 lg:w-1/3 project-link">
+                <div class="w-full md:w-1/2 lg:w-1/3 project-link items-start-important">
                     <NavLink class="project-navlink" :href="route('projects')+'#residents_and_apartments'" >                
-                        <img src="/images/dvuhetazh.jpg" alt="">
+                        <img src="/images/home/link_2.jpg" alt="">
 
                         <div class="text-xl">
                             Residents and appartments
@@ -123,7 +123,7 @@
 
                 <div class="w-full md:w-1/2 lg:w-1/3 project-link">
                     <NavLink class="project-navlink" :href="route('projects')+'#commercial_buildings'" >                
-                        <img src="/images/dacha.jpg" alt="">
+                        <img src="/images/home/link_3.jpg" alt="">
 
                         <div class="text-xl">
                             Commercial Buildings
@@ -133,7 +133,7 @@
 
                 <div class="w-full md:w-1/2 lg:w-1/3 project-link">
                     <NavLink class="project-navlink" :href="route('projects')+'#school_and_kindergartens'" >                
-                        <img src="/images/haitech.jpg" alt="">
+                        <img src="/images/home/link_4.jpg" alt="">
 
                         <div class="text-xl">
                             Schools and Kindergartens
@@ -143,7 +143,7 @@
 
                 <div class="w-full md:w-1/2 lg:w-1/3 project-link">
                     <NavLink class="project-navlink" :href="route('projects')+'#superstructures_and_extensions'" >                
-                        <img src="/images/commerc.jpg" alt="">
+                        <img src="/images/home/link_5.jpg" alt="">
 
                         <div class="text-xl">
                             Superstructures and Extensions
@@ -153,7 +153,7 @@
 
                 <div class="w-full md:w-1/2 lg:w-1/3 project-link">
                     <NavLink class="project-navlink" :href="route('projects')+'#cotteges'" >                
-                        <img src="/images/sauna.jpg" alt="">
+                        <img src="/images/home/link_6.jpg" alt="">
                         
                         <div class="text-xl">
                             Cottages and Recreational Facilities
@@ -212,6 +212,10 @@ export default {
 .project-link {
     position: relative;
     overflow: hidden;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     .project-navlink {
         img {
@@ -331,4 +335,8 @@ export default {
     }
 }
 // section our benifits ends
+
+.items-start-important {
+    align-items: flex-start !important;
+}
 </style>

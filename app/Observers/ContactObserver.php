@@ -17,9 +17,7 @@ class ContactObserver
     public function created(Contact $contact)
     {
         $mail = new ContactFormFilled($contact);
-        // $mailsender = new MailSender($mail, 'vadimtiliguzov@gmail.com');
-        // $mailsender = new MailSender($mail, 'sv.vartey@gmail.com');
-        $mailsender = new MailSender($mail, 'decorhaus.sk@gmail.com');
+        $mailsender = new MailSender($mail, config('app.company_mail'));
         $mailsender->send();
     }
 
