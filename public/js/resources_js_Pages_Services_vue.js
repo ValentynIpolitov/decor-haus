@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
       images_set_4: ["/images/Pages/services/guillitine__1.jpg", "/images/Pages/services/guillitine__2.jpg", "/images/Pages/services/guillitine__3.jpg", "/images/Pages/services/guillitine__4.jpg", "/images/Pages/services/guillitine__5.jpg", "/images/Pages/services/guillitine__6.png", "/images/Pages/services/guillitine__7.jpg"],
       images_set_5: ["/images/Pages/services/glass_roof_1.jpg", "/images/Pages/services/glass_roof_2.jpeg", "/images/Pages/services/glass_roof_3.jpg", "/images/Pages/services/glass_roof_4.jpg", "/images/Pages/services/glass_roof_5.jpg"],
       images_set_6: ["/images/Pages/services/pasific_1.jpg", "/images/Pages/services/pasific_2.jpg", "/images/Pages/services/pasific_3.jpeg", "/images/Pages/services/pasific_4.jpg"],
-      images_set_7: ["/images/Pages/services/aerolux_1.jpg", "/images/Pages/services/aerolux_2.jpg", "/images/Pages/services/aerolux_3.jpg", "/images/Pages/services/aerolux_4.jpg", "/images/Pages/services/aerolux_5.jpg"],
+      images_set_7: ["/images/Pages/services/aerolux_1.jpg", "/images/Pages/services/aerolux_2.jpg", "/images/Pages/services/aerolux_3.jpg", "/images/Pages/services/aerolux_4.jpg", "/images/Pages/services/aerolux_5.jpg", "/images/Pages/services/aero.gif"],
       images_set_8: ["/images/Pages/services/wind_stop_1.jpeg", "/images/Pages/services/wind_stop_2.jpeg", "/images/Pages/services/wind_stop_3.jpg", "/images/Pages/services/wind_stop_4.jpg", "/images/Pages/services/wind_stop_5.jpeg"],
       images_set_9: ["/images/Pages/services/sliding_1.jpg", "/images/Pages/services/sliding_2.jpg", "/images/Pages/services/sliding_3.jpg", "/images/Pages/services/sliding_4.jpg", "/images/Pages/services/sliding_5.jpg", "/images/Pages/services/sliding_6.jpg"],
       images_set_10: ["/images/Pages/services/shadow_1.jpg", "/images/Pages/services/shadow_2.jpg"],
@@ -980,7 +980,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Services_vue_vue_type_template_id_20597807_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Services.vue?vue&type=template&id=20597807&scoped=true */ "./resources/js/Pages/Services.vue?vue&type=template&id=20597807&scoped=true");
 /* harmony import */ var _Services_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Services.vue?vue&type=script&lang=js */ "./resources/js/Pages/Services.vue?vue&type=script&lang=js");
 /* harmony import */ var _Services_vue_vue_type_style_index_0_id_20597807_lang_scss_scoped_true__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Services.vue?vue&type=style&index=0&id=20597807&lang=scss&scoped=true */ "./resources/js/Pages/Services.vue?vue&type=style&index=0&id=20597807&lang=scss&scoped=true");
-/* harmony import */ var _var_www_decor_haus_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _home_vad_Desktop_repos_decor_haus_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
@@ -988,7 +988,7 @@ __webpack_require__.r(__webpack_exports__);
 ;
 
 
-const __exports__ = /*#__PURE__*/(0,_var_www_decor_haus_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Services_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Services_vue_vue_type_template_id_20597807_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-20597807"],['__file',"resources/js/Pages/Services.vue"]])
+const __exports__ = /*#__PURE__*/(0,_home_vad_Desktop_repos_decor_haus_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Services_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Services_vue_vue_type_template_id_20597807_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-20597807"],['__file',"resources/js/Pages/Services.vue"]])
 /* hot reload */
 if (false) {}
 

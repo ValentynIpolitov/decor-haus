@@ -497,6 +497,7 @@ export default {
               "/images/Pages/services/aerolux_3.jpg",
               "/images/Pages/services/aerolux_4.jpg",
               "/images/Pages/services/aerolux_5.jpg",
+              "/images/Pages/services/aero.gif",
             ],
             images_set_8: [
               "/images/Pages/services/wind_stop_1.jpeg",
