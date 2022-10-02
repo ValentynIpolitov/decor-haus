@@ -50,7 +50,7 @@
                 </div>
             </div>
 
-            <div class="flex flex-col pt-12" id="modular_hauses">
+            <div class="flex flex-col pt-12 project-link-anchor" id="modular_hauses">
                 <h2 class="text-4xl text-emerald-500 ">Modular Houses</h2>
             </div>
 
@@ -100,7 +100,7 @@
                 </p>
             </div>
 
-            <div class="flex flex-col pt-12" id="residents_and_apartments">
+            <div class="flex flex-col pt-12 project-link-anchor" id="residents_and_apartments">
                 <h2 class="text-4xl text-emerald-500">Construction of Residential and Apartment Buildings</h2>
 
                 <div class="flex flex-col lg:flex-row-reverse align-center items-center pt-12">
@@ -124,7 +124,7 @@
                 </div>
             </div>
 
-            <div class="flex flex-col pt-12" id="commercial_buildings">
+            <div class="flex flex-col pt-12 project-link-anchor" id="commercial_buildings">
                 <h2 class="text-4xl text-emerald-500">Commercial Buildings</h2>
 
                 <div class="flex flex-col lg:flex-row align-center items-center pt-12">
@@ -142,7 +142,7 @@
                 </div>
             </div>
 
-            <div class="flex flex-col pt-12" id="school_and_kindergartens">
+            <div class="flex flex-col pt-12 project-link-anchor" id="school_and_kindergartens">
                 <h2 class="text-4xl text-emerald-500">Schools and Kindergartens</h2>
 
                 <div class="flex flex-col lg:flex-row-reverse align-center items-center pt-12">
@@ -160,7 +160,7 @@
                 </div>
             </div>
 
-            <div class="flex flex-col pt-12" id="superstructures_and_extensions">
+            <div class="flex flex-col pt-12 project-link-anchor" id="superstructures_and_extensions">
                 <h2 class="text-4xl text-emerald-500">Superstructures and Extensions</h2>
 
                 <div class="flex flex-col lg:flex-row align-center items-center pt-12">
@@ -190,7 +190,7 @@
                 </div>
             </div>
 
-            <div class="flex flex-col pt-12" id="cotteges">
+            <div class="flex flex-col pt-12 project-link-anchor" id="cotteges">
 
                 <h2 class="text-4xl text-emerald-500">Cottages and Recreational Facilities</h2>
 
@@ -307,5 +307,10 @@ export default {
         background: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0));
         z-index: 1;
     }
+}
+
+.project-link-anchor {
+    padding-top: calc(3rem + 60px);
+    margin-top: -60px;
 }
 </style>
