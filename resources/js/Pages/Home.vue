@@ -102,63 +102,63 @@
         <div>
             <div class="flex flex-wrap">
                 <div class="w-full md:w-1/2 lg:w-1/3 project-link">
-                    <a href="">
+                    <NavLink class="project-navlink" :href="route('projects')+'#modular_hauses'" >                
                         <img src="/images/odnoetazh.jpg" alt="">
-
+        
                         <div class="text-xl">
-                            One flor
+                            Modular Houses
                         </div>
-                    </a>
+                    </NavLink>
                 </div>
-
+                
                 <div class="w-full md:w-1/2 lg:w-1/3 project-link">
-                    <a href="">
+                    <NavLink class="project-navlink" :href="route('projects')+'#residents_and_apartments'" >                
                         <img src="/images/dvuhetazh.jpg" alt="">
 
                         <div class="text-xl">
-                            2 flors
+                            Residents and appartments
                         </div>
-                    </a>
+                    </NavLink>
                 </div>
 
                 <div class="w-full md:w-1/2 lg:w-1/3 project-link">
-                    <a href="">
+                    <NavLink class="project-navlink" :href="route('projects')+'#commercial_buildings'" >                
                         <img src="/images/dacha.jpg" alt="">
 
                         <div class="text-xl">
-                            Dacha
+                            Commercial Buildings
                         </div>
-                    </a>
+                    </NavLink>
                 </div>
 
                 <div class="w-full md:w-1/2 lg:w-1/3 project-link">
-                    <a href="">
+                    <NavLink class="project-navlink" :href="route('projects')+'#school_and_kindergartens'" >                
                         <img src="/images/haitech.jpg" alt="">
 
                         <div class="text-xl">
-                            Haitech
+                            Schools and Kindergartens
                         </div>
-                    </a>
+                    </NavLink>
                 </div>
 
                 <div class="w-full md:w-1/2 lg:w-1/3 project-link">
-                    <a href="">
+                    <NavLink class="project-navlink" :href="route('projects')+'#superstructures_and_extensions'" >                
                         <img src="/images/commerc.jpg" alt="">
 
                         <div class="text-xl">
-                            Commercial
+                            Superstructures and Extensions
                         </div>
-                    </a>
+                    </NavLink>
                 </div>
 
                 <div class="w-full md:w-1/2 lg:w-1/3 project-link">
-                    <a href="">
+                    <NavLink class="project-navlink" :href="route('projects')+'#cotteges'" >                
                         <img src="/images/sauna.jpg" alt="">
-
+                        
                         <div class="text-xl">
-                            Sauna
+                            Cottages and Recreational Facilities
                         </div>
-                    </a>
+                    </NavLink>
                 </div>
             </div>
         </div>
@@ -177,6 +177,7 @@ import 'swiper/css';
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
+import NavLink from '../Shared/NavLink.vue';
 
 export default {
     components: {
@@ -184,6 +185,7 @@ export default {
         OurBenefits,
         Swiper,
         SwiperSlide,
+        NavLink,
     },
 
     setup() {
@@ -211,7 +213,7 @@ export default {
     position: relative;
     overflow: hidden;
 
-    >a {
+    .project-navlink {
         img {
             transition: transform 0.3s ease;
             transform: translateX(-30px);
@@ -231,7 +233,7 @@ export default {
     }
 
     &:hover {
-        >a {
+        .project-navlink {
             img {
                 transform: translateX(0px);
             }

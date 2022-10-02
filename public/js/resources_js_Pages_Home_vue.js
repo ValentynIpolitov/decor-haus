@@ -18,6 +18,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var swiper_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! swiper/css */ "./node_modules/swiper/swiper.min.css");
 /* harmony import */ var swiper_css_navigation__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! swiper/css/navigation */ "./node_modules/swiper/modules/navigation/navigation.min.css");
 /* harmony import */ var swiper_css_pagination__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! swiper/css/pagination */ "./node_modules/swiper/modules/pagination/pagination.min.css");
+/* harmony import */ var _Shared_NavLink_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../Shared/NavLink.vue */ "./resources/js/Shared/NavLink.vue");
 
  // Import Swiper Vue.js components
 
@@ -27,12 +28,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
     Tabs: _Shared_Tabs_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
     OurBenefits: _Shared_OurBenefits_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
     Swiper: swiper_vue__WEBPACK_IMPORTED_MODULE_2__.Swiper,
-    SwiperSlide: swiper_vue__WEBPACK_IMPORTED_MODULE_2__.SwiperSlide
+    SwiperSlide: swiper_vue__WEBPACK_IMPORTED_MODULE_2__.SwiperSlide,
+    NavLink: _Shared_NavLink_vue__WEBPACK_IMPORTED_MODULE_7__["default"]
   },
   setup: function setup() {
     return {
@@ -189,8 +192,113 @@ var _hoisted_13 = {
 var _hoisted_14 = {
   "class": "container m-auto px-6 py-12 md:py-28"
 };
+var _hoisted_15 = {
+  "data-aos": "fade-up"
+};
+var _hoisted_16 = {
+  "class": "flex flex-wrap"
+};
+var _hoisted_17 = {
+  "class": "w-full md:w-1/2 lg:w-1/3 project-link"
+};
 
-var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section data-aos=\"fade-up\"><div><div class=\"flex flex-wrap\"><div class=\"w-full md:w-1/2 lg:w-1/3 project-link\"><a href=\"\"><img src=\"/images/odnoetazh.jpg\" alt=\"\"><div class=\"text-xl\"> One flor </div></a></div><div class=\"w-full md:w-1/2 lg:w-1/3 project-link\"><a href=\"\"><img src=\"/images/dvuhetazh.jpg\" alt=\"\"><div class=\"text-xl\"> 2 flors </div></a></div><div class=\"w-full md:w-1/2 lg:w-1/3 project-link\"><a href=\"\"><img src=\"/images/dacha.jpg\" alt=\"\"><div class=\"text-xl\"> Dacha </div></a></div><div class=\"w-full md:w-1/2 lg:w-1/3 project-link\"><a href=\"\"><img src=\"/images/haitech.jpg\" alt=\"\"><div class=\"text-xl\"> Haitech </div></a></div><div class=\"w-full md:w-1/2 lg:w-1/3 project-link\"><a href=\"\"><img src=\"/images/commerc.jpg\" alt=\"\"><div class=\"text-xl\"> Commercial </div></a></div><div class=\"w-full md:w-1/2 lg:w-1/3 project-link\"><a href=\"\"><img src=\"/images/sauna.jpg\" alt=\"\"><div class=\"text-xl\"> Sauna </div></a></div></div></div></section>", 1);
+var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: "/images/odnoetazh.jpg",
+  alt: ""
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "text-xl"
+}, " Modular Houses ", -1
+/* HOISTED */
+);
+
+var _hoisted_20 = {
+  "class": "w-full md:w-1/2 lg:w-1/3 project-link"
+};
+
+var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: "/images/dvuhetazh.jpg",
+  alt: ""
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "text-xl"
+}, " Residents and appartments ", -1
+/* HOISTED */
+);
+
+var _hoisted_23 = {
+  "class": "w-full md:w-1/2 lg:w-1/3 project-link"
+};
+
+var _hoisted_24 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: "/images/dacha.jpg",
+  alt: ""
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_25 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "text-xl"
+}, " Commercial Buildings ", -1
+/* HOISTED */
+);
+
+var _hoisted_26 = {
+  "class": "w-full md:w-1/2 lg:w-1/3 project-link"
+};
+
+var _hoisted_27 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: "/images/haitech.jpg",
+  alt: ""
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_28 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "text-xl"
+}, " Schools and Kindergartens ", -1
+/* HOISTED */
+);
+
+var _hoisted_29 = {
+  "class": "w-full md:w-1/2 lg:w-1/3 project-link"
+};
+
+var _hoisted_30 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: "/images/commerc.jpg",
+  alt: ""
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_31 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "text-xl"
+}, " Superstructures and Extensions ", -1
+/* HOISTED */
+);
+
+var _hoisted_32 = {
+  "class": "w-full md:w-1/2 lg:w-1/3 project-link"
+};
+
+var _hoisted_33 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: "/images/sauna.jpg",
+  alt: ""
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_34 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "text-xl"
+}, " Cottages and Recreational Facilities ", -1
+/* HOISTED */
+);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
@@ -202,6 +310,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Tabs = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Tabs");
 
   var _component_OurBenefits = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("OurBenefits");
+
+  var _component_NavLink = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("NavLink");
 
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Head, null, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
@@ -254,7 +364,79 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": "btn btn-secondary transition-all z-50"
   }, " Show more ")])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Dynamyc sections "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_OurBenefits)])], 512
   /* NEED_PATCH */
-  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Projects "), _hoisted_15], 64
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Projects "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_16, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_NavLink, {
+    "class": "project-navlink",
+    href: _ctx.route('projects') + '#modular_hauses'
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_18, _hoisted_19];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_20, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_NavLink, {
+    "class": "project-navlink",
+    href: _ctx.route('projects') + '#residents_and_apartments'
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_21, _hoisted_22];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_23, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_NavLink, {
+    "class": "project-navlink",
+    href: _ctx.route('projects') + '#commercial_buildings'
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_24, _hoisted_25];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_26, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_NavLink, {
+    "class": "project-navlink",
+    href: _ctx.route('projects') + '#school_and_kindergartens'
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_27, _hoisted_28];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_29, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_NavLink, {
+    "class": "project-navlink",
+    href: _ctx.route('projects') + '#superstructures_and_extensions'
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_30, _hoisted_31];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_32, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_NavLink, {
+    "class": "project-navlink",
+    href: _ctx.route('projects') + '#cotteges'
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_33, _hoisted_34];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href"])])])])])], 64
   /* STABLE_FRAGMENT */
   );
 }
@@ -669,7 +851,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".project-link {\n  position: relative;\n  overflow: hidden;\n}\n.project-link > a img {\n  transition: transform 0.3s ease;\n  transform: translateX(-30px);\n  width: calc(100% + 30px);\n  max-width: none;\n}\n.project-link > a div {\n  background-color: rgb(251, 191, 35);\n  color: white;\n  padding: 13px 67px 12px 40px;\n  -webkit-clip-path: polygon(0 0, calc(100% - 47px) 0, 100% 100%, 0% 100%);\n          clip-path: polygon(0 0, calc(100% - 47px) 0, 100% 100%, 0% 100%);\n  position: absolute;\n  bottom: 0;\n  left: 0;\n}\n.project-link:hover > a img {\n  transform: translateX(0px);\n}\n.carousel__item {\n  position: relative;\n}\n.carousel__item::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  width: 100%;\n  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));\n  z-index: 1;\n}\n:root {\n  --swiper-theme-color: #fff;\n}\n.swiper-button-next,\n.swiper-button-prev {\n  right: 10px;\n  padding: 10px;\n  padding-top: 131px;\n}\n@media only screen and (min-width: 768px) {\n.swiper-button-next,\n.swiper-button-prev {\n    padding: 30px;\n    padding-top: 80px;\n}\n}\n@media only screen and (min-width: 768px) {\n.swiper-button-next,\n.swiper-button-prev {\n    padding-top: 30px;\n}\n}\n#our_goal {\n  position: relative;\n  overflow: hidden;\n}\n#our_goal::after {\n  content: \"\";\n  position: absolute;\n  bottom: -2px;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-image: url(/images/listia.png);\n  background-size: contain;\n  background-repeat: no-repeat;\n  background-position: top center;\n  transform: rotate(180deg);\n  opacity: 0.3;\n}\n@media only screen and (min-width: 1280px) {\n#our_goal {\n    padding-bottom: 45px;\n}\n}\n@media only screen and (min-width: 1536px) {\n#our_goal {\n    padding-bottom: 145px;\n}\n}\n#our_benefits {\n  position: relative;\n  overflow: hidden;\n}\n#our_benefits::before {\n  content: \"\";\n  position: absolute;\n  top: -2px;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-image: url(/images/listia.png);\n  background-size: contain;\n  background-repeat: no-repeat;\n  background-position: top center;\n  opacity: 0.3;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".project-link {\n  position: relative;\n  overflow: hidden;\n}\n.project-link .project-navlink img {\n  transition: transform 0.3s ease;\n  transform: translateX(-30px);\n  width: calc(100% + 30px);\n  max-width: none;\n}\n.project-link .project-navlink div {\n  background-color: rgb(251, 191, 35);\n  color: white;\n  padding: 13px 67px 12px 40px;\n  -webkit-clip-path: polygon(0 0, calc(100% - 47px) 0, 100% 100%, 0% 100%);\n          clip-path: polygon(0 0, calc(100% - 47px) 0, 100% 100%, 0% 100%);\n  position: absolute;\n  bottom: 0;\n  left: 0;\n}\n.project-link:hover .project-navlink img {\n  transform: translateX(0px);\n}\n.carousel__item {\n  position: relative;\n}\n.carousel__item::after {\n  content: \"\";\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  width: 100%;\n  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));\n  z-index: 1;\n}\n:root {\n  --swiper-theme-color: #fff;\n}\n.swiper-button-next,\n.swiper-button-prev {\n  right: 10px;\n  padding: 10px;\n  padding-top: 131px;\n}\n@media only screen and (min-width: 768px) {\n.swiper-button-next,\n.swiper-button-prev {\n    padding: 30px;\n    padding-top: 80px;\n}\n}\n@media only screen and (min-width: 768px) {\n.swiper-button-next,\n.swiper-button-prev {\n    padding-top: 30px;\n}\n}\n#our_goal {\n  position: relative;\n  overflow: hidden;\n}\n#our_goal::after {\n  content: \"\";\n  position: absolute;\n  bottom: -2px;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-image: url(/images/listia.png);\n  background-size: contain;\n  background-repeat: no-repeat;\n  background-position: top center;\n  transform: rotate(180deg);\n  opacity: 0.3;\n}\n@media only screen and (min-width: 1280px) {\n#our_goal {\n    padding-bottom: 45px;\n}\n}\n@media only screen and (min-width: 1536px) {\n#our_goal {\n    padding-bottom: 145px;\n}\n}\n#our_benefits {\n  position: relative;\n  overflow: hidden;\n}\n#our_benefits::before {\n  content: \"\";\n  position: absolute;\n  top: -2px;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-image: url(/images/listia.png);\n  background-size: contain;\n  background-repeat: no-repeat;\n  background-position: top center;\n  opacity: 0.3;\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

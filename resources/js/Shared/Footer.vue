@@ -4,8 +4,7 @@
             <div class="w-full flex flex-col justyfy-center items-center content-center">
                 <!-- social links -->
                 <div class="mb-8">
-                    <a href="https://www.instagram.com/servus.ukraine/" title="Instagram" class="white-text-shadow mr-8 text-white transition-all hover:text-amber-500"><span class="fa fa-instagram text-2xl"></span></a>
-                    <a href="https://www.facebook.com/pages/%D0%A1%D0%B5%D1%80%D0%B2%D1%83%D1%81/174897179233857?ref=hl" title="Facebook" class="white-text-shadow text-white transition-all hover:text-amber-500"><span class="fa fa-facebook text-2xl"></span></a>
+                    <a href="https://www.instagram.com/decorhaus.sk/" title="Instagram" class="white-text-shadow mr-8 text-white transition-all hover:text-amber-500"><span class="fa fa-instagram text-2xl"></span></a>
                 </div>
 
                 <!-- sitemap -->

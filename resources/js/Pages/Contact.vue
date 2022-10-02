@@ -114,13 +114,9 @@
                                 class="mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left"><i
                                     class="fa-solid fa-phone mr-4"></i>+380 966230115</a>
                             <div class="flex justify-center md:justify-start">
-                                <a href="https://www.instagram.com/servus.ukraine/" title="Instagram"
+                                <a href="https://www.instagram.com/decorhaus.sk/" title="Instagram"
                                     class="white-text-shadow mr-8 text-white transition-all hover:text-amber-500"><span
                                         class="fa fa-instagram text-2xl"></span></a>
-                                <a href="https://www.facebook.com/pages/%D0%A1%D0%B5%D1%80%D0%B2%D1%83%D1%81/174897179233857?ref=hl"
-                                    title="Facebook"
-                                    class="white-text-shadow text-white transition-all hover:text-amber-500"><span
-                                        class="fa fa-facebook text-2xl"></span></a>
                             </div>
                         </div>
                     </div>
