@@ -370,10 +370,10 @@
                                 </p>
                                 <div class="mb-4">
                                     <div class="images flex flex-col md:flex-row gap-2 md:flex-wrap"  v-viewer>
-                                        <img v-for="src in images_set_7" :key="src" :src="src">
+                                        <img v-for="src in images_set_8" :key="src" :src="src">
                                     </div>
 
-                                    <viewer :images="images_set_7"
+                                    <viewer :images="images_set_8"
                                         :options="viewer_options"
                                     >
                                     </viewer>
@@ -385,10 +385,10 @@
                                 </h3>
                                 <div class="mb-4">
                                     <div class="images flex flex-col md:flex-row gap-2 md:flex-wrap"  v-viewer>
-                                        <img v-for="src in images_set_8" :key="src" :src="src">
+                                        <img v-for="src in images_set_9" :key="src" :src="src">
                                     </div>
 
-                                    <viewer :images="images_set_8"
+                                    <viewer :images="images_set_9"
                                         :options="viewer_options"
                                     >
                                     </viewer>
@@ -411,10 +411,10 @@
                                 </p>
                                 <div>
                                     <div class="images flex flex-col md:flex-row gap-2 md:flex-wrap"  v-viewer>
-                                        <img v-for="src in images_set_9" :key="src" :src="src">
+                                        <img v-for="src in images_set_10" :key="src" :src="src">
                                     </div>
 
-                                    <viewer :images="images_set_9"
+                                    <viewer :images="images_set_10"
                                         :options="viewer_options"
                                     >
                                     </viewer>
@@ -470,22 +470,52 @@ export default {
             ],
 
             images_set_4: [
-              "/images/Pages/services/wood-1.jpg",
+              "/images/Pages/services/guillitine__1.jpg",
+              "/images/Pages/services/guillitine__2.jpg",
+              "/images/Pages/services/guillitine__3.jpg",
+              "/images/Pages/services/guillitine__4.jpg",
+              "/images/Pages/services/guillitine__5.jpg",
+              "/images/Pages/services/guillitine__6.png",
+              "/images/Pages/services/guillitine__7.jpg",
             ],
             images_set_5: [
-              "/images/Pages/services/wood-1.jpg",
+              "/images/Pages/services/glass_roof_1.jpg",
+              "/images/Pages/services/glass_roof_2.jpeg",
+              "/images/Pages/services/glass_roof_3.jpg",
+              "/images/Pages/services/glass_roof_4.jpg",
+              "/images/Pages/services/glass_roof_5.jpg",
             ],
             images_set_6: [
-              "/images/Pages/services/wood-1.jpg",
+              "/images/Pages/services/pasific_1.jpg",
+              "/images/Pages/services/pasific_2.jpg",
+              "/images/Pages/services/pasific_3.jpeg",
+              "/images/Pages/services/pasific_4.jpg",
             ],
             images_set_7: [
-              "/images/Pages/services/wood-1.jpg",
+              "/images/Pages/services/aerolux_1.jpg",
+              "/images/Pages/services/aerolux_2.jpg",
+              "/images/Pages/services/aerolux_3.jpg",
+              "/images/Pages/services/aerolux_4.jpg",
+              "/images/Pages/services/aerolux_5.jpg",
             ],
             images_set_8: [
-              "/images/Pages/services/wood-1.jpg",
+              "/images/Pages/services/wind_stop_1.jpeg",
+              "/images/Pages/services/wind_stop_2.jpeg",
+              "/images/Pages/services/wind_stop_3.jpg",
+              "/images/Pages/services/wind_stop_4.jpg",
+              "/images/Pages/services/wind_stop_5.jpeg",
             ],
             images_set_9: [
-              "/images/Pages/services/wood-1.jpg",
+              "/images/Pages/services/sliding_1.jpg",
+              "/images/Pages/services/sliding_2.jpg",
+              "/images/Pages/services/sliding_3.jpg",
+              "/images/Pages/services/sliding_4.jpg",
+              "/images/Pages/services/sliding_5.jpg",
+              "/images/Pages/services/sliding_6.jpg",
+            ],
+            images_set_10: [
+              "/images/Pages/services/shadow_1.jpg",
+              "/images/Pages/services/shadow_2.jpg",
             ],
 
             viewer_options: { 

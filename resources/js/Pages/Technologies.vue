@@ -233,7 +233,7 @@
 
                     <div class="flex flex-col lg:flex-row align-center items-center pt-12">
                         <div class="w-full h-full lg:w-1/2 flex justify-center">
-                            <img class="mb-4 lg:mb-0 w-full lg:w-4/5" src="/images/sip-flor.jpg" alt="">
+                            <img class="mb-4 lg:mb-0 w-full lg:w-4/5" src="/images/sip-floor.jpg" alt="">
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
