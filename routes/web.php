@@ -27,3 +27,8 @@ Route::get('/services', function () {
 
 Route::get('/contact', [ContactPageController::class, 'index'])->name( 'contact' );
 Route::post('/contact', [ContactPageController::class, 'store']);
+
+
+Route::get('/dashboard', [\App\Http\Controllers\Admin\DashboardController::class, 'index'])->middleware('auth')->name('dashboard');
+Route::get('/contacts', [\App\Http\Controllers\Admin\ContactsController::class, 'index'])->name('contacts');
+require __DIR__ . '/auth.php';

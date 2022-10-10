@@ -16,7 +16,7 @@ import VueViewer from 'v-viewer'
 import VueCookieAcceptDecline from 'vue-cookie-accept-decline';
 import 'vue-cookie-accept-decline/dist/vue-cookie-accept-decline.css';
 
-import Layout from './Shared/Layout';
+import Layout from './Layouts/Guest';
 
 createInertiaApp({
     resolve: async (name) => {
