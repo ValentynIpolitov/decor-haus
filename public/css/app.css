@@ -2174,6 +2174,9 @@ select {
 .bg-\[url\(\'\/images\/login-bg\.jpg\'\)\] {
   background-image: url('/images/login-bg.jpg');
 }
+.bg-\[url\(\'\/images\/bgg2\.jpg\'\)\] {
+  background-image: url('/images/bgg2.jpg');
+}
 .bg-cover {
   background-size: cover;
 }
