@@ -11,15 +11,17 @@
         </template>
 
         <template #main>
-            <div class="py-12">
-                <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-                    <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                        <div class="p-6 bg-white border-b border-gray-200">
-                            You're logged in!
+            <section class="w-full h-auto min-h-screen bg-[url('/images/login-bg.jpg')] backdrop-blur black-shadow bg-bottom bg-no-repeat bg-cover bg-fixed">
+                <div class="py-12">
+                    <div class="w-full mx-auto px-4 sm:px-6 lg:px-8">
+                        <div class="card sm:rounded-lg w-full max-w-none">
+                            <div class="p-6 text-3xl text-center white-text-shadow text-white">
+                                You're logged in!
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </template>
     </BreezeAuthenticatedLayout>
 </template>
@@ -27,6 +29,8 @@
 <script>
 import BreezeAuthenticatedLayout from '@/Layouts/Admin.vue'
 import { Head } from '@inertiajs/inertia-vue3';
+import VanillaTilt from 'vanilla-tilt';
+import { onMounted } from '@vue/runtime-core';
 
 export default {
     layout: '',
@@ -34,5 +38,15 @@ export default {
         BreezeAuthenticatedLayout,
         Head,
     },
+
 }
+onMounted(() => {
+    const element = document.querySelectorAll(".card");
+    VanillaTilt.init(element, {
+        max: 5,
+        speed: 400,
+        glare: true,
+        'max-glare': .5
+    });
+}) 
 </script>

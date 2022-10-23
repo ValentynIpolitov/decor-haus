@@ -12,11 +12,11 @@
         </template>
 
         <template #main>
-            <div class="py-12">
-                <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-                    <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
-                        <div class="p-6 bg-white border-b border-gray-200">
-                            Contacts page
+            <section class="w-full h-auto min-h-screen bg-[url('/images/login-bg.jpg')] backdrop-blur black-shadow bg-bottom bg-no-repeat bg-cover bg-fixed">
+                <div class="py-12">
+                    <div class="w-full mx-auto px-4 sm:px-6 lg:px-8">
+                        <div class="card sm:rounded-lg w-full max-w-none">
+                            <div class="p-6 text-xl w-full text-center text-white">
                                 <div class="flex flex-col">
                                     <div class="overflow-x-auto">
                                         <div class="p-1.5 w-full inline-block align-middle">
@@ -33,31 +33,31 @@
                                                                 Name
                                                             </th>
                                                             <th scope="col"
-                                                                class="px-6 py-3 text-xs font-bold text-right text-gray-500 uppercase">
+                                                                class="px-6 py-3 text-xs font-bold text-left text-gray-500 uppercase">
                                                                 Email
                                                             </th>
                                                             <th scope="col"
-                                                                class="px-6 py-3 text-xs font-bold text-right text-gray-500 uppercase">
+                                                                class="px-6 py-3 text-xs font-bold text-left text-gray-500 uppercase">
                                                                 Phone
                                                             </th>
                                                             <th scope="col"
-                                                                class="px-6 py-3 text-xs font-bold text-right text-gray-500 uppercase">
+                                                                class="px-6 py-3 text-xs font-bold text-left text-gray-500 uppercase">
                                                                 Message
                                                             </th>
                                                             <th scope="col"
-                                                                class="px-6 py-3 text-xs font-bold text-right text-gray-500 uppercase">
+                                                                class="px-6 py-3 text-xs font-bold text-left text-gray-500 uppercase">
                                                                 Created at
                                                             </th>
                                                         </tr>
                                                     </thead>
                                                     <tbody class="divide-y divide-gray-200">
                                                         <tr v-for="contact in contacts" :key="contact.id">
-                                                            <td>{{contact.id}}</td>
-                                                            <td>{{contact.name}} {{contact.surname}}</td>
-                                                            <td>{{contact.email}}</td>
-                                                            <td>{{contact.phone}}</td>
-                                                            <td>{{contact.message}}</td>
-                                                            <td>{{contact.created_at}}</td>
+                                                            <td class="px-6 text-left">{{contact.id}}</td>
+                                                            <td class="px-6 text-left">{{contact.name}} {{contact.surname}}</td>
+                                                            <td class="px-6 text-left">{{contact.email}}</td>
+                                                            <td class="px-6 text-left">{{contact.phone}}</td>
+                                                            <td class="px-6 text-left">{{contact.message}}</td>
+                                                            <td class="px-6 text-left">{{new Date(contact.created_at).toDateString()}} {{new Date(contact.created_at).toLocaleTimeString()}}</td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
@@ -65,10 +65,11 @@
                                         </div>
                                     </div>
                                 </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </template>
     </BreezeAuthenticatedLayout>
 </template>

@@ -2197,10 +2197,12 @@ var map = {
 	],
 	"./Admin/Dashboard": [
 		"./resources/js/Pages/Admin/Dashboard.vue",
+		"/js/vendor",
 		"resources_js_Pages_Admin_Dashboard_vue"
 	],
 	"./Admin/Dashboard.vue": [
 		"./resources/js/Pages/Admin/Dashboard.vue",
+		"/js/vendor",
 		"resources_js_Pages_Admin_Dashboard_vue"
 	],
 	"./Auth/ConfirmPassword": [

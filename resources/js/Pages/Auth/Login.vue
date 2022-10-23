@@ -27,7 +27,7 @@ const submit = () => {
 };
 
 onMounted(() => {
-    const element = document.querySelector(".card");
+    const element = document.querySelectorAll(".card");
     VanillaTilt.init(element, {
         max: 5,
         speed: 400,
@@ -93,28 +93,3 @@ onMounted(() => {
         </div>
     </section>
 </template>
-
-<style lang="scss">
-    .card {
-        width: 100%;
-        max-width: 500px;
-        padding: 20px;
-        box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
-        border-radius: 15px;
-        background: rgba($color: white, $alpha: 0.1);
-        overflow: hidden;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        border-top: 1px solid rgba($color: white, $alpha: 0.5);
-        border-left: 1px solid rgba($color: white, $alpha: 0.5);
-        backdrop-filter: blur(5px);
-
-
-        @media only screen and (min-width: 768px) {
-        
-        }
-    }
-</style>
