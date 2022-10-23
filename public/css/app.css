@@ -2168,6 +2168,12 @@ select {
 .bg-\[url\(\'\/images\/rain-bg\.webp\'\)\] {
   background-image: url('/images/rain-bg.webp');
 }
+.bg-\[url\(\'\/images\/bgg1\.jpg\'\)\] {
+  background-image: url('/images/bgg1.jpg');
+}
+.bg-\[url\(\'\/images\/login-bg\.jpg\'\)\] {
+  background-image: url('/images/login-bg.jpg');
+}
 .bg-cover {
   background-size: cover;
 }
@@ -2757,6 +2763,14 @@ select {
     margin-left: 1.5rem;
   }
 
+  .sm\:ml-4 {
+    margin-left: 1rem;
+  }
+
+  .sm\:mb-0 {
+    margin-bottom: 0px;
+  }
+
   .sm\:flex {
     display: flex;
   }
@@ -2771,6 +2785,10 @@ select {
 
   .sm\:flex-1 {
     flex: 1 1 0%;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
   }
 
   .sm\:items-center {

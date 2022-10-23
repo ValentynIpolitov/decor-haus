@@ -249,10 +249,10 @@ __webpack_require__.r(__webpack_exports__);
     (0,_vue_runtime_core__WEBPACK_IMPORTED_MODULE_8__.onMounted)(function () {
       var element = document.querySelector(".card");
       vanilla_tilt__WEBPACK_IMPORTED_MODULE_7___default().init(element, {
-        max: 25,
+        max: 5,
         speed: 400,
         glare: true,
-        'max-glare': 1
+        'max-glare': .5
       });
     });
     var __returned__ = {
@@ -452,7 +452,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "w-full h-auto min-h-screen bg-[url('/images/rain-bg.webp')] backdrop-blur black-shadow bg-bottom bg-no-repeat bg-cover bg-fixed"
+  "class": "w-full h-auto min-h-screen bg-[url('/images/login-bg.jpg')] backdrop-blur black-shadow bg-bottom bg-no-repeat bg-cover bg-fixed"
 };
 var _hoisted_2 = {
   "class": "container m-auto h-full px-6 py-12 md:py-28"
@@ -493,7 +493,7 @@ var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 );
 
 var _hoisted_12 = {
-  "class": "flex items-center justify-end mt-4"
+  "class": "flex items-center justify-end mt-4 flex-col sm:flex-row"
 };
 
 var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Forgot your password? ");
@@ -548,7 +548,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   , ["checked"]), _hoisted_11])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [$props.canResetPassword ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)($setup["Link"], {
     key: 0,
     href: _ctx.route('password.request'),
-    "class": "underline text-sm text-white hover:text-gray-900"
+    "class": "underline text-sm text-white hover:text-gray-900 mb-4 sm:mb-0"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [_hoisted_13];
@@ -559,7 +559,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   }, 8
   /* PROPS */
   , ["href"])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)($setup["BreezeButton"], {
-    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["ml-4", {
+    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["w-full sm:ml-4 sm:w-auto text-center", {
       'opacity-25': $setup.form.processing
     }]),
     disabled: $setup.form.processing
@@ -597,7 +597,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".inputBox {\n  position: relative;\n  width: 100%;\n  background: transparent;\n  border: none;\n  padding: 0;\n}\n.inputBox input {\n  width: 100%;\n  background: transparent;\n  color: #fff;\n  border: none;\n  outline: none;\n  box-shadow: none;\n  font-size: 1em;\n  letter-spacing: 0.1em;\n}\n.inputBox input:focus {\n  box-shadow: none;\n}\n.inputBox input:valid ~ span, .inputBox input:focus ~ span {\n  color: rgb(245, 158, 11);\n  transform: translateY(-23px);\n  font-size: 0.8em;\n}\n.inputBox span {\n  position: absolute;\n  left: 0;\n  padding: 10px 0 5px;\n  color: rgba(255, 255, 255, 0.9);\n  text-transform: uppercase;\n  pointer-events: none;\n  letter-spacing: 0.1em;\n  transition: 0.5s;\n  font-size: 1em;\n}\n.inputBox i {\n  position: absolute;\n  width: 100%;\n  height: 2px;\n  background: white;\n  left: 0;\n  bottom: 0;\n  overflow: hidden;\n}\n.inputBox i::before {\n  content: \"\";\n  position: absolute;\n  left: -100%;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(90deg, rgb(251, 191, 36), rgb(245, 158, 11));\n  -webkit-animation: animate 1s linear infinite;\n          animation: animate 1s linear infinite;\n}\n.inputBox input:valid ~ i::before,\n.inputBox input:focus ~ i::before {\n  left: 0;\n}\n@-webkit-keyframes animate {\n0% {\n    background-position-x: 0;\n}\n100% {\n    background-position-x: 250px;\n}\n}\n@keyframes animate {\n0% {\n    background-position-x: 0;\n}\n100% {\n    background-position-x: 250px;\n}\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".inputBox {\n  position: relative;\n  width: 100%;\n  background: transparent;\n  border: none;\n  padding: 0;\n}\n.inputBox input {\n  width: 100%;\n  background: transparent;\n  color: #fff;\n  border: none;\n  outline: none;\n  box-shadow: none;\n  font-size: 1em;\n  letter-spacing: 0.1em;\n}\n.inputBox input:focus {\n  box-shadow: none;\n}\n.inputBox input:valid ~ span, .inputBox input:focus ~ span {\n  color: rgb(245, 158, 11);\n  transform: translateY(-23px);\n  font-size: 0.8em;\n  font-weight: bold;\n}\n.inputBox span {\n  position: absolute;\n  left: 0;\n  padding: 10px 0 5px;\n  color: rgba(255, 255, 255, 0.9);\n  text-transform: uppercase;\n  pointer-events: none;\n  letter-spacing: 0.1em;\n  transition: 0.5s;\n  font-size: 1em;\n}\n.inputBox i {\n  position: absolute;\n  width: 100%;\n  height: 2px;\n  background: white;\n  left: 0;\n  bottom: 0;\n  overflow: hidden;\n}\n.inputBox i::before {\n  content: \"\";\n  position: absolute;\n  left: -100%;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(90deg, rgb(251, 191, 36), rgb(245, 158, 11));\n  -webkit-animation: animate 1s linear;\n          animation: animate 1s linear;\n  -webkit-animation-iteration-count: 2;\n          animation-iteration-count: 2;\n}\n.inputBox input:valid ~ i::before,\n.inputBox input:focus ~ i::before {\n  left: 0;\n}\n@-webkit-keyframes animate {\n0% {\n    background-position-x: 0;\n}\n100% {\n    background-position-x: 250px;\n}\n}\n@keyframes animate {\n0% {\n    background-position-x: 0;\n}\n100% {\n    background-position-x: 250px;\n}\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

@@ -48,6 +48,7 @@ onMounted(() => {
                 color: rgb(245 158 11);
                 transform: translateY(-23px);
                 font-size: 0.8em;
+                font-weight: bold;
             }
         }
          
@@ -79,7 +80,8 @@ onMounted(() => {
                 width: 100%;
                 height: 100%;
                 background: linear-gradient(90deg, rgb(251, 191, 36),  rgb(245, 158, 11));
-                animation: animate 1s linear infinite;
+                animation: animate 1s linear;
+                animation-iteration-count: 2;
             }
         }
     }

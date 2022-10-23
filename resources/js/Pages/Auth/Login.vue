@@ -29,10 +29,10 @@ const submit = () => {
 onMounted(() => {
     const element = document.querySelector(".card");
     VanillaTilt.init(element, {
-        max: 25,
+        max: 5,
         speed: 400,
         glare: true,
-        'max-glare': 1
+        'max-glare': .5
     });
 }) 
 </script>
@@ -43,7 +43,7 @@ onMounted(() => {
 
     <section>
         <div
-            class="w-full h-auto min-h-screen bg-[url('/images/rain-bg.webp')] backdrop-blur black-shadow bg-bottom bg-no-repeat bg-cover bg-fixed">
+            class="w-full h-auto min-h-screen bg-[url('/images/login-bg.jpg')] backdrop-blur black-shadow bg-bottom bg-no-repeat bg-cover bg-fixed">
             <div class="container m-auto h-full px-6 py-12 md:py-28">
                 <div class="w-full h-full z-50 flex flex-col justify-center align-center items-center">
                     <h1 class="text-white text-5xl mb-12 mt-16 z-50 white-text-shadow" data-aos="fade-right">
@@ -75,13 +75,13 @@ onMounted(() => {
                                 </label>
                             </div>
     
-                            <div class="flex items-center justify-end mt-4">
+                            <div class="flex items-center justify-end mt-4 flex-col sm:flex-row">
                                 <Link v-if="canResetPassword" :href="route('password.request')"
-                                    class="underline text-sm text-white hover:text-gray-900">
+                                    class="underline text-sm text-white hover:text-gray-900 mb-4 sm:mb-0">
                                 Forgot your password?
                                 </Link>
     
-                                <BreezeButton class="ml-4" :class="{ 'opacity-25': form.processing }"
+                                <BreezeButton class="w-full sm:ml-4 sm:w-auto text-center" :class="{ 'opacity-25': form.processing }"
                                     :disabled="form.processing">
                                     Log in
                                 </BreezeButton>
