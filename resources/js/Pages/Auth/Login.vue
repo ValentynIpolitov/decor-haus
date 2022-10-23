@@ -1,127 +1,122 @@
-<template>
-    <div class="login-wrapper">
-        <BreezeValidationErrors class="mb-4" />
-        <div v-if="status" class="mb-4 font-medium text-sm text-green-600">
-            {{ status }}
-        </div>
+<script setup>
+import BreezeButton from '@/Components/Button.vue';
+import BreezeCheckbox from '@/Components/Checkbox.vue';
+import BreezeGuestLayout from '@/Layouts/Guest.vue';
+import BreezeInput from '@/Components/Input.vue';
+import BreezeLabel from '@/Components/Label.vue';
+import BreezeValidationErrors from '@/Components/ValidationErrors.vue';
+import { Head, Link, useForm } from '@inertiajs/inertia-vue3';
+import VanillaTilt from 'vanilla-tilt';
+import { onMounted } from '@vue/runtime-core';
 
-        <div class="heading">
-            <h1>
-                Prihlasit sa
-            </h1>
-            <p>
-                This is Photoshop's version  of Lorem Ipsum. 
-            </p>
-        </div>
+defineProps({
+    canResetPassword: Boolean,
+    status: String,
+});
 
-        <form @submit.prevent="submit">
-            <div>
-                <InputWithDinamycLabels icon="/images/pages/login/login.png" id="email" type="email" class="mt-1 block w-full" v-model="form.email" required autofocus autocomplete="username" label="E-mail"/>
-            </div>
+const form = useForm({
+    email: '',
+    password: '',
+    remember: false
+});
 
-            <div class="mt-4">
-                <InputWithDinamycLabels icon="/images/pages/login/password.png" id="password" type="password" class="mt-1 block w-full" v-model="form.password" required autocomplete="current-password" label="Password"/>
-            </div>
+const submit = () => {
+    form.post(route('login'), {
+        onFinish: () => form.reset('password'),
+    });
+};
 
-            <div class="forget-password">
-                <p>
-                    + zabudol som heslo vytvorit nove 
-                </p>
-            </div>
-
-            <div class="flex items-center justify-end">
-                <BreezeButton :class="{ 'opacity-25': form.processing }" :disabled="form.processing">
-                    Prihlasenie
-                </BreezeButton>
-            </div>
-        </form>
-    </div>
-</template>
-
-<script>
-import BreezeButton from '@/Components/Auth/Form/Button.vue'
-import BreezeCheckbox from '@/Components/Auth/Form/Checkbox.vue'
-import BreezeValidationErrors from '@/Components/Auth/Form/ValidationErrors.vue'
-import { Head, Link } from '@inertiajs/inertia-vue3';
-import Guest from "@/Layouts/Guest";
-import InputWithDinamycLabels from '@/Components/Auth/Form/InputWithDinamycLabels';
-
-export default {
-    layout: Guest,
-
-    components: {
-        BreezeButton,
-        BreezeCheckbox,
-        BreezeValidationErrors,
-        Head,
-        Link,
-        InputWithDinamycLabels,
-    },
-
-    props: {
-        canResetPassword: Boolean,
-        status: String,
-    },
-
-    data() {
-        return {
-            form: this.$inertia.form({
-                email: '',
-                password: '',
-                remember: false
-            })
-        }
-    },
-
-    methods: {
-        submit() {
-            this.form.post(this.route('login'), {
-                onFinish: () => this.form.reset('password'),
-            })
-        }
-    }
-}
+onMounted(() => {
+    const element = document.querySelector(".card");
+    VanillaTilt.init(element, {
+        max: 25,
+        speed: 400,
+        glare: true,
+        'max-glare': 1
+    });
+}) 
 </script>
 
-<style lang="scss" scoped>
-    .login-wrapper {
+<template>
+
+    <Head title="Log in" />
+
+    <section>
+        <div
+            class="w-full h-auto min-h-screen bg-[url('/images/rain-bg.webp')] backdrop-blur black-shadow bg-bottom bg-no-repeat bg-cover bg-fixed">
+            <div class="container m-auto h-full px-6 py-12 md:py-28">
+                <div class="w-full h-full z-50 flex flex-col justify-center align-center items-center">
+                    <h1 class="text-white text-5xl mb-12 mt-16 z-50 white-text-shadow" data-aos="fade-right">
+                        Log in
+                    </h1>
+
+                    <div class="card">
+                        <BreezeValidationErrors class="mb-4" />
+    
+                        <div v-if="status" class="mb-4 font-medium text-sm text-green-600">
+                            {{ status }}
+                        </div>
+    
+                        <form @submit.prevent="submit">
+                            <div>
+                                <BreezeLabel for="email" value="Email" />
+                                <BreezeInput id="email" type="email" class="mt-1 block w-full" v-model="form.email" required
+                                    autofocus autocomplete="username" />
+                            </div>
+    
+                            <div class="mt-4">
+                                <BreezeLabel for="password" value="Password" />
+                                <BreezeInput id="password" type="password" class="mt-1 block w-full" v-model="form.password"
+                                    required autocomplete="current-password" />
+                            </div>
+    
+                            <div class="block mt-4">
+                                <label class="flex items-center">
+                                    <BreezeCheckbox name="remember" v-model:checked="form.remember" />
+                                    <span class="ml-2 text-sm text-gray-600">Remember me</span>
+                                </label>
+                            </div>
+    
+                            <div class="flex items-center justify-end mt-4">
+                                <Link v-if="canResetPassword" :href="route('password.request')"
+                                    class="underline text-sm text-gray-600 hover:text-gray-900">
+                                Forgot your password?
+                                </Link>
+    
+                                <BreezeButton class="ml-4" :class="{ 'opacity-25': form.processing }"
+                                    :disabled="form.processing">
+                                    Log in
+                                </BreezeButton>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</template>
+
+<style lang="scss">
+    .card {
+        width: 100%;
+        max-width: 500px;
+        padding: 20px;
+        box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        background: rgba($color: white, $alpha: 0.1);
+        overflow: hidden;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-content: center;
         align-items: center;
-        min-height: 85vh;
+        align-content: center;
+        border-top: 1px solid rgba($color: white, $alpha: 0.5);
+        border-left: 1px solid rgba($color: white, $alpha: 0.5);
+        backdrop-filter: blur(5px);
 
-        .heading {
-            h1 {
-                text-align: center;
-                margin-bottom: 5px;
-            }
-            p {
-                width: 383px;
-                height: 19px;
-                font-size: 14px;
-                color: #030303;
-                font-weight: 300;
-                font-family: "Poppins";
-                text-align: center;
-                margin-bottom: 25px;
-            }
-        }
 
-        form {
+        @media only screen and (min-width: 768px) {
         
-            .forget-password {
-                p {
-                    font-size: 14px;
-                    line-height: 55px;
-                    color: #199be2;
-                    font-weight: 500;
-                    font-family: "Poppins";
-                    text-align: center;
-                }
-            }
         }
-
     }
 </style>

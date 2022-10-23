@@ -2203,6 +2203,22 @@ var map = {
 		"./resources/js/Pages/Admin/Dashboard.vue",
 		"resources_js_Pages_Admin_Dashboard_vue"
 	],
+	"./Auth/ConfirmPassword": [
+		"./resources/js/Pages/Auth/ConfirmPassword.vue",
+		"resources_js_Pages_Auth_ConfirmPassword_vue"
+	],
+	"./Auth/ConfirmPassword.vue": [
+		"./resources/js/Pages/Auth/ConfirmPassword.vue",
+		"resources_js_Pages_Auth_ConfirmPassword_vue"
+	],
+	"./Auth/ForgotPassword": [
+		"./resources/js/Pages/Auth/ForgotPassword.vue",
+		"resources_js_Pages_Auth_ForgotPassword_vue"
+	],
+	"./Auth/ForgotPassword.vue": [
+		"./resources/js/Pages/Auth/ForgotPassword.vue",
+		"resources_js_Pages_Auth_ForgotPassword_vue"
+	],
 	"./Auth/Login": [
 		"./resources/js/Pages/Auth/Login.vue",
 		"/js/vendor",
@@ -2220,6 +2236,22 @@ var map = {
 	"./Auth/Register.vue": [
 		"./resources/js/Pages/Auth/Register.vue",
 		"resources_js_Pages_Auth_Register_vue"
+	],
+	"./Auth/ResetPassword": [
+		"./resources/js/Pages/Auth/ResetPassword.vue",
+		"resources_js_Pages_Auth_ResetPassword_vue"
+	],
+	"./Auth/ResetPassword.vue": [
+		"./resources/js/Pages/Auth/ResetPassword.vue",
+		"resources_js_Pages_Auth_ResetPassword_vue"
+	],
+	"./Auth/VerifyEmail": [
+		"./resources/js/Pages/Auth/VerifyEmail.vue",
+		"resources_js_Pages_Auth_VerifyEmail_vue"
+	],
+	"./Auth/VerifyEmail.vue": [
+		"./resources/js/Pages/Auth/VerifyEmail.vue",
+		"resources_js_Pages_Auth_VerifyEmail_vue"
 	],
 	"./Contact": [
 		"./resources/js/Pages/Contact.vue",

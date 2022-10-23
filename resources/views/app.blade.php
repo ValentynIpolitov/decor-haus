@@ -13,16 +13,22 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+
+    <!-- Scripts -->
     @routes
     <link href="{{ asset(mix('css/app.css')) }}" rel="stylesheet">
     <script src="{{ asset(mix('js/manifest.js')) }}" defer></script>
     <script src="{{ asset(mix('js/vendor.js')) }}" defer></script>
     <script src="{{ asset(mix('js/app.js')) }}" defer></script>
     @inertiaHead
-    
+  
     <!-- icons -->
     <script src="https://kit.fontawesome.com/c6473ff5f2.js" crossorigin="anonymous"></script>
-
     <!-- aos -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>

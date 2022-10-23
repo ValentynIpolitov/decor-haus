@@ -107,7 +107,7 @@
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames not based on template
-/******/ 			if ({"resources_js_Pages_Admin_Contacts_vue":1,"resources_js_Pages_Admin_Dashboard_vue":1,"resources_js_Pages_Auth_Login_vue":1,"resources_js_Pages_Auth_Register_vue":1,"resources_js_Pages_Contact_vue":1,"resources_js_Pages_Home_vue":1,"resources_js_Pages_Projects_vue":1,"resources_js_Pages_Services_vue":1,"resources_js_Pages_Technologies_vue":1}[chunkId]) return "js/" + chunkId + ".js";
+/******/ 			if ({"resources_js_Pages_Admin_Contacts_vue":1,"resources_js_Pages_Admin_Dashboard_vue":1,"resources_js_Pages_Auth_ConfirmPassword_vue":1,"resources_js_Pages_Auth_ForgotPassword_vue":1,"resources_js_Pages_Auth_Login_vue":1,"resources_js_Pages_Auth_Register_vue":1,"resources_js_Pages_Auth_ResetPassword_vue":1,"resources_js_Pages_Auth_VerifyEmail_vue":1,"resources_js_Pages_Contact_vue":1,"resources_js_Pages_Home_vue":1,"resources_js_Pages_Projects_vue":1,"resources_js_Pages_Services_vue":1,"resources_js_Pages_Technologies_vue":1}[chunkId]) return "js/" + chunkId + ".js";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
 /******/ 		};
