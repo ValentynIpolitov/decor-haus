@@ -47,7 +47,7 @@ onMounted(() => {
             <div class="container m-auto h-full px-6 py-12 md:py-28">
                 <div class="w-full h-full z-50 flex flex-col justify-center align-center items-center">
                     <h1 class="text-white text-5xl mb-12 mt-16 z-50 white-text-shadow" data-aos="fade-right">
-                        Log in
+                        Log In
                     </h1>
 
                     <div class="card">
@@ -76,14 +76,9 @@ onMounted(() => {
                             </div>
     
                             <div class="flex items-center justify-end mt-4 flex-col sm:flex-row">
-                                <Link v-if="canResetPassword" :href="route('password.request')"
-                                    class="underline text-sm text-white hover:text-gray-900 mb-4 sm:mb-0">
-                                Forgot your password?
-                                </Link>
-    
                                 <BreezeButton class="w-full sm:ml-4 sm:w-auto text-center" :class="{ 'opacity-25': form.processing }"
                                     :disabled="form.processing">
-                                    Log in
+                                    Log In
                                 </BreezeButton>
                             </div>
                         </form>

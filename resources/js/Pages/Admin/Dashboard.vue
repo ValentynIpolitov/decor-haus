@@ -15,7 +15,7 @@
                 <div class="py-12">
                     <div class="w-full mx-auto px-4 sm:px-6 lg:px-8">
                         <div class="card sm:rounded-lg w-full max-w-none">
-                            <div class="p-6 text-3xl text-center white-text-shadow text-white">
+                            <div class="p-6 text-3xl text-center white-text-shadow text-white font-bold">
                                 You're logged in!
                             </div>
                         </div>

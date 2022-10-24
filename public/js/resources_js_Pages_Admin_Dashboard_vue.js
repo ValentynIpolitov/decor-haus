@@ -744,7 +744,7 @@ var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "card sm:rounded-lg w-full max-w-none"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "p-6 text-3xl text-center white-text-shadow text-white"
+  "class": "p-6 text-3xl text-center white-text-shadow text-white font-bold"
 }, " You're logged in! ")])])])], -1
 /* HOISTED */
 );

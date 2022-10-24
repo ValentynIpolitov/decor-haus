@@ -25,6 +25,9 @@
                         <li class="white-text-shadow hover-underline-animation uppercase mr-8">
                             <NavLink :href="route('contact')" :active="$page.component === 'Contact'"  class="text-amber-500">Contact</NavLink>
                         </li>
+                        <li class="white-text-shadow hover-underline-animation uppercase mr-8">
+                            <NavLink :href="route('login')" :active="$page.component === 'Auth/Login'"  class="text-amber-500">Login</NavLink>
+                        </li>
                     </ul>
                 </div>
 
