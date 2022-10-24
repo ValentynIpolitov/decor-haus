@@ -17,5 +17,15 @@ class DatabaseSeeder extends Seeder
             'name' => 'Valentyn',
             'email' => 'sv.vartey@gmail.com'
         ]);
+
+        \App\Models\User::factory(1)->create([
+            'name' => 'Vadym',
+            'email' => 'vad.tili@gmail.com'
+        ]);
+
+        \App\Models\User::factory(1)->create([
+            'name' => 'Oleg',
+            'email' => 'decorhaus.sk@gmail.com'
+        ]);
     }
 }
