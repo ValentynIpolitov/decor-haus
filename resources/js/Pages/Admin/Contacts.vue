@@ -6,13 +6,13 @@
 
     <BreezeAuthenticatedLayout>
         <template #header>
-            <h1 class="font-semibold text-xl text-gray-800 leading-tight">
+            <h1 class="font-semibold text-xl text-white leading-tight">
                 Contacts
             </h1>
         </template>
 
         <template #main>
-            <section class="w-full h-auto min-h-screen bg-[url('/images/login-bg.jpg')] backdrop-blur black-shadow bg-bottom bg-no-repeat bg-cover bg-fixed">
+            <section class="w-full h-auto min-h-screen">
                 <div class="py-12">
                     <div class="w-full mx-auto px-4 sm:px-6 lg:px-8">
                         <div class="card sm:rounded-lg w-full max-w-none">
@@ -23,7 +23,7 @@
                                 <div v-else class="flex flex-col">
                                     <div class="overflow-x-auto">
                                         <div class="p-1.5 w-full inline-block align-middle">
-                                            <div class="overflow-hidden border rounded-lg">
+                                            <div class="overflow-hidden border rounded-lg overflow-x-scroll">
                                                 <table class="min-w-full divide-y divide-gray-200">
                                                     <thead class="bg-gray-50">
                                                         <tr>

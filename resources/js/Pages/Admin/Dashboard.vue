@@ -5,13 +5,13 @@
 
     <BreezeAuthenticatedLayout>
         <template #header>
-            <h1 class="font-semibold text-xl text-gray-800 leading-tight">
+            <h1 class="font-semibold text-xl text-white leading-tight">
                 Dashboard
             </h1>
         </template>
 
         <template #main>
-            <section class="w-full h-auto min-h-screen bg-[url('/images/login-bg.jpg')] backdrop-blur black-shadow bg-bottom bg-no-repeat bg-cover bg-fixed">
+            <section class="w-full h-auto min-h-screen">
                 <div class="py-12">
                     <div class="w-full mx-auto px-4 sm:px-6 lg:px-8">
                         <div class="card sm:rounded-lg w-full max-w-none">
