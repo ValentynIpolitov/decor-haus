@@ -17,7 +17,10 @@
                     <div class="w-full mx-auto px-4 sm:px-6 lg:px-8">
                         <div class="card sm:rounded-lg w-full max-w-none">
                             <div class="p-6 text-xl w-full text-center text-white">
-                                <div class="flex flex-col">
+                                <div v-if="contacts.length == 0" class="text-3xl text-center white-text-shadow text-white">
+                                    No contacts in database.
+                                </div>
+                                <div v-else class="flex flex-col">
                                     <div class="overflow-x-auto">
                                         <div class="p-1.5 w-full inline-block align-middle">
                                             <div class="overflow-hidden border rounded-lg">
