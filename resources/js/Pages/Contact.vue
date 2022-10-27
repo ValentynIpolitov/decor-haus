@@ -106,7 +106,6 @@
                             <a href="mailto:decorhaus.sk@gmail.com"
                                 class="mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left"><i
                                     class="fa-solid fa-envelope mr-4"></i>decorhaus.sk@gmail.com</a>
-                            <p class="mb-4 text-white text-3xl text-center md:text-left">Service abroad:</p>
                             <a href="tel:+421944725652"
                                 class="mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left"><i
                                     class="fa-solid fa-phone mr-4"></i>+421 944725652</a>
