@@ -3,13 +3,15 @@ version: '3'
 services:
     laravel.test:
         build:
-            context: ./vendor/laravel/sail/runtimes/8.0
+            context: ./vendor/laravel/sail/runtimes/8.1
             dockerfile: Dockerfile
             args:
                 WWWGROUP: '${WWWGROUP}'
-        image: sail-8.0/app
+        image: sail-8.1/app
         ports:
             - '${APP_PORT:-80}:80'
+#            - '443:443'
+            - '${APP_SSL_PORT:-443}:443'
         environment:
             WWWUSER: '${WWWUSER}'
             LARAVEL_SAIL: 1
