@@ -37,6 +37,7 @@ createInertiaApp({
             .component('MazPhoneNumberInput', MazPhoneNumberInput)
             .component('MazInput', MazInput)
             .mixin({ methods: { route } })
+            .mixin(require('./base'))
             .mount(el);
     },
 

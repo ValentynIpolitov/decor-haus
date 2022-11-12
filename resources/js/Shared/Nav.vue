@@ -22,6 +22,9 @@
             <li class="nav-item white-text-shadow hover-underline-animation">
                 <NavLink :href="route('contact')" @click="closeMenu()" :active="$page.component === 'Contact'"  >Contact</NavLink>
             </li>
+            <li>
+                <LanguageSelector/>
+            </li>
         </ul>
 
         <div class="hamburger">
@@ -34,9 +37,10 @@
 
 <script>
     import NavLink from './NavLink.vue';
-    
+    import LanguageSelector from './LanguageSelector.vue';
+
     export default {
-        components: {NavLink},
+        components: {NavLink, LanguageSelector},
 
         data() {
 

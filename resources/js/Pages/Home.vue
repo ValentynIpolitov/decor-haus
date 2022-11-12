@@ -26,7 +26,9 @@
                     :key="1">
                     <div class="container m-auto px-6 flex flex-col justify-center content-center items-center h-full">
                         <h1 class="text-white text-3xl sm:text-5xl mb-6 z-50 white-text-shadow text-center sm:text-left" data-aos="fade-right">CUSTOM-MADE
-                            PREFABRICATED WOODEN HOUSES</h1>
+                            PREFABRICATED WOODEN HOUSES
+                            {{ __('error') }}
+                        </h1>
 
                         <div class="bg-opacity-30 rounded-xl bg-black py-10 box-shadow z-50 px-8" data-aos="fade-right">
                             <p class="text-white text-base sm:text-xl z-50 white-text-shadow text-center sm:text-left" data-aos="flip-down"
@@ -42,7 +44,9 @@
                     :key="2">
                     <div class="container m-auto px-6 flex flex-col justify-center content-center items-center h-full">
                         <h1 class="text-white text-3xl sm:text-5xl mb-6 z-50 white-text-shadow text-center sm:text-left" data-aos="fade-right">CUSTOM-MADE
-                            PREFABRICATED WOODEN HOUSES</h1>
+                            PREFABRICATED WOODEN HOUSES
+                            {{ __('error') }}
+                        </h1>
 
                         <div class="bg-opacity-30 rounded-xl bg-black py-10 box-shadow z-50 px-8" data-aos="fade-right">
                             <p class="text-white text-base sm:text-xl z-50 white-text-shadow text-center sm:text-left" data-aos="flip-down"
