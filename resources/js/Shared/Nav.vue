@@ -22,7 +22,7 @@
             <li class="nav-item white-text-shadow hover-underline-animation">
                 <NavLink :href="route('contact')" @click="closeMenu()" :active="$page.component === 'Contact'"  >Contact</NavLink>
             </li>
-            <li>
+            <li class="nav-item white-text-shadow hover-underline-animation">
                 <LanguageSelector/>
             </li>
         </ul>
