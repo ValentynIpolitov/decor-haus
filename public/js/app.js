@@ -110,17 +110,32 @@ __webpack_require__.r(__webpack_exports__);
   },
   data: function data() {
     return {
-      isOpen: false
+      isOpen: false,
+      mobile: null
     };
+  },
+  created: function created() {
+    window.addEventListener('resize', this.checkScreen);
+    this.checkScreen();
   },
   methods: {
     open: function open() {
       this.isOpen = true;
-      console.log('op');
     },
     close: function close() {
       this.isOpen = false;
-      console.log('clo');
+    },
+    checkScreen: function checkScreen() {
+      this.windowWidth = window.innerWidth;
+
+      if (this.windowWidth < 1023) {
+        this.mobile = true;
+        this.tablet = false;
+        return;
+      }
+
+      this.mobile = false;
+      return;
     },
     current_locale: function current_locale() {
       if (this.$page.locale == 'en') {
@@ -524,7 +539,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "mr-4"
+  "class": "mr-2 uppercase text-slate-700"
 };
 
 var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
@@ -557,8 +572,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     onMouseover: _cache[0] || (_cache[0] = function () {
       return $options.open && $options.open.apply($options, arguments);
     }),
-    "class": "flex items-center block p-2 bg-white bg-gray-100 rounded-md w-16"
-  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($options.current_locale()), 1
+    "class": "dropdown-button flex items-center block p-2 bg-white bg-gray-100 rounded-md w-16"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(this.$page.props.locale), 1
   /* TEXT */
   ), ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("svg", {
     "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(["w-6 h-6 text-white text-gray-800 select-lang-icon", {
@@ -571,7 +586,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   /* CLASS */
   ))], 32
   /* HYDRATE_EVENTS */
-  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Dropdown menu "), $data.isOpen ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Dropdown menu "), $data.isOpen || $data.mobile ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
     key: 0,
     onMouseleave: _cache[5] || (_cache[5] = function () {
       return $options.close && $options.close.apply($options, arguments);
@@ -582,8 +597,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     onClick: _cache[1] || (_cache[1] = function ($event) {
       return _ctx.closeMenu();
     }),
-    active: false,
-    "class": "text-gray-800"
+    active: this.$page.props.locale === 'en',
+    "class": "text-gray-800 hover-underline-animation"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [_hoisted_4];
@@ -593,13 +608,13 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   }, 8
   /* PROPS */
-  , ["href"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_NavLink, {
+  , ["href", "active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_NavLink, {
     href: _ctx.route('language', ['ua']),
     onClick: _cache[2] || (_cache[2] = function ($event) {
       return _ctx.closeMenu();
     }),
-    active: false,
-    "class": "text-gray-800"
+    active: this.$page.props.locale === 'ua',
+    "class": "text-gray-800 hover-underline-animation"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [_hoisted_5];
@@ -609,13 +624,13 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   }, 8
   /* PROPS */
-  , ["href"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_NavLink, {
+  , ["href", "active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_NavLink, {
     href: _ctx.route('language', ['sk']),
     onClick: _cache[3] || (_cache[3] = function ($event) {
       return _ctx.closeMenu();
     }),
-    active: false,
-    "class": "text-gray-800"
+    active: this.$page.props.locale === 'sk',
+    "class": "text-gray-800 hover-underline-animation"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [_hoisted_6];
@@ -625,13 +640,13 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   }, 8
   /* PROPS */
-  , ["href"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_NavLink, {
+  , ["href", "active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_NavLink, {
     href: _ctx.route('language', ['de']),
     onClick: _cache[4] || (_cache[4] = function ($event) {
       return _ctx.closeMenu();
     }),
-    active: false,
-    "class": "text-gray-800"
+    active: this.$page.props.locale === 'de',
+    "class": "text-gray-800 hover-underline-animation"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [_hoisted_7];
@@ -641,7 +656,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   }, 8
   /* PROPS */
-  , ["href"])], 32
+  , ["href", "active"])], 32
   /* HYDRATE_EVENTS */
   )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)])]);
 }
@@ -718,7 +733,7 @@ var _hoisted_13 = {
 var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Contact");
 
 var _hoisted_15 = {
-  "class": "nav-item white-text-shadow hover-underline-animation"
+  "class": "nav-item"
 };
 
 var _hoisted_16 = /*#__PURE__*/_withScopeId(function () {
@@ -1864,7 +1879,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".select-lang-icon {\n  transition: 0.15s ease-in-out all;\n}\n.select-lang-icon.active {\n  transform: rotate(-180deg);\n  color: rgb(245, 158, 11);\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".select-lang-icon {\n  transition: 0.15s ease-in-out all;\n}\n.select-lang-icon.active {\n  transform: rotate(-180deg);\n  color: rgb(245, 158, 11);\n}\n@media only screen and (max-width: 1023px) {\n.dropdown-button {\n    display: none;\n}\n.dropdown-content {\n    position: relative;\n    display: flex;\n    flex-direction: row;\n    background: none;\n    gap: 0 15px;\n    width: 100%;\n    margin-top: 0;\n}\n.dropdown-content a {\n    color: white;\n}\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

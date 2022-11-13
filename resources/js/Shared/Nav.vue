@@ -22,7 +22,7 @@
             <li class="nav-item white-text-shadow hover-underline-animation">
                 <NavLink :href="route('contact')" @click="closeMenu()" :active="$page.component === 'Contact'"  >Contact</NavLink>
             </li>
-            <li class="nav-item white-text-shadow hover-underline-animation">
+            <li class="nav-item">
                 <LanguageSelector/>
             </li>
         </ul>
@@ -176,6 +176,4 @@
             transform: translateY(-8px) rotate(-45deg);
         }
     }
-
-
 </style>
