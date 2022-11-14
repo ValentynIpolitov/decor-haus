@@ -300,7 +300,7 @@
             <div class="container m-auto px-6 py-12 md:py-28">
                 <div class="flex items-center content-center">
                     <i class="fa-solid fa-medal text-emerald-500 text-4xl mr-4"></i>
-                    <h2 class="text-4xl text-emerald-500 ">{{ __('explore_page_main_benef') }}Main benefits</h2>
+                    <h2 class="text-4xl text-emerald-500 ">{{ __('explore_page_main_benef') }}</h2>
                 </div>
                 
 

@@ -10,7 +10,7 @@
             <div class="container m-auto h-full px-6 py-12 md:py-28">
                 <div class="w-full h-full z-50 flex justify-center md:justify-start">
                     <h1 class="text-white text-5xl mb-12 mt-16 z-50 white-text-shadow" data-aos="fade-right">
-                        Contact
+                        {{ __('contact_page_header') }}
                     </h1>
                 </div>
 
@@ -30,7 +30,7 @@
                                     </svg>
                                     <span class="sr-only">Info</span>
                                     <div class="ml-3 text-sm font-medium text-green-700 dark:text-green-800">
-                                        Your form was succesfully submitted!
+                                        {{ __('contact_page_succsess') }}
                                     </div>
                                     <!-- <button type="button"
                                         class="ml-auto -mx-1.5 -my-1.5 ml-4 bg-green-100 text-green-500 rounded-lg focus:ring-2 focus:ring-green-400 p-1.5 hover:bg-green-200 inline-flex h-8 w-8 dark:bg-green-200 dark:text-green-600 dark:hover:bg-green-300"
