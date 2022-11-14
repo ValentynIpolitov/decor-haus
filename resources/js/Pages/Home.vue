@@ -26,13 +26,13 @@
                     :key="1">
                     <div class="container m-auto px-6 flex flex-col justify-center content-center items-center h-full">
                         <h1 class="text-white text-3xl sm:text-5xl mb-6 z-50 white-text-shadow text-center sm:text-left" data-aos="fade-right">
-                            {{ __('home_page_header') }}
+                            {{ __('home_page_header_slide') }}
                         </h1>
 
                         <div class="bg-opacity-30 rounded-xl bg-black py-10 box-shadow z-50 px-8" data-aos="fade-right">
                             <p class="text-white text-base sm:text-xl z-50 white-text-shadow text-center sm:text-left" data-aos="flip-down"
                                 data-aos-delay="600" data-aos-offset="0">
-                                Production and assembly of low-energy passive prefabricated SIP houses
+                                {{ __('home_page_main_slide') }}
                             </p>
                         </div>
                     </div>
@@ -43,13 +43,13 @@
                     :key="2">
                     <div class="container m-auto px-6 flex flex-col justify-center content-center items-center h-full">
                         <h1 class="text-white text-3xl sm:text-5xl mb-6 z-50 white-text-shadow text-center sm:text-left" data-aos="fade-right">
-                            {{ __('home_page_header') }}
+                            {{ __('home_page_header_slide') }}
                         </h1>
 
                         <div class="bg-opacity-30 rounded-xl bg-black py-10 box-shadow z-50 px-8" data-aos="fade-right">
                             <p class="text-white text-base sm:text-xl z-50 white-text-shadow text-center sm:text-left" data-aos="flip-down"
                                 data-aos-delay="900" data-aos-offset="0">
-                                Production and assembly of low-energy passive prefabricated SIP houses
+                                {{ __('home_page_main_slide') }}
                             </p>
                         </div>
                     </div>
@@ -64,20 +64,18 @@
             class="container m-auto px-6 py-12 md:py-28 h-full flex flex-col justify-start content-center items-center z-50">
             <div class="h-full z-50 flex flex-col justify-start content-center items-center md:flex-row md:justify-between md:content-start md:items-start mb-12">
                 <div class="flex flex-col justify-center content-start items-start mb-4 md:w-1/2 md:mb-0 md:mr-8">
-                    <h2 class="text-amber-400 text-4xl mb-4">SIP houses</h2>
+                    <h2 class="text-amber-400 text-4xl mb-4">{{ __('home_page_h2_start') }}</h2>
                     <p class="text-slate-700 text-xl mb-4">
-                        We focus on the construction of eco-friendly, energy-efficient, reliable and durable buildings using
-                        Canadian technology,
-                        which uses SIP constructions.
+                        {{ __('home_page_slogan_1') }}
+                        
                     </p>
                     <p class="text-slate-700 text-xl mb-4">
-                        We offer prefabricated houses based on standard designs, as well as the implementation of any
-                        individual customer solutions.
-                        Construction of a house these days can be a fairly simple process if you choose the right technology
-                        solutions.
+                        {{ __('home_page_slogan_2') }}
+                        
                     </p>
                     <p class="text-slate-700 text-xl">
-                        You will be able to build a new and cosy house at a reasonable price and in the shortest time
+                        {{ __('home_page_slogan_3') }}
+                        
                     </p>
                 </div>
     
@@ -87,7 +85,7 @@
             </div>
 
             <a @click="scrollMeTo('our_benefits')" class="btn btn-secondary transition-all z-50">
-                Show more
+                {{ __('home_page_show_more') }}
             </a>
         </div>
     </section>
@@ -108,7 +106,7 @@
                         <img src="/images/home/link_1.jpg" alt="">
         
                         <div class="text-xl">
-                            Modular Houses
+                            {{ __('home_page_link_1') }}
                         </div>
                     </NavLink>
                 </div>
@@ -118,7 +116,7 @@
                         <img src="/images/home/link_2.jpg" alt="">
 
                         <div class="text-xl">
-                            Residents and appartments
+                            {{ __('home_page_link_2') }}
                         </div>
                     </NavLink>
                 </div>
@@ -128,7 +126,7 @@
                         <img src="/images/home/link_3.jpg" alt="">
 
                         <div class="text-xl">
-                            Commercial Buildings
+                            {{ __('home_page_link_3') }}
                         </div>
                     </NavLink>
                 </div>
@@ -138,7 +136,7 @@
                         <img src="/images/home/link_4.jpg" alt="">
 
                         <div class="text-xl">
-                            Schools and Kindergartens
+                            {{ __('home_page_link_4') }}
                         </div>
                     </NavLink>
                 </div>
@@ -148,7 +146,7 @@
                         <img src="/images/home/link_5.jpg" alt="">
 
                         <div class="text-xl">
-                            Superstructures and Extensions
+                            {{ __('home_page_link_5') }}
                         </div>
                     </NavLink>
                 </div>
@@ -158,7 +156,7 @@
                         <img src="/images/home/link_6.jpg" alt="">
                         
                         <div class="text-xl">
-                            Cottages and Recreational Facilities
+                            {{ __('home_page_link_6') }}
                         </div>
                     </NavLink>
                 </div>

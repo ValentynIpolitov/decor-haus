@@ -8,7 +8,7 @@
         <div
             class="w-full h-96 bg-[url('/images/bg_tecgnology.jpg')] black-shadow bg-bottom bg-no-repeat bg-cover bg-fixed">
             <div class="container h-full m-auto px-6 py-12 md:py-28 flex justify-center items-center content-center">
-                <h1 class="text-white text-5xl mt-16 z-50 white-text-shadow" data-aos="fade-right">Explore SIP</h1>
+                <h1 class="text-white text-5xl mt-16 z-50 white-text-shadow" data-aos="fade-right">{{ __('explore_page_explore_sip') }}</h1>
             </div>
         </div>
     </section>
@@ -20,19 +20,19 @@
                     <div class="sip-ref text-slate-700 w-full px-12 py-8 rounded-xl cursor-pointer mb-4 lg:mr-4 transition-all text-2xl uppercase text-center flex items-center content-center justify-center"
                         v-on:click="scrollMeTo('explore')">
                         <i class="fa-brands fa-wpexplorer text-4xl mr-4"></i>
-                        Explore SIP
+                        {{ __('explore_page_explore_sip') }}
                     </div>
 
                     <div class="sip-ref text-slate-700 w-full px-12 py-8 rounded-xl cursor-pointer mb-4 lg:mr-4 transition-all text-2xl uppercase text-center flex items-center content-center justify-center"
                         v-on:click="scrollMeTo('process')">
                         <i class="fa-solid fa-person-digging text-4xl mr-4"></i>
-                        Production process
+                        {{ __('explore_page_link_2') }}
                     </div>
 
                     <div class="sip-ref text-slate-700 w-full px-12 py-8 rounded-xl cursor-pointer mb-4 lg:mr-4 transition-all text-2xl uppercase text-center flex items-center content-center justify-center"
                         v-on:click="scrollMeTo('benefits')">
                         <i class="fa-solid fa-medal text-4xl mr-4"></i>
-                        Main benefits 
+                        {{ __('explore_page_main_benef') }} 
                     </div>
                 </div>
             </div>
@@ -44,7 +44,7 @@
             <div class="container m-auto px-6 pt-12 md:pt-28">
                 <div class="flex items-center content-center">
                     <i class="fa-brands fa-wpexplorer text-emerald-500 text-4xl mr-4"></i>
-                    <h2 class="text-4xl text-emerald-500 ">Explore SIP</h2>
+                    <h2 class="text-4xl text-emerald-500 ">{{ __('explore_page_explore_sip') }}</h2>
                 </div>
                 
                 <div class="flex flex-col lg:flex-row-reverse align-center items-center pt-12">
@@ -53,13 +53,11 @@
                     </div>
                     <div class="w-full lg:w-1/2">
                         <p class="mb-4 text-slate-700 text-xl">
-                            The basis of the SIP panel technology is a sandwich panel. The panel consists of 
-                            two OSB TOP4 boards and an insulating core made of expanded flame retardant polystyrene EPS, 
-                            PIR (polyisocyanurate foam), graphite NEOPOR or Mineral wool.
+                            {{ __('explore_page_sip_1') }}
+                            
                         </p>
-                        <p class="mb-4 text-slate-700 text-xl">The production process results in a structural sandwich panel that is characterized by excellent thermal insulation properties, low bulk density and high structural rigidity.</p>
-                        <p class="mb-4 text-slate-700 text-xl">The production process results in a structural sandwich panel that is characterized by excellent thermal insulation properties, low bulk density and high structural rigidity.</p>
-                        <p class="mb-4 text-slate-700 text-xl">The panels are manufactured in several thicknesses and so their use covers a wide range of needs. They can be used as floors, perimeter walls, partitions, and roofs.</p>
+                        <p class="mb-4 text-slate-700 text-xl">{{ __('explore_page_sip_2') }}</p>
+                        <p class="mb-4 text-slate-700 text-xl">{{ __('explore_page_sip_4') }}</p>
                     </div>
                 </div>
 
@@ -69,47 +67,49 @@
                         <img class="mb-8 lg:mb-0 w-full lg:w-3/5" src="/images/sip-sandwich-2.jpg" alt="">
                     </div>
                     <div class="w-full lg:w-1/2">
-                        <p class="mb-4 text-slate-700 text-xl">The SIP panel building system is classified as a timber frame building system, but its physical and thermal insulation properties make it significantly superior to conventional timber frame buildings.</p>
-                        <p class="mb-4 text-slate-700 text-xl">In addition to the panels, the SIP building system also includes KVH and BSH certified structural lumber in strength class C24 or GL24h, glued laminated timber I-joists or CLT panels. Their quantity and size depend on the individual structural assessments of the buildings.</p>
-                        <p class="mb-4 text-slate-700 text-xl">Various fasteners, carpentry fittings, PUR foams, sealants and compression tapes are used to seal the joints between the panels. All materials are included in the individual delivery of the building system according to the submitted offers and no additional procurement is required.</p>
-                        <p class="mb-4 text-slate-700 text-xl">Higher levels of energy efficiency, prevention of thermal bridges, airtightness of the building shell, and environmental aspects favourably distinguish the SIP building system from many traditional building systems.</p>
+                        <p class="mb-4 text-slate-700 text-xl">{{ __('explore_page_sip_5') }}</p>
+                        <p class="mb-4 text-slate-700 text-xl">{{ __('explore_page_sip_6') }}</p>
+                        <p class="mb-4 text-slate-700 text-xl">{{ __('explore_page_sip_7') }}</p>
+                        <p class="mb-4 text-slate-700 text-xl">{{ __('explore_page_sip_8') }}</p>
                     </div>
                 </div>
 
                 <div class="flex flex-col pt-12">
-                    <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">THE PROPERTIES OF OSB BOARDS:</h3>
+                    <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">{{ __('explore_page_sip_9') }}</h3>
                     <ul class="ml-8 text-slate-700 text-xl list-disc mb-4">
-                        <li>good thermal resistance (wood is a natural insulator)</li>
-                        <li>large formats allow fewer joints and thus less acoustic and heat loss</li>
-                        <li>good fire resistance depending on the type of OSB</li>
-                        <li>resistance to shock and vibration</li>
-                        <li>resistance to earthquakes and strong winds (proven in California, Florida and Japan)</li>
-                        <li>health safety</li>
-                        <li>excellent workability</li>
+                        <li>{{ __('explore_page_sip_10') }}</li>
+                        <li>{{ __('explore_page_sip_11') }}</li>
+                        <li>{{ __('explore_page_sip_12') }}</li>
+                        <li>{{ __('explore_page_sip_13') }}</li>
+                        <li>{{ __('explore_page_sip_14') }}</li>
+                        <li>{{ __('explore_page_sip_15') }}</li>
+                        <li>{{ __('explore_page_sip_16') }}</li>
                     </ul>
                     <p class="mb-4 text-slate-700 text-xl">
-                        Those OSB and plywood tiles no longer contain urea formaldehyde (UF), so they really aren't that toxic anymore, especially on the exterior of the house. 
+                        {{ __('explore_page_sip_17') }}
+                        
                     </p>
                 </div>
 
                 <div class="flex flex-col pt-12">
-                    <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">POLYSTYROL (EPS)</h3>
+                    <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">{{ __('explore_page_sip_18') }}</h3>
                     <p class="mb-4 text-slate-700 text-xl">
-                        Polystyrene is commonly used in the construction industry. In its closed structure, polystyrene cells absorb almost no water. This occurs to some limited extent only in the pores between the interlocking foam particles. After drying, they return to their original form. In a short time, demand has led to the development of 'self-extinguishing polystyrene', which is better suited to the requirements for fire protection in buildings. From a fire protection point of view, the widespread use of EPS in sandwich constructions is suitable among non-combustible materials. Polystyrene insulations are now HBCD-free (hexabromocyclododecane).
+                        {{ __('explore_page_sip_19') }}
+                        
                     </p>
 
-                    <h4 class="text-slate-700 text-xl mb-4 text-emerald-500">Polystyrene properties:</h4>
+                    <h4 class="text-slate-700 text-xl mb-4 text-emerald-500">{{ __('explore_page_sip_20') }}</h4>
                     <ul class="ml-8 text-slate-700 text-xl list-disc mb-4">
-                        <li>water resistance</li>
-                        <li>excellent thermal insulation properties</li>
-                        <li>fire safety</li>
-                        <li>easy and safe handling</li>
+                        <li>{{ __('explore_page_sip_21') }}</li>
+                        <li>{{ __('explore_page_sip_22') }}</li>
+                        <li>{{ __('explore_page_sip_23') }}</li>
+                        <li>{{ __('explore_page_sip_24') }}</li>
                     </ul>
                 </div>
 
                 <div class="flex flex-col pt-12">
                     <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
-                        ADVANTAGES OF THE SIP CONSTRUCTION SYSTEM
+                        {{ __('explore_page_sip_25') }}
                     </h3>
 
                      <div class="flex flex-col lg:flex-row align-center items-center pt-12">
@@ -118,10 +118,12 @@
                         </div>
                         <div class="w-full lg:w-1/2">
                             <p class="mb-4 text-slate-700 text-xl">
-                                The SIP panel technology can solve a wide range of needs and its applications are almost unlimited. Its versatility can be used in the most demanding designs. It is therefore ideal for building atypical building structures, where it will also ensure the absence of thermal bridges. The SIP panel technology can be applied as a single building system to the entire building shell or combined with other building systems.
+                                {{ __('explore_page_sip_26') }}
+                                
                             </p>
                             <p class="mb-4 text-slate-700 text-xl">
-                                With the SIP construction system, we can build the foundation of the building, external perimeter walls, interior partition walls, ceilings, flat and even sloping roofs. It can be used in the construction of houses, apartment buildings, administrative buildings, industrial buildings, schools and kindergartens, recreational facilities, cottages, and houseboats. The SIP construction system is an ideal solution for superstructures and extensions.
+                                {{ __('explore_page_sip_27') }}
+                                
                             </p>
                         </div>
                     </div>
@@ -132,13 +134,16 @@
                         </div>
                         <div class="w-full lg:w-1/2">
                             <p class="mb-4 text-slate-700 text-xl">
-                                The SIP panel is a lightweight building material (approx. 22 kg/m2) and there are several options for the foundation of the building. The most used method is a concrete slab foundation. It already saves on material as it will not need to carry as much load as heavy stonework or concrete buildings. For the customer, this therefore allows construction even in hard-to-reach places where construction machinery cannot reach. It is ideal for superstructure and extension projects where the original building would not be structurally able to cope with traditional construction systems such as masonry or concrete. The insulating core is strong and stable even after decades. It does not sag or become damp, which can be a common problem with conventional framed construction when poorly built.                            
+                                {{ __('explore_page_sip_28') }}
+                                                            
                             </p>
                             <p class="mb-4 text-slate-700 text-xl">
-                                The SIP panel technology also allows the building foundations to be made from panels. An alternative and unique solution for construction is foundations on screw piles. The construction of the foundation plate on screw piles for a detached house takes from 2 to 3 days and results in no damage to the ground. A support structure of wooden or steel beams, on which SIP 210mm panels are placed, is fitted on drilled screw piles.
+                                {{ __('explore_page_sip_29') }}
+                                
                             </p>
                             <p class="mb-4 text-slate-700 text-xl">
-                                The SIP panel technology has a unique application in construction is in the case of houseboats. Panels placed on the pontoon make for quick and efficient foundations of the building.
+                                {{ __('explore_page_sip_30') }}
+                                
                             </p>
                         </div>
                     </div>
@@ -152,11 +157,12 @@
             <div class="container m-auto px-6 pt-12 md:pt-28">
                 <div class="flex items-center content-center">
                     <i class="fa-solid fa-person-digging text-emerald-500 text-4xl mr-4"></i>
-                    <h2 class="text-4xl text-emerald-500 ">Design and production process</h2>
+                    <h2 class="text-4xl text-emerald-500 ">{{ __('explore_page_prod_1') }}</h2>
                 </div>
 
                 <p class="mb-4 text-slate-700 text-xl pt-12">
-                    The SIP certified building system is manufactured in controlled and monitored factory conditions. The production process is carried out in several stages. The standard production process takes between two and four weeks.
+                    {{ __('explore_page_prod_2') }}
+                    
                 </p>
 
                 <div class="flex flex-col">
@@ -166,13 +172,14 @@
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
-                                DESIGN
+                                {{ __('explore_page_prod_3') }}
                             </h3>
                             <p class="mb-4 text-slate-700 text-xl">
-                                The project takes about 2-3 weeks if the customer requests a bespoke project
+                                {{ __('explore_page_prod_4') }}
                             </p>
                             <p class="mb-4 text-slate-700 text-xl">
-                                During the design phase, technical, installation and production documentation is prepared. During the design phase, communication and approval of the design documentation takes place. Our professional team of engineers is available to provide advice regarding the design process, the finalising of designs, and the structural evaluation of buildings.                            
+                                {{ __('explore_page_prod_5') }}
+                                                            
                             </p>
                         </div>
                     </div>
@@ -183,16 +190,15 @@
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
-                                PRODUCTION
+                                {{ __('explore_page_prod_6') }}
                             </h3>
                             <p class="mb-4 text-slate-700 text-xl">
-                                This takes approximately 7 days                            
+                                {{ __('explore_page_prod_7') }}
+                                                           
                             </p>
                             <p class="mb-4 text-slate-700 text-xl">
-                                The sandwich panel is created by adhesively glueing an insulating core between two 15mm thick OSB TOP 4 boards. The panel is then hardened and matured in a hydraulic press. After solidification, the panels are formatted and labelled. Once the job is complete, the panels and all other materials required for the construction are placed on lorries to be transported to the construction site.
-                            </p>
-                            <p class="mb-4 text-slate-700 text-xl">
-                                The SIP panel technology has a unique application in construction is in the case of houseboats. Panels placed on the pontoon make for quick and efficient foundations of the building.
+                                {{ __('explore_page_prod_8') }}
+                                
                             </p>
                         </div>
                     </div>
@@ -203,13 +209,13 @@
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
-                                ASSEMBLY
+                                {{ __('explore_page_prod_10') }}
                             </h3>
                             <p class="mb-4 text-slate-700 text-xl">
-                                Takes approximately 7 days
+                                {{ __('explore_page_prod_11') }}
                             </p>
                             <p class="mb-4 text-slate-700 text-xl">
-                                We provide our customers with full technical support.  Our company offers a complete construction system, including all the necessary materials to complete the rough installation. We provide professional building management for the customer without unnecessary interruptions due to involvement of subcontractors.
+                                {{ __('explore_page_prod_12') }}
                             </p>
                         </div>
                     </div>
@@ -220,13 +226,13 @@
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
-                                CONSTRUCTION OF PERIMETER WALLS AND INTERIOR PARTITION WALLS
+                                {{ __('explore_page_prod_13') }}
                             </h3>
                             <p class="mb-4 text-slate-700 text-xl">
-                                A layer of waterproofing is applied to the fabricated foundation plate. After its application, the foundation springs are anchored to the foundation plate and form the base for the construction system. An embedded KVH element is fitted on the foundation spring to install the panels.
+                                {{ __('explore_page_prod_14') }}
                             </p>
                             <p class="mb-4 text-slate-700 text-xl">
-                                Construction of the perimeter walls begins from the corner of the building and continues around the perimeter. After their completion follows the installation of internal partition walls. Finally, wooden KVH elements are inserted in the mounting grooves from the top to support the panels with each other. The panels may contain a pre-prepared tunnel for wiring. All panels are marked and custom-made according to the project documentation, so the installation of the panels is very simple, fast, and precise.
+                                {{ __('explore_page_prod_15') }}
                             </p>
                         </div>
                     </div>
@@ -237,10 +243,10 @@
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
-                                FLOOR CONSTRUCTION
+                                {{ __('explore_page_prod_16') }}
                             </h3>
                             <p class="mb-4 text-slate-700 text-xl">
-                                Between the perimeter walls and the interior partition walls, a ceiling structure for the construction of the floor is made. To create a ceiling structure, we have several solutions. The ceiling can consist of KVH, BSH ceiling elements, glued timber I-beams, SIP panels or CLT. The suitability of the materials used depends on the static assessment of the project architect and the requirements of customers. Folowing this, the construction perimeter walls and internal partition walls of the second floor begins.                            
+                                {{ __('explore_page_prod_17') }}                            
                             </p>
                         </div>
                     </div>
@@ -251,13 +257,13 @@
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
-                                ROOF CONSTRUCTION
+                                {{ __('explore_page_prod_18') }}
                             </h3>
                             <p class="mb-4 text-slate-700 text-xl">
-                                SIP panels are an effective solution for the construction of sloping roofs with a residential attic. The SIP construction system essentially creates both a structural and an insulating element of the roof. The attic is therefore directly insulated with SIP panels and no additional application of insulation materials is required. The joints are straight and precise, so the interior has a ready base for the installation of gypsum or fibrous gypsum plaster boards, which are applied directly to the panel.
+                                {{ __('explore_page_prod_19') }}
                             </p>
                             <p class="mb-4 text-slate-700 text-xl">
-                                SIP panel is also an ideal solution for flat roofs. As with both sloping and flat roofs, the panel is a structural as well as an insulating element of the roof. Its installation and application are very fast and saves a lot of additional work. From the inside, it is possible to install gypsum or fibrous gypsum boards directly to the panel. From the outside, EPS perimeter drains for water drainage and final waterproofing are applied.
+                                {{ __('explore_page_prod_20') }}
                             </p>
                         </div>
                     </div>
@@ -265,10 +271,10 @@
 
                 <div class="flex flex-col pt-12">
                     <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
-                        WIDE VARIABILITY OF FINAL FINISHES
+                        {{ __('explore_page_prod_21') }}
                     </h3>
                     <p class="mb-8 text-slate-700 text-xl">
-                        The SIP construction system can be easily completed with a wide range of finishes from classic plaster to vented facades.
+                        {{ __('explore_page_prod_22') }}
                     </p>
                     <div class="w-full flex flex-wrap">
                         <div class="w-full md:w-1/2 pt-12">
@@ -294,7 +300,7 @@
             <div class="container m-auto px-6 py-12 md:py-28">
                 <div class="flex items-center content-center">
                     <i class="fa-solid fa-medal text-emerald-500 text-4xl mr-4"></i>
-                    <h2 class="text-4xl text-emerald-500 ">Main benefits</h2>
+                    <h2 class="text-4xl text-emerald-500 ">{{ __('explore_page_main_benef') }}Main benefits</h2>
                 </div>
                 
 
@@ -305,10 +311,10 @@
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
-                                COST SAVINGS
+                                {{ __('explore_page_main_1') }}
                             </h3>
                             <p class="mb-4 text-slate-700 text-xl">
-                                The SIP construction system provides excellent thermal insulation properties. Heating and cooling costs are therefore up to 50% lower than conventional masonry buildings. The buildings made of SIP panels provide a thermal resistance of the external walls and roof structure of R=6.5 m2.K/W and more. The buildings therefore belong to the category of low-energy or passive houses. They provide the necessary thermal comfort during the winter period and keep the building cool during the summer months.
+                                {{ __('explore_page_main_2') }}
                             </p>
                         </div>
                     </div>
@@ -319,10 +325,10 @@
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
-                                THE SPEED OF CONSTRUCTION
+                                {{ __('explore_page_main_3') }}
                             </h3>
                             <p class="mb-4 text-slate-700 text-xl">
-                                Whether you choose an individual building from SIP panels or prefabricated assembled houses, their production is several times quicker than conventional masonry buildings, which requires countless wet technological processes to be carried out. SIP panel construction is entirely a dry process that can be carried out at any time of the year. The speed of building significantly reduces the time of completion and related costs such as accommodation of workers, scaffolding hire, or construction machinery. This significantly reduces the cost of building construction.
+                                {{ __('explore_page_main_4') }}
                             </p>
                         </div>
                     </div>
@@ -333,10 +339,10 @@
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
-                                HEALTHY AND COMFORTABLE LIVING
+                                {{ __('explore_page_main_5') }}
                             </h3>
                             <p class="mb-4 text-slate-700 text-xl">
-                                The airtight design is ideal for modern ventilation systems that reduce energy costs and improve indoor air quality. The use of heat recovery units ensures a constant supply of fresh air into buildings without additional heat leakage. The air in the building is therefore constantly fresh, preventing mould and dust allergens from spreading in the building.
+                                {{ __('explore_page_main_6') }}
                             </p>
                         </div>
                     </div>
@@ -347,10 +353,10 @@
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
-                                HIGH STRENGTH
+                                {{ __('explore_page_main_7') }} 
                             </h3>
                             <p class="mb-4 text-slate-700 text-xl">
-                                Once the panel structure is constructed, the building system behaves as a monolithic shell, providing up to five times the structural performance of conventional timber frame construction. A building constructed with SIP panels has a sturdy and solid feel that is hard to distinguish from a traditional construction system once completed.
+                                {{ __('explore_page_main_8') }}
                             </p>
                         </div>
                     </div>
@@ -361,10 +367,10 @@
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
-                                MORE USEFUL FLOOR AREA
+                                {{ __('explore_page_main_9') }}
                             </h3>
                             <p class="mb-4 text-slate-700 text-xl">
-                                Buildings made of SIP panels provide 7-10% more usable floor space than traditional masonry buildings. Building users can enjoy a larger and more spacious environment. For developers who sell square meters of usable floor space, this percentage increase will provide extra profit.
+                                {{ __('explore_page_main_10') }}
                             </p>
                         </div>
                     </div>
@@ -375,10 +381,10 @@
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
-                                A STABLE INSULATION
+                                {{ __('explore_page_main_11') }}
                             </h3>
                             <p class="mb-4 text-slate-700 text-xl">
-                                The insulation core of the SIP building system is strong and stable even after decades. It cannot get wet, sag or be misapplied, as can happen with conventional frame constructions that are technologically demanding.
+                                {{ __('explore_page_main_12') }}
                             </p>
                         </div>
                     </div>
@@ -389,10 +395,10 @@
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
-                                ENVIRONMENTAL ASPECTS
+                                {{ __('explore_page_main_13') }}
                             </h3>
                             <p class="mb-4 text-slate-700 text-xl">
-                                The SIP construction system is classified as a timber building, so the overall process of production, construction and recycling of materials significantly reduces CO2 production.
+                                {{ __('explore_page_main_14') }}
                             </p>
                         </div>
                     </div>
@@ -403,10 +409,10 @@
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
-                                THE DESIGN FLEXIBILITY AND OTHER ADVANTAGES OF THE SIP BUILDING SYSTEM
+                                {{ __('explore_page_main_15') }}
                             </h3>
                             <p class="mb-4 text-slate-700 text-xl">
-                                Current legislation and new market demands require ever greater attention during the design and planning of buildings. The design flexibility and other advantages of the SIP building system, thermal bridge prevention, building airtightness, environmental aspects and others pose a challenge to many traditional building systems.
+                                {{ __('explore_page_main_16') }}
                             </p>
                         </div>
                     </div>
@@ -417,10 +423,10 @@
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
-                                CERTIFIED BUILDING SYSTEM
+                                {{ __('explore_page_main_17') }}
                             </h3>
                             <p class="mb-4 text-slate-700 text-xl">
-                                The manufacturing process is subject to regular inspection by a notified person. Our company provides a 50-year certified warranty for the building system.
+                                {{ __('explore_page_main_18') }}
                             </p>
                         </div>
                     </div>
@@ -431,16 +437,16 @@
                         </div>
                         <div class="w-full lg:w-1/2">
                             <h3 class="text-slate-700 text-2xl mb-4 text-emerald-500">
-                                CONSTRUCTION OF CONDOMINIUM AND APARTMENT BUILDINGS
+                                {{ __('explore_page_main_19') }}
                             </h3>
                             <p class="mb-4 text-slate-700 text-xl">
-                                One of the most important requirements for the design of buildings and their construction in the future is the reduction of CO2.
+                                {{ __('explore_page_main_20') }}
                             </p>
                             <p class="mb-4 text-slate-700 text-xl">
-                                The SIP building system as a stand-alone unit can be used in the construction of apartment buildings up to four floors high. When combining the SIP building system with traditional construction methods, the height of the buildings is unlimited. In this case, the building system is used as the building shell.
+                                {{ __('explore_page_main_21') }}
                             </p>
                             <p class="mb-4 text-slate-700 text-xl">
-                                The main benefit of using the SIP building system in apartment and condominium construction is the unrivalled speed of building and thermal insulation properties.
+                                {{ __('explore_page_main_22') }}
                             </p>
                         </div>
                     </div>
