@@ -214,12 +214,22 @@
     "service_page_out_text_15": "The automatic Wind Stop system is an effective protection against the wind and street noise.",
     "service_page_out_text_16": "Restaurant gardens, Terraces, Open areas of Cafes, Swimming pools and Balconies… Just lift it up when wind starts! The glass moves electrically.",
     "service_page_out_text_17": "It can move up and down, and a different height can be set for each system. In addition, the system can be moved by remote control.",
+    
     "service_page_out_text_18": "SLIDING window system",
+    
     "service_page_out_text_19": "SHADOW LINE - The automatic sun visor curtains system",
     "service_page_out_text_20": "The automatic sunshade system effectively protects against direct sunlight.",
     "service_page_out_text_21": "The fabric canvas is resistant to UV rays and atmospheric effects. The perforated structure does not hinder air movement.",
     "service_page_out_text_22": "The electric actuator allows you to control the ZIP system with the remote control and connect the sun shades to the Smart House system.",
+    "contact_page_sidlo" : " ",
+    "contact_page_adress" : " ",
+    "contact_page_adress_1" : " ",
 
+    "nav_home" : "Home",
+    "nav_sip" : "Explore SIP",
+    "nav_projects" : "Projects",
+    "nav_service" : "Services",
+    "nav_contact" : "Contact",
 
     "Hey there! Welcome to Ping CRM, a demo app designed to help illustrate how :link works.": "Hey da! Willkommen bei Ping CRM, einer Demo-App, die helfen soll, zu veranschaulichen, wie :link funktioniert.",
     "error": "Fehler"

@@ -28,6 +28,7 @@
     "home_benefits_garant_text": "Якість будівництва будинку гарантує вам термін експлуатації не менше 50 років. Ми пропонуємо стандартні гарантії на комплектуючі, роботи, технології та поставки від субпідрядників.",
     "home_benefits_h3_5": "Обслуговування",
     "home_benefits_service_text": "Ми піклуємося про наших клієнтів не тільки під час гарантії, але і забезпечуємо вам післягарантійне обслуговування і турботу про бездоганне і комфортне використання вашого будинку.",
+    
     "explore_page_explore_sip": "Технологія сип",
     "explore_page_link_2": "Процес виробництва",
     "explore_page_main_benef": "Основні переваги",
@@ -103,6 +104,7 @@
     "explore_page_main_20": "Однією з найважливіших вимог до проектування будівель та їх будівництва в майбутньому є скорочення викидів СО2.",
     "explore_page_main_21": "Система SIP-будівництва як самостійна одиниця може використовуватися при будівництві багатоквартирних будинків висотою до чотирьох поверхів. При комбінуванні будівельної системи SIP з традиційними методами будівництва висота будівель необмежена. В цьому випадку будівельна система використовується в якості оболонки будівлі.",
     "explore_page_main_22": "Основною перевагою використання системи SIP-будівництва в багатоквартирному та ОСББ будівництві є неперевершена швидкість зведення будівлі та теплоізоляційні властивості.",
+    
     "project_page_header": "Проекти",
     "project_page_price": "Вартість",
     "project_page_pref_h2": "Швидкомонтовані будинки",
@@ -144,6 +146,7 @@
     "project_page_newex_4": "У вартість входить: збірка, збірка стін в цеху разом з електропідготовкою, обшивка гіпсокартоном, пінопластом та армуванням + збірка на місці.",
     "project_page_newex_5": "У вартість не входить: монтаж, доставка до місця монтажу, вікна та двері, оздоблення покрівлі.",
     "project_page_newex_6": "Додаткові витрати на внутрішнє та зовнішнє оздоблення, електропроводку, вентиляцію, опалення та ін. за бажанням замовника оцінюються окремо.",
+    
     "contact_page_header": "Контакти",
     "contact_page_succsess": "Ваша форма була успішно подана!",
 
@@ -215,7 +218,15 @@
     "service_page_out_text_20": "The automatic sunshade system effectively protects against direct sunlight.",
     "service_page_out_text_21": "The fabric canvas is resistant to UV rays and atmospheric effects. The perforated structure does not hinder air movement.",
     "service_page_out_text_22": "The electric actuator allows you to control the ZIP system with the remote control and connect the sun shades to the Smart House system.",
+    "contact_page_sidlo" : " ",
+    "contact_page_adress" : " ",
+    "contact_page_adress_1" : " ",
 
+    "nav_home" : "Головна сторінка",
+    "nav_sip" : "Технологія сип",
+    "nav_projects" : "Проекти",
+    "nav_service" : "Сервіси",
+    "nav_contact" : "Контакти",
 
     "Hey there! Welcome to Ping CRM, a demo app designed to help illustrate how :link works.": "Hey da! Willkommen bei Ping CRM, einer Demo-App, die helfen soll, zu veranschaulichen, wie :link funktioniert.",
     "error": "Fehler"

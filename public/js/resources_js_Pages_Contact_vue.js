@@ -59,38 +59,34 @@ var _hoisted_2 = {
 var _hoisted_3 = {
   "class": "container m-auto h-full px-6 py-12 md:py-28"
 };
-
-var _hoisted_4 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "w-full h-full z-50 flex justify-center md:justify-start"
-  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
-    "class": "text-white text-5xl mb-12 mt-16 z-50 white-text-shadow",
-    "data-aos": "fade-right"
-  }, " Contact ")], -1
-  /* HOISTED */
-  );
-});
-
+var _hoisted_4 = {
+  "class": "w-full h-full z-50 flex justify-center md:justify-start"
+};
 var _hoisted_5 = {
-  "class": "flex flex-col md:flex-row justify-between align-center items-center"
+  "class": "text-white text-5xl mb-12 mt-16 z-50 white-text-shadow",
+  "data-aos": "fade-right"
 };
 var _hoisted_6 = {
-  "class": "w-full md:w-1/2 h-full z-50 flex flex-col justify-start items-start md:items:center content-start md:content-center"
+  "class": "flex flex-col md:flex-row justify-between align-center items-center"
 };
 var _hoisted_7 = {
-  "class": "w-full flex flex-col"
+  "class": "w-full md:w-1/2 h-full z-50 flex flex-col justify-start items-start md:items:center content-start md:content-center"
 };
 var _hoisted_8 = {
+  "class": "w-full flex flex-col"
+};
+var _hoisted_9 = {
   key: 0,
   "class": "px-6 container w-full h-8 info-message md:w-auto"
 };
+var _hoisted_10 = {
+  id: "alert-3",
+  "class": "flex p-4 mb-4 bg-green-100 rounded-lg dark:bg-green-200",
+  role: "alert"
+};
 
-var _hoisted_9 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    id: "alert-3",
-    "class": "flex p-4 mb-4 bg-green-100 rounded-lg dark:bg-green-200",
-    role: "alert"
-  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
+var _hoisted_11 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
     "aria-hidden": "true",
     "class": "flex-shrink-0 w-5 h-5 text-green-700 dark:text-green-800",
     fill: "currentColor",
@@ -100,23 +96,44 @@ var _hoisted_9 = /*#__PURE__*/_withScopeId(function () {
     "fill-rule": "evenodd",
     d: "M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z",
     "clip-rule": "evenodd"
-  })]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
-    "class": "sr-only"
-  }, "Info"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "ml-3 text-sm font-medium text-green-700 dark:text-green-800"
-  }, " Your form was succesfully submitted! "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <button type=\"button\"\n                                        class=\"ml-auto -mx-1.5 -my-1.5 ml-4 bg-green-100 text-green-500 rounded-lg focus:ring-2 focus:ring-green-400 p-1.5 hover:bg-green-200 inline-flex h-8 w-8 dark:bg-green-200 dark:text-green-600 dark:hover:bg-green-300\"\n                                        data-dismiss-target=\"#alert-3\" aria-label=\"Close\">\n                                        <span class=\"sr-only\">Close</span>\n                                        <svg aria-hidden=\"true\" class=\"w-5 h-5\" fill=\"currentColor\" viewBox=\"0 0 20 20\"\n                                            xmlns=\"http://www.w3.org/2000/svg\">\n                                            <path fill-rule=\"evenodd\"\n                                                d=\"M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z\"\n                                                clip-rule=\"evenodd\"></path>\n                                        </svg>\n                                    </button> ")], -1
+  })], -1
   /* HOISTED */
   );
 });
 
-var _hoisted_10 = [_hoisted_9];
-var _hoisted_11 = ["value"];
-var _hoisted_12 = {
+var _hoisted_12 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "sr-only"
+  }, "Info", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_13 = {
+  "class": "ml-3 text-sm font-medium text-green-700 dark:text-green-800"
+};
+var _hoisted_14 = ["value"];
+var _hoisted_15 = {
   "class": "grid gap-6 mb-6 xl:grid-cols-2"
 };
-var _hoisted_13 = ["disabled"];
+var _hoisted_16 = ["disabled"];
+var _hoisted_17 = {
+  "class": "w-full md:w-1/2 h-full flex justify-center content-center items-center z-50 pt-12 md:pt-0"
+};
+var _hoisted_18 = {
+  "class": "flex flex-col"
+};
+var _hoisted_19 = {
+  "class": "mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left"
+};
+var _hoisted_20 = {
+  "class": "mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left"
+};
+var _hoisted_21 = {
+  "class": "mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left"
+};
 
-var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"w-full md:w-1/2 h-full flex justify-center content-center items-center z-50 pt-12 md:pt-0\" data-v-2c2b26f2><div class=\"flex flex-col\" data-v-2c2b26f2><a href=\"tel:+421 919322088\" class=\"mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left\" data-v-2c2b26f2><i class=\"fa-solid fa-phone mr-4\" data-v-2c2b26f2></i> +421 919322088</a><a href=\"mailto:decorhaus.sk@gmail.com\" class=\"mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left\" data-v-2c2b26f2><i class=\"fa-solid fa-envelope mr-4\" data-v-2c2b26f2></i>decorhaus.sk@gmail.com</a><a href=\"tel:+421944725652\" class=\"mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left\" data-v-2c2b26f2><i class=\"fa-solid fa-phone mr-4\" data-v-2c2b26f2></i>+421 944725652</a><a href=\"tel:+380966230115\" class=\"mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left\" data-v-2c2b26f2><i class=\"fa-solid fa-phone mr-4\" data-v-2c2b26f2></i>+380 966230115</a><div class=\"flex justify-center md:justify-start\" data-v-2c2b26f2><a href=\"https://www.instagram.com/decorhaus.sk/\" title=\"Instagram\" class=\"white-text-shadow text-white transition-all hover:text-amber-500\" data-v-2c2b26f2><span class=\"fa fa-instagram text-2xl\" data-v-2c2b26f2></span></a></div></div></div>", 1);
+var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<a href=\"tel:+421 919322088\" class=\"mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left\" data-v-2c2b26f2><i class=\"fa-solid fa-phone mr-4\" data-v-2c2b26f2></i> +421 919322088</a><a href=\"mailto:decorhaus.sk@gmail.com\" class=\"mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left\" data-v-2c2b26f2><i class=\"fa-solid fa-envelope mr-4\" data-v-2c2b26f2></i>decorhaus.sk@gmail.com</a><a href=\"tel:+421944725652\" class=\"mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left\" data-v-2c2b26f2><i class=\"fa-solid fa-phone mr-4\" data-v-2c2b26f2></i>+421 944725652</a><a href=\"tel:+380966230115\" class=\"mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left\" data-v-2c2b26f2><i class=\"fa-solid fa-phone mr-4\" data-v-2c2b26f2></i>+380 966230115</a><div class=\"flex justify-center md:justify-start\" data-v-2c2b26f2><a href=\"https://www.instagram.com/decorhaus.sk/\" title=\"Instagram\" class=\"white-text-shadow text-white transition-all hover:text-amber-500\" data-v-2c2b26f2><span class=\"fa fa-instagram text-2xl\" data-v-2c2b26f2></span></a></div>", 5);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _ctx$results;
@@ -134,7 +151,11 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
     /* STABLE */
 
-  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [_hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [$setup.form.recentlySuccessful ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_8, _hoisted_10)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", {
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('contact_page_header')), 1
+  /* TEXT */
+  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [$setup.form.recentlySuccessful ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [_hoisted_11, _hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('contact_page_succsess')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <button type=\"button\"\n                                        class=\"ml-auto -mx-1.5 -my-1.5 ml-4 bg-green-100 text-green-500 rounded-lg focus:ring-2 focus:ring-green-400 p-1.5 hover:bg-green-200 inline-flex h-8 w-8 dark:bg-green-200 dark:text-green-600 dark:hover:bg-green-300\"\n                                        data-dismiss-target=\"#alert-3\" aria-label=\"Close\">\n                                        <span class=\"sr-only\">Close</span>\n                                        <svg aria-hidden=\"true\" class=\"w-5 h-5\" fill=\"currentColor\" viewBox=\"0 0 20 20\"\n                                            xmlns=\"http://www.w3.org/2000/svg\">\n                                            <path fill-rule=\"evenodd\"\n                                                d=\"M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z\"\n                                                clip-rule=\"evenodd\"></path>\n                                        </svg>\n                                    </button> ")])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", {
     "class": "flex flex-col",
     onSubmit: _cache[6] || (_cache[6] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function ($event) {
       return $setup.form.post('/contact', {
@@ -150,7 +171,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     max: "100"
   }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($setup.form.progress.percentage) + "% ", 9
   /* TEXT, PROPS */
-  , _hoisted_11)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" name "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_MazInput, {
+  , _hoisted_14)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" name "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_MazInput, {
     modelValue: $setup.form.name,
     "onUpdate:modelValue": _cache[0] || (_cache[0] = function ($event) {
       return $setup.form.name = $event;
@@ -218,9 +239,15 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     disabled: $setup.form.processing
   }, "Submit", 8
   /* PROPS */
-  , _hoisted_13)], 32
+  , _hoisted_16)], 32
   /* HYDRATE_EVENTS */
-  )])]), _hoisted_14])])])])], 64
+  )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_19, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('contact_page_sidlo')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_20, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('contact_page_adress')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_21, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('contact_page_adress_1')), 1
+  /* TEXT */
+  ), _hoisted_22])])])])])])], 64
   /* STABLE_FRAGMENT */
   );
 }

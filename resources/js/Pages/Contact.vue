@@ -99,6 +99,9 @@
                     <div
                         class="w-full md:w-1/2 h-full flex justify-center content-center items-center z-50 pt-12 md:pt-0">
                         <div class="flex flex-col">
+                            <a class="mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left">{{ __('contact_page_sidlo') }}</a>
+                            <a class="mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left">{{ __('contact_page_adress') }}</a>
+                            <a class="mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left">{{ __('contact_page_adress_1') }}</a>
                             <a href="tel:+421 919322088"
                                 class="mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left"><i
                                     class="fa-solid fa-phone mr-4"></i> +421

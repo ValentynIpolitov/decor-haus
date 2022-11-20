@@ -28,6 +28,7 @@
     "home_benefits_garant_text": "Die Qualität der Konstruktion des Hauses garantiert eine Nutzungsdauer von mindestens 50 Jahren. Wir bieten Standardgarantien für Bauelemente, Arbeiten, Technologien und Lieferungen von Subunternehmern.",
     "home_benefits_h3_5": "Dienst",
     "home_benefits_service_text": "Wir betreuen unsere Kunden nicht nur während der Garantiezeit, sondern bieten Ihnen auch nach der Garantiezeit Service und Pflege für eine einwandfreie und komfortable Nutzung Ihres Hauses.",
+    
     "explore_page_explore_sip": "SIP technologie",
     "explore_page_link_2": "Produktionsprozess",
     "explore_page_main_benef": "Wichtigste Vorteile",
@@ -103,6 +104,7 @@
     "explore_page_main_20": "Eine der wichtigsten Anforderungen an die Gestaltung von Gebäuden und deren Bau in der Zukunft ist die Reduzierung von CO2.",
     "explore_page_main_21": "Das SIP-Bausystem als eigenständige Einheit kann für den Bau von Mehrfamilienhäusern mit bis zu vier Stockwerken eingesetzt werden. Kombiniert man das SIP-Bausystem mit traditionellen Bauweisen, ist die Höhe der Gebäude unbegrenzt. In diesem Fall wird das Bausystem als Gebäudehülle verwendet.",
     "explore_page_main_22": "Der Hauptvorteil der Verwendung des SIP-Bausystems beim Bau von Wohnungen und Eigentumswohnungen liegt in der konkurrenzlosen Schnelligkeit des Baus und den Wärmedämmeigenschaften.",
+    
     "project_page_header": "Projekte",
     "project_page_price": "Preis",
     "project_page_pref_h2": "Fertighäuser",
@@ -144,6 +146,7 @@
     "project_page_newex_4": "Der Preis beinhaltet: Zusammenbau, Wandmontage in der Werkstatt mit elektrischer Vorbereitung, Gipskartonplatten, Schaumstoff und Beschläge + Installation vor Ort",
     "project_page_newex_5": "Nicht im Preis enthalten sind: Montage, Lieferung auf die Baustelle, Fenster und Türen, Abschluss der Dacharbeiten.",
     "project_page_newex_6": "Zusätzliche Kosten für Innen- und Außenausbau, Verkabelung, Belüftung, Heizung usw. auf Wunsch des Kunden, sie werden gesondert berechnet.",
+    
     "contact_page_header": "Kontakt",
     "contact_page_succsess": "Ihr Formular wurde erfolgreich abgeschickt!",
 
@@ -194,29 +197,39 @@
     
     "service_page_out": "GLASVERANDEN & VERSENKBARE PERGOLEN, GLASRÄUME.",
     "service_page_out_h": "Wir garantieren höchste Bauqualität, maximale Zuverlässigkeit und schnellen Service nach der Installation.",
-    "service_page_out_text_1": "GUILLOTINE GLASS SYSTEM",
+    "service_page_out_text_1": "GUILLOTINE-GLAS-SYSTEM",
     "service_page_out_text_2": "Ein Guillotine-Fenster ist ein Fenster, das sich vertikal bewegt. Die grundlegenden Guillotine-Fenster bestehen aus zwei vertikal verschiebbaren Rahmen und werden durch einen Elektromotor ferngesteuert.",
     "service_page_out_text_3": "Inzwischen gibt es Guillotine-Fenster mit unten oder oben befestigten Rahmen, die sich von unten nach oben oder von oben nach unten mit mehreren Schieberahmen öffnen. Die vertikale Bewegung der Flügel ermöglicht es, Platz im Innenraum zu sparen und für Belüftung zu sorgen. Es besteht die Wahl zwischen einfachem gehärtetem Glas und energiesparender Doppelverglasung.",
-    "service_page_out_text_4": "SLIDING GLASS ROOF – The Smart Roof",
+    "service_page_out_text_4": "Schiebedach aus Glas - Das intelligente Dach",
     "service_page_out_text_5": "Alle Glasschiebedächer werden für Ihr Haus, Ihre Wohnung oder Ihre Geschäftsräume maßgeschneidert. Das automatische Schiebedach ist für Räume gedacht, die von offenen Sommer- zu beheizten Winterdächern umgebaut werden. Das wichtigste Element ist die energieeffiziente Verglasung. Dieses System gibt Ihrem Raum viel natürliches Licht, hält aber die Wärme im Inneren.",
     "service_page_out_text_6": "Die beheizte Verglasung hilft bei der Beseitigung von Schnee.",
-    "service_page_out_text_7": "PASIFIC – Motorized",
+    "service_page_out_text_7": "PASIFIC - Motorisiert",
     "service_page_out_text_8": "Motorisierte wasserdichte Pergola aus Aluminium Einziehbare Markisen für den Außenbereich ",
     "service_page_out_text_9": "Die Aluminium-Rahmenkonstruktion ist sehr stabil und kann starken Winden am Meer oder auf dem Dach eines Hochhauses standhalten. Mit verschiedenen Designoptionen ist es möglich, einen Pavillon sowohl getrennt vom Gebäude als auch neben dem Gebäude zu errichten. Das Entwässerungssystem ist im Inneren der Struktur verborgen. Durch den elektrischen Antrieb kann das System einfach per Fernbedienung bedient werden. Regen- und Windsensoren können auch angeschlossen und in ein Smart-Home-System integriert werden.",
-    "service_page_out_text_10": "AEROLUX - Louvered roof system",
+    "service_page_out_text_10": "AEROLUX - Lamellendachsystem",
     "service_page_out_text_11": "Lamellendachsystem - die bioklimatische Pergola ist so konzipiert, dass sie den Sitzbereich vor Niederschlägen schützt und bei sonnigem Wetter Schatten spendet.",
     "service_page_out_text_12": "Die Dachfläche ist mit schwenkbaren Aluminiumlamellen versehen. So können Sie die Sonneneinstrahlung regulieren. Die Anordnung der Lamellen ermöglicht es, den inneren Hohlraum mit Polyurethanschaum zu füllen. Dadurch wird das unangenehme Geräusch bei Regen vermieden.",
     "service_page_out_text_13": "Das Hauptmerkmal des Systems ist die Möglichkeit, den Sonnenstrom durch Drehen und Schieben der Lamellen zu steuern. In der geparkten Position nehmen die Lamellen 23 % der Dachfläche ein. ",
-    "service_page_out_text_14": "Automatic WIND STOP railing system",
+    "service_page_out_text_14": "Automatisches WIND STOP Geländersystem",
     "service_page_out_text_15": "Das automatische Wind Stop System ist ein effektiver Schutz gegen Wind und Straßenlärm.",
     "service_page_out_text_16": "Restaurantgärten, Terrassen, Freiflächen von Cafés, Schwimmbädern und Balkonen... Heben Sie es einfach hoch, wenn Wind aufkommt! Das Glas bewegt sich elektrisch.",
     "service_page_out_text_17": "Es kann nach oben und unten bewegt werden, und für jedes System kann eine andere Höhe eingestellt werden. Darüber hinaus kann das System per Fernbedienung bewegt werden.",
-    "service_page_out_text_18": "SLIDING window system",
-    "service_page_out_text_19": "SHADOW LINE - The automatic sun visor curtains system",
+    
+    "service_page_out_text_18": "SLIDING-Fenster-System",
+
+    "service_page_out_text_19": "SHADOW LINE - Das automatische Sonnenblendenvorhangsystem",
     "service_page_out_text_20": "Das automatische Sonnenschutzsystem schützt wirksam vor direkter Sonneneinstrahlung.",
     "service_page_out_text_21": "Das Stofftuch ist resistent gegen UV-Strahlen und Witterungseinflüsse. Die perforierte Struktur behindert die Luftbewegung nicht.",
     "service_page_out_text_22": "Der elektrische Antrieb ermöglicht es Ihnen, das ZIP-System mit der Fernbedienung zu steuern und den Sonnenschutz mit dem Smart House-System zu verbinden.",
+    "contact_page_sidlo" : " ",
+    "contact_page_adress" : " ",
+    "contact_page_adress_1" : " ",
 
+    "nav_home" : "Startseite",
+    "nav_sip" : "SIP technologie",
+    "nav_projects" : "Projekte",
+    "nav_service" : "Dienstleistungen",
+    "nav_contact" : "Kontakt",
 
 
     "Hey there! Welcome to Ping CRM, a demo app designed to help illustrate how :link works.": "Hey da! Willkommen bei Ping CRM, einer Demo-App, die helfen soll, zu veranschaulichen, wie :link funktioniert.",
