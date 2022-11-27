@@ -8,19 +8,22 @@
 
         <ul class="nav-menu z-50">
             <li class="nav-item white-text-shadow hover-underline-animation">
-                <NavLink :href="route('homepage')" @click="closeMenu()" :active="$page.component === 'Home'"  >Home</NavLink>
+                <NavLink :href="route('homepage')" @click="closeMenu()" :active="$page.component === 'Home'"  >{{ __('nav_home') }}</NavLink>
             </li>
             <li class="nav-item white-text-shadow hover-underline-animation">
-                <NavLink :href="route('technologies')" @click="closeMenu()" :active="$page.component === 'Technologies'"  >Explore SIP</NavLink>
+                <NavLink :href="route('technologies')" @click="closeMenu()" :active="$page.component === 'Technologies'"  >{{ __('nav_sip') }}</NavLink>
             </li>
             <li class="nav-item white-text-shadow hover-underline-animation">
-                <NavLink :href="route('projects')" @click="closeMenu()" :active="$page.component === 'Projects'"  >Projects</NavLink>
+                <NavLink :href="route('projects')" @click="closeMenu()" :active="$page.component === 'Projects'"  >{{ __('nav_projects') }}</NavLink>
+            </li>
+            <li v-if="this.$page.props.locale !== 'ua'" class="nav-item white-text-shadow hover-underline-animation" id="serv">
+                <NavLink :href="route('materials')" @click="closeMenu()" :active="$page.component === 'Services'" >{{ __('nav_service') }}</NavLink>
             </li>
             <li class="nav-item white-text-shadow hover-underline-animation">
-                <NavLink :href="route('materials')" @click="closeMenu()" :active="$page.component === 'Services'"  >Services</NavLink>
+                <NavLink :href="route('contact')" @click="closeMenu()" :active="$page.component === 'Contact'"  >{{ __('nav_contact') }}</NavLink>
             </li>
-            <li class="nav-item white-text-shadow hover-underline-animation">
-                <NavLink :href="route('contact')" @click="closeMenu()" :active="$page.component === 'Contact'"  >Contact</NavLink>
+            <li class="nav-item">
+                <LanguageSelector/>
             </li>
         </ul>
 
@@ -34,9 +37,10 @@
 
 <script>
     import NavLink from './NavLink.vue';
-    
+    import LanguageSelector from './LanguageSelector.vue';
+
     export default {
-        components: {NavLink},
+        components: {NavLink, LanguageSelector},
 
         data() {
 
@@ -172,6 +176,5 @@
             transform: translateY(-8px) rotate(-45deg);
         }
     }
-
-
 </style>
+

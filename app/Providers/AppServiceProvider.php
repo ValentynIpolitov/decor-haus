@@ -5,6 +5,7 @@ namespace App\Providers;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\App;
 use URL;
+use Inertia\Inertia;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -28,5 +29,16 @@ class AppServiceProvider extends ServiceProvider
         // if (App::environment(['staging', 'production'])) {
         //     URL::forceScheme('https');
         // }
+
+        Inertia::share([
+            'locale' => function () {
+                return app()->getLocale();
+            },
+            'language' => function () {
+                return translations(
+                    resource_path('lang/'. app()->getLocale() .'.json')
+                );
+            },
+        ]);
     }
 }

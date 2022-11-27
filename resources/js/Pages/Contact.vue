@@ -10,7 +10,7 @@
             <div class="container m-auto h-full px-6 py-12 md:py-28">
                 <div class="w-full h-full z-50 flex justify-center md:justify-start">
                     <h1 class="text-white text-5xl mb-12 mt-16 z-50 white-text-shadow" data-aos="fade-right">
-                        Contact
+                        {{ __('contact_page_header') }}
                     </h1>
                 </div>
 
@@ -30,7 +30,7 @@
                                     </svg>
                                     <span class="sr-only">Info</span>
                                     <div class="ml-3 text-sm font-medium text-green-700 dark:text-green-800">
-                                        Your form was succesfully submitted!
+                                        {{ __('contact_page_succsess') }}
                                     </div>
                                     <!-- <button type="button"
                                         class="ml-auto -mx-1.5 -my-1.5 ml-4 bg-green-100 text-green-500 rounded-lg focus:ring-2 focus:ring-green-400 p-1.5 hover:bg-green-200 inline-flex h-8 w-8 dark:bg-green-200 dark:text-green-600 dark:hover:bg-green-300"
@@ -99,6 +99,9 @@
                     <div
                         class="w-full md:w-1/2 h-full flex justify-center content-center items-center z-50 pt-12 md:pt-0">
                         <div class="flex flex-col">
+                            <a class="mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left">{{ __('contact_page_sidlo') }}</a>
+                            <a class="mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left">{{ __('contact_page_adress') }}</a>
+                            <a class="mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left">{{ __('contact_page_adress_1') }}</a>
                             <a href="tel:+421 919322088"
                                 class="mb-4 text-white text-xl hover:text-amber-500 text-center md:text-left"><i
                                     class="fa-solid fa-phone mr-4"></i> +421

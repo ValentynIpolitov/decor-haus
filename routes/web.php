@@ -46,6 +46,11 @@ Route::middleware(['auth', 'verified'])->group(function () {
 });
 require __DIR__.'/auth.php';
 
+Route::get('language/{language}', function ($language) {
+    Session()->put('locale', $language);
+
+    return redirect()->back();
+})->name('language');
 
 // // NEW routes
 // Route::get('/new', function () {

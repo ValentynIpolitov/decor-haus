@@ -50,34 +50,16 @@ var _hoisted_1 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_2 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "w-full h-96 bg-[url('/images/bg_tecgnology.jpg')] black-shadow bg-bottom bg-no-repeat bg-cover bg-fixed"
-  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "container m-auto h-full px-6 py-12 md:py-28 flex justify-center items-center content-center"
-  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
-    "class": "text-white text-5xl mt-16 z-50 white-text-shadow",
-    "data-aos": "fade-right"
-  }, "Projects")])])], -1
-  /* HOISTED */
-  );
-});
-
-var _hoisted_3 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "chevron"
-  }, null, -1
-  /* HOISTED */
-  );
-});
-
-var _hoisted_4 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "chevron"
-  }, null, -1
-  /* HOISTED */
-  );
-});
+var _hoisted_2 = {
+  "class": "w-full h-96 bg-[url('/images/bg_tecgnology.jpg')] black-shadow bg-bottom bg-no-repeat bg-cover bg-fixed"
+};
+var _hoisted_3 = {
+  "class": "container m-auto h-full px-6 py-12 md:py-28 flex justify-center items-center content-center"
+};
+var _hoisted_4 = {
+  "class": "text-white text-5xl mt-16 z-50 white-text-shadow",
+  "data-aos": "fade-right"
+};
 
 var _hoisted_5 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -88,33 +70,358 @@ var _hoisted_5 = /*#__PURE__*/_withScopeId(function () {
 });
 
 var _hoisted_6 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-    "class": "text-slate-700 text-xl"
-  }, "Price", -1
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "chevron"
+  }, null, -1
   /* HOISTED */
   );
 });
 
-var _hoisted_7 = [_hoisted_3, _hoisted_4, _hoisted_5, _hoisted_6];
+var _hoisted_7 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "chevron"
+  }, null, -1
+  /* HOISTED */
+  );
+});
+
 var _hoisted_8 = {
+  "class": "text-slate-700 text-xl"
+};
+var _hoisted_9 = {
   ref: "prefabricated_houses",
   id: "prefabricated_houses"
 };
-var _hoisted_9 = {
+var _hoisted_10 = {
   "class": "container m-auto px-6 py-12 md:py-28"
 };
+var _hoisted_11 = {
+  "class": "flex items-center content-center"
+};
+var _hoisted_12 = {
+  "class": "text-4xl text-emerald-500"
+};
+var _hoisted_13 = {
+  "class": "flex flex-col lg:flex-row-reverse align-center items-center pt-12"
+};
 
-var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex items-center content-center\" data-v-42e41223><h2 class=\"text-4xl text-emerald-500\" data-v-42e41223>Prefabricated Houses</h2></div><div class=\"flex flex-col lg:flex-row-reverse align-center items-center pt-12\" data-v-42e41223><div class=\"w-full h-full lg:w-1/2 flex justify-center\" data-v-42e41223><img class=\"mb-4 lg:mb-0 w-full lg:w-10/12\" src=\"/images/pref.jpg\" alt=\"\" data-v-42e41223></div><div class=\"w-full lg:w-1/2\" data-v-42e41223><p class=\"mb-4 text-slate-700 text-xl\" data-v-42e41223> The advantage of the SIP building system is its assembly into individual pre-engineered building units as &quot;prefabricated units&quot;. The prefabricated structures of prefabricated buildings meet all the building criteria set by the technical standards, such as static parameters, thermal and acoustic insulation properties, and fire protection parameters. </p><p class=\"mb-4 text-slate-700 text-xl\" data-v-42e41223>For the builder, this means a tremendous speed of construction and therefore savings in time and construction management costs.</p><p class=\"text-slate-700 text-xl\" data-v-42e41223>Prefabrication is produced under controlled factory conditions. The high precision and accuracy significantly reduce errors that normally occur in on-site implementations. In addition, thanks to prefabrication, there is no construction waste on site.</p></div></div><div class=\"flex flex-col pt-12 project-link-anchor\" id=\"modular_hauses\" data-v-42e41223><h2 class=\"text-4xl text-emerald-500\" data-v-42e41223>Modular Houses</h2></div><div class=\"flex flex-col lg:flex-row align-center items-center pt-12\" data-v-42e41223><div class=\"w-full h-full lg:w-1/2 flex justify-center\" data-v-42e41223><img class=\"mb-4 lg:mb-0 w-full lg:w-4/5\" src=\"/images/mod_3.jpg\" alt=\"\" data-v-42e41223></div><div class=\"w-full lg:w-1/2\" data-v-42e41223><p class=\"mb-4 text-slate-700 text-xl\" data-v-42e41223>Modular houses are a variety of low-energy or passive buildings manufactured in a production hall in single unit &quot;modules&quot;.</p><p class=\"mb-4 text-slate-700 text-xl\" data-v-42e41223>After the manufacturing process is completed, the modules are transported to a specified location where they are placed on a pre-prepared foundation. Once the module is installed, it is connected to the public utilities and the customer can start using it almost immediately. The modules can be connected to each other and expanded according to the customer&#39;s needs. If necessary, the modules are designed so that they can be moved to another location in the future.</p><p class=\"text-slate-700 text-xl\" data-v-42e41223>Modular buildings have a wide range of applications. They can be used as recreational buildings, living quarters, family modular houses, administrative and business premises, schools and nurseries, or as temporary buildings.</p></div></div><div class=\"flex flex-col pt-12\" data-v-42e41223><h4 class=\"text-slate-700 text-xl mb-4 text-emerald-400\" data-v-42e41223>Energy Efficiency</h4><p class=\"mb-4 text-slate-700 text-xl\" data-v-42e41223> Modular buildings are designed in low-energy or even passive standard. This means that the buildings consume only a minimal amount of energy for heating and cooling, resulting in up to 50% lower operating costs than conventional masonry buildings. </p><h4 class=\"text-slate-700 text-xl mb-4 text-emerald-500\" data-v-42e41223>Fixed Price</h4><p class=\"mb-4 text-slate-700 text-xl\" data-v-42e41223> A great advantage of modular houses is their fixed price. Their production takes place in the production hall, so there is no budget increase as in the case of on-site construction. </p><h4 class=\"text-slate-700 text-xl mb-4 text-emerald-600\" data-v-42e41223>The Speed of Construction</h4><p class=\"mb-4 text-slate-700 text-xl\" data-v-42e41223> The construction process takes place in the production hall, i.e., under dry construction method. Therefore, the production process is not interrupted due to weather conditions. The controlled production process ensures that all technological procedures are followed, thus eliminating possible defects that happen on construction sites. </p><h4 class=\"text-slate-700 text-xl mb-4 text-emerald-700\" data-v-42e41223>The Possibility of Shipment</h4><p class=\"text-slate-700 text-xl\" data-v-42e41223> Modular buildings are mainly used as permanent structures. However, should the need arise in the future to transport the building, a modular house can easily handle this process. Modules are manufactured and designed in such a way that they can be transported to another location. </p></div><div class=\"flex flex-col pt-12 project-link-anchor\" id=\"residents_and_apartments\" data-v-42e41223><h2 class=\"text-4xl text-emerald-500\" data-v-42e41223>Construction of Residential and Apartment Buildings</h2><div class=\"flex flex-col lg:flex-row-reverse align-center items-center pt-12\" data-v-42e41223><div class=\"w-full h-full lg:w-1/2 flex justify-center\" data-v-42e41223><img class=\"mb-4 lg:mb-0 w-full lg:w-4/5\" src=\"/images/const.jpg\" data-v-42e41223></div><div class=\"w-full lg:w-1/2\" data-v-42e41223><p class=\"mb-4 text-slate-700 text-xl\" data-v-42e41223>One of the most essential requirements for the design and construction of buildings in the future is the reduction of CO2 emissions.</p><p class=\"mb-4 text-slate-700 text-xl\" data-v-42e41223> The SIP construction system as an independent unit can be used in the construction of apartment buildings up to four floors high. When combining a SIP building system with traditional construction methods, the height of the building is not limited. In this case, the building system is used as the shell of the building. </p><p class=\"text-slate-700 text-xl\" data-v-42e41223>The main advantage of using the SIP building system in the construction of apartments and condominiums is the unsurpassed speed of construction and thermal insulation properties.</p></div></div></div><div class=\"flex flex-col pt-12 project-link-anchor\" id=\"commercial_buildings\" data-v-42e41223><h2 class=\"text-4xl text-emerald-500\" data-v-42e41223>Commercial Buildings</h2><div class=\"flex flex-col lg:flex-row align-center items-center pt-12\" data-v-42e41223><div class=\"w-full h-full lg:w-1/2 flex justify-center\" data-v-42e41223><img class=\"mb-4 lg:mb-0 w-full lg:w-4/5\" src=\"/images/com_1.jpg\" data-v-42e41223></div><div class=\"w-full lg:w-1/2\" data-v-42e41223><p class=\"text-slate-700 text-xl\" data-v-42e41223> For all these buildings, the following aspects will be important for your business: speed of building that does not unnecessarily slow down your business, and energy efficiency. Simply put, a business property with minimal operating costs. </p></div></div></div><div class=\"flex flex-col pt-12 project-link-anchor\" id=\"school_and_kindergartens\" data-v-42e41223><h2 class=\"text-4xl text-emerald-500\" data-v-42e41223>Schools and Kindergartens</h2><div class=\"flex flex-col lg:flex-row-reverse align-center items-center pt-12\" data-v-42e41223><div class=\"w-full h-full lg:w-1/2 flex justify-center\" data-v-42e41223><img class=\"mb-4 lg:mb-0 w-full lg:w-4/5\" src=\"/images/school.jpg\" data-v-42e41223></div><div class=\"w-full lg:w-1/2\" data-v-42e41223><p class=\"text-slate-700 text-xl\" data-v-42e41223> The SIP building system is the perfect solution for the construction of schools and nurseries, allowing a quick installation during holidays. The excellent thermal insulation properties of the SIP panels ensure minimal building and operating costs. </p></div></div></div><div class=\"flex flex-col pt-12 project-link-anchor\" id=\"superstructures_and_extensions\" data-v-42e41223><h2 class=\"text-4xl text-emerald-500\" data-v-42e41223>Superstructures and Extensions</h2><div class=\"flex flex-col lg:flex-row align-center items-center pt-12\" data-v-42e41223><div class=\"w-full h-full lg:w-1/2 flex justify-center\" data-v-42e41223><img class=\"mb-4 lg:mb-0 w-full lg:w-4/5\" src=\"/images/super_2.jpg\" data-v-42e41223></div><div class=\"w-full lg:w-1/2\" data-v-42e41223><p class=\"mb-4 text-slate-700 text-xl\" data-v-42e41223> The building SIP system will be your ideal solution and is perfect for building an extension or superstructure. As it is a lightweight construction system (8 times lighter than a brick building), it will not put too much weight on the original building in the case of an extension. </p><p class=\"mb-4 text-slate-700 text-xl\" data-v-42e41223> The speed of construction will ensure a smooth implementation process. If your existing building houses your business or is occupied, there is no need to leave the building or close your business during construction. The robustness of the SIP construction system will ensure the final appearance of the new building is almost indistinguishable from the original structure. </p><p class=\"text-slate-700 text-xl\" data-v-42e41223> The thermal insulation properties of the panels ensure the highest thermal comfort. At the same time, it will be a low-energy building, which will mean a rapid reduction in operating costs. </p></div></div></div><div class=\"flex flex-col pt-12 project-link-anchor\" id=\"cotteges\" data-v-42e41223><h2 class=\"text-4xl text-emerald-500\" data-v-42e41223>Cottages and Recreational Facilities</h2><div class=\"flex flex-col lg:flex-row-reverse align-center items-center pt-12\" data-v-42e41223><div class=\"w-full h-full lg:w-1/2 flex justify-center\" data-v-42e41223><img class=\"mb-4 lg:mb-0 w-full lg:w-4/5\" src=\"/images/cottage_1.jpg\" data-v-42e41223></div><div class=\"w-full lg:w-1/2\" data-v-42e41223><p class=\"mb-4 text-slate-700 text-xl\" data-v-42e41223> The SIP building system is the ideal solution for the building of lightweight objects such as cottages, recreational objects, or houseboats (buildings located on the surface of the water). Its flexibility allows for building even in difficult to access areas, such as mountain areas, or river or lake levels. </p><p class=\"mb-4 text-slate-700 text-xl\" data-v-42e41223> Your property will therefore be free from architectural constraints, allowing architects to enjoy complete freedom in designing the shape of the house. </p><p class=\"text-slate-700 text-xl\" data-v-42e41223> As the building system is lightweight and is easy to transport to hard-to-reach areas. Moreover, its implementation is possible even without building machinery </p></div></div></div>", 10);
+var _hoisted_14 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full h-full lg:w-1/2 flex justify-center"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    "class": "mb-4 lg:mb-0 w-full lg:w-10/12",
+    src: "/images/pref.jpg",
+    alt: ""
+  })], -1
+  /* HOISTED */
+  );
+});
 
+var _hoisted_15 = {
+  "class": "w-full lg:w-1/2"
+};
+var _hoisted_16 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_17 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_18 = {
+  "class": "text-slate-700 text-xl"
+};
+var _hoisted_19 = {
+  "class": "flex flex-col pt-12 project-link-anchor",
+  id: "modular_hauses"
+};
 var _hoisted_20 = {
+  "class": "text-4xl text-emerald-500"
+};
+var _hoisted_21 = {
+  "class": "flex flex-col lg:flex-row align-center items-center pt-12"
+};
+
+var _hoisted_22 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full h-full lg:w-1/2 flex justify-center"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    "class": "mb-4 lg:mb-0 w-full lg:w-4/5",
+    src: "/images/mod_3.jpg",
+    alt: ""
+  })], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_23 = {
+  "class": "w-full lg:w-1/2"
+};
+var _hoisted_24 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_25 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_26 = {
+  "class": "text-slate-700 text-xl"
+};
+var _hoisted_27 = {
+  "class": "flex flex-col pt-12"
+};
+var _hoisted_28 = {
+  "class": "text-slate-700 text-xl mb-4 text-emerald-400"
+};
+var _hoisted_29 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_30 = {
+  "class": "text-slate-700 text-xl mb-4 text-emerald-500"
+};
+var _hoisted_31 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_32 = {
+  "class": "text-slate-700 text-xl mb-4 text-emerald-600"
+};
+var _hoisted_33 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_34 = {
+  "class": "text-slate-700 text-xl mb-4 text-emerald-700"
+};
+var _hoisted_35 = {
+  "class": "text-slate-700 text-xl"
+};
+var _hoisted_36 = {
+  "class": "flex flex-col pt-12 project-link-anchor",
+  id: "residents_and_apartments"
+};
+var _hoisted_37 = {
+  "class": "text-4xl text-emerald-500"
+};
+var _hoisted_38 = {
+  "class": "flex flex-col lg:flex-row-reverse align-center items-center pt-12"
+};
+
+var _hoisted_39 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full h-full lg:w-1/2 flex justify-center"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    "class": "mb-4 lg:mb-0 w-full lg:w-4/5",
+    src: "/images/const.jpg"
+  })], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_40 = {
+  "class": "w-full lg:w-1/2"
+};
+var _hoisted_41 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_42 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_43 = {
+  "class": "text-slate-700 text-xl"
+};
+var _hoisted_44 = {
+  "class": "flex flex-col pt-12 project-link-anchor",
+  id: "commercial_buildings"
+};
+var _hoisted_45 = {
+  "class": "text-4xl text-emerald-500"
+};
+var _hoisted_46 = {
+  "class": "flex flex-col lg:flex-row align-center items-center pt-12"
+};
+
+var _hoisted_47 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full h-full lg:w-1/2 flex justify-center"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    "class": "mb-4 lg:mb-0 w-full lg:w-4/5",
+    src: "/images/com_1.jpg"
+  })], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_48 = {
+  "class": "w-full lg:w-1/2"
+};
+var _hoisted_49 = {
+  "class": "text-slate-700 text-xl"
+};
+var _hoisted_50 = {
+  "class": "flex flex-col pt-12 project-link-anchor",
+  id: "school_and_kindergartens"
+};
+var _hoisted_51 = {
+  "class": "text-4xl text-emerald-500"
+};
+var _hoisted_52 = {
+  "class": "flex flex-col lg:flex-row-reverse align-center items-center pt-12"
+};
+
+var _hoisted_53 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full h-full lg:w-1/2 flex justify-center"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    "class": "mb-4 lg:mb-0 w-full lg:w-4/5",
+    src: "/images/school.jpg"
+  })], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_54 = {
+  "class": "w-full lg:w-1/2"
+};
+var _hoisted_55 = {
+  "class": "text-slate-700 text-xl"
+};
+var _hoisted_56 = {
+  "class": "flex flex-col pt-12 project-link-anchor",
+  id: "superstructures_and_extensions"
+};
+var _hoisted_57 = {
+  "class": "text-4xl text-emerald-500"
+};
+var _hoisted_58 = {
+  "class": "flex flex-col lg:flex-row align-center items-center pt-12"
+};
+
+var _hoisted_59 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full h-full lg:w-1/2 flex justify-center"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    "class": "mb-4 lg:mb-0 w-full lg:w-4/5",
+    src: "/images/super_2.jpg"
+  })], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_60 = {
+  "class": "w-full lg:w-1/2"
+};
+var _hoisted_61 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_62 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_63 = {
+  "class": "text-slate-700 text-xl"
+};
+var _hoisted_64 = {
+  "class": "flex flex-col pt-12 project-link-anchor",
+  id: "cotteges"
+};
+var _hoisted_65 = {
+  "class": "text-4xl text-emerald-500"
+};
+var _hoisted_66 = {
+  "class": "flex flex-col lg:flex-row-reverse align-center items-center pt-12"
+};
+
+var _hoisted_67 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full h-full lg:w-1/2 flex justify-center"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    "class": "mb-4 lg:mb-0 w-full lg:w-4/5",
+    src: "/images/cottage_1.jpg"
+  })], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_68 = {
+  "class": "w-full lg:w-1/2"
+};
+var _hoisted_69 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_70 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_71 = {
+  "class": "text-slate-700 text-xl"
+};
+var _hoisted_72 = {
   "class": "flex flex-col pt-12",
   ref: "price",
   id: "price"
 };
+var _hoisted_73 = {
+  "class": "text-4xl text-emerald-500"
+};
+var _hoisted_74 = {
+  "class": "grid grid-cols-2 gap-4 flex items-center pt-12"
+};
+var _hoisted_75 = {
+  "class": "mb-4"
+};
 
-var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<h2 class=\"text-4xl text-emerald-500\" data-v-42e41223>What is Included</h2><div class=\"grid grid-cols-2 gap-4 flex items-center pt-12\" data-v-42e41223><div class=\"mb-4\" data-v-42e41223><img class=\"max-w-[92%] h-auto rounded-lg mb-4\" src=\"/images/view_1c.jpg\" data-v-42e41223><p class=\"mb-4 text-slate-700 text-xl\" data-v-42e41223> 1) Option one (example). </p></div><div class=\"mb-4\" data-v-42e41223><img class=\"max-w-full h-auto rounded-lg mb-4\" src=\"/images/view_2.jpg\" data-v-42e41223><p class=\"mb-4 text-slate-700 text-xl\" data-v-42e41223> 2) Option two (example). </p></div></div><div class=\"w-full lg:w-1/2\" data-v-42e41223><p class=\"mb-4 text-slate-700 text-xl\" data-v-42e41223> It takes up to seven days to assemble a single house on the production line. Assembling a medium-sized house on foundations can take about a week, regardless of the weather and season. The company has several dozens of ready projects, however, you can request an individual project for an additional cost. In case of an individual project, preparation of documentation and technical drawings takes up to three weeks. </p><p class=\"mb-4 text-slate-700 text-xl\" data-v-42e41223> The design of the house is shown below for information only. The production cost of this house is given as of July 2022. Due to the fluctuating prices of materials on the market, the final price of the house may also vary. </p><p class=\"mb-4 text-slate-700 text-xl\" data-v-42e41223> As the building system is lightweight and is easy to transport to hard-to-reach areas. Moreover, its implementation is possible even without building machinery </p><h4 class=\"text-slate-700 text-xl mb-4 text-emerald-600\" data-v-42e41223>Example:</h4><p class=\"mb-4 text-slate-700 text-xl\" data-v-42e41223>A house has a floor area of 108 m2.</p><p class=\"mb-4 text-slate-700 text-xl\" data-v-42e41223> 1) Option one. A house with a hip roof (hipped roof type with 4 sloping sides) costs €45,000 (415 €/m2). </p><p class=\"mb-4 text-slate-700 text-xl\" data-v-42e41223>2) Option two. House with flat roof, price €48 500 (450 €/m2).</p><p class=\"mb-4 text-slate-700 text-xl\" data-v-42e41223>The price includes: assembly, wall mounting in the workshop with electrical preparation, plasterboard, foam and fittings + on-site installation.</p><p class=\"mb-4 text-slate-700 text-xl\" data-v-42e41223>Price does not include: assembly, delivery to site, windows and doors, completion of roofing work.</p><p class=\"text-slate-700 text-xl\" data-v-42e41223>Additional costs for internal and external finishing, wiring, ventilation, heating, etc. at the customer&#39;s request, are priced separately.</p></div>", 3);
+var _hoisted_76 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    "class": "max-w-[92%] h-auto rounded-lg mb-4",
+    src: "/images/view_1c.jpg"
+  }, null, -1
+  /* HOISTED */
+  );
+});
 
-var _hoisted_24 = [_hoisted_21];
+var _hoisted_77 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_78 = {
+  "class": "mb-4"
+};
+
+var _hoisted_79 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    "class": "max-w-full h-auto rounded-lg mb-4",
+    src: "/images/view_2.jpg"
+  }, null, -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_80 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_81 = {
+  "class": "w-full lg:w-1/2"
+};
+var _hoisted_82 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_83 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_84 = {
+  "class": "text-slate-700 text-xl mb-4 text-emerald-600"
+};
+var _hoisted_85 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_86 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_87 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_88 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_89 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_90 = {
+  "class": "text-slate-700 text-xl"
+};
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
 
@@ -125,12 +432,104 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
     /* STABLE */
 
-  }), _hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_header')), 1
+  /* TEXT */
+  )])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "container m-auto flex flex-col align-center items-center pt-12 md:pt-28 cursor-pointer",
     onClick: _cache[0] || (_cache[0] = function ($event) {
       return $options.scrollMeTo('price');
     })
-  }, _hoisted_7)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [_hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_20, _hoisted_24, 512
+  }, [_hoisted_5, _hoisted_6, _hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_price')), 1
+  /* TEXT */
+  )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", _hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_pref_h2')), 1
+  /* TEXT */
+  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [_hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_16, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_pref_text_1')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_17, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_pref_text_2')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_18, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_pref_text_3')), 1
+  /* TEXT */
+  )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_19, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", _hoisted_20, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('home_page_link_1')), 1
+  /* TEXT */
+  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_21, [_hoisted_22, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_23, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_24, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_mod_text_1')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_25, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_mod_text_2')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_26, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_mod_text_3')), 1
+  /* TEXT */
+  )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_27, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h4", _hoisted_28, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_ener')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_29, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_ener_text')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h4", _hoisted_30, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_fixed')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_31, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_fixed_text')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h4", _hoisted_32, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_speed')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_33, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_speed_text')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h4", _hoisted_34, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_pos')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_35, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_pos_text')), 1
+  /* TEXT */
+  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_36, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", _hoisted_37, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_cons')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_38, [_hoisted_39, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_40, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_41, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_pos_text_1')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_42, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_pos_text_2')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_43, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_pos_text_3')), 1
+  /* TEXT */
+  )])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_44, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", _hoisted_45, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('home_page_link_3')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_46, [_hoisted_47, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_48, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_49, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_com_text')), 1
+  /* TEXT */
+  )])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_50, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", _hoisted_51, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('home_page_link_4')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_52, [_hoisted_53, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_54, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_55, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_sch_text')), 1
+  /* TEXT */
+  )])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_56, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", _hoisted_57, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('home_page_link_5')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_58, [_hoisted_59, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_60, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_61, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_sup_text_1')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_62, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_sup_text_2')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_63, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_sup_text_3')), 1
+  /* TEXT */
+  )])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_64, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", _hoisted_65, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('home_page_link_6')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_66, [_hoisted_67, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_68, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_69, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_cot_text_1')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_70, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_cot_text_2')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_71, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_cot_text_3')), 1
+  /* TEXT */
+  )])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_72, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", _hoisted_73, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_what')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_74, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_75, [_hoisted_76, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_77, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_ex_1')), 1
+  /* TEXT */
+  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_78, [_hoisted_79, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_80, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_ex_2')), 1
+  /* TEXT */
+  )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_81, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_82, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_what_text_1')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_83, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_what_text_2')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h4", _hoisted_84, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_newex')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_85, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_newex_1')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_86, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_newex_2')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_87, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_newex_3')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_88, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_newex_4')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_89, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_newex_5')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_90, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('project_page_newex_6')), 1
+  /* TEXT */
+  )])], 512
   /* NEED_PATCH */
   )])], 512
   /* NEED_PATCH */

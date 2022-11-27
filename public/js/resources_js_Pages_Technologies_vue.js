@@ -50,37 +50,30 @@ var _hoisted_1 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_2 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "w-full h-96 bg-[url('/images/bg_tecgnology.jpg')] black-shadow bg-bottom bg-no-repeat bg-cover bg-fixed"
-  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "container h-full m-auto px-6 py-12 md:py-28 flex justify-center items-center content-center"
-  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
-    "class": "text-white text-5xl mt-16 z-50 white-text-shadow",
-    "data-aos": "fade-right"
-  }, "Explore SIP")])])], -1
-  /* HOISTED */
-  );
-});
-
+var _hoisted_2 = {
+  "class": "w-full h-96 bg-[url('/images/bg_tecgnology.jpg')] black-shadow bg-bottom bg-no-repeat bg-cover bg-fixed"
+};
 var _hoisted_3 = {
-  "class": "container m-auto px-6 pt-12 md:pt-28"
+  "class": "container h-full m-auto px-6 py-12 md:py-28 flex justify-center items-center content-center"
 };
 var _hoisted_4 = {
+  "class": "text-white text-5xl mt-16 z-50 white-text-shadow",
+  "data-aos": "fade-right"
+};
+var _hoisted_5 = {
+  "class": "container m-auto px-6 pt-12 md:pt-28"
+};
+var _hoisted_6 = {
   "class": "w-full flex flex-col justify-start items-center content-center lg:flex-row items-stretch"
 };
 
-var _hoisted_5 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_7 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
     "class": "fa-brands fa-wpexplorer text-4xl mr-4"
   }, null, -1
   /* HOISTED */
   );
 });
-
-var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Explore SIP ");
-
-var _hoisted_7 = [_hoisted_5, _hoisted_6];
 
 var _hoisted_8 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
@@ -90,11 +83,7 @@ var _hoisted_8 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Production process ");
-
-var _hoisted_10 = [_hoisted_8, _hoisted_9];
-
-var _hoisted_11 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_9 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
     "class": "fa-solid fa-medal text-4xl mr-4"
   }, null, -1
@@ -102,33 +91,639 @@ var _hoisted_11 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Main benefits ");
-
-var _hoisted_13 = [_hoisted_11, _hoisted_12];
-var _hoisted_14 = {
+var _hoisted_10 = {
   ref: "explore",
   id: "explore"
 };
+var _hoisted_11 = {
+  "class": "container m-auto px-6 pt-12 md:pt-28"
+};
+var _hoisted_12 = {
+  "class": "flex items-center content-center"
+};
 
-var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div data-v-56ca33d3><div class=\"container m-auto px-6 pt-12 md:pt-28\" data-v-56ca33d3><div class=\"flex items-center content-center\" data-v-56ca33d3><i class=\"fa-brands fa-wpexplorer text-emerald-500 text-4xl mr-4\" data-v-56ca33d3></i><h2 class=\"text-4xl text-emerald-500\" data-v-56ca33d3>Explore SIP</h2></div><div class=\"flex flex-col lg:flex-row-reverse align-center items-center pt-12\" data-v-56ca33d3><div class=\"w-full h-full lg:w-1/2 flex justify-center\" data-v-56ca33d3><img class=\"mb-8 lg:mb-0 w-full lg:w-4/5\" src=\"/images/sip-sandwich-1.jpg\" alt=\"\" data-v-56ca33d3></div><div class=\"w-full lg:w-1/2\" data-v-56ca33d3><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> The basis of the SIP panel technology is a sandwich panel. The panel consists of two OSB TOP4 boards and an insulating core made of expanded flame retardant polystyrene EPS, PIR (polyisocyanurate foam), graphite NEOPOR or Mineral wool. </p><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3>The production process results in a structural sandwich panel that is characterized by excellent thermal insulation properties, low bulk density and high structural rigidity.</p><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3>The production process results in a structural sandwich panel that is characterized by excellent thermal insulation properties, low bulk density and high structural rigidity.</p><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3>The panels are manufactured in several thicknesses and so their use covers a wide range of needs. They can be used as floors, perimeter walls, partitions, and roofs.</p></div></div><div class=\"flex flex-col lg:flex-row align-center items-center pt-12\" data-v-56ca33d3><div class=\"w-full h-full lg:w-1/2 flex justify-center\" data-v-56ca33d3><img class=\"mb-8 lg:mb-0 w-full lg:w-3/5\" src=\"/images/sip-sandwich-2.jpg\" alt=\"\" data-v-56ca33d3></div><div class=\"w-full lg:w-1/2\" data-v-56ca33d3><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3>The SIP panel building system is classified as a timber frame building system, but its physical and thermal insulation properties make it significantly superior to conventional timber frame buildings.</p><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3>In addition to the panels, the SIP building system also includes KVH and BSH certified structural lumber in strength class C24 or GL24h, glued laminated timber I-joists or CLT panels. Their quantity and size depend on the individual structural assessments of the buildings.</p><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3>Various fasteners, carpentry fittings, PUR foams, sealants and compression tapes are used to seal the joints between the panels. All materials are included in the individual delivery of the building system according to the submitted offers and no additional procurement is required.</p><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3>Higher levels of energy efficiency, prevention of thermal bridges, airtightness of the building shell, and environmental aspects favourably distinguish the SIP building system from many traditional building systems.</p></div></div><div class=\"flex flex-col pt-12\" data-v-56ca33d3><h3 class=\"text-slate-700 text-2xl mb-4 text-emerald-500\" data-v-56ca33d3>THE PROPERTIES OF OSB BOARDS:</h3><ul class=\"ml-8 text-slate-700 text-xl list-disc mb-4\" data-v-56ca33d3><li data-v-56ca33d3>good thermal resistance (wood is a natural insulator)</li><li data-v-56ca33d3>large formats allow fewer joints and thus less acoustic and heat loss</li><li data-v-56ca33d3>good fire resistance depending on the type of OSB</li><li data-v-56ca33d3>resistance to shock and vibration</li><li data-v-56ca33d3>resistance to earthquakes and strong winds (proven in California, Florida and Japan)</li><li data-v-56ca33d3>health safety</li><li data-v-56ca33d3>excellent workability</li></ul><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> Those OSB and plywood tiles no longer contain urea formaldehyde (UF), so they really aren&#39;t that toxic anymore, especially on the exterior of the house. </p></div><div class=\"flex flex-col pt-12\" data-v-56ca33d3><h3 class=\"text-slate-700 text-2xl mb-4 text-emerald-500\" data-v-56ca33d3>POLYSTYROL (EPS)</h3><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> Polystyrene is commonly used in the construction industry. In its closed structure, polystyrene cells absorb almost no water. This occurs to some limited extent only in the pores between the interlocking foam particles. After drying, they return to their original form. In a short time, demand has led to the development of &#39;self-extinguishing polystyrene&#39;, which is better suited to the requirements for fire protection in buildings. From a fire protection point of view, the widespread use of EPS in sandwich constructions is suitable among non-combustible materials. Polystyrene insulations are now HBCD-free (hexabromocyclododecane). </p><h4 class=\"text-slate-700 text-xl mb-4 text-emerald-500\" data-v-56ca33d3>Polystyrene properties:</h4><ul class=\"ml-8 text-slate-700 text-xl list-disc mb-4\" data-v-56ca33d3><li data-v-56ca33d3>water resistance</li><li data-v-56ca33d3>excellent thermal insulation properties</li><li data-v-56ca33d3>fire safety</li><li data-v-56ca33d3>easy and safe handling</li></ul></div><div class=\"flex flex-col pt-12\" data-v-56ca33d3><h3 class=\"text-slate-700 text-2xl mb-4 text-emerald-500\" data-v-56ca33d3> ADVANTAGES OF THE SIP CONSTRUCTION SYSTEM </h3><div class=\"flex flex-col lg:flex-row align-center items-center pt-12\" data-v-56ca33d3><div class=\"w-full h-full lg:w-1/2 flex justify-center\" data-v-56ca33d3><img class=\"mb-8 lg:mb-0 w-full lg:w-4/5\" src=\"/images/sip-advantages-1.jpg\" alt=\"\" data-v-56ca33d3></div><div class=\"w-full lg:w-1/2\" data-v-56ca33d3><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> The SIP panel technology can solve a wide range of needs and its applications are almost unlimited. Its versatility can be used in the most demanding designs. It is therefore ideal for building atypical building structures, where it will also ensure the absence of thermal bridges. The SIP panel technology can be applied as a single building system to the entire building shell or combined with other building systems. </p><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> With the SIP construction system, we can build the foundation of the building, external perimeter walls, interior partition walls, ceilings, flat and even sloping roofs. It can be used in the construction of houses, apartment buildings, administrative buildings, industrial buildings, schools and kindergartens, recreational facilities, cottages, and houseboats. The SIP construction system is an ideal solution for superstructures and extensions. </p></div></div><div class=\"flex flex-col lg:flex-row-reverse align-center items-center pt-12\" data-v-56ca33d3><div class=\"w-full h-full lg:w-1/2 flex justify-center\" data-v-56ca33d3><img class=\"mb-8 lg:mb-0 w-full lg:w-4/5\" src=\"/images/sip-advantages-2.jpg\" alt=\"\" data-v-56ca33d3></div><div class=\"w-full lg:w-1/2\" data-v-56ca33d3><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> The SIP panel is a lightweight building material (approx. 22 kg/m2) and there are several options for the foundation of the building. The most used method is a concrete slab foundation. It already saves on material as it will not need to carry as much load as heavy stonework or concrete buildings. For the customer, this therefore allows construction even in hard-to-reach places where construction machinery cannot reach. It is ideal for superstructure and extension projects where the original building would not be structurally able to cope with traditional construction systems such as masonry or concrete. The insulating core is strong and stable even after decades. It does not sag or become damp, which can be a common problem with conventional framed construction when poorly built. </p><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> The SIP panel technology also allows the building foundations to be made from panels. An alternative and unique solution for construction is foundations on screw piles. The construction of the foundation plate on screw piles for a detached house takes from 2 to 3 days and results in no damage to the ground. A support structure of wooden or steel beams, on which SIP 210mm panels are placed, is fitted on drilled screw piles. </p><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> The SIP panel technology has a unique application in construction is in the case of houseboats. Panels placed on the pontoon make for quick and efficient foundations of the building. </p></div></div></div></div></div>", 1);
+var _hoisted_13 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "fa-brands fa-wpexplorer text-emerald-500 text-4xl mr-4"
+  }, null, -1
+  /* HOISTED */
+  );
+});
 
-var _hoisted_16 = [_hoisted_15];
+var _hoisted_14 = {
+  "class": "text-4xl text-emerald-500"
+};
+var _hoisted_15 = {
+  "class": "flex flex-col lg:flex-row-reverse align-center items-center pt-12"
+};
+
+var _hoisted_16 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full h-full lg:w-1/2 flex justify-center"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    "class": "mb-8 lg:mb-0 w-full lg:w-4/5",
+    src: "/images/sip-sandwich-1.jpg",
+    alt: ""
+  })], -1
+  /* HOISTED */
+  );
+});
+
 var _hoisted_17 = {
+  "class": "w-full lg:w-1/2"
+};
+var _hoisted_18 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_19 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_20 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_21 = {
+  "class": "flex flex-col lg:flex-row align-center items-center pt-12"
+};
+
+var _hoisted_22 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full h-full lg:w-1/2 flex justify-center"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    "class": "mb-8 lg:mb-0 w-full lg:w-3/5",
+    src: "/images/sip-sandwich-2.jpg",
+    alt: ""
+  })], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_23 = {
+  "class": "w-full lg:w-1/2"
+};
+var _hoisted_24 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_25 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_26 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_27 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_28 = {
+  "class": "flex flex-col pt-12"
+};
+var _hoisted_29 = {
+  "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+};
+var _hoisted_30 = {
+  "class": "ml-8 text-slate-700 text-xl list-disc mb-4"
+};
+var _hoisted_31 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_32 = {
+  "class": "flex flex-col pt-12"
+};
+var _hoisted_33 = {
+  "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+};
+var _hoisted_34 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_35 = {
+  "class": "text-slate-700 text-xl mb-4 text-emerald-500"
+};
+var _hoisted_36 = {
+  "class": "ml-8 text-slate-700 text-xl list-disc mb-4"
+};
+var _hoisted_37 = {
+  "class": "flex flex-col pt-12"
+};
+var _hoisted_38 = {
+  "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+};
+var _hoisted_39 = {
+  "class": "flex flex-col lg:flex-row align-center items-center pt-12"
+};
+
+var _hoisted_40 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full h-full lg:w-1/2 flex justify-center"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    "class": "mb-8 lg:mb-0 w-full lg:w-4/5",
+    src: "/images/sip-advantages-1.jpg",
+    alt: ""
+  })], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_41 = {
+  "class": "w-full lg:w-1/2"
+};
+var _hoisted_42 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_43 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_44 = {
+  "class": "flex flex-col lg:flex-row-reverse align-center items-center pt-12"
+};
+
+var _hoisted_45 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full h-full lg:w-1/2 flex justify-center"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    "class": "mb-8 lg:mb-0 w-full lg:w-4/5",
+    src: "/images/sip-advantages-2.jpg",
+    alt: ""
+  })], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_46 = {
+  "class": "w-full lg:w-1/2"
+};
+var _hoisted_47 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_48 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_49 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_50 = {
   ref: "process",
   id: "process"
 };
+var _hoisted_51 = {
+  "class": "container m-auto px-6 pt-12 md:pt-28"
+};
+var _hoisted_52 = {
+  "class": "flex items-center content-center"
+};
 
-var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div data-v-56ca33d3><div class=\"container m-auto px-6 pt-12 md:pt-28\" data-v-56ca33d3><div class=\"flex items-center content-center\" data-v-56ca33d3><i class=\"fa-solid fa-person-digging text-emerald-500 text-4xl mr-4\" data-v-56ca33d3></i><h2 class=\"text-4xl text-emerald-500\" data-v-56ca33d3>Design and production process</h2></div><p class=\"mb-4 text-slate-700 text-xl pt-12\" data-v-56ca33d3> The SIP certified building system is manufactured in controlled and monitored factory conditions. The production process is carried out in several stages. The standard production process takes between two and four weeks. </p><div class=\"flex flex-col\" data-v-56ca33d3><div class=\"flex flex-col lg:flex-row align-center items-center pt-12\" data-v-56ca33d3><div class=\"w-full h-full lg:w-1/2 flex justify-center\" data-v-56ca33d3><img class=\"mb-8 lg:mb-0 w-full lg:w-4/5\" src=\"/images/sip-design.jpg\" alt=\"\" data-v-56ca33d3></div><div class=\"w-full lg:w-1/2\" data-v-56ca33d3><h3 class=\"text-slate-700 text-2xl mb-4 text-emerald-500\" data-v-56ca33d3> DESIGN </h3><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> The project takes about 2-3 weeks if the customer requests a bespoke project </p><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> During the design phase, technical, installation and production documentation is prepared. During the design phase, communication and approval of the design documentation takes place. Our professional team of engineers is available to provide advice regarding the design process, the finalising of designs, and the structural evaluation of buildings. </p></div></div><div class=\"flex flex-col lg:flex-row-reverse align-center items-center pt-12\" data-v-56ca33d3><div class=\"w-full h-full lg:w-1/2 flex justify-center\" data-v-56ca33d3><img class=\"mb-8 lg:mb-0 w-full lg:w-4/5\" src=\"/images/sip-production.png\" alt=\"\" data-v-56ca33d3></div><div class=\"w-full lg:w-1/2\" data-v-56ca33d3><h3 class=\"text-slate-700 text-2xl mb-4 text-emerald-500\" data-v-56ca33d3> PRODUCTION </h3><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> This takes approximately 7 days </p><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> The sandwich panel is created by adhesively glueing an insulating core between two 15mm thick OSB TOP 4 boards. The panel is then hardened and matured in a hydraulic press. After solidification, the panels are formatted and labelled. Once the job is complete, the panels and all other materials required for the construction are placed on lorries to be transported to the construction site. </p><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> The SIP panel technology has a unique application in construction is in the case of houseboats. Panels placed on the pontoon make for quick and efficient foundations of the building. </p></div></div><div class=\"flex flex-col lg:flex-row align-center items-center pt-12\" data-v-56ca33d3><div class=\"w-full h-full lg:w-1/2 flex justify-center\" data-v-56ca33d3><img class=\"mb-8 lg:mb-0 w-full lg:w-4/5\" src=\"/images/sip-asembly.jpg\" alt=\"\" data-v-56ca33d3></div><div class=\"w-full lg:w-1/2\" data-v-56ca33d3><h3 class=\"text-slate-700 text-2xl mb-4 text-emerald-500\" data-v-56ca33d3> ASSEMBLY </h3><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> Takes approximately 7 days </p><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> We provide our customers with full technical support. Our company offers a complete construction system, including all the necessary materials to complete the rough installation. We provide professional building management for the customer without unnecessary interruptions due to involvement of subcontractors. </p></div></div><div class=\"flex flex-col lg:flex-row-reverse align-center items-center pt-12\" data-v-56ca33d3><div class=\"w-full h-full lg:w-1/2 flex justify-center\" data-v-56ca33d3><img class=\"mb-8 lg:mb-0 w-full lg:w-4/5\" src=\"/images/sip-construction.jpg\" alt=\"\" data-v-56ca33d3></div><div class=\"w-full lg:w-1/2\" data-v-56ca33d3><h3 class=\"text-slate-700 text-2xl mb-4 text-emerald-500\" data-v-56ca33d3> CONSTRUCTION OF PERIMETER WALLS AND INTERIOR PARTITION WALLS </h3><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> A layer of waterproofing is applied to the fabricated foundation plate. After its application, the foundation springs are anchored to the foundation plate and form the base for the construction system. An embedded KVH element is fitted on the foundation spring to install the panels. </p><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> Construction of the perimeter walls begins from the corner of the building and continues around the perimeter. After their completion follows the installation of internal partition walls. Finally, wooden KVH elements are inserted in the mounting grooves from the top to support the panels with each other. The panels may contain a pre-prepared tunnel for wiring. All panels are marked and custom-made according to the project documentation, so the installation of the panels is very simple, fast, and precise. </p></div></div><div class=\"flex flex-col lg:flex-row align-center items-center pt-12\" data-v-56ca33d3><div class=\"w-full h-full lg:w-1/2 flex justify-center\" data-v-56ca33d3><img class=\"mb-8 lg:mb-0 w-full lg:w-4/5\" src=\"/images/sip-floor.jpg\" alt=\"\" data-v-56ca33d3></div><div class=\"w-full lg:w-1/2\" data-v-56ca33d3><h3 class=\"text-slate-700 text-2xl mb-4 text-emerald-500\" data-v-56ca33d3> FLOOR CONSTRUCTION </h3><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> Between the perimeter walls and the interior partition walls, a ceiling structure for the construction of the floor is made. To create a ceiling structure, we have several solutions. The ceiling can consist of KVH, BSH ceiling elements, glued timber I-beams, SIP panels or CLT. The suitability of the materials used depends on the static assessment of the project architect and the requirements of customers. Folowing this, the construction perimeter walls and internal partition walls of the second floor begins. </p></div></div><div class=\"flex flex-col lg:flex-row-reverse align-center items-center pt-12\" data-v-56ca33d3><div class=\"w-full h-full lg:w-1/2 flex justify-center\" data-v-56ca33d3><img class=\"mb-8 lg:mb-0 w-full lg:w-4/5\" src=\"/images/sip-roof.jpg\" alt=\"\" data-v-56ca33d3></div><div class=\"w-full lg:w-1/2\" data-v-56ca33d3><h3 class=\"text-slate-700 text-2xl mb-4 text-emerald-500\" data-v-56ca33d3> ROOF CONSTRUCTION </h3><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> SIP panels are an effective solution for the construction of sloping roofs with a residential attic. The SIP construction system essentially creates both a structural and an insulating element of the roof. The attic is therefore directly insulated with SIP panels and no additional application of insulation materials is required. The joints are straight and precise, so the interior has a ready base for the installation of gypsum or fibrous gypsum plaster boards, which are applied directly to the panel. </p><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> SIP panel is also an ideal solution for flat roofs. As with both sloping and flat roofs, the panel is a structural as well as an insulating element of the roof. Its installation and application are very fast and saves a lot of additional work. From the inside, it is possible to install gypsum or fibrous gypsum boards directly to the panel. From the outside, EPS perimeter drains for water drainage and final waterproofing are applied. </p></div></div></div><div class=\"flex flex-col pt-12\" data-v-56ca33d3><h3 class=\"text-slate-700 text-2xl mb-4 text-emerald-500\" data-v-56ca33d3> WIDE VARIABILITY OF FINAL FINISHES </h3><p class=\"mb-8 text-slate-700 text-xl\" data-v-56ca33d3> The SIP construction system can be easily completed with a wide range of finishes from classic plaster to vented facades. </p><div class=\"w-full flex flex-wrap\" data-v-56ca33d3><div class=\"w-full md:w-1/2 pt-12\" data-v-56ca33d3><img class=\"mb-4 lg:mb-0 m-auto w-full lg:w-4/5\" src=\"/images/sip-1.jpg\" alt=\"\" data-v-56ca33d3></div><div class=\"w-full md:w-1/2 pt-12\" data-v-56ca33d3><img class=\"mb-4 lg:mb-0 m-auto w-full lg:w-4/5\" src=\"/images/sip-2.jpg\" alt=\"\" data-v-56ca33d3></div><div class=\"w-full md:w-1/2 pt-12\" data-v-56ca33d3><img class=\"mb-4 lg:mb-0 m-auto w-full lg:w-4/5\" src=\"/images/sip-3.jpg\" alt=\"\" data-v-56ca33d3></div><div class=\"w-full md:w-1/2 pt-12\" data-v-56ca33d3><img class=\"mb-4 lg:mb-0 m-auto w-full lg:w-4/5\" src=\"/images/sip-4.jpg\" alt=\"\" data-v-56ca33d3></div></div></div></div></div>", 1);
+var _hoisted_53 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "fa-solid fa-person-digging text-emerald-500 text-4xl mr-4"
+  }, null, -1
+  /* HOISTED */
+  );
+});
 
-var _hoisted_19 = [_hoisted_18];
-var _hoisted_20 = {
+var _hoisted_54 = {
+  "class": "text-4xl text-emerald-500"
+};
+var _hoisted_55 = {
+  "class": "mb-4 text-slate-700 text-xl pt-12"
+};
+var _hoisted_56 = {
+  "class": "flex flex-col"
+};
+var _hoisted_57 = {
+  "class": "flex flex-col lg:flex-row align-center items-center pt-12"
+};
+
+var _hoisted_58 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full h-full lg:w-1/2 flex justify-center"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    "class": "mb-8 lg:mb-0 w-full lg:w-4/5",
+    src: "/images/sip-design.jpg",
+    alt: ""
+  })], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_59 = {
+  "class": "w-full lg:w-1/2"
+};
+var _hoisted_60 = {
+  "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+};
+var _hoisted_61 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_62 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_63 = {
+  "class": "flex flex-col lg:flex-row-reverse align-center items-center pt-12"
+};
+
+var _hoisted_64 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full h-full lg:w-1/2 flex justify-center"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    "class": "mb-8 lg:mb-0 w-full lg:w-4/5",
+    src: "/images/sip-production.png",
+    alt: ""
+  })], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_65 = {
+  "class": "w-full lg:w-1/2"
+};
+var _hoisted_66 = {
+  "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+};
+var _hoisted_67 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_68 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_69 = {
+  "class": "flex flex-col lg:flex-row align-center items-center pt-12"
+};
+
+var _hoisted_70 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full h-full lg:w-1/2 flex justify-center"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    "class": "mb-8 lg:mb-0 w-full lg:w-4/5",
+    src: "/images/sip-asembly.jpg",
+    alt: ""
+  })], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_71 = {
+  "class": "w-full lg:w-1/2"
+};
+var _hoisted_72 = {
+  "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+};
+var _hoisted_73 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_74 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_75 = {
+  "class": "flex flex-col lg:flex-row-reverse align-center items-center pt-12"
+};
+
+var _hoisted_76 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full h-full lg:w-1/2 flex justify-center"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    "class": "mb-8 lg:mb-0 w-full lg:w-4/5",
+    src: "/images/sip-construction.jpg",
+    alt: ""
+  })], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_77 = {
+  "class": "w-full lg:w-1/2"
+};
+var _hoisted_78 = {
+  "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+};
+var _hoisted_79 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_80 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_81 = {
+  "class": "flex flex-col lg:flex-row align-center items-center pt-12"
+};
+
+var _hoisted_82 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full h-full lg:w-1/2 flex justify-center"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    "class": "mb-8 lg:mb-0 w-full lg:w-4/5",
+    src: "/images/sip-floor.jpg",
+    alt: ""
+  })], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_83 = {
+  "class": "w-full lg:w-1/2"
+};
+var _hoisted_84 = {
+  "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+};
+var _hoisted_85 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_86 = {
+  "class": "flex flex-col lg:flex-row-reverse align-center items-center pt-12"
+};
+
+var _hoisted_87 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full h-full lg:w-1/2 flex justify-center"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    "class": "mb-8 lg:mb-0 w-full lg:w-4/5",
+    src: "/images/sip-roof.jpg",
+    alt: ""
+  })], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_88 = {
+  "class": "w-full lg:w-1/2"
+};
+var _hoisted_89 = {
+  "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+};
+var _hoisted_90 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_91 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_92 = {
+  "class": "flex flex-col pt-12"
+};
+var _hoisted_93 = {
+  "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+};
+var _hoisted_94 = {
+  "class": "mb-8 text-slate-700 text-xl"
+};
+
+var _hoisted_95 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"w-full flex flex-wrap\" data-v-56ca33d3><div class=\"w-full md:w-1/2 pt-12\" data-v-56ca33d3><img class=\"mb-4 lg:mb-0 m-auto w-full lg:w-4/5\" src=\"/images/sip-1.jpg\" alt=\"\" data-v-56ca33d3></div><div class=\"w-full md:w-1/2 pt-12\" data-v-56ca33d3><img class=\"mb-4 lg:mb-0 m-auto w-full lg:w-4/5\" src=\"/images/sip-2.jpg\" alt=\"\" data-v-56ca33d3></div><div class=\"w-full md:w-1/2 pt-12\" data-v-56ca33d3><img class=\"mb-4 lg:mb-0 m-auto w-full lg:w-4/5\" src=\"/images/sip-3.jpg\" alt=\"\" data-v-56ca33d3></div><div class=\"w-full md:w-1/2 pt-12\" data-v-56ca33d3><img class=\"mb-4 lg:mb-0 m-auto w-full lg:w-4/5\" src=\"/images/sip-4.jpg\" alt=\"\" data-v-56ca33d3></div></div>", 1);
+
+var _hoisted_96 = {
   ref: "benefits",
   id: "benefits"
 };
+var _hoisted_97 = {
+  "class": "container m-auto px-6 py-12 md:py-28"
+};
+var _hoisted_98 = {
+  "class": "flex items-center content-center"
+};
 
-var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div data-v-56ca33d3><div class=\"container m-auto px-6 py-12 md:py-28\" data-v-56ca33d3><div class=\"flex items-center content-center\" data-v-56ca33d3><i class=\"fa-solid fa-medal text-emerald-500 text-4xl mr-4\" data-v-56ca33d3></i><h2 class=\"text-4xl text-emerald-500\" data-v-56ca33d3>Main benefits</h2></div><div class=\"flex flex-col\" data-v-56ca33d3><div class=\"flex flex-col lg:flex-row align-center items-center pt-12\" data-v-56ca33d3><div class=\"w-full h-full lg:w-1/2 flex justify-center mb-12 lg:mb-0\" data-v-56ca33d3><i class=\"text-9xl text-emerald-500 fa-solid fa-circle-dollar-to-slot\" data-v-56ca33d3></i></div><div class=\"w-full lg:w-1/2\" data-v-56ca33d3><h3 class=\"text-slate-700 text-2xl mb-4 text-emerald-500\" data-v-56ca33d3> COST SAVINGS </h3><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> The SIP construction system provides excellent thermal insulation properties. Heating and cooling costs are therefore up to 50% lower than conventional masonry buildings. The buildings made of SIP panels provide a thermal resistance of the external walls and roof structure of R=6.5 m2.K/W and more. The buildings therefore belong to the category of low-energy or passive houses. They provide the necessary thermal comfort during the winter period and keep the building cool during the summer months. </p></div></div><div class=\"flex flex-col lg:flex-row-reverse align-center items-center pt-12\" data-v-56ca33d3><div class=\"w-full h-full lg:w-1/2 flex justify-center mb-12 lg:mb-0\" data-v-56ca33d3><i class=\"text-9xl text-emerald-500 fa-solid fa-gauge-high\" data-v-56ca33d3></i></div><div class=\"w-full lg:w-1/2\" data-v-56ca33d3><h3 class=\"text-slate-700 text-2xl mb-4 text-emerald-500\" data-v-56ca33d3> THE SPEED OF CONSTRUCTION </h3><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> Whether you choose an individual building from SIP panels or prefabricated assembled houses, their production is several times quicker than conventional masonry buildings, which requires countless wet technological processes to be carried out. SIP panel construction is entirely a dry process that can be carried out at any time of the year. The speed of building significantly reduces the time of completion and related costs such as accommodation of workers, scaffolding hire, or construction machinery. This significantly reduces the cost of building construction. </p></div></div><div class=\"flex flex-col lg:flex-row align-center items-center pt-12\" data-v-56ca33d3><div class=\"w-full h-full lg:w-1/2 flex justify-center mb-12 lg:mb-0\" data-v-56ca33d3><i class=\"text-9xl text-emerald-500 fa-solid fa-house-medical\" data-v-56ca33d3></i></div><div class=\"w-full lg:w-1/2\" data-v-56ca33d3><h3 class=\"text-slate-700 text-2xl mb-4 text-emerald-500\" data-v-56ca33d3> HEALTHY AND COMFORTABLE LIVING </h3><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> The airtight design is ideal for modern ventilation systems that reduce energy costs and improve indoor air quality. The use of heat recovery units ensures a constant supply of fresh air into buildings without additional heat leakage. The air in the building is therefore constantly fresh, preventing mould and dust allergens from spreading in the building. </p></div></div><div class=\"flex flex-col lg:flex-row-reverse align-center items-center pt-12\" data-v-56ca33d3><div class=\"w-full h-full lg:w-1/2 flex justify-center mb-12 lg:mb-0\" data-v-56ca33d3><i class=\"text-9xl text-emerald-500 fa-solid fa-wind\" data-v-56ca33d3></i></div><div class=\"w-full lg:w-1/2\" data-v-56ca33d3><h3 class=\"text-slate-700 text-2xl mb-4 text-emerald-500\" data-v-56ca33d3> HIGH STRENGTH </h3><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> Once the panel structure is constructed, the building system behaves as a monolithic shell, providing up to five times the structural performance of conventional timber frame construction. A building constructed with SIP panels has a sturdy and solid feel that is hard to distinguish from a traditional construction system once completed. </p></div></div><div class=\"flex flex-col lg:flex-row align-center items-center pt-12\" data-v-56ca33d3><div class=\"w-full h-full lg:w-1/2 flex justify-center mb-12 lg:mb-0\" data-v-56ca33d3><i class=\"text-9xl text-emerald-500 fa-solid fa-layer-group\" data-v-56ca33d3></i></div><div class=\"w-full lg:w-1/2\" data-v-56ca33d3><h3 class=\"text-slate-700 text-2xl mb-4 text-emerald-500\" data-v-56ca33d3> MORE USEFUL FLOOR AREA </h3><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> Buildings made of SIP panels provide 7-10% more usable floor space than traditional masonry buildings. Building users can enjoy a larger and more spacious environment. For developers who sell square meters of usable floor space, this percentage increase will provide extra profit. </p></div></div><div class=\"flex flex-col lg:flex-row-reverse align-center items-center pt-12\" data-v-56ca33d3><div class=\"w-full h-full lg:w-1/2 flex justify-center mb-12 lg:mb-0\" data-v-56ca33d3><i class=\"text-9xl text-emerald-500 fa-solid fa-building-shield\" data-v-56ca33d3></i></div><div class=\"w-full lg:w-1/2\" data-v-56ca33d3><h3 class=\"text-slate-700 text-2xl mb-4 text-emerald-500\" data-v-56ca33d3> A STABLE INSULATION </h3><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> The insulation core of the SIP building system is strong and stable even after decades. It cannot get wet, sag or be misapplied, as can happen with conventional frame constructions that are technologically demanding. </p></div></div><div class=\"flex flex-col lg:flex-row align-center items-center pt-12\" data-v-56ca33d3><div class=\"w-full h-full lg:w-1/2 flex justify-center mb-12 lg:mb-0\" data-v-56ca33d3><i class=\"text-9xl text-emerald-500 fa-solid fa-seedling\" data-v-56ca33d3></i></div><div class=\"w-full lg:w-1/2\" data-v-56ca33d3><h3 class=\"text-slate-700 text-2xl mb-4 text-emerald-500\" data-v-56ca33d3> ENVIRONMENTAL ASPECTS </h3><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> The SIP construction system is classified as a timber building, so the overall process of production, construction and recycling of materials significantly reduces CO2 production. </p></div></div><div class=\"flex flex-col lg:flex-row-reverse align-center items-center pt-12\" data-v-56ca33d3><div class=\"w-full h-full lg:w-1/2 flex justify-center mb-12 lg:mb-0\" data-v-56ca33d3><i class=\"text-9xl text-emerald-500 fa-solid fa-diagram-project\" data-v-56ca33d3></i></div><div class=\"w-full lg:w-1/2\" data-v-56ca33d3><h3 class=\"text-slate-700 text-2xl mb-4 text-emerald-500\" data-v-56ca33d3> THE DESIGN FLEXIBILITY AND OTHER ADVANTAGES OF THE SIP BUILDING SYSTEM </h3><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> Current legislation and new market demands require ever greater attention during the design and planning of buildings. The design flexibility and other advantages of the SIP building system, thermal bridge prevention, building airtightness, environmental aspects and others pose a challenge to many traditional building systems. </p></div></div><div class=\"flex flex-col lg:flex-row align-center items-center pt-12\" data-v-56ca33d3><div class=\"w-full h-full lg:w-1/2 flex justify-center mb-12 lg:mb-0\" data-v-56ca33d3><i class=\"text-9xl text-emerald-500 fa-solid fa-stamp\" data-v-56ca33d3></i></div><div class=\"w-full lg:w-1/2\" data-v-56ca33d3><h3 class=\"text-slate-700 text-2xl mb-4 text-emerald-500\" data-v-56ca33d3> CERTIFIED BUILDING SYSTEM </h3><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> The manufacturing process is subject to regular inspection by a notified person. Our company provides a 50-year certified warranty for the building system. </p></div></div><div class=\"flex flex-col lg:flex-row-reverse align-center items-center pt-12\" data-v-56ca33d3><div class=\"w-full h-full lg:w-1/2 flex justify-center mb-12 lg:mb-0\" data-v-56ca33d3><i class=\"text-9xl text-emerald-500 fa-solid fa-medal\" data-v-56ca33d3></i></div><div class=\"w-full lg:w-1/2\" data-v-56ca33d3><h3 class=\"text-slate-700 text-2xl mb-4 text-emerald-500\" data-v-56ca33d3> CONSTRUCTION OF CONDOMINIUM AND APARTMENT BUILDINGS </h3><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> One of the most important requirements for the design of buildings and their construction in the future is the reduction of CO2. </p><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> The SIP building system as a stand-alone unit can be used in the construction of apartment buildings up to four floors high. When combining the SIP building system with traditional construction methods, the height of the buildings is unlimited. In this case, the building system is used as the building shell. </p><p class=\"mb-4 text-slate-700 text-xl\" data-v-56ca33d3> The main benefit of using the SIP building system in apartment and condominium construction is the unrivalled speed of building and thermal insulation properties. </p></div></div></div></div></div>", 1);
+var _hoisted_99 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "fa-solid fa-medal text-emerald-500 text-4xl mr-4"
+  }, null, -1
+  /* HOISTED */
+  );
+});
 
-var _hoisted_22 = [_hoisted_21];
+var _hoisted_100 = {
+  "class": "text-4xl text-emerald-500"
+};
+var _hoisted_101 = {
+  "class": "flex flex-col"
+};
+var _hoisted_102 = {
+  "class": "flex flex-col lg:flex-row align-center items-center pt-12"
+};
+
+var _hoisted_103 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full h-full lg:w-1/2 flex justify-center mb-12 lg:mb-0"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-9xl text-emerald-500 fa-solid fa-circle-dollar-to-slot"
+  })], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_104 = {
+  "class": "w-full lg:w-1/2"
+};
+var _hoisted_105 = {
+  "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+};
+var _hoisted_106 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_107 = {
+  "class": "flex flex-col lg:flex-row-reverse align-center items-center pt-12"
+};
+
+var _hoisted_108 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full h-full lg:w-1/2 flex justify-center mb-12 lg:mb-0"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-9xl text-emerald-500 fa-solid fa-gauge-high"
+  })], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_109 = {
+  "class": "w-full lg:w-1/2"
+};
+var _hoisted_110 = {
+  "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+};
+var _hoisted_111 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_112 = {
+  "class": "flex flex-col lg:flex-row align-center items-center pt-12"
+};
+
+var _hoisted_113 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full h-full lg:w-1/2 flex justify-center mb-12 lg:mb-0"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-9xl text-emerald-500 fa-solid fa-house-medical"
+  })], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_114 = {
+  "class": "w-full lg:w-1/2"
+};
+var _hoisted_115 = {
+  "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+};
+var _hoisted_116 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_117 = {
+  "class": "flex flex-col lg:flex-row-reverse align-center items-center pt-12"
+};
+
+var _hoisted_118 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full h-full lg:w-1/2 flex justify-center mb-12 lg:mb-0"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-9xl text-emerald-500 fa-solid fa-wind"
+  })], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_119 = {
+  "class": "w-full lg:w-1/2"
+};
+var _hoisted_120 = {
+  "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+};
+var _hoisted_121 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_122 = {
+  "class": "flex flex-col lg:flex-row align-center items-center pt-12"
+};
+
+var _hoisted_123 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full h-full lg:w-1/2 flex justify-center mb-12 lg:mb-0"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-9xl text-emerald-500 fa-solid fa-layer-group"
+  })], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_124 = {
+  "class": "w-full lg:w-1/2"
+};
+var _hoisted_125 = {
+  "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+};
+var _hoisted_126 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_127 = {
+  "class": "flex flex-col lg:flex-row-reverse align-center items-center pt-12"
+};
+
+var _hoisted_128 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full h-full lg:w-1/2 flex justify-center mb-12 lg:mb-0"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-9xl text-emerald-500 fa-solid fa-building-shield"
+  })], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_129 = {
+  "class": "w-full lg:w-1/2"
+};
+var _hoisted_130 = {
+  "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+};
+var _hoisted_131 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_132 = {
+  "class": "flex flex-col lg:flex-row align-center items-center pt-12"
+};
+
+var _hoisted_133 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full h-full lg:w-1/2 flex justify-center mb-12 lg:mb-0"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-9xl text-emerald-500 fa-solid fa-seedling"
+  })], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_134 = {
+  "class": "w-full lg:w-1/2"
+};
+var _hoisted_135 = {
+  "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+};
+var _hoisted_136 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_137 = {
+  "class": "flex flex-col lg:flex-row-reverse align-center items-center pt-12"
+};
+
+var _hoisted_138 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full h-full lg:w-1/2 flex justify-center mb-12 lg:mb-0"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-9xl text-emerald-500 fa-solid fa-diagram-project"
+  })], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_139 = {
+  "class": "w-full lg:w-1/2"
+};
+var _hoisted_140 = {
+  "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+};
+var _hoisted_141 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_142 = {
+  "class": "flex flex-col lg:flex-row align-center items-center pt-12"
+};
+
+var _hoisted_143 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full h-full lg:w-1/2 flex justify-center mb-12 lg:mb-0"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-9xl text-emerald-500 fa-solid fa-stamp"
+  })], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_144 = {
+  "class": "w-full lg:w-1/2"
+};
+var _hoisted_145 = {
+  "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+};
+var _hoisted_146 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_147 = {
+  "class": "flex flex-col lg:flex-row-reverse align-center items-center pt-12"
+};
+
+var _hoisted_148 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "w-full h-full lg:w-1/2 flex justify-center mb-12 lg:mb-0"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "text-9xl text-emerald-500 fa-solid fa-medal"
+  })], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_149 = {
+  "class": "w-full lg:w-1/2"
+};
+var _hoisted_150 = {
+  "class": "text-slate-700 text-2xl mb-4 text-emerald-500"
+};
+var _hoisted_151 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_152 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
+var _hoisted_153 = {
+  "class": "mb-4 text-slate-700 text-xl"
+};
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
 
@@ -139,26 +734,182 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
     /* STABLE */
 
-  }), _hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_explore_sip')), 1
+  /* TEXT */
+  )])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "sip-ref text-slate-700 w-full px-12 py-8 rounded-xl cursor-pointer mb-4 lg:mr-4 transition-all text-2xl uppercase text-center flex items-center content-center justify-center",
     onClick: _cache[0] || (_cache[0] = function ($event) {
       return $options.scrollMeTo('explore');
     })
-  }, _hoisted_7), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  }, [_hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_explore_sip')), 1
+  /* TEXT */
+  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "sip-ref text-slate-700 w-full px-12 py-8 rounded-xl cursor-pointer mb-4 lg:mr-4 transition-all text-2xl uppercase text-center flex items-center content-center justify-center",
     onClick: _cache[1] || (_cache[1] = function ($event) {
       return $options.scrollMeTo('process');
     })
-  }, _hoisted_10), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  }, [_hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_link_2')), 1
+  /* TEXT */
+  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "sip-ref text-slate-700 w-full px-12 py-8 rounded-xl cursor-pointer mb-4 lg:mr-4 transition-all text-2xl uppercase text-center flex items-center content-center justify-center",
     onClick: _cache[2] || (_cache[2] = function ($event) {
       return $options.scrollMeTo('benefits');
     })
-  }, _hoisted_13)])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_14, _hoisted_16, 512
+  }, [_hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_main_benef')), 1
+  /* TEXT */
+  )])])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [_hoisted_13, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", _hoisted_14, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_explore_sip')), 1
+  /* TEXT */
+  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [_hoisted_16, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_18, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_sip_1')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_19, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_sip_2')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_20, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_sip_4')), 1
+  /* TEXT */
+  )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_21, [_hoisted_22, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_23, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_24, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_sip_5')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_25, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_sip_6')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_26, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_sip_7')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_27, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_sip_8')), 1
+  /* TEXT */
+  )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_28, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_29, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_sip_9')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", _hoisted_30, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_sip_10')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_sip_11')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_sip_12')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_sip_13')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_sip_14')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_sip_15')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_sip_16')), 1
+  /* TEXT */
+  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_31, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_sip_17')), 1
+  /* TEXT */
+  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_32, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_33, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_sip_18')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_34, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_sip_19')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h4", _hoisted_35, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_sip_20')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", _hoisted_36, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_sip_21')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_sip_22')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_sip_23')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_sip_24')), 1
+  /* TEXT */
+  )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_37, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_38, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_sip_25')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_39, [_hoisted_40, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_41, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_42, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_sip_26')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_43, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_sip_27')), 1
+  /* TEXT */
+  )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_44, [_hoisted_45, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_46, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_47, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_sip_28')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_48, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_sip_29')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_49, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_sip_30')), 1
+  /* TEXT */
+  )])])])])])], 512
   /* NEED_PATCH */
-  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_17, _hoisted_19, 512
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_50, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_51, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_52, [_hoisted_53, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", _hoisted_54, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_prod_1')), 1
+  /* TEXT */
+  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_55, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_prod_2')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_56, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_57, [_hoisted_58, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_59, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_60, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_prod_3')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_61, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_prod_4')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_62, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_prod_5')), 1
+  /* TEXT */
+  )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_63, [_hoisted_64, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_65, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_66, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_prod_6')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_67, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_prod_7')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_68, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_prod_8')), 1
+  /* TEXT */
+  )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_69, [_hoisted_70, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_71, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_72, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_prod_10')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_73, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_prod_11')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_74, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_prod_12')), 1
+  /* TEXT */
+  )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_75, [_hoisted_76, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_77, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_78, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_prod_13')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_79, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_prod_14')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_80, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_prod_15')), 1
+  /* TEXT */
+  )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_81, [_hoisted_82, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_83, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_84, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_prod_16')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_85, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_prod_17')), 1
+  /* TEXT */
+  )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_86, [_hoisted_87, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_88, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_89, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_prod_18')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_90, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_prod_19')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_91, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_prod_20')), 1
+  /* TEXT */
+  )])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_92, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_93, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_prod_21')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_94, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_prod_22')), 1
+  /* TEXT */
+  ), _hoisted_95])])])], 512
   /* NEED_PATCH */
-  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_20, _hoisted_22, 512
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_96, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_97, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_98, [_hoisted_99, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", _hoisted_100, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_main_benef')), 1
+  /* TEXT */
+  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_101, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_102, [_hoisted_103, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_104, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_105, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_main_1')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_106, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_main_2')), 1
+  /* TEXT */
+  )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_107, [_hoisted_108, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_109, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_110, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_main_3')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_111, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_main_4')), 1
+  /* TEXT */
+  )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_112, [_hoisted_113, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_114, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_115, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_main_5')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_116, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_main_6')), 1
+  /* TEXT */
+  )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_117, [_hoisted_118, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_119, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_120, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_main_7')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_121, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_main_8')), 1
+  /* TEXT */
+  )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_122, [_hoisted_123, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_124, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_125, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_main_9')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_126, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_main_10')), 1
+  /* TEXT */
+  )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_127, [_hoisted_128, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_129, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_130, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_main_11')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_131, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_main_12')), 1
+  /* TEXT */
+  )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_132, [_hoisted_133, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_134, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_135, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_main_13')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_136, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_main_14')), 1
+  /* TEXT */
+  )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_137, [_hoisted_138, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_139, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_140, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_main_15')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_141, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_main_16')), 1
+  /* TEXT */
+  )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_142, [_hoisted_143, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_144, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_145, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_main_17')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_146, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_main_18')), 1
+  /* TEXT */
+  )])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_147, [_hoisted_148, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_149, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_150, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_main_19')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_151, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_main_20')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_152, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_main_21')), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_153, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.__('explore_page_main_22')), 1
+  /* TEXT */
+  )])])])])])], 512
   /* NEED_PATCH */
   )], 64
   /* STABLE_FRAGMENT */

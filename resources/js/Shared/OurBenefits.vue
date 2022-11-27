@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col">
         <h2 class="text-emerald-500 text-4xl mb-4 text-center lg:text-left">
-            Why me?
+            {{ __('home_benefits_whyme') }}
         </h2>
         
         <div class="w-full flex flex-col-reverse lg:flex-row lg:items-center">
@@ -9,55 +9,50 @@
                 <transition name="fade" mode="out-in">
                         <div key="benefit_1" v-if="activeTab == 'quality'">
                             <h3 class="text-slate-700 text-2xl mb-4">
-                                Quality
+                                {{ __('home_benefits_h3_1') }}
                             </h3>
                             <p class="text-slate-700 text-xl">
-                                We build based on a proven and certified SIP building system, using only wood with a good reputation. 
-                                Construction is carried out under continuous multi-stage supervision. We do not part ways with the 
-                                client once the building is handed over, our concern for your satisfaction continues, we respond immediately 
-                                to any minor defects, etc. All critical work is carried out by our own professionally trained maintenance staff.
+                                {{ __('home_benefits_qual_text') }}
                             </p>
                         </div>
             
                         <div key="benefit_2" v-if="activeTab == 'certification'">
                             <h3 class="text-slate-700 text-2xl mb-4">
-                                Certification
+                                {{ __('home_benefits_h3_2') }} 
                             </h3>
                             <p class="text-slate-700 text-xl">
-                               We use only certified materials and construction elements, at the end of the construction you receive from us 
-                               Certificates and Inspection Reports for the approval procedure.
+                                {{ __('home_benefits_cert_text') }}
+                               
                             </p>
                         </div>
             
                         <div key="benefit_3" v-if="activeTab == 'tradition'">
                             <h3 class="text-slate-700 text-2xl mb-4">
-                                Tradition
+                                {{ __('home_benefits_h3_3') }}
                             </h3>
                             <p class="text-slate-700 text-xl">
-                                The Structural Insulated Panels (SIPs) technology that forms the basis of the house's rough construction has been 
-                                tested by sixty years of use abroad. It accounts for up to 80% of new construction in Canada and nearly 60% 
-                                in Europe. This progressive method of building houses is becoming increasingly popular because of its undeniable 
-                                advantages determining fast and precise construction, high comfort, healthy ecological and economical living.
+                                {{ __('home_benefits_cena_text') }}
+                                
                             </p>
                         </div>
             
                         <div key="benefit_4" v-if="activeTab == 'garantie'">
                             <h3 class="text-slate-700 text-2xl mb-4">
-                                Garantie
+                                {{ __('home_benefits_h3_4') }}
                             </h3>
                             <p class="text-slate-700 text-xl">
-                                The quality of the construction of the house will guarantee you at least 50 years of durability. 
-                                We provide standard warranties for structural elements, works, technologies and subcontractors' deliveries.
+                                {{ __('home_benefits_garant_text') }}
+                                
                             </p>
                         </div>
             
                         <div key="benefit_5" v-if="activeTab == 'service'">
                             <h3 class="text-slate-700 text-2xl mb-4">
-                                Service
+                                {{ __('home_benefits_h3_5') }}
                             </h3>
                             <p class="text-slate-700 text-xl">
-                                We take care of our customers not only during the warranty period, but we also provide you with 
-                                after-warranty service and care for the flawless and comfortable use of your home.
+                                {{ __('home_benefits_service_text') }}
+                                
                             </p>
                         </div>
                 </transition>
@@ -72,7 +67,7 @@
                         <div class="inner-triangle">
                             <div>
                                 <i class="fa-solid fa-hand-point-up"></i>
-                                <p>Quality</p>
+                                <p>{{ __('home_benefits_h3_1') }}</p>
                             </div>
                         </div>
                     </div>
@@ -83,7 +78,7 @@
                         <div class="inner-triangle">
                              <div>
                                 <i class="rotate-180 fa-solid fa-scroll"></i>
-                                <p class="rotate-180">Certification</p>
+                                <p class="rotate-180">{{ __('home_benefits_h3_2') }}</p>
                             </div>
                         </div>
                     </div>
@@ -94,7 +89,7 @@
                         <div class="inner-triangle">
                              <div>
                                 <i class="rotate-180 fa-solid fa-hand-back-fist"></i>
-                                <p class="rotate-180">Tradition</p>
+                                <p class="rotate-180">{{ __('home_benefits_h3_3') }}</p>
                             </div>
                         </div>
                     </div>
@@ -105,7 +100,7 @@
                         <div class="inner-triangle">
                              <div>
                                 <i class="fa-solid fa-file-signature"></i>
-                                <p>Garantie</p>
+                                <p>{{ __('home_benefits_h3_4') }}</p>
                             </div>
                         </div>
                     </div>
@@ -116,7 +111,7 @@
                         <div class="inner-triangle">
                              <div>
                                 <i class="fa-solid fa-bell-concierge"></i>
-                                <p>Service</p>
+                                <p>{{ __('home_benefits_h3_5') }}</p>
                             </div>
                         </div>
                     </div>
