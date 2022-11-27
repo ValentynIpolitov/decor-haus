@@ -16,7 +16,7 @@
             <li class="nav-item white-text-shadow hover-underline-animation">
                 <NavLink :href="route('projects')" @click="closeMenu()" :active="$page.component === 'Projects'"  >{{ __('nav_projects') }}</NavLink>
             </li>
-            <li class="nav-item white-text-shadow hover-underline-animation" id="serv">
+            <li v-if="this.$page.props.locale !== 'ua'" class="nav-item white-text-shadow hover-underline-animation" id="serv">
                 <NavLink :href="route('materials')" @click="closeMenu()" :active="$page.component === 'Services'" >{{ __('nav_service') }}</NavLink>
             </li>
             <li class="nav-item white-text-shadow hover-underline-animation">
